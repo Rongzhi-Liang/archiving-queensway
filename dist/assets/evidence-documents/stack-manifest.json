@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "coordinateSystem": "rect=[x,y,width,height] in full image pixels; normalizedRect uses fractions from the full image top-left. CSS supplies highlights; originals are unmodified.",
+  "documents": [
+    {
+      "id": "heritage",
+      "image": "assets/evidence-documents/nhb-queensway-heritage-page-41.png",
+      "width": 1188,
+      "height": 1944,
+      "title": {
+        "en": "My Queenstown Heritage Trail — Queensway Shopping Centre",
+        "zh": "女皇镇历史步道：Queensway商场"
+      },
+      "sourceUrl": "https://www.roots.gov.sg/-/media/Roots/Files/my-queenstown-trail/queenstowntrail9-brochure.ashx",
+      "sourceId": "H02",
+      "sourceLabel": {
+        "en": "My Community / NHB Roots · 2014 · p.40",
+        "zh": "My Community／NHB Roots · 2014年 · 第40页"
+      },
+      "narrativeTitle": {
+        "en": "Built into everyday life.",
+        "zh": "嵌入日常生活。"
+      },
+      "narrative": {
+        "en": "The heritage trail describes Queensway as a place built for shopping, recreation and neighbourhood services. Its mix of shops, offices and homes put many kinds of everyday activity under one roof. That original combination matters to our project: the value people attach to Queensway grows through repeated use, familiar businesses and encounters across generations. The trail gives us a starting point for reading the mall as both a property and a place woven into local routines.",
+        "zh": "历史步道将Queensway描写为一个容纳购物、休闲与社区服务的地方。商铺、办公室与住宅的组合，把多种日常活动汇集在同一屋檐下。这一最初的组合对我们的项目至关重要：人们赋予Queensway的价值，在反复使用、熟悉的商家与跨代相遇中不断积累。这份资料为我们提供了一个起点：既将商场理解为物业，也将它理解为融入本地日常生活的场所。"
+      },
+      "sectionLabel": {
+        "en": "01 · PLACE & MEMORY",
+        "zh": "01 · 场所与记忆"
+      },
+      "sectionTitle": {
+        "en": "01 · PLACE & MEMORY",
+        "zh": "01 · 场所与记忆"
+      },
+      "pdfPage": 41,
+      "printedPage": "40",
+      "pdfPageCount": 70,
+      "pdfPageWidthPoints": 396.0,
+      "pdfPageHeightPoints": 648.0,
+      "originalPdfSha256": "81b5c747d34731b9d94aadde029544fdb21457a731eab32116af1e6fb83375ec",
+      "imageSha256": "d76f212593f62585d850f5d2d2ff27e880560d2cd0d38d215d625239f4663277",
+      "sourceType": "nhb_hosted_community_publication_page",
+      "originalPageUnmodified": true,
+      "fullPage": true,
+      "highlights": [
+        {
+          "id": "neighbourhood-use",
+          "label": {
+            "en": "A place for everyday use",
+            "zh": "服务日常生活的场所"
+          },
+          "explanation": {
+            "en": "Shopping and recreation were part of the original neighbourhood purpose.",
+            "zh": "购物与休闲是这一场所最初的社区功能。"
+          },
+          "quote": "shopping and recreational options for residents",
+          "rect": [
+            84.511,
+            1039.858,
+            496.919,
+            28.95
+          ],
+          "normalizedRect": [
+            0.071137329,
+            0.534906338,
+            0.418282197,
+            0.014892215
+          ]
+        },
+        {
+          "id": "regular-users",
+          "label": {
+            "en": "A familiar place to return to",
+            "zh": "人们熟悉并反复到访的地方"
+          },
+          "explanation": {
+            "en": "The trail records the mall’s continuing place in familiar routines.",
+            "zh": "步道记录了商场在日常习惯中持续占据的位置。"
+          },
+          "quote": "Centre continues to be a favourite haunt for",
+          "rect": [
+            87.477,
+            1562.547,
+            493.824,
+            19.779
+          ],
+          "normalizedRect": [
+            0.073634208,
+            0.80377907,
+            0.415676952,
+            0.010174419
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mixed-use",
+      "image": "assets/evidence-documents/ura-mixed-use-definition-page-11.png",
+      "width": 1489,
+      "height": 2105,
+      "title": {
+        "en": "Master Plan Written Statement 2025 — Table 1",
+        "zh": "2025年总体规划书面声明：表1"
+      },
+      "sourceUrl": "https://isomer-user-content.by.gov.sg/467/411a4d45-c03d-4322-b57c-497714595cdd/MP25WrittenStatement.pdf",
+      "sourceId": "P08",
+      "sourceLabel": {
+        "en": "URA · Master Plan 2025 · Table 1 · p.10",
+        "zh": "URA · 2025年总体规划 · 表1 · 第10页"
+      },
+      "narrativeTitle": {
+        "en": "Shops and homes, planned together.",
+        "zh": "商铺与住家，共同规划。"
+      },
+      "narrative": {
+        "en": "Queensway’s matched Master Plan zone is Commercial & Residential. Table 1 explains this designation as mixed commercial and residential development, with commercial areas below residential areas. Reading the definition beside the map makes the relationship between shopping podium and homes legible. This combination gives the collective sale question its particular scale: a decision about one site brings together the interests of shop owners and homeowners, alongside the everyday needs of the businesses and households occupying it.",
+        "zh": "Queensway匹配的总体规划分区为商业与住宅。表1将该类别解释为商业与住宅混合开发，商业空间位于住宅空间之下。将定义与地图并置，商场裙楼与住家的关系便清晰可见。这一组合赋予集体出售问题特殊的尺度：对同一地块作出决定，会同时牵动商铺业主与住宅业主的利益，以及在此经营的商户和居住家庭的日常需求。"
+      },
+      "sectionLabel": {
+        "en": "02 · MIXED-USE ZONING",
+        "zh": "02 · 商住混合用途"
+      },
+      "sectionTitle": {
+        "en": "02 · MIXED-USE ZONING",
+        "zh": "02 · 商住混合用途"
+      },
+      "pdfPage": 11,
+      "printedPage": "10",
+      "pdfPageCount": 26,
+      "pdfPageWidthPoints": 595.5,
+      "pdfPageHeightPoints": 842.0,
+      "originalPdfSha256": "fd29331989ec696c3c2187532d4a39b68892f5df3a8b5546f9bc3ee763c6381b",
+      "imageSha256": "df401dcb67e0f44fc9144da13468cd28d6865c97115c3523e946305cec8eebd5",
+      "sourceType": "official_pdf_page",
+      "originalPageUnmodified": true,
+      "fullPage": true,
+      "highlights": [
+        {
+          "id": "mixed-use-definition",
+          "label": {
+            "en": "Commercial & Residential",
+            "zh": "商业与住宅"
+          },
+          "explanation": {
+            "en": "The zoning category brings commercial and residential development together.",
+            "zh": "这一用途类别将商业与住宅开发结合。"
+          },
+          "quote": "These are areas used or intended to be used mainly for mixed commercial and residential development.",
+          "rect": [
+            447.775,
+            1330.464,
+            202.229,
+            163.216
+          ],
+          "normalizedRect": [
+            0.300722085,
+            0.632049343,
+            0.135815291,
+            0.077537337
+          ]
+        }
+      ],
+      "relatedSourceIds": [
+        "P07",
+        "P09"
+      ]
+    },
+    {
+      "id": "queensway-2019-signatures",
+      "image": "assets/evidence-documents/queensway-2019-egm-webpage.png",
+      "title": {
+        "en": "Queensway’s 2019 collective-sale attempt — meeting and signatures",
+        "zh": "Queensway在2019年的集体出售尝试：会议与签署"
+      },
+      "sourceUrl": "https://www.channelnewsasia.com/singapore/queensway-shopping-centre-en-bloc-attempt-faces-challenge-shop-owners-5710161",
+      "sourceId": "H04",
+      "sourceLabel": {
+        "en": "TODAY / CNA · 1 May 2019 · Meeting & signatures",
+        "zh": "TODAY／CNA · 2019年5月1日 · 会议与签署"
+      },
+      "narrativeTitle": {
+        "en": "A shared site enters negotiation.",
+        "zh": "共有的场所，进入协商。"
+      },
+      "narrative": {
+        "en": "In April 2019, the debate entered a formal process. TODAY reported that Queensway’s extraordinary general meeting on 20 April passed a motion to begin signing a collective sale agreement. A committee had been formed the previous year, and the proposal covered retail and residential units. This sequence connects the building’s divided ownership to a shared timetable: each owner’s decision would shape whether the site could be marketed together. Our story follows this transition from everyday occupation to collective negotiation.",
+        "zh": "2019年4月，这场讨论进入了正式程序。TODAY报道，Queensway在4月20日的特别股东大会上通过议案，决定开始签署集体出售协议。委员会已于前一年成立，而出售提议涵盖商铺与住宅单位。这一过程将建筑中分散的产权与共同的时间表联系起来：各位业主的决定，将影响整处物业能否共同推向市场。我们的故事由此从日常使用，推进到集体协商。"
+      },
+      "sectionLabel": {
+        "en": "03 · THE 2019 ATTEMPT",
+        "zh": "03 · 2019年的整售尝试"
+      },
+      "publishedAt": "2019-05-01",
+      "captureScrollY": 2611,
+      "highlights": [
+        {
+          "id": "begin-signing",
+          "label": {
+            "en": "The meeting moves to agreement signing",
+            "zh": "会议推进至协议签署"
+          },
+          "explanation": {
+            "en": "The 20 April 2019 meeting passed a motion to begin signing the collective sale agreement.",
+            "zh": "2019年4月20日的会议通过议案，决定开始签署集体出售协议。"
+          },
+          "quote": "proceed with the signing of a collective",
+          "rect": [
+            465,
+            171,
+            333,
+            21
+          ],
+          "normalizedRect": [
+            0.36328125,
+            0.2375,
+            0.26015625,
+            0.029166667
+          ]
+        }
+      ],
+      "width": 1280,
+      "height": 720,
+      "sourceType": "news_website_viewport",
+      "originalPageUnmodified": true,
+      "fullPage": false,
+      "fullViewport": true,
+      "capturedAt": "2026-10-20",
+      "imageSha256": "0d3ed06ff4f50ae919af866e4121b15fb7779b4770db5de6aa9aa23493b20067",
+      "captureMethod": "Browser screenshot captured on 2026-10-20; complete viewport; original source pixels retained.",
+      "sectionTitle": {
+        "en": "03 · THE 2019 ATTEMPT",
+        "zh": "03 · 2019年的整售尝试"
+      },
+      "displayCrop": {
+        "x": 0,
+        "y": 0,
+        "width": 900,
+        "height": 720,
+        "reason": "Article-column presentation viewport; original screenshot retained unchanged."
+      }
+    },
+    {
+      "id": "collective-consent",
+      "image": "assets/evidence-documents/stb-collective-sale-webpage.jpg",
+      "width": 900,
+      "height": 1100,
+      "title": {
+        "en": "Strata Titles Boards — Collective Sale Agreement",
+        "zh": "分层地契局：集体出售协议"
+      },
+      "sourceUrl": "https://www.stratatb.gov.sg/general-proceedings/application/applicant/matters-under-ltsa/",
+      "sourceId": "P01",
+      "sourceLabel": {
+        "en": "STB · Collective Sale Agreement",
+        "zh": "STB · 集体出售协议"
+      },
+      "narrativeTitle": {
+        "en": "Many owners. One agreement.",
+        "zh": "许多业主，一份协议。"
+      },
+      "narrative": {
+        "en": "A collective sale agreement gathers individual owners’ decisions into one formal proposal. The Strata Titles Boards explains that owners record their consent by signing it. Read beside Queensway’s April 2019 meeting, this procedure makes the next step tangible: support had to become signatures, within a defined timetable. The document connects the historical attempt with the structure of strata ownership, where shops and homes share a site while their owners can hold different priorities for its future.",
+        "zh": "集体出售协议将各位业主的决定汇集为一项正式提议。分层地契局说明，业主通过签署协议表达同意。将这一程序与Queensway在2019年4月的会议并置，下一步便变得具体：支持意向需要在规定期限内转化为签名。这份文件把历史上的整售尝试与分层产权结构联系起来：商铺和住宅共享同一地块，各位业主却可能对其未来抱有不同的优先考虑。"
+      },
+      "sectionLabel": {
+        "en": "04 · COLLECTIVE CONSENT",
+        "zh": "04 · 共同同意"
+      },
+      "sectionTitle": {
+        "en": "04 · COLLECTIVE CONSENT",
+        "zh": "04 · 共同同意"
+      },
+      "sourceType": "official_website_viewport",
+      "originalPageUnmodified": true,
+      "fullPage": false,
+      "fullViewport": true,
+      "capturedAt": "2026-10-20",
+      "webpageUpdatedAt": "2026-06-25",
+      "captureScrollY": 2872.5,
+      "imageSha256": "39e7d472ac9c58f012ad64739f527b42b2c85ab6ccce60d3dd27d6327676aa5b",
+      "highlights": [
+        {
+          "id": "agreement-signatures",
+          "label": {
+            "en": "Consent takes written form",
+            "zh": "同意以书面形式表达"
+          },
+          "explanation": {
+            "en": "Owners express consent by signing the collective sale agreement.",
+            "zh": "业主通过签署集体出售协议表达同意。"
+          },
+          "quote": "Owners will signify their consent to the en-bloc sale by signing the Collective Sale Agreement",
+          "rect": [
+            126,
+            379,
+            714,
+            24
+          ],
+          "normalizedRect": [
+            0.14,
+            0.344545455,
+            0.793333333,
+            0.021818182
+          ]
+        }
+      ],
+      "relatedSourceIds": [
+        "H04",
+        "H05"
+      ]
+    },
+    {
+      "id": "queensway-2019-valuation",
+      "image": "assets/evidence-documents/queensway-2019-valuation-webpage.png",
+      "title": {
+        "en": "Queensway’s 2019 collective-sale attempt — the valuation debate",
+        "zh": "Queensway在2019年的集体出售尝试：估值之争"
+      },
+      "sourceUrl": "https://www.channelnewsasia.com/singapore/queensway-shopping-centre-en-bloc-attempt-faces-challenge-shop-owners-5710161",
+      "sourceId": "H04",
+      "sourceLabel": {
+        "en": "TODAY / CNA · 1 May 2019 · Valuation debate",
+        "zh": "TODAY／CNA · 2019年5月1日 · 估值之争"
+      },
+      "narrativeTitle": {
+        "en": "One site. Different expectations.",
+        "zh": "同一场所，不同期待。"
+      },
+      "narrative": {
+        "en": "During the same 2019 attempt, Savills estimated the property at more than S$500 million. Shop owner Mrs Lim challenged the amounts offered to individual owners, while Savills said valuations were conducted shop by shop. The disagreement brings two scales of value into view: the whole development and the particular unit. This is the economic question behind the proposal: how an aggregate site value translates into different owners’ expectations, alongside what a familiar trading location means to them.",
+        "zh": "在同一次2019年的整售尝试中，第一太平戴维斯估计该物业价值超过5亿新加坡元。商铺业主Lim女士质疑向个别业主提出的金额，而第一太平戴维斯则表示，估值按每间店铺分别进行。争议呈现出两种价值尺度：整处物业与具体单位。提议背后的经济问题由此浮现：整体场所的价值如何转化为不同业主的预期，以及一个熟悉的经营地点对他们意味着什么。"
+      },
+      "sectionLabel": {
+        "en": "05 · VALUE & EXPECTATIONS",
+        "zh": "05 · 估值与期待"
+      },
+      "publishedAt": "2019-05-01",
+      "captureScrollY": 2920.5,
+      "highlights": [
+        {
+          "id": "site-estimate",
+          "label": {
+            "en": "Savills’ site estimate: above S$500 million",
+            "zh": "第一太平戴维斯估计：超过5亿新加坡元"
+          },
+          "explanation": {
+            "en": "The report places Savills’ estimate beside shop owners’ objections, revealing disagreement over value.",
+            "zh": "报道将第一太平戴维斯的估计与商铺业主的反对意见并置，呈现了对价值的分歧。"
+          },
+          "quote": "estimated to be worth above S$500 million",
+          "rect": [
+            318,
+            265,
+            366,
+            21
+          ],
+          "normalizedRect": [
+            0.2484375,
+            0.368055556,
+            0.2859375,
+            0.029166667
+          ]
+        }
+      ],
+      "width": 1280,
+      "height": 720,
+      "sourceType": "news_website_viewport",
+      "originalPageUnmodified": true,
+      "fullPage": false,
+      "fullViewport": true,
+      "capturedAt": "2026-10-20",
+      "imageSha256": "5bacd9a0adcf79f73d4356a866d91f00c6a95f6224eab5e947dc2608cf79b36e",
+      "captureMethod": "Browser screenshot captured on 2026-10-20; complete viewport; original source pixels retained.",
+      "sectionTitle": {
+        "en": "05 · VALUE & EXPECTATIONS",
+        "zh": "05 · 估值与期待"
+      },
+      "displayCrop": {
+        "x": 0,
+        "y": 0,
+        "width": 900,
+        "height": 720,
+        "reason": "Article-column presentation viewport; original screenshot retained unchanged."
+      }
+    },
+    {
+      "id": "retail-price",
+      "image": "assets/evidence-documents/ura-retail-price-2026q2-page-1.png",
+      "width": 1489,
+      "height": 2105,
+      "title": {
+        "en": "URA 2026 Q2 — Property Price Index",
+        "zh": "URA 2026年第二季度：物业价格指数"
+      },
+      "sourceUrl": "https://isomer-user-content.by.gov.sg/467/ee78457a-9c05-4a99-95a0-3c6f4d87aa7d/pr26-57a1.pdf",
+      "sourceId": "C04",
+      "sourceLabel": {
+        "en": "URA · 2026 Q2 · Annex A-1",
+        "zh": "URA · 2026年第二季度 · 附件A-1"
+      },
+      "narrativeTitle": {
+        "en": "An asset in a wider market.",
+        "zh": "更大市场中的一项资产。"
+      },
+      "narrative": {
+        "en": "URA’s 2026 Q2 release places the Central Region retail property price index at 104.4, with a 0.8% rise over the previous quarter. The original base is 1998 Q4 = 100; rebasing to 2011 Q1 gives 89.6 on our chart. This provides a regional setting for Queensway’s listed shop prices. The official series follows market movement over time, while the listing view shows individual asking amounts at the collection date. Together, they connect ownership costs with a wider market.",
+        "zh": "URA的2026年第二季度公报将中区零售物业价格指数列为104.4，较上一季度上升0.8%。原始基期为1998年第四季度＝100；统一换算至2011年第一季度后，图表读数为89.6。这为Queensway的商铺挂牌价格提供了区域背景。官方序列追踪市场随时间的变化，而挂牌视图呈现采集当日各广告的要价。两者将拥有物业的成本与更大的市场联系起来。"
+      },
+      "sectionLabel": {
+        "en": "06 · PROPERTY PRICES",
+        "zh": "06 · 物业价格"
+      },
+      "sectionTitle": {
+        "en": "06 · PROPERTY PRICES",
+        "zh": "06 · 物业价格"
+      },
+      "pdfPage": 1,
+      "printedPage": null,
+      "pdfPageCount": 1,
+      "pdfPageWidthPoints": 595.3200073242188,
+      "pdfPageHeightPoints": 841.9199829101562,
+      "originalPdfSha256": "d1c69b227bd1aa53d97322cd8e0e79d19109501a97ed56cafcbe683f9e49d49b",
+      "imageSha256": "3b383eb575775e705ae57a722eaa21c76ba17c84d5a8da5520ef28089af2fbbc",
+      "sourceType": "official_pdf_page",
+      "originalPageUnmodified": true,
+      "fullPage": true,
+      "highlights": [
+        {
+          "id": "retail-row",
+          "label": {
+            "en": "Retail · 104.4 · +0.8%",
+            "zh": "零售物业 · 104.4 · +0.8%"
+          },
+          "explanation": {
+            "en": "Central Region retail price index and quarter-on-quarter change.",
+            "zh": "中区零售物业价格指数及季度环比变动。"
+          },
+          "quote": "Retail 103.6 104.4 2.2 0.8",
+          "rect": [
+            210.099,
+            946.08,
+            1015.477,
+            35.267
+          ],
+          "normalizedRect": [
+            0.141100583,
+            0.44944435,
+            0.68198615,
+            0.016753858
+          ]
+        }
+      ],
+      "relatedSourceIds": [
+        "C02",
+        "C03"
+      ]
+    },
+    {
+      "id": "retail-rent",
+      "image": "assets/evidence-documents/ura-retail-rent-2026q2-page-1.png",
+      "width": 1489,
+      "height": 2105,
+      "title": {
+        "en": "URA 2026 Q2 — Rental Index",
+        "zh": "URA 2026年第二季度：租金指数"
+      },
+      "sourceUrl": "https://isomer-user-content.by.gov.sg/467/469923bb-83d2-4935-ac00-9b68255576d4/pr26-57a2.pdf",
+      "sourceId": "C05",
+      "sourceLabel": {
+        "en": "URA · 2026 Q2 · Annex A-2",
+        "zh": "URA · 2026年第二季度 · 附件A-2"
+      },
+      "narrativeTitle": {
+        "en": "Rent is a recurring commitment.",
+        "zh": "租金，是持续的投入。"
+      },
+      "narrative": {
+        "en": "URA’s 2026 Q2 retail rental index is 80.6, up 0.6% from the previous quarter. The original base is 1998 Q4 = 100; rebasing to 2011 Q1 gives 69.7 on our chart. For a trader, rent is a recurring commitment within the wider cost of keeping a business open. The regional series adds a longer view to that commitment. Alongside Queensway’s advertised rents, it frames how shopkeepers sustain a livelihood while maintaining specialist trades and customer relationships.",
+        "zh": "URA的2026年第二季度零售租金指数为80.6，较上一季度上升0.6%。原始基期为1998年第四季度＝100；统一换算至2011年第一季度后，图表读数为69.7。对于商户，租金是维持营业所需成本中的一项持续投入。区域序列为这项投入提供更长的时间视角。与Queensway的挂牌租金并置，它引出商户如何在维系专业业态和顾客关系的同时持续谋生的问题。"
+      },
+      "sectionLabel": {
+        "en": "07 · COSTS OF TRADING",
+        "zh": "07 · 经营成本"
+      },
+      "sectionTitle": {
+        "en": "07 · COSTS OF TRADING",
+        "zh": "07 · 经营成本"
+      },
+      "pdfPage": 1,
+      "printedPage": null,
+      "pdfPageCount": 1,
+      "pdfPageWidthPoints": 595.3200073242188,
+      "pdfPageHeightPoints": 841.9199829101562,
+      "originalPdfSha256": "1c750cff08e695f8a170562f5f0db4ef37b9d80378ee7a06b2f62efb2bf292b9",
+      "imageSha256": "f268bdf6d5ce8a0f1d566af149c6e4e4a6b9939881bf4a11106e4bd643729b39",
+      "sourceType": "official_pdf_page",
+      "originalPageUnmodified": true,
+      "fullPage": true,
+      "highlights": [
+        {
+          "id": "retail-row",
+          "label": {
+            "en": "Retail · 80.6 · +0.6%",
+            "zh": "零售物业 · 80.6 · +0.6%"
+          },
+          "explanation": {
+            "en": "Central Region retail rental index and quarter-on-quarter change.",
+            "zh": "中区零售物业租金指数及季度环比变动。"
+          },
+          "quote": "Retail 80.1 80.6 -0.6 0.6",
+          "rect": [
+            210.099,
+            898.376,
+            1015.477,
+            35.267
+          ],
+          "normalizedRect": [
+            0.141100583,
+            0.426781879,
+            0.68198615,
+            0.016753858
+          ]
+        }
+      ],
+      "relatedSourceIds": [
+        "C01",
+        "C03"
+      ]
+    },
+    {
+      "id": "queensway-2019-livelihood",
+      "image": "assets/evidence-documents/queensway-2019-livelihood-webpage.png",
+      "title": {
+        "en": "Queensway’s 2019 outcome — livelihoods and affordable space",
+        "zh": "Queensway在2019年的整售结果：生计与可负担空间"
+      },
+      "sourceUrl": "https://www.channelnewsasia.com/singapore/queensway-shopping-centres-en-bloc-bid-falls-through-some-shop-owners-rejoice-5694191",
+      "sourceId": "H05",
+      "sourceLabel": {
+        "en": "TODAY / CNA · 26 Nov 2019 · Livelihoods",
+        "zh": "TODAY／CNA · 2019年11月26日 · 生计"
+      },
+      "narrativeTitle": {
+        "en": "Affordable space keeps a trade going.",
+        "zh": "可负担的空间，让生计延续。"
+      },
+      "narrative": {
+        "en": "In November 2019, TODAY reported that the collective-sale attempt had ended. Its interviews reveal what continued occupation meant. Marilyn Tan of 98 Designs Embroidery Services described affordable rent as enabling production, while also recognising older owners’ wish to sell for retirement. Other traders emphasised returning customers and inherited businesses. This brings two economic readings together: a unit can be a retirement asset for its owner and working space for an operator. Queensway’s future therefore connects property decisions with the continuity of livelihoods.",
+        "zh": "2019年11月，TODAY报道这次集体出售尝试已经结束。采访揭示了继续留在此处的意义。98 Designs Embroidery Services的Marilyn Tan表示，可负担的租金使她能够开展生产，同时也理解年长业主希望出售单位以备退休的想法。其他商户则重视熟客与家族传承的生意。两种经济理解由此相遇：一个单位既可能是业主的退休资产，也可能是经营者的工作空间。因此，Queensway的未来，将物业决策与生计的延续联系在一起。"
+      },
+      "sectionLabel": {
+        "en": "08 · SPACE FOR LIVELIHOODS",
+        "zh": "08 · 生计所需的空间"
+      },
+      "publishedAt": "2019-11-26",
+      "webpageUpdatedAt": "2026-01-23",
+      "captureScrollY": 5592.5,
+      "highlights": [
+        {
+          "id": "affordable-production-space",
+          "label": {
+            "en": "Affordable rent enables production",
+            "zh": "可负担租金支持生产"
+          },
+          "explanation": {
+            "en": "Marilyn Tan connects the mall’s affordable rent with the opportunity to continue her embroidery business.",
+            "zh": "Marilyn Tan将商场可负担的租金，与继续经营刺绣业务的机会联系起来。"
+          },
+          "quote": "the rent is affordable for people, like me, who are doing production",
+          "rect": [
+            174,
+            461,
+            561,
+            21
+          ],
+          "normalizedRect": [
+            0.1359375,
+            0.640277778,
+            0.43828125,
+            0.029166667
+          ]
+        }
+      ],
+      "width": 1280,
+      "height": 720,
+      "sourceType": "news_website_viewport",
+      "originalPageUnmodified": true,
+      "fullPage": false,
+      "fullViewport": true,
+      "capturedAt": "2026-10-20",
+      "imageSha256": "7d91e36262f278109bdfd7d3e1a3f2b828a14d6402c00740b2688f29d4edb161",
+      "captureMethod": "Browser screenshot captured on 2026-10-20; complete viewport; original source pixels retained.",
+      "sectionTitle": {
+        "en": "08 · SPACE FOR LIVELIHOODS",
+        "zh": "08 · 生计所需的空间"
+      }
+    }
+  ],
+  "readingSequence": {
+    "en": "Place → mixed ownership → the 2019 attempt → consent → valuation → property prices → costs of trading → livelihoods",
+    "zh": "场所 → 混合产权 → 2019年的整售尝试 → 同意 → 估值 → 物业价格 → 经营成本 → 生计"
+  },
+  "originalPageCount": 8,
+  "uniqueSourceUrlCount": 7
+}

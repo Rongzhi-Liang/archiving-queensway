@@ -1,0 +1,739 @@
+{
+  "events": [
+    {
+      "id": "HE01",
+      "track": "history",
+      "year": 1975,
+      "date": {
+        "en": "Mid-1970s",
+        "zh": "1970年代中期"
+      },
+      "title": {
+        "en": "A mixed-use landmark emerges",
+        "zh": "商住地标形成"
+      },
+      "body": {
+        "en": "Queensway emerged as a shopping and residential complex.",
+        "zh": "Queensway 在这一时期形成商住综合体。"
+      },
+      "status": {
+        "en": "Conflicting dates",
+        "zh": "年份存在分歧"
+      },
+      "caution": {
+        "en": "Sources give 1974, 1975 or 1976; the opening year remains unresolved.",
+        "zh": "来源分别记载1974、1975或1976年，确切开业年份尚未核实。"
+      },
+      "sourceIds": [
+        "H01",
+        "H02",
+        "H07",
+        "H09"
+      ]
+    },
+    {
+      "id": "HE02",
+      "track": "history",
+      "year": 1975,
+      "date": {
+        "en": "1975",
+        "zh": "1975年"
+      },
+      "title": {
+        "en": "Inside the early mall",
+        "zh": "早期商场内部"
+      },
+      "body": {
+        "en": "An archival photograph records the mall’s interior in 1975.",
+        "zh": "历史照片记录了1975年的商场内部。"
+      },
+      "status": {
+        "en": "Photograph date",
+        "zh": "照片标注年份"
+      },
+      "caution": {
+        "en": "A photograph date does not establish the opening year; image reuse rights need checking.",
+        "zh": "照片日期不能确定开业年份；图像再使用权限尚待核查。"
+      },
+      "sourceIds": [
+        "H02"
+      ]
+    },
+    {
+      "id": "HE03",
+      "track": "history",
+      "year": 1977,
+      "date": {
+        "en": "1977",
+        "zh": "1977年"
+      },
+      "title": {
+        "en": "The early exterior",
+        "zh": "早期建筑外观"
+      },
+      "body": {
+        "en": "An archival photograph records the mall’s exterior in 1977.",
+        "zh": "历史照片记录了1977年的商场外观。"
+      },
+      "status": {
+        "en": "Photograph date",
+        "zh": "照片标注年份"
+      },
+      "caution": {
+        "en": "The image does not establish a refurbishment date; reuse rights need checking.",
+        "zh": "照片不能确定翻修日期；图像再使用权限尚待核查。"
+      },
+      "sourceIds": [
+        "H02"
+      ]
+    },
+    {
+      "id": "HE04",
+      "track": "history",
+      "year": 1995,
+      "date": {
+        "en": "1995",
+        "zh": "1995年"
+      },
+      "title": {
+        "en": "IKEA opens nearby",
+        "zh": "附近 IKEA 开业"
+      },
+      "body": {
+        "en": "IKEA opened a flagship store and warehouse diagonally opposite Queensway.",
+        "zh": "IKEA 在 Queensway 斜对面开设旗舰店及仓库。"
+      },
+      "status": {
+        "en": "Neighbourhood event",
+        "zh": "周边事件"
+      },
+      "caution": {
+        "en": "No causal effect on Queensway’s rents or footfall has been established.",
+        "zh": "尚无证据证明该事件对 Queensway 租金或客流的因果影响。"
+      },
+      "sourceIds": [
+        "H03"
+      ]
+    },
+    {
+      "id": "HE05",
+      "track": "history",
+      "year": 2014,
+      "date": {
+        "en": "April 2014",
+        "zh": "2014年4月"
+      },
+      "title": {
+        "en": "Recorded in a heritage trail",
+        "zh": "载入社区历史步道"
+      },
+      "body": {
+        "en": "Queensway appears in My Community’s Queenstown heritage-trail publication.",
+        "zh": "Queensway 被收录于 My Community 的女皇镇历史步道出版物。"
+      },
+      "status": {
+        "en": "Heritage publication",
+        "zh": "社区历史出版物"
+      },
+      "caution": {
+        "en": "Inclusion in a heritage trail is not statutory conservation protection.",
+        "zh": "被收录于历史步道不等于获得法定保育保护。"
+      },
+      "sourceIds": [
+        "H02"
+      ]
+    },
+    {
+      "id": "HE06",
+      "track": "history",
+      "year": 2018,
+      "date": {
+        "en": "2018",
+        "zh": "2018年"
+      },
+      "title": {
+        "en": "Collective sale committee formed",
+        "zh": "集体出售委员会成立"
+      },
+      "body": {
+        "en": "Reporting dates the formation of the collective sale committee to 2018.",
+        "zh": "报道记载，集体出售委员会于2018年成立。"
+      },
+      "status": {
+        "en": "Reported milestone",
+        "zh": "报道记录的节点"
+      },
+      "caution": {
+        "en": "Committee formation does not mean consent thresholds were met or a sale agreed.",
+        "zh": "委员会成立不代表已达到同意门槛或达成出售。"
+      },
+      "sourceIds": [
+        "H04",
+        "H05"
+      ]
+    },
+    {
+      "id": "HE07",
+      "track": "history",
+      "year": 2019,
+      "date": {
+        "en": "20 April 2019",
+        "zh": "2019年4月20日"
+      },
+      "title": {
+        "en": "Motion to begin signatures",
+        "zh": "通过启动签署的动议"
+      },
+      "body": {
+        "en": "An extraordinary general meeting approved proceeding with signatures to the collective sale agreement.",
+        "zh": "特别业主大会通过动议，推进集体出售协议的签署。"
+      },
+      "status": {
+        "en": "Reported meeting",
+        "zh": "报道中的会议"
+      },
+      "caution": {
+        "en": "The motion does not confirm the first signature date, required consent or a public tender.",
+        "zh": "该动议不能确定首个签署日期，也不代表达到同意门槛或已公开招标。"
+      },
+      "sourceIds": [
+        "H04"
+      ]
+    },
+    {
+      "id": "HE08",
+      "track": "history",
+      "year": 2019,
+      "date": {
+        "en": "1 May 2019 · report",
+        "zh": "2019年5月1日 · 报道"
+      },
+      "title": {
+        "en": "An indicative whole-site estimate",
+        "zh": "商住整体的意向估价"
+      },
+      "body": {
+        "en": "An agent estimated the proposed mixed-use collective sale at more than S$500 million.",
+        "zh": "经纪人估计，拟议商住整体集体出售的价值超过5亿新元。"
+      },
+      "status": {
+        "en": "Reported estimate",
+        "zh": "报道中的估计"
+      },
+      "caution": {
+        "en": "A 2019 agent estimate, not a reserve price, completed transaction or current valuation.",
+        "zh": "这是2019年的经纪人估计，并非底价、成交价或当前估值。"
+      },
+      "sourceIds": [
+        "H04"
+      ]
+    },
+    {
+      "id": "HE09",
+      "track": "history",
+      "year": 2019,
+      "date": {
+        "en": "October 2019",
+        "zh": "2019年10月"
+      },
+      "title": {
+        "en": "Tenants notified that attempt ended",
+        "zh": "通知租户整售尝试终止"
+      },
+      "body": {
+        "en": "The agent said tenants were notified in October that the collective-sale attempt had ended.",
+        "zh": "经纪人表示，租户于10月获通知，集体出售尝试已终止。"
+      },
+      "status": {
+        "en": "Reported notice",
+        "zh": "报道中的通知"
+      },
+      "caution": {
+        "en": "Only the month is verified; the original notice has not been obtained.",
+        "zh": "仅核实到月份，尚未取得原始通知。"
+      },
+      "sourceIds": [
+        "H05"
+      ]
+    },
+    {
+      "id": "HE10",
+      "track": "history",
+      "year": 2019,
+      "date": {
+        "en": "26 November 2019",
+        "zh": "2019年11月26日"
+      },
+      "title": {
+        "en": "Insufficient consent confirmed",
+        "zh": "确认未取得所需同意"
+      },
+      "body": {
+        "en": "Savills confirmed that the attempt had ended without the required consent.",
+        "zh": "Savills 确认，整售尝试因未取得所需同意而终止。"
+      },
+      "status": {
+        "en": "Attempt ended",
+        "zh": "尝试终止"
+      },
+      "caution": {
+        "en": "The exact support was not disclosed; this was not a completed sale or failed buyer tender.",
+        "zh": "准确支持比例未披露；这并非已完成的出售，也非买方招标流标。"
+      },
+      "sourceIds": [
+        "H05"
+      ]
+    },
+    {
+      "id": "HE11",
+      "track": "history",
+      "year": 2021,
+      "date": {
+        "en": "28 April 2021 · report",
+        "zh": "2021年4月28日 · 报道"
+      },
+      "title": {
+        "en": "A single-unit asking price",
+        "zh": "单个单位的挂牌价格"
+      },
+      "body": {
+        "en": "A 2,734 sq ft third-floor unit was offered at a S$7.5 million guide price.",
+        "zh": "一个面积2,734平方英尺的三楼单位，以750万新元指导价挂牌。"
+      },
+      "status": {
+        "en": "Historical listing",
+        "zh": "历史挂牌"
+      },
+      "caution": {
+        "en": "One unit’s asking price is not a transaction price or mall-wide valuation.",
+        "zh": "单个单位的挂牌价不等于成交价或整个商场的估值。"
+      },
+      "sourceIds": [
+        "H06"
+      ]
+    },
+    {
+      "id": "HE12",
+      "track": "history",
+      "year": 2025,
+      "date": {
+        "en": "28 August 2025 · publication",
+        "zh": "2025年8月28日 · 发布"
+      },
+      "title": {
+        "en": "Vintage and thrift businesses promoted",
+        "zh": "推广古着与二手业态"
+      },
+      "body": {
+        "en": "Mall management promoted three vintage and thrift businesses with their unit locations.",
+        "zh": "商场管理方推广了三家古着及二手商家，并列出店铺位置。"
+      },
+      "status": {
+        "en": "Mall promotion",
+        "zh": "商场推广资料"
+      },
+      "caution": {
+        "en": "The promotion date does not establish when the shops opened or a growth rate.",
+        "zh": "推广日期不能确定店铺开业时间，也不能据此计算业态增长率。"
+      },
+      "sourceIds": [
+        "H10"
+      ]
+    },
+    {
+      "id": "HE13",
+      "track": "history",
+      "year": 2026,
+      "date": {
+        "en": "23 January 2026 · report",
+        "zh": "2026年1月23日 · 报道"
+      },
+      "title": {
+        "en": "Sports and secondhand retail coexist",
+        "zh": "体育零售与二手业态并存"
+      },
+      "body": {
+        "en": "CNA described sports retailers and secondhand shops operating alongside one another.",
+        "zh": "CNA 报道了体育零售商与二手店并存的经营现状。"
+      },
+      "status": {
+        "en": "Contemporary reporting",
+        "zh": "现状报道"
+      },
+      "caution": {
+        "en": "Observations and interviews are not a measured mall-wide trading or footfall trend.",
+        "zh": "报道观察与访谈不等于经过测量的全商场经营或客流趋势。"
+      },
+      "sourceIds": [
+        "H09"
+      ]
+    },
+    {
+      "id": "HE14",
+      "track": "history",
+      "year": 2026,
+      "date": {
+        "en": "17 October 2026 · report",
+        "zh": "2026年10月17日 · 报道"
+      },
+      "title": {
+        "en": "Retailer profiles",
+        "zh": "零售商故事"
+      },
+      "body": {
+        "en": "Four retailers share their experiences.",
+        "zh": "四位零售商分享经历。"
+      },
+      "status": {
+        "en": "Reporting",
+        "zh": "报道"
+      },
+      "caution": {
+        "en": "Not a tenant census.",
+        "zh": "并非商户普查。"
+      },
+      "sourceIds": [
+        "H11"
+      ]
+    },
+    {
+      "id": "HE15",
+      "track": "history",
+      "year": 2026,
+      "date": {
+        "en": "19 October 2026 · retrieved",
+        "zh": "2026年10月19日 · 检索"
+      },
+      "title": {
+        "en": "Sports directory snapshot",
+        "zh": "体育店铺目录快照"
+      },
+      "body": {
+        "en": "The mall’s directory links sports businesses to shop units for field verification.",
+        "zh": "商场目录将体育商家与店铺单位对应，可供实地核查。"
+      },
+      "status": {
+        "en": "Retrieved snapshot",
+        "zh": "检索快照"
+      },
+      "caution": {
+        "en": "Directory entries do not prove current operation or provide a complete occupancy census.",
+        "zh": "目录记录不能证明当日实际营业，也不构成完整的入驻普查。"
+      },
+      "sourceIds": [
+        "H08"
+      ]
+    },
+    {
+      "id": "PE01",
+      "track": "policy",
+      "year": 1999,
+      "date": {
+        "en": "1999",
+        "zh": "1999年"
+      },
+      "title": {
+        "en": "Majority-consent framework introduced",
+        "zh": "引入多数同意制度"
+      },
+      "body": {
+        "en": "Majority consent replaced unanimity for qualifying collective sales.",
+        "zh": "符合条件的集体出售由全体同意转向多数同意。"
+      },
+      "status": {
+        "en": "Historical framework",
+        "zh": "历史制度节点"
+      },
+      "caution": {
+        "en": "Later requirements, including the strata-area test, must be distinguished from the 1999 change.",
+        "zh": "后续要求，包括分层面积门槛，须与1999年的制度变更区分。"
+      },
+      "sourceIds": [
+        "P03"
+      ]
+    },
+    {
+      "id": "PE02",
+      "track": "policy",
+      "year": 2022,
+      "date": {
+        "en": "15 March 2022",
+        "zh": "2022年3月15日"
+      },
+      "title": {
+        "en": "Commercial strata subdivision restricted",
+        "zh": "限制商业分层细分"
+      },
+      "body": {
+        "en": "URA restricted commercial strata subdivision in specified Central Area locations and incentive schemes.",
+        "zh": "URA 限制指定 Central Area 地区及激励计划项目的商业分层细分。"
+      },
+      "status": {
+        "en": "Effective within a defined scope",
+        "zh": "在指定范围内生效"
+      },
+      "caution": {
+        "en": "Applicability to Queensway has not been established; this is not a nationwide ban.",
+        "zh": "Queensway 的适用性尚未核实；这不是全国性禁令。"
+      },
+      "sourceIds": [
+        "P05"
+      ]
+    },
+    {
+      "id": "PE03",
+      "track": "policy",
+      "year": 2022,
+      "date": {
+        "en": "1 August 2022",
+        "zh": "2022年8月1日"
+      },
+      "title": {
+        "en": "Land Betterment Charge begins",
+        "zh": "土地增值费制度实施"
+      },
+      "body": {
+        "en": "Land Betterment Charge replaced the Development Charge, Differential Premium and Temporary Development Levy regimes.",
+        "zh": "土地增值费取代原有的 Development Charge、Differential Premium 与 Temporary Development Levy 制度。"
+      },
+      "status": {
+        "en": "In force",
+        "zh": "已生效"
+      },
+      "caution": {
+        "en": "This does not establish a charge payable for Queensway.",
+        "zh": "这不代表 Queensway 已产生缴费义务。"
+      },
+      "sourceIds": [
+        "P10"
+      ]
+    },
+    {
+      "id": "PE04",
+      "track": "policy",
+      "year": 2024,
+      "date": {
+        "en": "1 February 2024",
+        "zh": "2024年2月1日"
+      },
+      "title": {
+        "en": "Retail lease rules take effect",
+        "zh": "零售租约规则生效"
+      },
+      "body": {
+        "en": "Qualifying new and renewed retail leases became subject to the Code of Conduct.",
+        "zh": "符合条件的新签及续签零售租约须遵守租赁行为准则。"
+      },
+      "status": {
+        "en": "Effective for qualifying leases",
+        "zh": "适用于符合条件的租约"
+      },
+      "caution": {
+        "en": "Coverage depends on signing or renewal date, duration and use; existing leases are not all automatically covered.",
+        "zh": "适用性取决于签约或续约日期、租期及用途；并非所有存量租约自动适用。"
+      },
+      "sourceIds": [
+        "P11",
+        "P12"
+      ]
+    },
+    {
+      "id": "PE05",
+      "track": "policy",
+      "year": 2025,
+      "date": {
+        "en": "1 December 2025",
+        "zh": "2025年12月1日"
+      },
+      "title": {
+        "en": "Master Plan 2025 gazetted",
+        "zh": "2025年总体规划正式公布"
+      },
+      "body": {
+        "en": "Master Plan 2025 became the statutory land-use plan.",
+        "zh": "2025年总体规划正式成为法定土地利用规划。"
+      },
+      "status": {
+        "en": "Gazetted",
+        "zh": "正式公布"
+      },
+      "caution": {
+        "en": "Zoning is not an individual redevelopment approval; subsequent amendments also require checking.",
+        "zh": "土地用途分区不等于个别重建项目获批；后续修订仍需核查。"
+      },
+      "sourceIds": [
+        "P06",
+        "P08"
+      ]
+    },
+    {
+      "id": "PE06",
+      "track": "policy",
+      "year": 2026,
+      "date": {
+        "en": "27 March 2026",
+        "zh": "2026年3月27日"
+      },
+      "title": {
+        "en": "MP2025 open data updated",
+        "zh": "MP2025 开放数据更新"
+      },
+      "body": {
+        "en": "The open Master Plan 2025 land-use dataset was updated.",
+        "zh": "2025年总体规划土地利用开放数据集更新。"
+      },
+      "status": {
+        "en": "Dataset update",
+        "zh": "数据版本更新"
+      },
+      "caution": {
+        "en": "A dataset update is not evidence that Queensway’s zoning changed on that date.",
+        "zh": "数据集更新不代表 Queensway 的用途分区在当日发生改变。"
+      },
+      "sourceIds": [
+        "P07"
+      ]
+    },
+    {
+      "id": "PE07",
+      "track": "policy",
+      "year": 2026,
+      "date": {
+        "en": "4 August 2026",
+        "zh": "2026年8月4日"
+      },
+      "title": {
+        "en": "Collective-sale amendment introduced",
+        "zh": "提出集体出售制度修法"
+      },
+      "body": {
+        "en": "An amendment bill proposed age-based consent tiers and additional owner safeguards.",
+        "zh": "修正法案提出按楼龄分级的同意门槛，并增加业主保障。"
+      },
+      "status": {
+        "en": "First reading",
+        "zh": "一读"
+      },
+      "caution": {
+        "en": "Introduction of a bill is not its commencement.",
+        "zh": "法案提出不等于已经生效。"
+      },
+      "sourceIds": [
+        "P02"
+      ]
+    },
+    {
+      "id": "PE11",
+      "track": "policy",
+      "year": 2026,
+      "date": {
+        "en": "1 September 2026",
+        "zh": "2026年9月1日"
+      },
+      "title": {
+        "en": "September LBC rate period begins",
+        "zh": "9月土地增值费费率期开始"
+      },
+      "body": {
+        "en": "The September 2026 Land Betterment Charge rate table took effect.",
+        "zh": "2026年9月土地增值费费率表开始适用。"
+      },
+      "status": {
+        "en": "Rate period begins",
+        "zh": "费率期起始"
+      },
+      "caution": {
+        "en": "Queensway’s applicable geographical sector and any liability have not been verified.",
+        "zh": "尚未核实 Queensway 对应的地理费率分区及任何缴费义务。"
+      },
+      "sourceIds": [
+        "P10"
+      ]
+    },
+    {
+      "id": "PE08",
+      "track": "policy",
+      "year": 2026,
+      "date": {
+        "en": "8 September 2026",
+        "zh": "2026年9月8日"
+      },
+      "title": {
+        "en": "Collective-sale amendment passed",
+        "zh": "集体出售修法获议会通过"
+      },
+      "body": {
+        "en": "Parliament passed amendments to the collective-sale regime.",
+        "zh": "议会通过集体出售制度修正案。"
+      },
+      "status": {
+        "en": "Passed by Parliament",
+        "zh": "议会通过"
+      },
+      "caution": {
+        "en": "Passage does not establish when the amendments take effect.",
+        "zh": "议会通过不能确定修法的生效日期。"
+      },
+      "sourceIds": [
+        "P03",
+        "P04"
+      ]
+    },
+    {
+      "id": "PE09",
+      "track": "policy",
+      "year": 2026,
+      "date": {
+        "en": "24 September 2026",
+        "zh": "2026年9月24日"
+      },
+      "title": {
+        "en": "Presidential assent",
+        "zh": "获总统批准"
+      },
+      "body": {
+        "en": "The official statutory index records presidential assent to the amendment Act.",
+        "zh": "官方法令索引记载，修正法获总统批准。"
+      },
+      "status": {
+        "en": "Assented; official index evidence",
+        "zh": "已获批准；依据官方索引"
+      },
+      "caution": {
+        "en": "Assent is distinct from commencement; the full statutory page was inaccessible.",
+        "zh": "总统批准与生效不同；本次未能访问完整法令页面。"
+      },
+      "sourceIds": [
+        "P04"
+      ]
+    },
+    {
+      "id": "PE10",
+      "track": "policy",
+      "year": 2026,
+      "date": {
+        "en": "2 October 2026",
+        "zh": "2026年10月2日"
+      },
+      "title": {
+        "en": "Amendment Act published",
+        "zh": "修正法公布"
+      },
+      "body": {
+        "en": "The official statutory index records publication of the Act, including new consent tiers for older developments.",
+        "zh": "官方法令索引记载修正法公布，其中包括针对老龄项目的新同意门槛。"
+      },
+      "status": {
+        "en": "Published; commencement unverified",
+        "zh": "已公布；生效日待核"
+      },
+      "caution": {
+        "en": "The commencement notice has not been verified; do not apply the new tiers to Queensway automatically.",
+        "zh": "尚未核实生效通知；不能直接将新门槛套用于 Queensway。"
+      },
+      "sourceIds": [
+        "P04"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+.DS_Store
+node_modules/
+work/
+__pycache__/
+*.py[cod]
+*.tar.gz
+.public-export.json
+
+# Local research, verification and hosting material stay out of public exports.
+# Existing tracked history is separate; prepare-github.py exports a clean allowlist.
+sources/
+verification/
+.vscode/
+asset-sources.json
+map-sources.json
+_Old_dist*/
+资料来源_*/
+大改目标框架*.md
+项目全贯穿*.md
+.env
+.env.*
+!.env.example

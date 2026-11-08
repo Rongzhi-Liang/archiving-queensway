@@ -1,0 +1,749 @@
+{
+  "title": {
+    "en": "Queensway Tower residential resales",
+    "zh": "Queensway Tower 住宅转售记录"
+  },
+  "sourceTitle": "URA REALIS · Queensway Tower residential resale records",
+  "sourceNote": {
+    "en": "Residential transaction records transcribed from URA REALIS screenshots.",
+    "zh": "依据 URA REALIS 截图转录的住宅成交记录。"
+  },
+  "retrievedAt": "2026-11-06",
+  "records": [
+    {
+      "date": "1995-02-01",
+      "areaSqft": 1528,
+      "pricePsf": 458,
+      "priceSgd": 700000,
+      "floor": "08"
+    },
+    {
+      "date": "1995-02-01",
+      "areaSqft": 1098,
+      "pricePsf": 469,
+      "priceSgd": 515000,
+      "floor": "02"
+    },
+    {
+      "date": "1995-07-01",
+      "areaSqft": 1625,
+      "pricePsf": 437,
+      "priceSgd": 710000,
+      "floor": "07"
+    },
+    {
+      "date": "1996-01-16",
+      "areaSqft": 1625,
+      "pricePsf": 486,
+      "priceSgd": 790000,
+      "floor": "07"
+    },
+    {
+      "date": "1996-02-08",
+      "areaSqft": 1658,
+      "pricePsf": 446,
+      "priceSgd": 740000,
+      "floor": "02"
+    },
+    {
+      "date": "1996-06-05",
+      "areaSqft": 1292,
+      "pricePsf": 538,
+      "priceSgd": 695000,
+      "floor": "12"
+    },
+    {
+      "date": "1996-08-01",
+      "areaSqft": 1625,
+      "pricePsf": 431,
+      "priceSgd": 700000,
+      "floor": "08"
+    },
+    {
+      "date": "1996-09-02",
+      "areaSqft": 1432,
+      "pricePsf": 433,
+      "priceSgd": 620000,
+      "floor": "02"
+    },
+    {
+      "date": "1998-10-14",
+      "areaSqft": 1292,
+      "pricePsf": 341,
+      "priceSgd": 440000,
+      "floor": "03"
+    },
+    {
+      "date": "1998-11-03",
+      "areaSqft": 1292,
+      "pricePsf": 321,
+      "priceSgd": 415000,
+      "floor": "03"
+    },
+    {
+      "date": "1998-12-31",
+      "areaSqft": 1658,
+      "pricePsf": 308,
+      "priceSgd": 510000,
+      "floor": "02"
+    },
+    {
+      "date": "1999-01-01",
+      "areaSqft": 1625,
+      "pricePsf": 294,
+      "priceSgd": 478000,
+      "floor": "14"
+    },
+    {
+      "date": "1999-01-25",
+      "areaSqft": 1302,
+      "pricePsf": 349,
+      "priceSgd": 455000,
+      "floor": "10"
+    },
+    {
+      "date": "1999-06-14",
+      "areaSqft": 1539,
+      "pricePsf": 422,
+      "priceSgd": 650000,
+      "floor": "09"
+    },
+    {
+      "date": "1999-06-25",
+      "areaSqft": 1432,
+      "pricePsf": 421,
+      "priceSgd": 602800,
+      "floor": "04"
+    },
+    {
+      "date": "1999-10-07",
+      "areaSqft": 1098,
+      "pricePsf": 419,
+      "priceSgd": 460000,
+      "floor": "02"
+    },
+    {
+      "date": "1999-11-22",
+      "areaSqft": 1098,
+      "pricePsf": 437,
+      "priceSgd": 480000,
+      "floor": "04"
+    },
+    {
+      "date": "2000-07-01",
+      "areaSqft": 1346,
+      "pricePsf": 444,
+      "priceSgd": 598000,
+      "floor": "04"
+    },
+    {
+      "date": "2000-08-11",
+      "areaSqft": 1292,
+      "pricePsf": 372,
+      "priceSgd": 480000,
+      "floor": "09"
+    },
+    {
+      "date": "2000-08-30",
+      "areaSqft": 1625,
+      "pricePsf": 480,
+      "priceSgd": 780000,
+      "floor": "13"
+    },
+    {
+      "date": "2001-01-01",
+      "areaSqft": 1432,
+      "pricePsf": 405,
+      "priceSgd": 580000,
+      "floor": "11"
+    },
+    {
+      "date": "2001-01-08",
+      "areaSqft": 1625,
+      "pricePsf": 374,
+      "priceSgd": 608000,
+      "floor": "13"
+    },
+    {
+      "date": "2001-03-15",
+      "areaSqft": 1625,
+      "pricePsf": 446,
+      "priceSgd": 725000,
+      "floor": "08"
+    },
+    {
+      "date": "2002-01-01",
+      "areaSqft": 1292,
+      "pricePsf": 387,
+      "priceSgd": 500000,
+      "floor": "12"
+    },
+    {
+      "date": "2002-02-01",
+      "areaSqft": 1292,
+      "pricePsf": 405,
+      "priceSgd": 523000,
+      "floor": "03"
+    },
+    {
+      "date": "2002-04-03",
+      "areaSqft": 1625,
+      "pricePsf": 326,
+      "priceSgd": 530000,
+      "floor": "07"
+    },
+    {
+      "date": "2002-10-13",
+      "areaSqft": 1539,
+      "pricePsf": 357,
+      "priceSgd": 550000,
+      "floor": "06"
+    },
+    {
+      "date": "2003-04-27",
+      "areaSqft": 1658,
+      "pricePsf": 343,
+      "priceSgd": 568000,
+      "floor": "13"
+    },
+    {
+      "date": "2003-10-10",
+      "areaSqft": 1292,
+      "pricePsf": 348,
+      "priceSgd": 450000,
+      "floor": "12"
+    },
+    {
+      "date": "2004-09-28",
+      "areaSqft": 1625,
+      "pricePsf": 373,
+      "priceSgd": 606000,
+      "floor": "13"
+    },
+    {
+      "date": "2005-05-06",
+      "areaSqft": 1432,
+      "pricePsf": 311,
+      "priceSgd": 445000,
+      "floor": "07"
+    },
+    {
+      "date": "2005-10-13",
+      "areaSqft": 1432,
+      "pricePsf": 339,
+      "priceSgd": 485000,
+      "floor": "08"
+    },
+    {
+      "date": "2005-12-20",
+      "areaSqft": 1432,
+      "pricePsf": 346,
+      "priceSgd": 495000,
+      "floor": "11"
+    },
+    {
+      "date": "2006-08-11",
+      "areaSqft": 1421,
+      "pricePsf": 354,
+      "priceSgd": 502300,
+      "floor": "06"
+    },
+    {
+      "date": "2006-08-15",
+      "areaSqft": 1432,
+      "pricePsf": 353,
+      "priceSgd": 505000,
+      "floor": "08"
+    },
+    {
+      "date": "2006-11-22",
+      "areaSqft": 980,
+      "pricePsf": 378,
+      "priceSgd": 370000,
+      "floor": "03"
+    },
+    {
+      "date": "2007-01-16",
+      "areaSqft": 1475,
+      "pricePsf": 366,
+      "priceSgd": 540000,
+      "floor": "02"
+    },
+    {
+      "date": "2007-02-15",
+      "areaSqft": 1432,
+      "pricePsf": 416,
+      "priceSgd": 595000,
+      "floor": "02"
+    },
+    {
+      "date": "2007-03-20",
+      "areaSqft": 1539,
+      "pricePsf": 434,
+      "priceSgd": 668000,
+      "floor": "06"
+    },
+    {
+      "date": "2007-03-23",
+      "areaSqft": 1098,
+      "pricePsf": 583,
+      "priceSgd": 640000,
+      "floor": "04"
+    },
+    {
+      "date": "2007-05-07",
+      "areaSqft": 1625,
+      "pricePsf": 621,
+      "priceSgd": 1010000,
+      "floor": "05"
+    },
+    {
+      "date": "2007-06-15",
+      "areaSqft": 1539,
+      "pricePsf": 747,
+      "priceSgd": 1150000,
+      "floor": "09"
+    },
+    {
+      "date": "2007-06-26",
+      "areaSqft": 1302,
+      "pricePsf": 729,
+      "priceSgd": 950000,
+      "floor": "10"
+    },
+    {
+      "date": "2007-06-27",
+      "areaSqft": 1432,
+      "pricePsf": 719,
+      "priceSgd": 1030000,
+      "floor": "02"
+    },
+    {
+      "date": "2007-06-29",
+      "areaSqft": 1658,
+      "pricePsf": 694,
+      "priceSgd": 1150000,
+      "floor": "08"
+    },
+    {
+      "date": "2007-07-23",
+      "areaSqft": 1658,
+      "pricePsf": 633,
+      "priceSgd": 1050000,
+      "floor": "04"
+    },
+    {
+      "date": "2007-08-10",
+      "areaSqft": 1658,
+      "pricePsf": 745,
+      "priceSgd": 1235000,
+      "floor": "07"
+    },
+    {
+      "date": "2007-08-13",
+      "areaSqft": 1432,
+      "pricePsf": 723,
+      "priceSgd": 1035000,
+      "floor": "04"
+    },
+    {
+      "date": "2007-09-12",
+      "areaSqft": 1292,
+      "pricePsf": 596,
+      "priceSgd": 770000,
+      "floor": "06"
+    },
+    {
+      "date": "2007-10-19",
+      "areaSqft": 1539,
+      "pricePsf": 757,
+      "priceSgd": 1165000,
+      "floor": "06"
+    },
+    {
+      "date": "2007-10-25",
+      "areaSqft": 1615,
+      "pricePsf": 743,
+      "priceSgd": 1200000,
+      "floor": "14"
+    },
+    {
+      "date": "2008-04-16",
+      "areaSqft": 1658,
+      "pricePsf": 658,
+      "priceSgd": 1090000,
+      "floor": "04"
+    },
+    {
+      "date": "2008-09-19",
+      "areaSqft": 1475,
+      "pricePsf": 498,
+      "priceSgd": 735000,
+      "floor": "02"
+    },
+    {
+      "date": "2009-10-12",
+      "areaSqft": 1658,
+      "pricePsf": 597,
+      "priceSgd": 990000,
+      "floor": "08"
+    },
+    {
+      "date": "2010-01-05",
+      "areaSqft": 1658,
+      "pricePsf": 664,
+      "priceSgd": 1100000,
+      "floor": "02"
+    },
+    {
+      "date": "2010-03-01",
+      "areaSqft": 1421,
+      "pricePsf": 591,
+      "priceSgd": 840000,
+      "floor": "09"
+    },
+    {
+      "date": "2010-04-06",
+      "areaSqft": 1292,
+      "pricePsf": 728,
+      "priceSgd": 940000,
+      "floor": "06"
+    },
+    {
+      "date": "2010-04-23",
+      "areaSqft": 1539,
+      "pricePsf": 792,
+      "priceSgd": 1218888,
+      "floor": "06"
+    },
+    {
+      "date": "2010-06-01",
+      "areaSqft": 1475,
+      "pricePsf": 641,
+      "priceSgd": 945000,
+      "floor": "02"
+    },
+    {
+      "date": "2010-06-29",
+      "areaSqft": 1292,
+      "pricePsf": 708,
+      "priceSgd": 915000,
+      "floor": "09"
+    },
+    {
+      "date": "2010-08-06",
+      "areaSqft": 1292,
+      "pricePsf": 743,
+      "priceSgd": 960000,
+      "floor": "12"
+    },
+    {
+      "date": "2010-11-12",
+      "areaSqft": 1625,
+      "pricePsf": 704,
+      "priceSgd": 1145000,
+      "floor": "05"
+    },
+    {
+      "date": "2011-01-03",
+      "areaSqft": 1658,
+      "pricePsf": 691,
+      "priceSgd": 1145000,
+      "floor": "05"
+    },
+    {
+      "date": "2011-04-14",
+      "areaSqft": 1658,
+      "pricePsf": 875,
+      "priceSgd": 1450000,
+      "floor": "08"
+    },
+    {
+      "date": "2011-04-25",
+      "areaSqft": 1658,
+      "pricePsf": 736,
+      "priceSgd": 1220000,
+      "floor": "11"
+    },
+    {
+      "date": "2011-05-16",
+      "areaSqft": 1658,
+      "pricePsf": 845,
+      "priceSgd": 1400000,
+      "floor": "08"
+    },
+    {
+      "date": "2011-05-31",
+      "areaSqft": 1292,
+      "pricePsf": 914,
+      "priceSgd": 1180000,
+      "floor": "06"
+    },
+    {
+      "date": "2011-08-15",
+      "areaSqft": 1658,
+      "pricePsf": 802,
+      "priceSgd": 1330000,
+      "floor": "02"
+    },
+    {
+      "date": "2012-04-30",
+      "areaSqft": 1475,
+      "pricePsf": 868,
+      "priceSgd": 1280000,
+      "floor": "02"
+    },
+    {
+      "date": "2012-07-19",
+      "areaSqft": 1302,
+      "pricePsf": 983,
+      "priceSgd": 1280000,
+      "floor": "07"
+    },
+    {
+      "date": "2012-08-27",
+      "areaSqft": 1679,
+      "pricePsf": 875,
+      "priceSgd": 1468800,
+      "floor": "14"
+    },
+    {
+      "date": "2013-01-24",
+      "areaSqft": 1421,
+      "pricePsf": 971,
+      "priceSgd": 1380000,
+      "floor": "09"
+    },
+    {
+      "date": "2013-05-22",
+      "areaSqft": 1539,
+      "pricePsf": 1013,
+      "priceSgd": 1560000,
+      "floor": "06"
+    },
+    {
+      "date": "2014-07-15",
+      "areaSqft": 1432,
+      "pricePsf": 943,
+      "priceSgd": 1350000,
+      "floor": "13"
+    },
+    {
+      "date": "2016-01-15",
+      "areaSqft": 1658,
+      "pricePsf": 923,
+      "priceSgd": 1530000,
+      "floor": "02"
+    },
+    {
+      "date": "2016-06-15",
+      "areaSqft": 1658,
+      "pricePsf": 887,
+      "priceSgd": 1470000,
+      "floor": "08"
+    },
+    {
+      "date": "2016-08-22",
+      "areaSqft": 1658,
+      "pricePsf": 820,
+      "priceSgd": 1360000,
+      "floor": "11"
+    },
+    {
+      "date": "2016-08-29",
+      "areaSqft": 1432,
+      "pricePsf": 894,
+      "priceSgd": 1280000,
+      "floor": "07"
+    },
+    {
+      "date": "2016-09-01",
+      "areaSqft": 1625,
+      "pricePsf": 861,
+      "priceSgd": 1400000,
+      "floor": "08"
+    },
+    {
+      "date": "2017-02-28",
+      "areaSqft": 1292,
+      "pricePsf": 890,
+      "priceSgd": 1150000,
+      "floor": "06"
+    },
+    {
+      "date": "2017-05-29",
+      "areaSqft": 1432,
+      "pricePsf": 894,
+      "priceSgd": 1280000,
+      "floor": "10"
+    },
+    {
+      "date": "2017-11-02",
+      "areaSqft": 1432,
+      "pricePsf": 905,
+      "priceSgd": 1295000,
+      "floor": "08"
+    },
+    {
+      "date": "2018-08-27",
+      "areaSqft": 1658,
+      "pricePsf": 845,
+      "priceSgd": 1400000,
+      "floor": "10"
+    },
+    {
+      "date": "2019-11-20",
+      "areaSqft": 1539,
+      "pricePsf": 1045,
+      "priceSgd": 1608000,
+      "floor": "09"
+    },
+    {
+      "date": "2020-03-10",
+      "areaSqft": 1292,
+      "pricePsf": 951,
+      "priceSgd": 1228000,
+      "floor": "03"
+    },
+    {
+      "date": "2020-06-16",
+      "areaSqft": 1658,
+      "pricePsf": 971,
+      "priceSgd": 1610000,
+      "floor": "10"
+    },
+    {
+      "date": "2021-02-16",
+      "areaSqft": 1292,
+      "pricePsf": 991,
+      "priceSgd": 1280000,
+      "floor": "12"
+    },
+    {
+      "date": "2021-04-08",
+      "areaSqft": 1539,
+      "pricePsf": 1090,
+      "priceSgd": 1678000,
+      "floor": "12"
+    },
+    {
+      "date": "2021-05-17",
+      "areaSqft": 1658,
+      "pricePsf": 1086,
+      "priceSgd": 1800000,
+      "floor": "11"
+    },
+    {
+      "date": "2021-07-09",
+      "areaSqft": 1432,
+      "pricePsf": 1145,
+      "priceSgd": 1638888,
+      "floor": "10"
+    },
+    {
+      "date": "2021-07-15",
+      "areaSqft": 980,
+      "pricePsf": 1205,
+      "priceSgd": 1180000,
+      "floor": "03"
+    },
+    {
+      "date": "2021-09-01",
+      "areaSqft": 1658,
+      "pricePsf": 1182,
+      "priceSgd": 1960000,
+      "floor": "13"
+    },
+    {
+      "date": "2021-09-24",
+      "areaSqft": 1539,
+      "pricePsf": 1194,
+      "priceSgd": 1838000,
+      "floor": "06"
+    },
+    {
+      "date": "2021-11-15",
+      "areaSqft": 1679,
+      "pricePsf": 1227,
+      "priceSgd": 2060000,
+      "floor": "14"
+    },
+    {
+      "date": "2023-03-17",
+      "areaSqft": 1432,
+      "pricePsf": 1257,
+      "priceSgd": 1800000,
+      "floor": "13"
+    },
+    {
+      "date": "2023-03-30",
+      "areaSqft": 1292,
+      "pricePsf": 1394,
+      "priceSgd": 1800000,
+      "floor": "12"
+    },
+    {
+      "date": "2023-06-08",
+      "areaSqft": 1496,
+      "pricePsf": 1370,
+      "priceSgd": 2050000,
+      "floor": "11"
+    },
+    {
+      "date": "2023-06-12",
+      "areaSqft": 1292,
+      "pricePsf": 1316,
+      "priceSgd": 1700000,
+      "floor": "12"
+    },
+    {
+      "date": "2023-07-17",
+      "areaSqft": 1432,
+      "pricePsf": 1118,
+      "priceSgd": 1600000,
+      "floor": "02"
+    },
+    {
+      "date": "2024-07-23",
+      "areaSqft": 1615,
+      "pricePsf": 1350,
+      "priceSgd": 2180000,
+      "floor": "14"
+    },
+    {
+      "date": "2024-08-13",
+      "areaSqft": 1432,
+      "pricePsf": 1300,
+      "priceSgd": 1861000,
+      "floor": "08"
+    },
+    {
+      "date": "2025-01-14",
+      "areaSqft": 1496,
+      "pricePsf": 1504,
+      "priceSgd": 2250000,
+      "floor": "05"
+    },
+    {
+      "date": "2025-08-14",
+      "areaSqft": 1679,
+      "pricePsf": 1536,
+      "priceSgd": 2580000,
+      "floor": "14"
+    },
+    {
+      "date": "2026-01-08",
+      "areaSqft": 1625,
+      "pricePsf": 1402,
+      "priceSgd": 2278000,
+      "floor": "07"
+    },
+    {
+      "date": "2026-01-20",
+      "areaSqft": 1658,
+      "pricePsf": 1374,
+      "priceSgd": 2278000,
+      "floor": "10"
+    }
+  ]
+}

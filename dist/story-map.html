@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#141414">
+<title>Whose Queensway? — An interactive story map</title>
+<script>
+const destination = new URL('./', location.href);
+destination.search = location.search;
+const legacyLens = new URLSearchParams(location.search).get('lens');
+const story = {developer:'property', owner:'shop', visitor:'visitor'}[legacyLens];
+if (story) destination.searchParams.set('story', story);
+destination.hash = location.hash;
+location.replace(destination.href);
+</script>
+</head>
+<body><p><a href="./">Open the Queensway Story Map · 打开女皇道故事地图</a></p></body>
+</html>

@@ -1,0 +1,78 @@
+/* Three stories, one quiet reading system. Opening and archive are intentionally outside this scope. */
+:is(#property-land,#shopkeepers,#visitors)[hidden]{display:none}
+.story-stage :is(#property-visual-stage,#shop-visual-stage,#visitor-visual-stage){position:absolute;inset:0;display:block;height:100%;z-index:7;overflow:hidden;pointer-events:none;transform:translateY(var(--footer-story-offset,0px))}
+.story-stage .narrative-visual-stage[hidden],.narrative-surface[hidden],.narrative-surface [hidden]{display:none!important}
+.story-stage .narrative-surface{position:absolute;inset:0;width:100%;height:100%;max-height:none;overflow:hidden;background:#151515;color:#f2eee7;pointer-events:none}
+.ns-field{position:absolute;left:51vw;right:7vw;top:14svh;bottom:10svh;display:flex;flex-direction:column;justify-content:center;min-width:0;pointer-events:auto}
+body.narrative-visual-active :is(#geography,#floor-explorer-stage,#mall-stage,.stage-photo,.stage-vignette){visibility:hidden}
+body.narrative-visual-active .stage-grain{opacity:.025}
+body.narrative-visual-active :is(.map-caption,.story-hud,.chapter-rail){display:none}
+body.narrative-visual-active #story-root .liquid-hit{width:3vw;min-width:20px}
+body.narrative-visual-active #story-root .liquid-label{pointer-events:none}
+.narrative-chapter{position:relative;display:block!important;padding:0!important;height:calc(120svh + (var(--ns-beats,1) - 1)*90svh);min-height:120svh;pointer-events:none}
+.ns-viewport{position:sticky;top:0;height:100svh;display:flex;align-items:center;padding:100px 8vw 80px;box-sizing:border-box;pointer-events:none}
+.narrative-chapter .scene-copy.ns-copy{position:relative;width:37vw;max-width:600px!important;opacity:1;transform:none;pointer-events:none;visibility:visible}
+.narrative-chapter .ns-kicker{display:flex;align-items:center;gap:18px;font:400 14px/1.5 var(--sans);letter-spacing:.025em;margin:0 0 24px;color:#b9b3a9}
+.narrative-chapter .ns-kicker:before{display:none!important}
+.ns-kicker span:first-child{color:var(--gold)}
+.narrative-chapter .ns-reading h2{font:500 clamp(48px,5.1vw,86px)/1.08 var(--archive-type,var(--display));letter-spacing:-.035em;text-wrap:balance;min-height:0;margin:0;text-shadow:none}
+.narrative-chapter .ns-reading h2 em{font:inherit;color:#e5c394}
+html[lang=zh] .narrative-chapter .ns-reading h2{font-size:clamp(38px,4.2vw,72px);line-height:1.28;letter-spacing:-.015em}
+.narrative-chapter .scene-body.ns-body{font:400 clamp(18px,1.25vw,21px)/1.75 var(--sans);color:#ccc9c2;max-width:490px;margin:30px 0 0;min-height:0;text-wrap:pretty}
+.ns-reading-tools{display:flex;align-items:center;gap:30px;margin-top:29px;pointer-events:auto}
+.ns-source{display:inline-flex;align-items:center;gap:14px;border:0;background:none;padding:8px 0;color:#b6b2a9;font:400 14px/1.5 var(--sans);cursor:pointer}
+.ns-source span{color:#d9bb88;font-size:17px}.ns-source:hover{color:#eee7da}
+.ns-readings{display:flex;align-items:center;gap:16px;font:400 14px/1.5 var(--sans);color:#a7a59b}
+.ns-readings button{font:400 20px/1 var(--sans);color:#d9bb88;padding:8px;border:0;background:none;cursor:pointer}
+.ns-readings button:disabled{opacity:.2;cursor:default}
+.ns-actions{display:flex;flex-wrap:wrap;align-items:center;gap:18px 28px;margin-top:26px;pointer-events:auto}
+.ns-actions :is(button,a){display:inline-flex;align-items:center;gap:14px;border:0;background:none;margin:0;padding:6px 0;font:400 16px/1.5 var(--sans);color:#e5c394;text-decoration:none;cursor:pointer}
+.ns-actions :is(button,a):hover{color:#fff0d6}
+.ns-controls{display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px;margin:0 0 24px}
+.ns-controls button{padding:8px 0;border:0;background:none;font:400 16px/1.5 var(--sans);color:#888b84;cursor:pointer;transition:color .3s}
+.ns-controls button[aria-pressed=true],.ns-controls button[aria-selected=true]{color:#e5c394}
+.ns-controls button:hover{color:#eee7da}
+.narrative-surface :is(button,a,summary):focus-visible,.narrative-chapter :is(button,a):focus-visible{outline:2px solid #e5c394;outline-offset:6px}
+.narrative-chapter h2[tabindex="-1"]:focus{outline:none}
+.narrative-surface :where(p,figure,h3,h4){margin:0}
+.ns-source-dialog{position:fixed;inset:0;width:min(780px,90vw);max-height:84svh;margin:auto;padding:38px 42px;border:0;background:#232322;color:#e8e4dc;overflow:auto;box-sizing:border-box}
+.ns-source-dialog::backdrop{background:#000b;backdrop-filter:blur(8px)}
+.ns-source-dialog header{display:flex;justify-content:space-between;align-items:start;gap:24px;margin-bottom:30px}
+.ns-source-dialog h2{font:500 38px/1.2 var(--archive-type,var(--display));margin:0}
+.ns-source-dialog header button{border:0;background:none;color:#e5c394;font:400 30px/1 var(--sans);cursor:pointer;padding:4px}
+.ns-source-content{font:400 16px/1.8 var(--sans);color:#c9c6bd}
+.ns-source-content :is(p,ul,ol){margin:0 0 20px}.ns-source-content li{margin-bottom:12px}.ns-source-content h3{font:500 21px/1.4 var(--sans);color:#e5dfd3;margin:25px 0 12px}.ns-source-content a{color:#e5c394;text-underline-offset:4px;overflow-wrap:anywhere}.ns-source-content small{font-size:inherit}
+@media(min-width:701px) and (max-height:780px){
+ .ns-viewport{padding-top:85px;padding-bottom:65px}.ns-field{top:14svh;bottom:9svh}
+ .narrative-chapter .ns-reading h2{font-size:clamp(44px,4.8vw,67px)}
+ html[lang=zh] .narrative-chapter .ns-reading h2{font-size:clamp(36px,3.95vw,56px)}
+ .narrative-chapter .ns-kicker{font-size:14px;margin-bottom:20px}
+ .narrative-chapter .scene-body.ns-body{font-size:17px;line-height:1.7;margin-top:24px}
+ .ns-reading-tools{margin-top:21px}.ns-actions{margin-top:18px}.ns-controls{margin-bottom:18px}
+ /* Keep interview text and controls below the fixed navigation on short screens. */
+ .narrative-chapter .ns-copy:has(.ns-interview){max-height:calc(100svh - 140px);overflow:auto;scrollbar-width:thin;pointer-events:auto;overscroll-behavior:contain}
+ .narrative-chapter .ns-copy:has(.ns-interview) .ns-kicker{margin-bottom:16px}
+ .narrative-chapter .ns-copy:has(.ns-interview) .ns-reading h2{font-size:clamp(42px,3.8vw,54px)}
+ :root .narrative-chapter .ns-copy:has(.ns-interview) .scene-body.ns-body{line-height:1.6;margin-top:18px}
+ .narrative-chapter .ns-copy:has(.ns-interview) .ns-interview{margin-top:14px}
+ .narrative-chapter .ns-copy:has(.ns-interview) .ns-reading-tools{margin-top:14px}
+}
+@media(max-width:1000px) and (min-width:701px){.ns-viewport{padding-left:6vw}.narrative-chapter .scene-copy.ns-copy{width:40vw}.ns-field{left:52vw;right:5vw}.narrative-chapter .scene-body.ns-body{font-size:16px}.ns-controls{gap:12px 18px}.ns-controls button{font-size:15px}}
+@media(max-width:700px){
+ .narrative-chapter{height:calc(120svh + (var(--ns-beats,1) - 1)*100svh)}
+ .ns-field{left:7vw;right:7vw;top:85px;bottom:49svh;justify-content:center;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin}
+ .ns-viewport{align-items:flex-end;padding:0 7vw 40px}
+ .narrative-chapter .scene-copy.ns-copy{width:100%;max-width:none!important;max-height:46svh;overflow:auto;pointer-events:auto;background:#151515;overscroll-behavior:contain;padding-top:10px}
+ .narrative-chapter .ns-kicker{font-size:14px;gap:13px;margin-bottom:13px}
+ .narrative-chapter .ns-reading h2,html[lang=zh] .narrative-chapter .ns-reading h2{font-size:clamp(30px,8vw,42px);line-height:1.18;letter-spacing:-.02em}
+ .narrative-chapter .scene-body.ns-body{font-size:16px;line-height:1.65;margin-top:16px}
+ .ns-reading-tools{margin-top:14px;gap:24px}.ns-source,.ns-readings{font-size:14px}.ns-readings{gap:11px}.ns-readings button{font-size:18px;padding:5px}.ns-source{padding:5px 0}
+ .ns-actions{margin-top:14px;gap:12px 22px}.ns-actions :is(button,a){font-size:14px;padding:4px 0}
+ .ns-controls{gap:12px 20px;margin-bottom:16px}.ns-controls button{font-size:14px;padding:5px 0}
+ .ns-source-dialog{padding:27px 24px;width:92vw}.ns-source-dialog h2{font-size:30px}.ns-source-content{font-size:15px}
+}
+@media(prefers-reduced-motion:reduce){.ns-controls button{transition:none}}
+
+#story-root .property-start{display:none;position:fixed;bottom:max(48px,10svh);left:50%;transform:translateX(-50%);pointer-events:auto;z-index:17;padding:11px 0;border:0;background:none;color:#efdfc4;font:400 16px/1.4 var(--sans);cursor:pointer}
+#story-root.is-active[data-lens="developer"] .property-start:not(.shop-start,.visitor-start),#story-root.is-active[data-lens="owner"] .shop-start,#story-root.is-active[data-lens="visitor"] .visitor-start{display:inline-flex;align-items:center;gap:13px}
+.property-start:hover{color:#fff2da}

@@ -1,0 +1,397 @@
+{
+  "title": "OneMap Orthophoto basemap · Queensway surroundings",
+  "provider": "Singapore Land Authority / OneMap",
+  "sourceUrl": "https://www.onemap.gov.sg/",
+  "tileTemplate": "https://www.onemap.gov.sg/maps/tiles/Satellite/{z}/{x}/{y}.png",
+  "sourceDiscovery": "Orthophoto layer definition in the official OneMap web application",
+  "sourceApplicationBundle": "https://mobile.onemap.gov.sg/_next/static/chunks/pages/_app-1fca0d3b4d0d24c3.js",
+  "attribution": "OneMap © contributors | Singapore Land Authority",
+  "licenceUrl": "https://www.onemap.gov.sg/legal/opendatalicence.html",
+  "termsUrl": "https://www.onemap.gov.sg/legal/termsofuse.html",
+  "attributionGuidanceUrl": "https://www.onemap.gov.sg/docs/maps/",
+  "retrievedDate": "2026-11-07",
+  "captureDate": null,
+  "captureDateNote": {
+    "en": "The source does not provide an acquisition date for these tiles. Retrieval date is not image capture date; this is not live imagery.",
+    "zh": "来源未提供这些影像的拍摄日期。获取日期并非拍摄日期；这不是实时影像。"
+  },
+  "displayNote": {
+    "en": "Official OneMap orthophoto layer, used to show the physical setting. Named uses are verified separately; imagery alone does not establish current operation or planning permission.",
+    "zh": "OneMap 官方正射影像图层用于展示真实建成环境。具名用途另行核对；影像本身不证明设施当前运营状态或规划许可。"
+  },
+  "attributionLogo": {
+    "image": "assets/queensway-satellite/onemap-logo.png",
+    "sourceUrl": "https://www.onemap.gov.sg/web-assets/images/logo/om_logo.png",
+    "sha256": "657db347017b13e71bc4942afbe985566052446b13433f2dd5492e92fce34f16"
+  },
+  "projection": "EPSG:3857, corrected by cos(latitude) to match the story map ground scale",
+  "view": {
+    "width": 640,
+    "height": 450,
+    "anchor": [
+      320,
+      278
+    ],
+    "center": [
+      103.8033972877883,
+      1.287595189398704
+    ],
+    "groundPixelsPerMetre": 0.34
+  },
+  "tiles": [
+    {
+      "z": 17,
+      "x": 103326,
+      "y": 65064,
+      "image": "assets/queensway-satellite/17-103326-65064.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103326/65064.png",
+      "sha256": "16941e0e17fb0df4dbf3db015661788ecc1751dfa2772dc06c7a6ee3f7dee343",
+      "bytes": 10101,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103327,
+      "y": 65064,
+      "image": "assets/queensway-satellite/17-103327-65064.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103327/65064.png",
+      "sha256": "2f25f3f020b833c6e8ca5af3fe8cd17af369e91eccfa4954c10b9c54accdd209",
+      "bytes": 11766,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103328,
+      "y": 65064,
+      "image": "assets/queensway-satellite/17-103328-65064.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103328/65064.png",
+      "sha256": "90d96aebe643ccb7f051b34f9f3838d81699338b476f30c2b51739eace94f84e",
+      "bytes": 10942,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103329,
+      "y": 65064,
+      "image": "assets/queensway-satellite/17-103329-65064.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103329/65064.png",
+      "sha256": "f494dadb98448f32953e5b3420cd067b89ed0d90383a3b20e5748d151ec899fe",
+      "bytes": 10139,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103330,
+      "y": 65064,
+      "image": "assets/queensway-satellite/17-103330-65064.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103330/65064.png",
+      "sha256": "6fde0e3a91e6627966edafd840f05d914d8ad0a55f7a5f87204fba7024ccd75a",
+      "bytes": 11812,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103331,
+      "y": 65064,
+      "image": "assets/queensway-satellite/17-103331-65064.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103331/65064.png",
+      "sha256": "9df6af6de0b24121b3a73b9fa759cdaa52a46616d0743dd0a696009100dee357",
+      "bytes": 11550,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103332,
+      "y": 65064,
+      "image": "assets/queensway-satellite/17-103332-65064.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103332/65064.png",
+      "sha256": "485598d675372ac91e5c4443fda9887c5abc0d91a4b44840a35685a88186e6c8",
+      "bytes": 12558,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103326,
+      "y": 65065,
+      "image": "assets/queensway-satellite/17-103326-65065.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103326/65065.png",
+      "sha256": "5403d2e5769bd2693a58ed53953ffdf47ff265727634a296efae8c8e0699bc3a",
+      "bytes": 11663,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103327,
+      "y": 65065,
+      "image": "assets/queensway-satellite/17-103327-65065.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103327/65065.png",
+      "sha256": "faca06f898ae11acb0e7988fd6cd5de7e4e974c95c5746b20809cc31a57ea81f",
+      "bytes": 10507,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103328,
+      "y": 65065,
+      "image": "assets/queensway-satellite/17-103328-65065.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103328/65065.png",
+      "sha256": "eee5a9cd75c6443155d6e577902682306e49ca1818695e598c2a3fc795f27a66",
+      "bytes": 14068,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103329,
+      "y": 65065,
+      "image": "assets/queensway-satellite/17-103329-65065.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103329/65065.png",
+      "sha256": "8d7deeb83e9a1bc42b8019db0fb1d39af55c078518eca973c984932f8ca7f50a",
+      "bytes": 11477,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103330,
+      "y": 65065,
+      "image": "assets/queensway-satellite/17-103330-65065.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103330/65065.png",
+      "sha256": "2d1e87c1f9568da752b8b5abbab10f92aa6e554454c4b622974646d73c63c7ca",
+      "bytes": 14241,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103331,
+      "y": 65065,
+      "image": "assets/queensway-satellite/17-103331-65065.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103331/65065.png",
+      "sha256": "22eb2a88f718c4a5eeffe20228f92d1110e78ab5bd5f9544d30435a6dd9e0a72",
+      "bytes": 13514,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103332,
+      "y": 65065,
+      "image": "assets/queensway-satellite/17-103332-65065.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103332/65065.png",
+      "sha256": "d0b7d9d743b0e9c3b5450c9255abeb39c8b94f575bbf40b82d333f3f3ebe9b73",
+      "bytes": 13237,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103326,
+      "y": 65066,
+      "image": "assets/queensway-satellite/17-103326-65066.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103326/65066.png",
+      "sha256": "f8b585b30b9a557944799bfd97801e2473eb3a60d902f268e1cfe1bf35809472",
+      "bytes": 11079,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103327,
+      "y": 65066,
+      "image": "assets/queensway-satellite/17-103327-65066.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103327/65066.png",
+      "sha256": "1c0ff9bc152e2791953c36926f413f05316c34e07ba3df88f86073f69717a075",
+      "bytes": 12101,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103328,
+      "y": 65066,
+      "image": "assets/queensway-satellite/17-103328-65066.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103328/65066.png",
+      "sha256": "d2e0c8d66444a23fb3068a29499984bb91fb85fe6b0cea3dff515126d16f4c86",
+      "bytes": 13152,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103329,
+      "y": 65066,
+      "image": "assets/queensway-satellite/17-103329-65066.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103329/65066.png",
+      "sha256": "47ffcc0927866210c8fc2e8d8d7a2f0d82a389c5d6879441faaff973c283f00b",
+      "bytes": 11839,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103330,
+      "y": 65066,
+      "image": "assets/queensway-satellite/17-103330-65066.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103330/65066.png",
+      "sha256": "749f5d70d48ddc29bfb2dffa4136c4e22ccfc9cc6456e586085f48b8cbc85ec7",
+      "bytes": 14655,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103331,
+      "y": 65066,
+      "image": "assets/queensway-satellite/17-103331-65066.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103331/65066.png",
+      "sha256": "4da098fe9db12752040bce8a5fc603d30aa14bd0e171cd6b87444b10a208cc42",
+      "bytes": 12915,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103332,
+      "y": 65066,
+      "image": "assets/queensway-satellite/17-103332-65066.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103332/65066.png",
+      "sha256": "af92bdb414173aa6dccf9440e528c5686bced0d9326fd914e23a9d8103024bed",
+      "bytes": 12623,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103326,
+      "y": 65067,
+      "image": "assets/queensway-satellite/17-103326-65067.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103326/65067.png",
+      "sha256": "27dfbeac68beaa3c1e4b1e09112e7a24c9b308c9933a4f9a2b8075b2b9067041",
+      "bytes": 11149,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103327,
+      "y": 65067,
+      "image": "assets/queensway-satellite/17-103327-65067.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103327/65067.png",
+      "sha256": "f81065e79b4608eae02970f8649b2b6d5fb9586c776c4941c7bf43a598e5a75a",
+      "bytes": 13077,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103328,
+      "y": 65067,
+      "image": "assets/queensway-satellite/17-103328-65067.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103328/65067.png",
+      "sha256": "8e0c018f2347fb3f0a34c956d05dc65e960825a9953e8f62526e997eaa84ec09",
+      "bytes": 12099,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103329,
+      "y": 65067,
+      "image": "assets/queensway-satellite/17-103329-65067.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103329/65067.png",
+      "sha256": "254fbdf64d1dd739daf6bf8daa227fe580fc55fda49169941e01c00133432daa",
+      "bytes": 12962,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103330,
+      "y": 65067,
+      "image": "assets/queensway-satellite/17-103330-65067.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103330/65067.png",
+      "sha256": "31fd7834d1904b93bfe2c133f71455588aca1ae202a3eb9570a7eb253467db25",
+      "bytes": 12963,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103331,
+      "y": 65067,
+      "image": "assets/queensway-satellite/17-103331-65067.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103331/65067.png",
+      "sha256": "add677843ce767b1f922904de2f68b23dc67ea9c17f8c4dcd46934e3afe1a9b0",
+      "bytes": 13433,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103332,
+      "y": 65067,
+      "image": "assets/queensway-satellite/17-103332-65067.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103332/65067.png",
+      "sha256": "e66df8ec71a5e8a3d2cfa1bfd34c0030c5388e6e1c5ac26a2efd82664f340eca",
+      "bytes": 12924,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103326,
+      "y": 65068,
+      "image": "assets/queensway-satellite/17-103326-65068.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103326/65068.png",
+      "sha256": "1b20eb095551007ff0195673a6e4da270b2e831d972d868e4e481a30ac51af87",
+      "bytes": 10517,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103327,
+      "y": 65068,
+      "image": "assets/queensway-satellite/17-103327-65068.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103327/65068.png",
+      "sha256": "b4e6174b71edeb5cf19b95a33963ac77e5d76f12eebf4f5c38ffc497a9fb1bb2",
+      "bytes": 10622,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103328,
+      "y": 65068,
+      "image": "assets/queensway-satellite/17-103328-65068.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103328/65068.png",
+      "sha256": "0db14e966132647068e1a12eb73b32058513134857811f54e5eceed736891aad",
+      "bytes": 11258,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103329,
+      "y": 65068,
+      "image": "assets/queensway-satellite/17-103329-65068.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103329/65068.png",
+      "sha256": "b3bdf8d932813cd16d4b8bac40676fe4593d2ba3e9998007b97d41a066194804",
+      "bytes": 14389,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103330,
+      "y": 65068,
+      "image": "assets/queensway-satellite/17-103330-65068.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103330/65068.png",
+      "sha256": "b256611b7532165ad0c2591839702240016f1d7875b2a8ca3526d12cb0a7a24e",
+      "bytes": 13427,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103331,
+      "y": 65068,
+      "image": "assets/queensway-satellite/17-103331-65068.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103331/65068.png",
+      "sha256": "7d21b8b781e2e28cd06cbd1d43573549ce6187496429ac03f5a20d55474a8043",
+      "bytes": 13274,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "z": 17,
+      "x": 103332,
+      "y": 65068,
+      "image": "assets/queensway-satellite/17-103332-65068.jpg",
+      "sourceUrl": "https://www.onemap.gov.sg/maps/tiles/Satellite/17/103332/65068.png",
+      "sha256": "fe9fe68bbb6288ba9610ed8460a594fc5560303bb3974f26c6803b2ec4f0d924",
+      "bytes": 13212,
+      "mimeType": "image/jpeg"
+    }
+  ],
+  "licenceReview": {
+    "reviewedDate": "2026-11-07",
+    "notes": "The official OneMap Terms of Use clause 3.1 grants access, viewing, downloading and use of SLA data/material subject to its terms. The Singapore Open Data Licence allows reuse of datasets offered under that licence, requiring conspicuous source/licence attribution and excluding unlicensed third-party rights. OneMap basemap documentation requires its logo and attribution. This record does not assert that imagery is public domain or imply SLA endorsement."
+  }
+}

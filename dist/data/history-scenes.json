@@ -1,0 +1,483 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-21",
+  "scenes": [
+    {
+      "id": "origins",
+      "date": {
+        "en": "MID-1970s",
+        "zh": "1970年代中期"
+      },
+      "title": {
+        "en": "Shops below. Homes above.",
+        "zh": "楼下商铺，楼上住家。"
+      },
+      "body": {
+        "en": "Queensway brings shops and homes together at the junction of Alexandra Road and Queensway. CDG Architects traces the design to work by its principal at Group2 Architects in 1971–72: a four-storey retail podium, a basement and a thirteen-storey residential tower. Three entrances connect the shopping floors to the surrounding streets. From its beginnings, the complex makes room for commerce, residence and shared daily routines within one building.",
+        "zh": "在亚历山大路与女皇道的交会处，Queensway将商铺与住家结合起来。CDG Architects将这一设计追溯至其负责人于1971至1972年在Group2 Architects的工作：四层商业裙楼、地下一层，以及十三层住宅塔楼。三个入口将商场与周边街道连接。从形成之初，这座综合体便在同一栋建筑中容纳商业、居住和共同的日常生活。"
+      },
+      "image": "assets/history/queensway-1972-straits-times-page12.webp",
+      "imageAlt": {
+        "en": "Queensway architectural illustration and the headline “New landmark in Alexandra” in The Straits Times, 10 January 1972, page 12",
+        "zh": "1972年1月10日《海峡时报》第12页的Queensway建筑透视图与“New landmark in Alexandra”报道标题"
+      },
+      "credit": {
+        "en": "The Straits Times · 10 January 1972, p.12 · NLB NewspaperSG",
+        "zh": "《海峡时报》· 1972年1月10日，第12页 · NLB NewspaperSG"
+      },
+      "sourceUrl": "https://eresources.nlb.gov.sg/newspapers/digitised/page/straitstimes19720110-1.1.12",
+      "sourceIds": [
+        "H14",
+        "H15"
+      ],
+      "imageUrl": "https://eservice.nlb.gov.sg/newspapercontent/digitised/page/straitstimes19720110-1.1.12.webp?size=5",
+      "imageDateRelation": {
+        "en": "Queensway’s original architectural illustration, published 10 January 1972. Open the complete newspaper page to read the report.",
+        "zh": "Queensway同期建筑透视图，刊于1972年1月10日。点击展开完整报纸页面，阅读原始报道。"
+      },
+      "evidenceEventIds": [
+        "HE01"
+      ],
+      "year": 1975,
+      "width": 1600,
+      "height": 2309,
+      "imageSha256": "5f4c92aeba03b91a3f748213c44400922cff4ec8c48a86d044eb2d5f0cdbb4db",
+      "imageSourceUrl": "https://eresources.nlb.gov.sg/newspapers/digitised/page/straitstimes19720110-1.1.12",
+      "mediaType": "document",
+      "imageSourceDate": "1972-01-10",
+      "additionalSources": [
+        {
+          "title": "New landmark in Alexandra — The Straits Times, 10 January 1972, p.12",
+          "url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitstimes19720110-1.2.92"
+        },
+        {
+          "title": "Queensway Shopping Centre — Comprehensive Design Group Architects",
+          "url": "https://www.cdgarchitects.sg/queensway-shopping-centre"
+        }
+      ],
+      "imageDateStatus": "Publication date printed on the original page and confirmed by the NLB NewspaperSG catalogue.",
+      "imageRetrievedAt": "2026-10-21",
+      "sourceType": "contemporaneous_newspaper_page",
+      "imagePreparation": "Original NLB page scan retained byte-for-byte, including the source watermarks. CSS display window frames the contemporary illustration, printed date and article headline; the reader opens the complete page.",
+      "displayCrop": {
+        "x": 985,
+        "y": 90,
+        "width": 550,
+        "height": 455,
+        "reason": "Frame the original period architectural illustration, printed date and article headline."
+      },
+      "viewerFullPage": true
+    },
+    {
+      "id": "interior-1975",
+      "date": {
+        "en": "1975",
+        "zh": "1975年"
+      },
+      "title": {
+        "en": "Life gathers around the concourse.",
+        "zh": "生活汇聚于中庭。"
+      },
+      "body": {
+        "en": "The 1975 photograph draws us inside, towards the central sunken concourse. The heritage-trail account describes shops with display windows at two levels, giving traders several ways to meet passing customers. Balconies, escalators and shopfronts form a shared interior around this centre. The arrangement makes the relationship between individual businesses and communal space visible: each shop has its own frontage, while circulation brings their customers together.",
+        "zh": "1975年的照片将视线引向内部的下沉式中庭。历史步道资料记载，店铺在两个高度设置橱窗，为商户接触经过的顾客提供多种机会。阳台、扶梯与店面围绕这一中心组织起共享空间。这个布局让独立经营与公共空间的关系变得可见：每家店拥有自己的门面，而共同的通行空间将顾客汇聚起来。"
+      },
+      "image": "assets/history/queensway-1975-interior.jpeg",
+      "imageAlt": {
+        "en": "The interior concourse at Queensway Shopping Centre in 1975",
+        "zh": "1975年Queensway商场的内部中庭"
+      },
+      "credit": {
+        "en": "Singapore Press Holdings · via My Community / NHB Roots",
+        "zh": "新加坡报业控股 · 收录于My Community／NHB Roots"
+      },
+      "sourceUrl": "https://www.roots.gov.sg/-/media/Roots/Files/my-queenstown-trail/queenstowntrail9-brochure.ashx",
+      "sourceIds": [
+        "H02"
+      ],
+      "imageUrl": "https://www.roots.gov.sg/-/media/Roots/Files/my-queenstown-trail/queenstowntrail9-brochure.ashx",
+      "imageDateRelation": {
+        "en": "Interior photograph dated 1975 in the heritage-trail publication.",
+        "zh": "历史步道出版物将这张内部照片标注为1975年。"
+      },
+      "evidenceEventIds": [
+        "HE02"
+      ],
+      "year": 1975,
+      "width": 341,
+      "height": 226,
+      "imageSha256": "0ae903965282270783ae9db8db0a46e558b240f972048643d92b6e8c971dd43e",
+      "imageSourceUrl": "https://www.roots.gov.sg/-/media/Roots/Files/my-queenstown-trail/queenstowntrail9-brochure.ashx",
+      "mediaType": "photo",
+      "imageSourceDate": "1975"
+    },
+    {
+      "id": "exterior-1977",
+      "date": {
+        "en": "1977",
+        "zh": "1977年"
+      },
+      "title": {
+        "en": "A familiar silhouette appears.",
+        "zh": "熟悉的轮廓已经出现。"
+      },
+      "body": {
+        "en": "By 1977, the archival photograph shows the shopping podium and residential tower as a recognisable neighbourhood landmark. The lower building spreads across the street corner, while apartments rise above it. Together, these forms express the complex’s mixed-use character. The photograph places the later sale debate in a longer history: the property has always brought commercial premises and homes into a closely connected physical setting.",
+        "zh": "到1977年，历史照片中的商业裙楼与住宅塔楼已形成鲜明的社区地标。低层建筑沿街角展开，公寓则向上延伸。两者共同呈现综合体的商住混合特征。这张照片也为后来的整售讨论建立了更长的历史背景：商业空间与住家，自始便处于紧密相连的建筑环境之中。"
+      },
+      "image": "assets/history/queensway-1977-exterior.jpeg",
+      "imageAlt": {
+        "en": "Archival exterior photograph of Queensway Shopping Centre, 1977",
+        "zh": "Queensway商场1977年历史外观照片"
+      },
+      "credit": {
+        "en": "National Archives of Singapore · via My Community / NHB Roots",
+        "zh": "新加坡国家档案馆 · 收录于My Community／NHB Roots"
+      },
+      "sourceUrl": "https://www.roots.gov.sg/-/media/Roots/Files/my-queenstown-trail/queenstowntrail9-brochure.ashx",
+      "sourceIds": [
+        "H02"
+      ],
+      "imageUrl": "https://www.roots.gov.sg/-/media/Roots/Files/my-queenstown-trail/queenstowntrail9-brochure.ashx",
+      "imageDateRelation": {
+        "en": "Exterior photograph dated 1977 and credited to the National Archives of Singapore.",
+        "zh": "外观照片标注1977年，并署名新加坡国家档案馆。"
+      },
+      "evidenceEventIds": [
+        "HE03"
+      ],
+      "year": 1977,
+      "width": 625,
+      "height": 408,
+      "imageSha256": "70ca8bd7ffa523d9185849ef625b93ef00bea6bef6f39ad131c2551e9e5c0c52",
+      "imageSourceUrl": "https://www.roots.gov.sg/-/media/Roots/Files/my-queenstown-trail/queenstowntrail9-brochure.ashx",
+      "mediaType": "photo",
+      "imageSourceDate": "1977"
+    },
+    {
+      "id": "heritage-2014",
+      "date": {
+        "en": "APRIL 2014",
+        "zh": "2014年4月"
+      },
+      "title": {
+        "en": "Everyday commerce enters the archive.",
+        "zh": "日常商业进入地方档案。"
+      },
+      "body": {
+        "en": "In its April 2014 publication, My Community places Queensway Shopping Centre at stop 23 of the My Queenstown Heritage Trail. The entry connects the building’s architecture with its familiar sports retailers, engravers, photocopying services and tailors. Recording these everyday activities makes commerce part of the neighbourhood’s heritage. The trail invites readers to understand the mall through both its physical form and the uses people have sustained there.",
+        "zh": "在2014年4月出版的My Queenstown Heritage Trail中，My Community将Queensway列为第23站。该条目将建筑特征与熟悉的体育用品店、雕刻服务、复印店及裁缝铺联系起来。对这些日常活动的记录，让商业成为社区历史的一部分。步道邀请读者同时通过建筑形态，以及人们长期维系的使用方式来理解这座商场。"
+      },
+      "image": "assets/history/my-queenstown-trail-2014-cover.png",
+      "imageAlt": {
+        "en": "Complete original cover of the My Queenstown Heritage Trail publication",
+        "zh": "My Queenstown Heritage Trail出版物完整原始封面"
+      },
+      "credit": {
+        "en": "My Community · My Queenstown Heritage Trail, cover · NHB Roots",
+        "zh": "My Community · My Queenstown Heritage Trail封面 · NHB Roots"
+      },
+      "sourceUrl": "https://www.roots.gov.sg/-/media/Roots/Files/my-queenstown-trail/queenstowntrail9-brochure.ashx",
+      "sourceIds": [
+        "H02"
+      ],
+      "imageUrl": "https://www.roots.gov.sg/-/media/Roots/Files/my-queenstown-trail/queenstowntrail9-brochure.ashx",
+      "imageDateRelation": {
+        "en": "Complete cover of the April 2014 heritage-trail publication.",
+        "zh": "2014年4月历史步道出版物的完整封面。"
+      },
+      "evidenceEventIds": [
+        "HE05"
+      ],
+      "year": 2014,
+      "width": 1188,
+      "height": 1944,
+      "imageSha256": "4579ff05547f52b7d6a85acbb01d575a0bc249fa62f4c4a209c2c076fbfa1250",
+      "imageSourceUrl": "https://www.roots.gov.sg/-/media/Roots/Files/my-queenstown-trail/queenstowntrail9-brochure.ashx",
+      "mediaType": "document",
+      "imageSourceDate": "2014-04",
+      "sourcePdf": "Queensway_Economic_Policy_Research/02_History/raw/H02_My_Queenstown_Heritage_Trail_Brochure.pdf",
+      "sourcePdfSha256": "81b5c747d34731b9d94aadde029544fdb21457a731eab32116af1e6fb83375ec",
+      "pdfPage": 1,
+      "imagePreparation": "Complete original PDF page rendered at 216dpi; no crop, overlay or pixel edits."
+    },
+    {
+      "id": "committee-2018",
+      "date": {
+        "en": "2018",
+        "zh": "2018年"
+      },
+      "title": {
+        "en": "A sale enters the conversation.",
+        "zh": "整售进入讨论。"
+      },
+      "body": {
+        "en": "A collective sale committee forms in 2018, bringing a possible sale into an organised process. Reporting the following May identifies Queensway Shopping Centre and the adjoining Queensway Tower as the proposed package: 241 retail units and 78 apartments. These individually held spaces now become part of a shared discussion. The committee’s work brings owners with commercial and residential interests around a question about the future of the whole property.",
+        "zh": "2018年，集体出售委员会成立，潜在出售由此进入有组织的讨论过程。翌年5月的报道将Queensway商场及相连的Queensway Tower列为拟议整体出售范围，包括241个零售单位和78套公寓。各自持有的空间由此进入共同讨论。委员会的工作将商业与住宅业主汇集起来，共同面对整个物业未来的问题。"
+      },
+      "image": "assets/evidence-documents/queensway-2019-egm-webpage.png",
+      "imageAlt": {
+        "en": "Original CNA report viewport showing the April 2019 meeting and the committee formed in 2018",
+        "zh": "CNA报道原始视口，显示2019年4月会议及2018年成立委员会的段落"
+      },
+      "credit": {
+        "en": "Low Youjin / TODAY / CNA · Report published 1 May 2019",
+        "zh": "Low Youjin／TODAY／CNA · 报道刊于2019年5月1日"
+      },
+      "sourceUrl": "https://www.channelnewsasia.com/singapore/queensway-shopping-centre-en-bloc-attempt-faces-challenge-shop-owners-5710161",
+      "sourceIds": [
+        "H04",
+        "H05"
+      ],
+      "imageUrl": "https://www.channelnewsasia.com/singapore/queensway-shopping-centre-en-bloc-attempt-faces-challenge-shop-owners-5710161",
+      "imageDateRelation": {
+        "en": "Original May 2019 report records the committee’s formation in 2018.",
+        "zh": "2019年5月的原始报道，记载委员会于2018年成立。"
+      },
+      "evidenceEventIds": [
+        "HE06"
+      ],
+      "year": 2018,
+      "width": 1280,
+      "height": 720,
+      "imageSha256": "0d3ed06ff4f50ae919af866e4121b15fb7779b4770db5de6aa9aa23493b20067",
+      "imageSourceUrl": "https://www.channelnewsasia.com/singapore/queensway-shopping-centre-en-bloc-attempt-faces-challenge-shop-owners-5710161",
+      "mediaType": "document",
+      "imageSourceDate": "2019-05-01",
+      "imageCapturedAt": "2026-10-20",
+      "sourceType": "news_website_viewport",
+      "imagePreparation": "Browser screenshot captured on 2026-10-20; complete 1280×720 viewport at scrollY2611; original source pixels retained.",
+      "displayCrop": {
+        "x": 0,
+        "y": 0,
+        "width": 900,
+        "height": 720,
+        "reason": "Article-column presentation viewport; original screenshot retained unchanged."
+      }
+    },
+    {
+      "id": "signatures-2019",
+      "date": {
+        "en": "20 APRIL 2019",
+        "zh": "2019年4月20日"
+      },
+      "title": {
+        "en": "A proposal moves towards signatures.",
+        "zh": "计划走向协议签署。"
+      },
+      "body": {
+        "en": "At the extraordinary general meeting on 20 April 2019, owners pass a motion to proceed with signatures to a collective sale agreement. Savills is appointed as the marketing agent. The proposal moves from an idea about the site towards an agreement requiring owners’ participation. For a building of individually held shops and apartments, collecting signatures turns different expectations about property, work and home into a collective process.",
+        "zh": "2019年4月20日的特别业主大会通过动议，推进集体出售协议的签署，并由Savills担任销售代理。有关场地未来的想法，走向需要业主参与的协议。对于由独立持有的商铺和公寓构成的建筑，征集签署将人们对物业、工作与住家的不同期待，带入共同决策的过程。"
+      },
+      "image": "assets/history/queensway-2019-outcome.jpg",
+      "imageAlt": {
+        "en": "Queensway Shopping Centre pictured in the 2019 collective-sale coverage",
+        "zh": "2019年集体出售报道中的Queensway商场"
+      },
+      "credit": {
+        "en": "TODAY / CNA",
+        "zh": "TODAY／CNA"
+      },
+      "sourceUrl": "https://www.channelnewsasia.com/singapore/queensway-shopping-centre-en-bloc-attempt-faces-challenge-shop-owners-5710161",
+      "sourceIds": [
+        "H04"
+      ],
+      "imageUrl": "https://dam.mediacorp.sg/image/upload/s--rn9Y2Gt---/c_fill,g_center,h_598,w_747/f_auto,q_auto/v1/tdy-migration/queens.jpg?itok=1YREnuMC",
+      "imageDateRelation": {
+        "en": "Photograph accompanying the November 2019 report on the same sale attempt.",
+        "zh": "照片刊于2019年11月有关同一次整售尝试的报道。"
+      },
+      "evidenceEventIds": [
+        "HE07"
+      ],
+      "year": 2019,
+      "width": 747,
+      "height": 598,
+      "imageSha256": "6fa9ae71855f51190627d70b74ce09270ebb1fafa361482019534b9ce11415fc",
+      "imageSourceUrl": "https://www.channelnewsasia.com/singapore/queensway-shopping-centres-en-bloc-bid-falls-through-some-shop-owners-rejoice-5694191",
+      "mediaType": "photo",
+      "imageSourceDate": "2019-11-26"
+    },
+    {
+      "id": "valuation-2019",
+      "date": {
+        "en": "1 MAY 2019",
+        "zh": "2019年5月1日"
+      },
+      "title": {
+        "en": "One site. Different ideas of value.",
+        "zh": "同一片土地，不同价值。"
+      },
+      "body": {
+        "en": "The May 2019 report gives the proposed sale a monetary scale: Savills’ Suzie Mok estimates the property above S$500 million. The same report records shop owners organising a petition and discussing the value of their units. An indicative whole-site estimate and individual interests meet in this debate. Queensway’s value becomes a question of how a shared property is understood by the people who own and use its spaces.",
+        "zh": "2019年5月的报道为拟议整售提供了金额尺度：Savills的Suzie Mok估计整体物业价值超过5亿新元。同一报道记录了店主组织联署，并讨论各自单位价值的情况。整体物业的意向估价与个别利益在这里相遇。Queensway的价值由此成为一个问题：拥有和使用这些空间的人，如何理解共同构成的物业？"
+      },
+      "image": "assets/history/queensway-2019-sale-debate.jpg",
+      "imageAlt": {
+        "en": "Queensway exterior in the May 2019 report about differing views on collective sale",
+        "zh": "2019年5月关于整售不同意见报道中的Queensway外观"
+      },
+      "credit": {
+        "en": "TODAY / CNA",
+        "zh": "TODAY／CNA"
+      },
+      "sourceUrl": "https://www.channelnewsasia.com/singapore/queensway-shopping-centre-en-bloc-attempt-faces-challenge-shop-owners-5710161",
+      "sourceIds": [
+        "H04"
+      ],
+      "imageUrl": "https://dam.mediacorp.sg/image/upload/s--NkJO87b---/c_fill,g_center,h_598,w_747/f_auto,q_auto/v1/tdy-migration/20190501_queensway_yj.jpg?itok=wZ61Cgbn",
+      "imageDateRelation": {
+        "en": "Photograph published with the 1 May 2019 report.",
+        "zh": "照片与2019年5月1日的报道一同刊出。"
+      },
+      "evidenceEventIds": [
+        "HE08"
+      ],
+      "year": 2019,
+      "width": 747,
+      "height": 598,
+      "imageSha256": "03bee476bba19d24a4357bb28be7e3a25616779211027c4939ae5cee4020e3a9",
+      "imageSourceUrl": "https://www.channelnewsasia.com/singapore/queensway-shopping-centre-en-bloc-attempt-faces-challenge-shop-owners-5710161",
+      "mediaType": "photo",
+      "imageSourceDate": "2019-05-01"
+    },
+    {
+      "id": "outcome-2019",
+      "date": {
+        "en": "26 NOVEMBER 2019",
+        "zh": "2019年11月26日"
+      },
+      "title": {
+        "en": "The attempt ends. The shops remain.",
+        "zh": "尝试终止，店铺继续。"
+      },
+      "body": {
+        "en": "On 26 November 2019, Savills confirms the end of the collective-sale attempt, following an October notice to tenants. At Yak Mee Trading, George Yeo and Alison Lee welcome the outcome alongside their customers. The clothing business had passed down through the family, giving continuity a personal meaning. Their response brings the story back to a working shop, where the future of the building is also the future of daily relationships.",
+        "zh": "继10月向租户发出通知后，Savills于2019年11月26日确认集体出售尝试结束。在Yak Mee Trading，George Yeo与Alison Lee同顾客一起欢迎这一结果。这家服装生意由家人传承下来，因此延续经营有着切身意义。他们的回应让故事重新回到日常经营的店铺：建筑的未来，也是日常关系的未来。"
+      },
+      "image": "assets/history/queensway-2019-yak-mee.jpg",
+      "imageAlt": {
+        "en": "George Yeo and Alison Lee at Yak Mee Trading in the November 2019 report",
+        "zh": "2019年11月报道中Yak Mee Trading的George Yeo与Alison Lee"
+      },
+      "credit": {
+        "en": "Kimberly Lim / TODAY / CNA",
+        "zh": "Kimberly Lim／TODAY／CNA"
+      },
+      "sourceUrl": "https://www.channelnewsasia.com/singapore/queensway-shopping-centres-en-bloc-bid-falls-through-some-shop-owners-rejoice-5694191",
+      "sourceIds": [
+        "H05"
+      ],
+      "imageUrl": "https://dam.mediacorp.sg/image/upload/s--3IMXRqEK--/c_fill,g_center,h_598,w_747/f_auto,q_auto/v1/tdy-migration/klqueens.jpg?itok=8N-JmctQ",
+      "imageDateRelation": {
+        "en": "Portrait published in the 26 November 2019 report on the attempt’s outcome.",
+        "zh": "肖像刊于2019年11月26日关于整售结果的报道。"
+      },
+      "evidenceEventIds": [
+        "HE09",
+        "HE10"
+      ],
+      "year": 2019,
+      "width": 747,
+      "height": 598,
+      "imageSha256": "0b6836615724b250753cdf6ded188ecc511f8088ef8f8d6298cb94bb9ec5b445",
+      "imageSourceUrl": "https://www.channelnewsasia.com/singapore/queensway-shopping-centres-en-bloc-bid-falls-through-some-shop-owners-rejoice-5694191",
+      "mediaType": "photo",
+      "imageSourceDate": "2019-11-26"
+    },
+    {
+      "id": "thrift-2025",
+      "date": {
+        "en": "2025",
+        "zh": "2025年"
+      },
+      "title": {
+        "en": "A new generation makes room.",
+        "zh": "新一代，在这里扎根。"
+      },
+      "body": {
+        "en": "In 2025, Honsie Ponsie adds a second outlet selling pre-loved clothing within Queensway. Interviewed the following January, owner Hon Liang Lung explains that lower rent first attracted him to the mall; stronger-than-expected footfall later encouraged expansion. His account connects the economics of a small tenancy with the experience of finding customers. A new business grows within an established shopping environment, adding another reason for younger visitors to come.",
+        "zh": "2025年，Honsie Ponsie在Queensway增设第二家二手服装店。店主Hon Liang Lung在翌年1月受访时解释，较低租金最初吸引他进驻，而超出预期的客流随后促成扩张。他的经历将小型租赁空间的经营成本，与寻找顾客的过程联系起来。新生意在已有的购物环境中成长，也为年轻访客增添了到访理由。"
+      },
+      "image": "assets/history/queensway-2026-honsieponsie.jpg",
+      "imageAlt": {
+        "en": "Hon Liang Lung at his Honsie Ponsie thrift store, photographed in January 2026",
+        "zh": "2026年1月拍摄的Hon Liang Lung及其Honsie Ponsie二手服装店"
+      },
+      "credit": {
+        "en": "Ooi Boon Keong / CNA",
+        "zh": "Ooi Boon Keong／CNA"
+      },
+      "sourceUrl": "https://www.channelnewsasia.com/cna-insider/big-read/strata-titled-malls-shopping-retail-business-survival-dying-out-5875511",
+      "sourceIds": [
+        "H09"
+      ],
+      "imageUrl": "https://dam.mediacorp.sg/image/upload/s--ilRJqDS9--/c_fill,g_center,h_598,w_747/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/01/23/20260121_bk_br_strata_malls_queensway_hon_liang_lung_2.jpg?itok=daKqIfUc",
+      "imageDateRelation": {
+        "en": "January 2026 portrait; the accompanying report dates the second outlet to the previous year.",
+        "zh": "2026年1月的肖像；随文报道将第二家店开设时间记为前一年。"
+      },
+      "evidenceEventIds": [],
+      "year": 2025,
+      "width": 747,
+      "height": 598,
+      "imageSha256": "8b01e787585c962f90c13e56491867883b9d46d166c42483dcf5700acb165a67",
+      "imageSourceUrl": "https://www.channelnewsasia.com/cna-insider/big-read/strata-titled-malls-shopping-retail-business-survival-dying-out-5875511",
+      "mediaType": "photo",
+      "imageSourceDate": "2026-01-21"
+    },
+    {
+      "id": "coexistence-2026",
+      "date": {
+        "en": "23 JANUARY 2026",
+        "zh": "2026年1月23日"
+      },
+      "title": {
+        "en": "Old trades. New reasons to visit.",
+        "zh": "老业态，新的到访理由。"
+      },
+      "body": {
+        "en": "CNA’s January 2026 visit finds several rhythms sharing the same mall: parents and children browsing sports shops, teenagers exploring secondhand clothing, and customers queuing for kueh tutu. Hon describes overlapping audiences, with people discovering his store while visiting for other reasons. These encounters show how different businesses can support one another through everyday movement. Queensway’s continuing story is written through the mix of trades, customers and routines that meet here.",
+        "zh": "CNA于2026年1月的探访记录了同一座商场里的多种节奏：父母带着孩子逛体育用品店，青少年寻找二手服装，顾客排队购买嘟嘟糕。Hon谈到不同客群的交汇，有人原本为其他目的而来，却偶然发现了他的店。这些相遇展现了不同生意如何通过日常流动相互支持。业态、顾客与生活习惯的交会，继续书写着Queensway的故事。"
+      },
+      "image": "assets/history/queensway-2026-exterior.jpg",
+      "imageAlt": {
+        "en": "Queensway Shopping Centre along Alexandra Road on 21 January 2026",
+        "zh": "2026年1月21日从Alexandra Road观看Queensway商场"
+      },
+      "credit": {
+        "en": "Ooi Boon Keong / CNA",
+        "zh": "Ooi Boon Keong／CNA"
+      },
+      "sourceUrl": "https://www.channelnewsasia.com/cna-insider/big-read/strata-titled-malls-shopping-retail-business-survival-dying-out-5875511",
+      "sourceIds": [
+        "H09"
+      ],
+      "imageUrl": "https://dam.mediacorp.sg/image/upload/s--kXDEwpXU--/c_fill,g_center,h_598,w_747/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/01/23/20260121_bk_br_strata_malls_queensway_11.jpg?itok=oUGBzyGL",
+      "imageDateRelation": {
+        "en": "Photographed 21 January 2026; published 23 January 2026.",
+        "zh": "拍摄于2026年1月21日，刊登于1月23日。"
+      },
+      "evidenceEventIds": [
+        "HE13"
+      ],
+      "year": 2026,
+      "width": 747,
+      "height": 598,
+      "imageSha256": "eed5fc0bba6714d529ddd3cf9762d7e81dcc2f3e457b9eec3db7baa395d72580",
+      "imageSourceUrl": "https://www.channelnewsasia.com/cna-insider/big-read/strata-titled-malls-shopping-retail-business-survival-dying-out-5875511",
+      "mediaType": "photo",
+      "imageSourceDate": "2026-01-21"
+    }
+  ],
+  "provenance": {
+    "historicalPhotographs": {
+      "sourcePdf": "Queensway_Economic_Policy_Research/02_History/raw/H02_My_Queenstown_Heritage_Trail_Brochure.pdf",
+      "pdfPage": 41,
+      "printedPage": 40,
+      "method": "Original embedded JPEG streams extracted without pixel changes; exterior xref207,interior xref208."
+    },
+    "editorialPolicy": "Each scene distinguishes the event date from the photograph or publication date through imageDateRelation. Existing timeline remains unchanged.",
+    "round3": "Ten expanded bilingual scenes; origins uses the architect’s original project photograph, heritage2014 uses the complete publication cover, committee2018 uses the original retrospective news viewport. Image dates describe the visual source separately from the event date."
+  }
+}

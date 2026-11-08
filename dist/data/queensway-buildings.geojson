@@ -1,0 +1,239 @@
+{
+  "type": "FeatureCollection",
+  "name": "queensway-buildings",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "retail",
+        "building:colour": "#dab481",
+        "building:levels": "4",
+        "building:material": "concrete",
+        "name": "Queensway Shopping Centre",
+        "shop": "mall",
+        "wheelchair": "no",
+        "wikidata": "Q7271124",
+        "wikipedia": "en:Queensway Shopping Centre",
+        "osm_type": "way",
+        "osm_id": 41913930,
+        "osm_version": 9,
+        "osm_timestamp": "2018-05-25T15:38:32Z",
+        "source_url": "https://www.openstreetmap.org/way/41913930",
+        "source": "OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "OpenStreetMap building outline; not a cadastral survey or indoor shop plan."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.8032343,
+              1.2872132
+            ],
+            [
+              103.8032184,
+              1.2871959
+            ],
+            [
+              103.80329,
+              1.2871238
+            ],
+            [
+              103.8033707,
+              1.2872098
+            ],
+            [
+              103.8034423,
+              1.2872787
+            ],
+            [
+              103.8034427,
+              1.287337
+            ],
+            [
+              103.8036047,
+              1.2873295
+            ],
+            [
+              103.8037987,
+              1.287521
+            ],
+            [
+              103.8037983,
+              1.2876914
+            ],
+            [
+              103.8037958,
+              1.2877718
+            ],
+            [
+              103.8036143,
+              1.2879715
+            ],
+            [
+              103.8034986,
+              1.287977
+            ],
+            [
+              103.8033865,
+              1.2879823
+            ],
+            [
+              103.8032474,
+              1.2878518
+            ],
+            [
+              103.8033188,
+              1.2877718
+            ],
+            [
+              103.8031565,
+              1.2876155
+            ],
+            [
+              103.8031557,
+              1.2875558
+            ],
+            [
+              103.8031991,
+              1.2875553
+            ],
+            [
+              103.8032329,
+              1.2875139
+            ],
+            [
+              103.8032336,
+              1.2874781
+            ],
+            [
+              103.8032121,
+              1.28746
+            ],
+            [
+              103.8031837,
+              1.2874612
+            ],
+            [
+              103.8031719,
+              1.2874506
+            ],
+            [
+              103.8032732,
+              1.2873386
+            ],
+            [
+              103.8032504,
+              1.2873178
+            ],
+            [
+              103.8032919,
+              1.2872709
+            ],
+            [
+              103.8032343,
+              1.2872132
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "residential",
+        "building:levels": "13",
+        "name": "Queensway Tower",
+        "wikidata": "Q7271124",
+        "wikipedia": "en:Queensway Shopping Centre",
+        "osm_type": "way",
+        "osm_id": 591030149,
+        "osm_version": 3,
+        "osm_timestamp": "2023-09-22T07:20:16Z",
+        "source_url": "https://www.openstreetmap.org/way/591030149",
+        "source": "OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "OpenStreetMap building outline; not a cadastral survey or indoor shop plan."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.8033188,
+              1.2877718
+            ],
+            [
+              103.8032474,
+              1.2878518
+            ],
+            [
+              103.8030315,
+              1.287653
+            ],
+            [
+              103.8030356,
+              1.2874237
+            ],
+            [
+              103.8032343,
+              1.2872132
+            ],
+            [
+              103.8032919,
+              1.2872709
+            ],
+            [
+              103.8032504,
+              1.2873178
+            ],
+            [
+              103.8032732,
+              1.2873386
+            ],
+            [
+              103.8031719,
+              1.2874506
+            ],
+            [
+              103.8031837,
+              1.2874612
+            ],
+            [
+              103.8032121,
+              1.28746
+            ],
+            [
+              103.8032336,
+              1.2874781
+            ],
+            [
+              103.8032329,
+              1.2875139
+            ],
+            [
+              103.8031991,
+              1.2875553
+            ],
+            [
+              103.8031557,
+              1.2875558
+            ],
+            [
+              103.8031565,
+              1.2876155
+            ],
+            [
+              103.8033188,
+              1.2877718
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

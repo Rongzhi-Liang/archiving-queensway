@@ -1,0 +1,41 @@
+/* Three content scenes plus the shared title entrance and ending. */
+#visitors .narrative-chapter{height:calc(135svh + (var(--ns-beats,1) - 1)*65svh);min-height:135svh}
+#visitors .ns-body{max-width:515px}
+.vs-field{gap:22px;justify-content:center}
+.vs-tabs{margin:0;gap:28px;flex-shrink:0}
+.vs-tabs button{font-size:15px}
+.vs-photo{--vs-photo-height:min(42svh,520px);--vs-photo-ratio:calc(4/3);margin:0;display:flex;flex-direction:column;align-items:stretch;gap:17px;min-width:0;width:min(100%,calc(var(--vs-photo-height)*var(--vs-photo-ratio)));flex-shrink:0}
+.vs-photo-open{position:relative;display:block;width:100%;aspect-ratio:var(--vs-photo-ratio);background:none;border:0;padding:0;cursor:zoom-in}
+.vs-photo-open img{display:block;height:100%;width:100%;object-fit:contain}
+[data-visitor-visual="visitor-route"] .vs-photo{--vs-photo-ratio:calc(16/9)}
+.vs-photo-open>span{position:absolute;right:11px;bottom:10px;color:white;text-shadow:0 1px 8px #000;font:400 23px/1 var(--sans)}
+.vs-photo figcaption{width:100%;display:flex;flex-direction:column;gap:8px}
+.vs-photo figcaption strong{font:500 clamp(24px,2.2vw,36px)/1.2 var(--archive-type);color:#e6c28e;letter-spacing:-.012em}
+.vs-photo figcaption>span{font:400 14px/1.5 var(--sans);color:#aaa79d}
+.vs-return-scene{display:flex;flex-direction:column;gap:26px;min-height:0}
+.vs-return-photo .vs-photo{--vs-photo-height:34svh}
+.vs-return-photo figcaption strong{font-size:25px}
+.vs-return-steps{display:flex;align-items:center;justify-content:space-between;gap:15px}
+.vs-return-steps span{font:500 clamp(22px,2vw,33px)/1.2 var(--archive-type);color:#e6c28e}
+.vs-return-steps i{font:400 21px var(--sans);color:#93836b;font-style:normal}
+.vs-return-visual p{font:400 17px/1.65 var(--sans);color:#c3bcae;margin:16px 0 0;min-height:3.3em}
+.vs-photo-dialog{position:fixed;inset:0;margin:auto;width:min(900px,92vw);max-height:92svh;box-sizing:border-box;padding:22px;background:#191918;color:#eee8dc;border:0}
+.vs-photo-dialog::backdrop{background:#080808e8;backdrop-filter:blur(6px)}
+.vs-photo-dialog form{display:flex;justify-content:flex-end;margin-bottom:13px}.vs-photo-dialog button{background:none;border:0;color:#e6c28e;font:400 16px/1.5 var(--sans);padding:5px;cursor:pointer}
+.vs-photo-dialog img{display:block;max-width:100%;max-height:70svh;object-fit:contain;margin:auto}.vs-photo-dialog p{font:400 14px/1.5 var(--sans);color:#bbb5a8;text-align:center;margin:15px 0 0}
+@media(min-width:701px) and (max-height:800px){
+ .vs-field{gap:17px}.vs-photo{--vs-photo-height:38svh;gap:13px}.vs-photo figcaption strong{font-size:27px}
+ .vs-return-scene{gap:20px}.vs-return-photo .vs-photo{--vs-photo-height:31svh}.vs-return-photo figcaption strong{font-size:23px}.vs-return-visual p{font-size:16px;margin-top:12px}
+}
+@media(min-width:701px) and (max-width:1100px){.vs-tabs{gap:20px}.vs-tabs button{font-size:14px}.vs-return-steps{gap:10px}.vs-return-steps span{font-size:24px}.vs-photo figcaption strong{font-size:26px}}
+@media(max-width:700px){
+ #visitors .narrative-chapter{height:calc(135svh + (var(--ns-beats,1) - 1)*75svh)}
+ .vs-field{top:76px;bottom:50svh;gap:10px;justify-content:flex-start}
+ .vs-tabs{gap:23px}.vs-tabs button{font-size:13px;padding:4px 0}
+ .vs-photo{--vs-photo-height:23svh;gap:9px}
+ .vs-photo figcaption{gap:5px}.vs-photo figcaption strong{font-size:21px}.vs-photo figcaption>span{font-size:12px}
+ .vs-return-photo .vs-photo{--vs-photo-height:20svh}.vs-return-photo figcaption strong{font-size:20px}
+ .vs-return-scene{gap:12px}.vs-return-steps{gap:9px}.vs-return-steps span{font-size:20px;white-space:nowrap}.vs-return-steps i{font-size:17px}.vs-return-visual p{font-size:13px;margin-top:8px;min-height:0}
+}
+@font-face{font-family:'Queensway Visitor Song';src:url('assets/fonts/noto-serif-sc-visitor-medium.woff2?v=20261108-formal1') format('woff2');font-weight:500;font-style:normal;font-display:swap;unicode-range:U+2018-201F,U+2026,U+3000-303F,U+3400-9FFF,U+F900-FAFF,U+FE10-FE1F,U+FE30-FE4F,U+FF00-FFEF}
+#visitors,#visitor-visual-stage{--archive-type:'Queensway Garamond','Queensway Visitor Song','Queensway Song','Songti SC',Georgia,serif}

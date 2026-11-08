@@ -1,0 +1,807 @@
+{
+  "schemaVersion": 1,
+  "geography": "Whole of Central Region, Singapore",
+  "sector": "Private retail property",
+  "queenswaySpecific": false,
+  "retrievedAt": "2026-10-19",
+  "periodStart": "2011-Q1",
+  "periodEnd": "2026-Q2",
+  "frequency": "quarterly",
+  "quartersPerSeries": 62,
+  "observationCount": 124,
+  "displayUnit": "Index, 2011 Q1 = 100",
+  "displayBaseQuarter": "2011-Q1",
+  "originalUnit": "Index, 1998 Q4 = 100",
+  "transformations": [
+    "Select the Central Region private-retail price and rental indices.",
+    "Rebased index = original quarterly index / original 2011 Q1 index × 100.",
+    "Percentage change from 2011 Q1 = rebased index − 100.",
+    "Each series contains the 62 consecutive observed quarters from 2011 Q1 to 2026 Q2.",
+    "Original official values and rebased values accompany each quarter."
+  ],
+  "scopeNote": {
+    "en": "Private retail property price and rental indices for Singapore’s Central Region.",
+    "zh": "新加坡中区私人零售物业价格与租金指数。"
+  },
+  "provenance": {
+    "crossCheckSourceId": "C03",
+    "crossCheckSourceUrl": "https://www.ura.gov.sg/news/media/pr26-57/",
+    "crossCheckNote": "URA’s 2026 Q2 release reports Central Region retail prices up 0.8% and rents up 0.6% quarter-on-quarter."
+  },
+  "series": [
+    {
+      "id": "price",
+      "label": {
+        "en": "Retail price",
+        "zh": "零售物业价格"
+      },
+      "sourceId": "C02",
+      "sourceUrl": "https://data.gov.sg/datasets/d_620ad30cf4aca7c1c25eb2eff9e4bedc/view",
+      "sourceSeriesLabel": "Retail Space In Central Region",
+      "sourceUnit": "Index, 1998 Q4 = 100",
+      "originalBaseValue2011Q1": 116.5,
+      "rawSourceSha256": "a0a5fdb278fd37efde35771284db23143ecdddc3f76bc412c9fa4c4eb51badfa",
+      "points": [
+        {
+          "quarter": "2011-Q1",
+          "originalValue": 116.5,
+          "value": 100.0,
+          "changeFromBasePct": 0.0
+        },
+        {
+          "quarter": "2011-Q2",
+          "originalValue": 117.3,
+          "value": 100.68669528,
+          "changeFromBasePct": 0.68669528
+        },
+        {
+          "quarter": "2011-Q3",
+          "originalValue": 120.9,
+          "value": 103.77682403,
+          "changeFromBasePct": 3.77682403
+        },
+        {
+          "quarter": "2011-Q4",
+          "originalValue": 121.4,
+          "value": 104.20600858,
+          "changeFromBasePct": 4.20600858
+        },
+        {
+          "quarter": "2012-Q1",
+          "originalValue": 122.1,
+          "value": 104.80686695,
+          "changeFromBasePct": 4.80686695
+        },
+        {
+          "quarter": "2012-Q2",
+          "originalValue": 122.6,
+          "value": 105.2360515,
+          "changeFromBasePct": 5.2360515
+        },
+        {
+          "quarter": "2012-Q3",
+          "originalValue": 123.5,
+          "value": 106.00858369,
+          "changeFromBasePct": 6.00858369
+        },
+        {
+          "quarter": "2012-Q4",
+          "originalValue": 123.8,
+          "value": 106.26609442,
+          "changeFromBasePct": 6.26609442
+        },
+        {
+          "quarter": "2013-Q1",
+          "originalValue": 125.5,
+          "value": 107.72532189,
+          "changeFromBasePct": 7.72532189
+        },
+        {
+          "quarter": "2013-Q2",
+          "originalValue": 128.4,
+          "value": 110.21459227,
+          "changeFromBasePct": 10.21459227
+        },
+        {
+          "quarter": "2013-Q3",
+          "originalValue": 129.1,
+          "value": 110.81545064,
+          "changeFromBasePct": 10.81545064
+        },
+        {
+          "quarter": "2013-Q4",
+          "originalValue": 129.5,
+          "value": 111.15879828,
+          "changeFromBasePct": 11.15879828
+        },
+        {
+          "quarter": "2014-Q1",
+          "originalValue": 129.5,
+          "value": 111.15879828,
+          "changeFromBasePct": 11.15879828
+        },
+        {
+          "quarter": "2014-Q2",
+          "originalValue": 129.1,
+          "value": 110.81545064,
+          "changeFromBasePct": 10.81545064
+        },
+        {
+          "quarter": "2014-Q3",
+          "originalValue": 128.8,
+          "value": 110.55793991,
+          "changeFromBasePct": 10.55793991
+        },
+        {
+          "quarter": "2014-Q4",
+          "originalValue": 130.7,
+          "value": 112.1888412,
+          "changeFromBasePct": 12.1888412
+        },
+        {
+          "quarter": "2015-Q1",
+          "originalValue": 130.7,
+          "value": 112.1888412,
+          "changeFromBasePct": 12.1888412
+        },
+        {
+          "quarter": "2015-Q2",
+          "originalValue": 130.1,
+          "value": 111.67381974,
+          "changeFromBasePct": 11.67381974
+        },
+        {
+          "quarter": "2015-Q3",
+          "originalValue": 129.7,
+          "value": 111.3304721,
+          "changeFromBasePct": 11.3304721
+        },
+        {
+          "quarter": "2015-Q4",
+          "originalValue": 129.6,
+          "value": 111.24463519,
+          "changeFromBasePct": 11.24463519
+        },
+        {
+          "quarter": "2016-Q1",
+          "originalValue": 127.1,
+          "value": 109.09871245,
+          "changeFromBasePct": 9.09871245
+        },
+        {
+          "quarter": "2016-Q2",
+          "originalValue": 123.1,
+          "value": 105.66523605,
+          "changeFromBasePct": 5.66523605
+        },
+        {
+          "quarter": "2016-Q3",
+          "originalValue": 122.3,
+          "value": 104.97854077,
+          "changeFromBasePct": 4.97854077
+        },
+        {
+          "quarter": "2016-Q4",
+          "originalValue": 122.6,
+          "value": 105.2360515,
+          "changeFromBasePct": 5.2360515
+        },
+        {
+          "quarter": "2017-Q1",
+          "originalValue": 117.7,
+          "value": 101.03004292,
+          "changeFromBasePct": 1.03004292
+        },
+        {
+          "quarter": "2017-Q2",
+          "originalValue": 113.9,
+          "value": 97.76824034,
+          "changeFromBasePct": -2.23175966
+        },
+        {
+          "quarter": "2017-Q3",
+          "originalValue": 112.9,
+          "value": 96.90987124,
+          "changeFromBasePct": -3.09012876
+        },
+        {
+          "quarter": "2017-Q4",
+          "originalValue": 111.8,
+          "value": 95.96566524,
+          "changeFromBasePct": -4.03433476
+        },
+        {
+          "quarter": "2018-Q1",
+          "originalValue": 111.9,
+          "value": 96.05150215,
+          "changeFromBasePct": -3.94849785
+        },
+        {
+          "quarter": "2018-Q2",
+          "originalValue": 110.5,
+          "value": 94.84978541,
+          "changeFromBasePct": -5.15021459
+        },
+        {
+          "quarter": "2018-Q3",
+          "originalValue": 110.8,
+          "value": 95.10729614,
+          "changeFromBasePct": -4.89270386
+        },
+        {
+          "quarter": "2018-Q4",
+          "originalValue": 112.5,
+          "value": 96.56652361,
+          "changeFromBasePct": -3.43347639
+        },
+        {
+          "quarter": "2019-Q1",
+          "originalValue": 110.4,
+          "value": 94.7639485,
+          "changeFromBasePct": -5.2360515
+        },
+        {
+          "quarter": "2019-Q2",
+          "originalValue": 110.8,
+          "value": 95.10729614,
+          "changeFromBasePct": -4.89270386
+        },
+        {
+          "quarter": "2019-Q3",
+          "originalValue": 112.0,
+          "value": 96.13733906,
+          "changeFromBasePct": -3.86266094
+        },
+        {
+          "quarter": "2019-Q4",
+          "originalValue": 114.0,
+          "value": 97.85407725,
+          "changeFromBasePct": -2.14592275
+        },
+        {
+          "quarter": "2020-Q1",
+          "originalValue": 110.5,
+          "value": 94.84978541,
+          "changeFromBasePct": -5.15021459
+        },
+        {
+          "quarter": "2020-Q2",
+          "originalValue": 108.8,
+          "value": 93.39055794,
+          "changeFromBasePct": -6.60944206
+        },
+        {
+          "quarter": "2020-Q3",
+          "originalValue": 111.2,
+          "value": 95.45064378,
+          "changeFromBasePct": -4.54935622
+        },
+        {
+          "quarter": "2020-Q4",
+          "originalValue": 108.9,
+          "value": 93.47639485,
+          "changeFromBasePct": -6.52360515
+        },
+        {
+          "quarter": "2021-Q1",
+          "originalValue": 105.4,
+          "value": 90.472103,
+          "changeFromBasePct": -9.527897
+        },
+        {
+          "quarter": "2021-Q2",
+          "originalValue": 102.4,
+          "value": 87.89699571,
+          "changeFromBasePct": -12.10300429
+        },
+        {
+          "quarter": "2021-Q3",
+          "originalValue": 102.4,
+          "value": 87.89699571,
+          "changeFromBasePct": -12.10300429
+        },
+        {
+          "quarter": "2021-Q4",
+          "originalValue": 104.3,
+          "value": 89.527897,
+          "changeFromBasePct": -10.472103
+        },
+        {
+          "quarter": "2022-Q1",
+          "originalValue": 102.8,
+          "value": 88.24034335,
+          "changeFromBasePct": -11.75965665
+        },
+        {
+          "quarter": "2022-Q2",
+          "originalValue": 101.6,
+          "value": 87.21030043,
+          "changeFromBasePct": -12.78969957
+        },
+        {
+          "quarter": "2022-Q3",
+          "originalValue": 98.3,
+          "value": 84.3776824,
+          "changeFromBasePct": -15.6223176
+        },
+        {
+          "quarter": "2022-Q4",
+          "originalValue": 96.2,
+          "value": 82.5751073,
+          "changeFromBasePct": -17.4248927
+        },
+        {
+          "quarter": "2023-Q1",
+          "originalValue": 95.3,
+          "value": 81.80257511,
+          "changeFromBasePct": -18.19742489
+        },
+        {
+          "quarter": "2023-Q2",
+          "originalValue": 95.6,
+          "value": 82.06008584,
+          "changeFromBasePct": -17.93991416
+        },
+        {
+          "quarter": "2023-Q3",
+          "originalValue": 96.2,
+          "value": 82.5751073,
+          "changeFromBasePct": -17.4248927
+        },
+        {
+          "quarter": "2023-Q4",
+          "originalValue": 97.4,
+          "value": 83.60515021,
+          "changeFromBasePct": -16.39484979
+        },
+        {
+          "quarter": "2024-Q1",
+          "originalValue": 99.2,
+          "value": 85.15021459,
+          "changeFromBasePct": -14.84978541
+        },
+        {
+          "quarter": "2024-Q2",
+          "originalValue": 98.0,
+          "value": 84.12017167,
+          "changeFromBasePct": -15.87982833
+        },
+        {
+          "quarter": "2024-Q3",
+          "originalValue": 99.7,
+          "value": 85.57939914,
+          "changeFromBasePct": -14.42060086
+        },
+        {
+          "quarter": "2024-Q4",
+          "originalValue": 98.4,
+          "value": 84.46351931,
+          "changeFromBasePct": -15.53648069
+        },
+        {
+          "quarter": "2025-Q1",
+          "originalValue": 100.3,
+          "value": 86.0944206,
+          "changeFromBasePct": -13.9055794
+        },
+        {
+          "quarter": "2025-Q2",
+          "originalValue": 100.4,
+          "value": 86.18025751,
+          "changeFromBasePct": -13.81974249
+        },
+        {
+          "quarter": "2025-Q3",
+          "originalValue": 99.7,
+          "value": 85.57939914,
+          "changeFromBasePct": -14.42060086
+        },
+        {
+          "quarter": "2025-Q4",
+          "originalValue": 101.4,
+          "value": 87.03862661,
+          "changeFromBasePct": -12.96137339
+        },
+        {
+          "quarter": "2026-Q1",
+          "originalValue": 103.6,
+          "value": 88.92703863,
+          "changeFromBasePct": -11.07296137
+        },
+        {
+          "quarter": "2026-Q2",
+          "originalValue": 104.4,
+          "value": 89.61373391,
+          "changeFromBasePct": -10.38626609
+        }
+      ]
+    },
+    {
+      "id": "rent",
+      "label": {
+        "en": "Retail rent",
+        "zh": "零售物业租金"
+      },
+      "sourceId": "C01",
+      "sourceUrl": "https://data.gov.sg/datasets/d_a6c0ffc105817820388fd7b46fc67b13/view",
+      "sourceSeriesLabel": "Whole Of Central Region",
+      "sourceUnit": "Index, 1998 Q4 = 100",
+      "originalBaseValue2011Q1": 115.7,
+      "rawSourceSha256": "2a54d0ef029715340094dd1063007d19be3a6edc384b012cb30e39d7b53938e5",
+      "points": [
+        {
+          "quarter": "2011-Q1",
+          "originalValue": 115.7,
+          "value": 100.0,
+          "changeFromBasePct": 0.0
+        },
+        {
+          "quarter": "2011-Q2",
+          "originalValue": 117.2,
+          "value": 101.29645635,
+          "changeFromBasePct": 1.29645635
+        },
+        {
+          "quarter": "2011-Q3",
+          "originalValue": 117.9,
+          "value": 101.90146932,
+          "changeFromBasePct": 1.90146932
+        },
+        {
+          "quarter": "2011-Q4",
+          "originalValue": 118.9,
+          "value": 102.76577355,
+          "changeFromBasePct": 2.76577355
+        },
+        {
+          "quarter": "2012-Q1",
+          "originalValue": 118.6,
+          "value": 102.50648228,
+          "changeFromBasePct": 2.50648228
+        },
+        {
+          "quarter": "2012-Q2",
+          "originalValue": 118.5,
+          "value": 102.42005186,
+          "changeFromBasePct": 2.42005186
+        },
+        {
+          "quarter": "2012-Q3",
+          "originalValue": 118.2,
+          "value": 102.16076059,
+          "changeFromBasePct": 2.16076059
+        },
+        {
+          "quarter": "2012-Q4",
+          "originalValue": 118.3,
+          "value": 102.24719101,
+          "changeFromBasePct": 2.24719101
+        },
+        {
+          "quarter": "2013-Q1",
+          "originalValue": 117.0,
+          "value": 101.12359551,
+          "changeFromBasePct": 1.12359551
+        },
+        {
+          "quarter": "2013-Q2",
+          "originalValue": 115.6,
+          "value": 99.91356958,
+          "changeFromBasePct": -0.08643042
+        },
+        {
+          "quarter": "2013-Q3",
+          "originalValue": 117.1,
+          "value": 101.21002593,
+          "changeFromBasePct": 1.21002593
+        },
+        {
+          "quarter": "2013-Q4",
+          "originalValue": 117.3,
+          "value": 101.38288678,
+          "changeFromBasePct": 1.38288678
+        },
+        {
+          "quarter": "2014-Q1",
+          "originalValue": 117.0,
+          "value": 101.12359551,
+          "changeFromBasePct": 1.12359551
+        },
+        {
+          "quarter": "2014-Q2",
+          "originalValue": 117.7,
+          "value": 101.72860847,
+          "changeFromBasePct": 1.72860847
+        },
+        {
+          "quarter": "2014-Q3",
+          "originalValue": 117.8,
+          "value": 101.81503889,
+          "changeFromBasePct": 1.81503889
+        },
+        {
+          "quarter": "2014-Q4",
+          "originalValue": 118.4,
+          "value": 102.33362143,
+          "changeFromBasePct": 2.33362143
+        },
+        {
+          "quarter": "2015-Q1",
+          "originalValue": 118.0,
+          "value": 101.98789974,
+          "changeFromBasePct": 1.98789974
+        },
+        {
+          "quarter": "2015-Q2",
+          "originalValue": 117.4,
+          "value": 101.4693172,
+          "changeFromBasePct": 1.4693172
+        },
+        {
+          "quarter": "2015-Q3",
+          "originalValue": 115.0,
+          "value": 99.39498704,
+          "changeFromBasePct": -0.60501296
+        },
+        {
+          "quarter": "2015-Q4",
+          "originalValue": 113.5,
+          "value": 98.09853068,
+          "changeFromBasePct": -1.90146932
+        },
+        {
+          "quarter": "2016-Q1",
+          "originalValue": 111.3,
+          "value": 96.19706137,
+          "changeFromBasePct": -3.80293863
+        },
+        {
+          "quarter": "2016-Q2",
+          "originalValue": 107.0,
+          "value": 92.48055315,
+          "changeFromBasePct": -7.51944685
+        },
+        {
+          "quarter": "2016-Q3",
+          "originalValue": 105.4,
+          "value": 91.09766638,
+          "changeFromBasePct": -8.90233362
+        },
+        {
+          "quarter": "2016-Q4",
+          "originalValue": 104.1,
+          "value": 89.97407087,
+          "changeFromBasePct": -10.02592913
+        },
+        {
+          "quarter": "2017-Q1",
+          "originalValue": 101.1,
+          "value": 87.38115817,
+          "changeFromBasePct": -12.61884183
+        },
+        {
+          "quarter": "2017-Q2",
+          "originalValue": 99.9,
+          "value": 86.34399309,
+          "changeFromBasePct": -13.65600691
+        },
+        {
+          "quarter": "2017-Q3",
+          "originalValue": 99.7,
+          "value": 86.17113224,
+          "changeFromBasePct": -13.82886776
+        },
+        {
+          "quarter": "2017-Q4",
+          "originalValue": 99.2,
+          "value": 85.73898012,
+          "changeFromBasePct": -14.26101988
+        },
+        {
+          "quarter": "2018-Q1",
+          "originalValue": 99.3,
+          "value": 85.82541054,
+          "changeFromBasePct": -14.17458946
+        },
+        {
+          "quarter": "2018-Q2",
+          "originalValue": 98.2,
+          "value": 84.87467589,
+          "changeFromBasePct": -15.12532411
+        },
+        {
+          "quarter": "2018-Q3",
+          "originalValue": 97.0,
+          "value": 83.8375108,
+          "changeFromBasePct": -16.1624892
+        },
+        {
+          "quarter": "2018-Q4",
+          "originalValue": 98.2,
+          "value": 84.87467589,
+          "changeFromBasePct": -15.12532411
+        },
+        {
+          "quarter": "2019-Q1",
+          "originalValue": 98.0,
+          "value": 84.70181504,
+          "changeFromBasePct": -15.29818496
+        },
+        {
+          "quarter": "2019-Q2",
+          "originalValue": 96.5,
+          "value": 83.40535869,
+          "changeFromBasePct": -16.59464131
+        },
+        {
+          "quarter": "2019-Q3",
+          "originalValue": 98.7,
+          "value": 85.306828,
+          "changeFromBasePct": -14.693172
+        },
+        {
+          "quarter": "2019-Q4",
+          "originalValue": 101.0,
+          "value": 87.29472774,
+          "changeFromBasePct": -12.70527226
+        },
+        {
+          "quarter": "2020-Q1",
+          "originalValue": 98.7,
+          "value": 85.306828,
+          "changeFromBasePct": -14.693172
+        },
+        {
+          "quarter": "2020-Q2",
+          "originalValue": 95.2,
+          "value": 82.28176318,
+          "changeFromBasePct": -17.71823682
+        },
+        {
+          "quarter": "2020-Q3",
+          "originalValue": 90.9,
+          "value": 78.56525497,
+          "changeFromBasePct": -21.43474503
+        },
+        {
+          "quarter": "2020-Q4",
+          "originalValue": 86.2,
+          "value": 74.50302506,
+          "changeFromBasePct": -25.49697494
+        },
+        {
+          "quarter": "2021-Q1",
+          "originalValue": 82.4,
+          "value": 71.21866897,
+          "changeFromBasePct": -28.78133103
+        },
+        {
+          "quarter": "2021-Q2",
+          "originalValue": 82.0,
+          "value": 70.87294728,
+          "changeFromBasePct": -29.12705272
+        },
+        {
+          "quarter": "2021-Q3",
+          "originalValue": 79.8,
+          "value": 68.97147796,
+          "changeFromBasePct": -31.02852204
+        },
+        {
+          "quarter": "2021-Q4",
+          "originalValue": 80.3,
+          "value": 69.40363008,
+          "changeFromBasePct": -30.59636992
+        },
+        {
+          "quarter": "2022-Q1",
+          "originalValue": 80.0,
+          "value": 69.14433881,
+          "changeFromBasePct": -30.85566119
+        },
+        {
+          "quarter": "2022-Q2",
+          "originalValue": 79.6,
+          "value": 68.79861711,
+          "changeFromBasePct": -31.20138289
+        },
+        {
+          "quarter": "2022-Q3",
+          "originalValue": 79.3,
+          "value": 68.53932584,
+          "changeFromBasePct": -31.46067416
+        },
+        {
+          "quarter": "2022-Q4",
+          "originalValue": 78.4,
+          "value": 67.76145203,
+          "changeFromBasePct": -32.23854797
+        },
+        {
+          "quarter": "2023-Q1",
+          "originalValue": 78.2,
+          "value": 67.58859118,
+          "changeFromBasePct": -32.41140882
+        },
+        {
+          "quarter": "2023-Q2",
+          "originalValue": 78.4,
+          "value": 67.76145203,
+          "changeFromBasePct": -32.23854797
+        },
+        {
+          "quarter": "2023-Q3",
+          "originalValue": 78.8,
+          "value": 68.10717373,
+          "changeFromBasePct": -31.89282627
+        },
+        {
+          "quarter": "2023-Q4",
+          "originalValue": 78.7,
+          "value": 68.0207433,
+          "changeFromBasePct": -31.9792567
+        },
+        {
+          "quarter": "2024-Q1",
+          "originalValue": 78.4,
+          "value": 67.76145203,
+          "changeFromBasePct": -32.23854797
+        },
+        {
+          "quarter": "2024-Q2",
+          "originalValue": 78.4,
+          "value": 67.76145203,
+          "changeFromBasePct": -32.23854797
+        },
+        {
+          "quarter": "2024-Q3",
+          "originalValue": 78.6,
+          "value": 67.93431288,
+          "changeFromBasePct": -32.06568712
+        },
+        {
+          "quarter": "2024-Q4",
+          "originalValue": 79.1,
+          "value": 68.366465,
+          "changeFromBasePct": -31.633535
+        },
+        {
+          "quarter": "2025-Q1",
+          "originalValue": 78.7,
+          "value": 68.0207433,
+          "changeFromBasePct": -31.9792567
+        },
+        {
+          "quarter": "2025-Q2",
+          "originalValue": 79.4,
+          "value": 68.62575627,
+          "changeFromBasePct": -31.37424373
+        },
+        {
+          "quarter": "2025-Q3",
+          "originalValue": 80.1,
+          "value": 69.23076923,
+          "changeFromBasePct": -30.76923077
+        },
+        {
+          "quarter": "2025-Q4",
+          "originalValue": 80.6,
+          "value": 69.66292135,
+          "changeFromBasePct": -30.33707865
+        },
+        {
+          "quarter": "2026-Q1",
+          "originalValue": 80.1,
+          "value": 69.23076923,
+          "changeFromBasePct": -30.76923077
+        },
+        {
+          "quarter": "2026-Q2",
+          "originalValue": 80.6,
+          "value": 69.66292135,
+          "changeFromBasePct": -30.33707865
+        }
+      ]
+    }
+  ]
+}

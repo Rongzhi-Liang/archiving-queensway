@@ -1,0 +1,223 @@
+{
+  "asOf": "2026-10-22",
+  "title": {
+    "en": "A changing neighbourhood around Queensway",
+    "zh": "Queensway周边正在变化的街区"
+  },
+  "positionMethod": "Official SLA OneMap address points identify each project; URA MP2025 polygons supply the planning zones.",
+  "interpretationNote": "Project meaning fields are the team’s analytical connection to Queensway. Source facts retain their published dates and forward-looking status.",
+  "projects": [
+    {
+      "id": "queensway-canopy",
+      "name": {
+        "en": "Queensway Canopy",
+        "zh": "Queensway Canopy"
+      },
+      "category": "housing",
+      "coordinates": [
+        103.7998187604239,
+        1.290241776953356
+      ],
+      "date": "2026-03-31",
+      "launchDate": "2022-11",
+      "status": {
+        "en": "Under construction · March 2026",
+        "zh": "建设中 · 2026年3月"
+      },
+      "summary": {
+        "en": "Launched in November 2022, Queensway Canopy brings 996 homes to Queen’s Crescent, including 245 Community Care Apartments. HDB’s March 2026 photographs show the residential blocks under construction.",
+        "zh": "Queensway Canopy于2022年11月推出，在Queen’s Crescent规划996套住宅，其中包括245套社区关爱组屋。建屋局2026年3月的照片记录了住宅楼的建设进度。"
+      },
+      "meaning": {
+        "en": "New households and older residents will add to the area’s everyday routines. This puts the services, affordability and personal relationships offered by Queensway’s established shops into a changing neighbourhood context.",
+        "zh": "新增住户与年长居民将为这一带带来新的日常生活。Queensway既有商铺提供的服务、价格与人际联系，也由此置于正在变化的街区背景之中。"
+      },
+      "meaningType": "project interpretation",
+      "metric": {
+        "en": "996 homes · 245 care apartments",
+        "zh": "996套住宅 · 245套关爱组屋"
+      },
+      "metrics": {
+        "homes": 996,
+        "communityCareApartments": 245
+      },
+      "image": {
+        "path": "assets/space-development/queensway-canopy-204a-20260331.jpg",
+        "kind": "construction photograph",
+        "date": "2026-03-31",
+        "caption": {
+          "en": "HDB building progress · Block 204A · 31 March 2026",
+          "zh": "建屋局建设进度 · 第204A座 · 2026年3月31日"
+        },
+        "sourceUrl": "https://assets.hdb.gov.sg/building/building-progress/Main/QTN2C2/images/QWN2C2_BLK%20204A.jpg",
+        "sha256": "649e609306822e40c1e04a131d554c581e6c241d7b5465679fd9bd31664f98b0",
+        "bytes": 476553
+      },
+      "sources": [
+        {
+          "title": "Queensway Canopy: building progress",
+          "publisher": "Housing & Development Board",
+          "date": "2026-03-31",
+          "url": "https://assets.hdb.gov.sg/building/building-progress/Main/QTN2C2/index.html"
+        },
+        {
+          "title": "Queensway Canopy: November 2022 BTO brochure, pages 1–2 and 17–18",
+          "publisher": "Housing & Development Board",
+          "date": "2022-11",
+          "url": "https://assets.hdb.gov.sg/residential/buying-a-flat/finding-a-flat/sales-brochure/22NOVBTO_pdf_selection/Queensway_Canopy.pdf"
+        }
+      ],
+      "positionSource": {
+        "publisher": "Singapore Land Authority · OneMap",
+        "url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=Queensway+Canopy&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+        "retrievedDate": "2026-10-22",
+        "method": "Official address point for Block 204A, used as a project locator",
+        "address": "204A QUEEN'S CRESCENT QUEENSWAY CANOPY SINGAPORE 141204"
+      },
+      "distanceMetres": 495
+    },
+    {
+      "id": "stirling-horizon",
+      "name": {
+        "en": "Stirling Horizon",
+        "zh": "Stirling Horizon"
+      },
+      "category": "housing",
+      "coordinates": [
+        103.8016272159364,
+        1.292727113045938
+      ],
+      "date": "2025-02",
+      "launchDate": "2025-02",
+      "status": {
+        "en": "BTO launch · February 2025",
+        "zh": "预购组屋推出 · 2025年2月"
+      },
+      "summary": {
+        "en": "HDB launched Stirling Horizon in February 2025. The project brings 1,126 BTO flats in three residential blocks to the site between Queensway and Mei Chin Road, with a preschool and shared community spaces.",
+        "zh": "建屋局于2025年2月推出Stirling Horizon，在Queensway与Mei Chin Road之间规划三座住宅楼、1126套预购组屋，并设有幼儿园与共享社区空间。"
+      },
+      "meaning": {
+        "en": "Housing growth north of the mall brings a new generation of residents into this established district. Queensway’s specialist shops become part of the question of how new homes connect with existing neighbourhood commerce.",
+        "zh": "商场北侧的住宅增长将为成熟街区带来新一代居民。Queensway的专门商铺由此进入一个具体问题：新增住宅如何与既有街区商业发生联系？"
+      },
+      "meaningType": "project interpretation",
+      "metric": {
+        "en": "1,126 BTO flats · 3 residential blocks",
+        "zh": "1126套预购组屋 · 3座住宅楼"
+      },
+      "metrics": {
+        "btoFlats": 1126,
+        "residentialBlocks": 3,
+        "additionalRentalFlats": 12
+      },
+      "image": {
+        "path": "assets/space-development/stirling-horizon-brochure-page3.png",
+        "kind": "official brochure page with artist impression",
+        "caption": {
+          "en": "HDB sales brochure · February 2025 · Artist’s impression",
+          "zh": "建屋局销售手册 · 2025年2月 · 建筑效果图"
+        },
+        "sourceUrl": "https://assets.hdb.gov.sg/residential/buying-a-flat/finding-a-flat/sales-brochure/25FEBBTO_pdf_selection/stirling_horizon.pdf",
+        "pdfPage": 3,
+        "printedPages": "3–4",
+        "sha256": "80aac8909d17b47033236bfc365d1758669fc479ed28326ea4f13194a5b1a07d",
+        "bytes": 1622802,
+        "originalFile": "assets/space-development/stirling-horizon-brochure.pdf",
+        "originalSha256": "95d880a02d34bd1029382832e2d866057666abd1db46045be9145e844dc908ae"
+      },
+      "sources": [
+        {
+          "title": "Stirling Horizon: HDB sales launch February 2025, pages 3–6",
+          "publisher": "Housing & Development Board",
+          "date": "2025-02",
+          "url": "https://assets.hdb.gov.sg/residential/buying-a-flat/finding-a-flat/sales-brochure/25FEBBTO_pdf_selection/stirling_horizon.pdf"
+        }
+      ],
+      "positionSource": {
+        "publisher": "Singapore Land Authority · OneMap",
+        "url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=Stirling+Horizon&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+        "retrievedDate": "2026-10-22",
+        "method": "Official address point for Block 186B, used as a project locator",
+        "address": "186B MEI CHIN ROAD STIRLING HORIZON SINGAPORE 142186"
+      },
+      "distanceMetres": 604
+    },
+    {
+      "id": "alexandra-hospital-redevelopment",
+      "name": {
+        "en": "Alexandra Hospital redevelopment",
+        "zh": "亚历山大医院重建"
+      },
+      "category": "care",
+      "coordinates": [
+        103.8001809254652,
+        1.285481130393132
+      ],
+      "date": "2026-03-05",
+      "status": {
+        "en": "Under construction · Opening in phases from 2028",
+        "zh": "建设中 · 计划自2028年分阶段启用"
+      },
+      "summary": {
+        "en": "MOH confirmed in March 2026 that construction had commenced. The redeveloped Alexandra Hospital is planned to open progressively from 2028, with around 1,300 hospital beds, inpatient and outpatient towers, and improved connections to Queenstown.",
+        "zh": "卫生部于2026年3月确认重建工程已启动。亚历山大医院计划自2028年起分阶段启用，提供约1300张医院病床，设置住院与门诊大楼，并改善与女皇镇社区的连接。"
+      },
+      "meaning": {
+        "en": "The expanding campus brings patients, caregivers and healthcare workers into the neighbourhood’s future. Its planned linkways make the relationship between care, everyday services and Queensway’s shops a concrete part of the story.",
+        "zh": "扩建后的院区把患者、照护者与医护人员带入街区未来。规划中的步行连接，使医疗、日常服务与Queensway商铺之间的关系成为故事中的具体议题。"
+      },
+      "meaningType": "project interpretation",
+      "metric": {
+        "en": "About 1,300 hospital beds · From 2028",
+        "zh": "约1300张医院病床 · 自2028年起"
+      },
+      "metrics": {
+        "plannedHospitalBeds": 1300,
+        "progressiveOpeningFrom": 2028
+      },
+      "image": {
+        "path": "assets/space-development/alexandra-hospital-release-page1.png",
+        "kind": "official media release page with artist impression",
+        "caption": {
+          "en": "Alexandra Hospital media release · December 2025 · Artist’s impression",
+          "zh": "亚历山大医院新闻稿 · 2025年12月 · 建筑效果图"
+        },
+        "sourceUrl": "https://www.ah.com.sg/docs/default-source/newsroom-document/ah/2025/03-december/media-release-alexandra-hospital-campus-set-for-next-phase-of-transformation-with-appointment-of-two-leading-contractors-on-1-december-2025.pdf?sfvrsn=d846332e_1",
+        "pdfPage": 1,
+        "sha256": "6f8cf1ab27ff957808ff5d9c7abf502b5b1fc53695a6dda7a405318b4d0feb2b",
+        "bytes": 703420,
+        "originalFile": "assets/space-development/alexandra-hospital-release.pdf",
+        "originalSha256": "c025a8be7589da8a4454ae55f3759a63587b2441d2b52f38da1105da0238d289"
+      },
+      "sources": [
+        {
+          "title": "Enhancing quality and coordination of care",
+          "publisher": "Ministry of Health",
+          "date": "2026-03-05",
+          "url": "https://www.moh.gov.sg/newsroom/enhancing-quality-and-coordination-of-care/"
+        },
+        {
+          "title": "Alexandra Hospital campus: appointment of two main contractors",
+          "publisher": "Alexandra Hospital / National University Health System",
+          "date": "2025-12-03",
+          "url": "https://www.nuhs.edu.sg/about-nuhs/news-and-stories/news-and-stories-details/alexandra-hospital-campus-set-for-next-phase-of-transformation-with-appointment-of-two-leading-contractors-on-1-december-2025"
+        },
+        {
+          "title": "Alexandra Hospital redevelopment: media release",
+          "publisher": "Alexandra Hospital",
+          "date": "2025-12-03",
+          "url": "https://www.ah.com.sg/docs/default-source/newsroom-document/ah/2025/03-december/media-release-alexandra-hospital-campus-set-for-next-phase-of-transformation-with-appointment-of-two-leading-contractors-on-1-december-2025.pdf?sfvrsn=d846332e_1"
+        }
+      ],
+      "positionSource": {
+        "publisher": "Singapore Land Authority · OneMap",
+        "url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=Alexandra+Hospital&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+        "retrievedDate": "2026-10-20",
+        "method": "Official hospital address point, used as a campus locator",
+        "address": "378 ALEXANDRA ROAD ALEXANDRA HOSPITAL SINGAPORE 159964"
+      },
+      "distanceMetres": 428
+    }
+  ]
+}

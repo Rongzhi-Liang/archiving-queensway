@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "coordinateSystem": "rect is [x,y,width,height] in rendered image pixels; normalizedRect uses fractions from the full-page top-left; no crop or rotation.",
+  "rendering": {
+    "tool": "pdftoppm",
+    "dpi": 180,
+    "mode": "full original PDF page",
+    "highlightsBakedIn": false
+  },
+  "documents": [
+    {
+      "id": "planning",
+      "title": {
+        "en": "Master Plan Written Statement 2025",
+        "zh": "2025年总体规划书面声明"
+      },
+      "publisher": {
+        "en": "Urban Redevelopment Authority",
+        "zh": "新加坡市区重建局"
+      },
+      "sourceUrl": "https://isomer-user-content.by.gov.sg/467/411a4d45-c03d-4322-b57c-497714595cdd/MP25WrittenStatement.pdf",
+      "sourceId": "P08",
+      "sourceLabel": {
+        "en": "URA · §5.2 · printed p.7 / PDF p.8",
+        "zh": "URA · 第5.2条 · 印刷第7页／PDF第8页"
+      },
+      "note": {
+        "en": "The complete original page is shown. Section 5.2 describes general planning conditions; it is not Queensway development permission and does not resolve its EVA code.",
+        "zh": "此处展示完整原页。第5.2条说明一般规划条件，并非Queensway的开发许可，也未解释其EVA代码。"
+      },
+      "highlights": [
+        {
+          "id": "intensity-limit",
+          "quote": "development may therefore be below the maximum permissible plot ratio prescribed.",
+          "label": {
+            "en": "A maximum is not a guarantee",
+            "zh": "上限并不等于承诺"
+          },
+          "explanation": {
+            "en": "Permitted development intensity can be lower than the prescribed maximum.",
+            "zh": "最终获准的开发强度可能低于规定上限。"
+          },
+          "rect": [
+            268.92,
+            1472.555,
+            1021.712,
+            30.0
+          ],
+          "normalizedRect": [
+            0.180604534,
+            0.699551069,
+            0.686172964,
+            0.014251781
+          ],
+          "pdfRectPoints": [
+            107.55,
+            589.022,
+            408.616,
+            12.0
+          ]
+        }
+      ],
+      "image": "assets/evidence-documents/ura-master-plan-2025-page-8.png",
+      "width": 1489,
+      "height": 2105,
+      "pdfPage": 8,
+      "printedPage": "7",
+      "pdfPageCount": 26,
+      "pdfPageWidthPoints": 595.5,
+      "pdfPageHeightPoints": 842,
+      "originalPdfSha256": "fd29331989ec696c3c2187532d4a39b68892f5df3a8b5546f9bc3ee763c6381b",
+      "imageSha256": "df78c22deca959f212bf29a5fd7be12d6a3280ab0d33e2f719a94af826d97540",
+      "originalPageUnmodified": true
+    },
+    {
+      "id": "collective-sale",
+      "title": {
+        "en": "Form 21 — Application for Collective Sale Order",
+        "zh": "表格21：集体出售令申请"
+      },
+      "publisher": {
+        "en": "Strata Titles Boards",
+        "zh": "新加坡分层地契局"
+      },
+      "sourceUrl": "https://isomer-user-content.by.gov.sg/369/9b089dca-9165-409c-92c9-c986eda5bd3a/form_21.pdf",
+      "sourceId": null,
+      "parentSourceId": "P01",
+      "sourceLabel": {
+        "en": "STB · Form 21 (2010) · PDF p.5",
+        "zh": "STB · 表格21（2010年版）· PDF第5页"
+      },
+      "note": {
+        "en": "Blank official form, version 19 March 2010. Shown only as a supporting-document example, not current consent-threshold guidance or a Queensway application.",
+        "zh": "官方空白表格，版本为2010年3月19日。仅用于展示支持文件的要求，不作为当前同意门槛的说明，也不是Queensway已递交的申请。"
+      },
+      "highlights": [
+        {
+          "id": "valuation-evidence",
+          "quote": "Valuation Report with supporting evidence and details on calculations",
+          "label": {
+            "en": "A valuation needs evidence",
+            "zh": "估值需要证据"
+          },
+          "explanation": {
+            "en": "The application form lists a valuation report supported by evidence and calculations.",
+            "zh": "申请表将附有证据与计算说明的估值报告列为支持文件。"
+          },
+          "rect": [
+            261.72,
+            696.09,
+            851.839,
+            30.011
+          ],
+          "normalizedRect": [
+            0.175769179,
+            0.33068387,
+            0.572087868,
+            0.0142572
+          ],
+          "pdfRectPoints": [
+            104.66,
+            278.33,
+            340.644,
+            12.0
+          ]
+        },
+        {
+          "id": "distribution-report",
+          "quote": "Report on the proposed method of distributing the sale proceeds",
+          "label": {
+            "en": "How would proceeds be shared?",
+            "zh": "出售所得如何分配？"
+          },
+          "explanation": {
+            "en": "A separate report sets out the proposed method for distributing sale proceeds.",
+            "zh": "另一份报告须说明拟采用的出售所得分配方法。"
+          },
+          "rect": [
+            261.72,
+            766.316,
+            794.944,
+            30.011
+          ],
+          "normalizedRect": [
+            0.175769179,
+            0.364045718,
+            0.533877469,
+            0.0142572
+          ],
+          "pdfRectPoints": [
+            104.66,
+            306.41,
+            317.892,
+            12.0
+          ]
+        }
+      ],
+      "image": "assets/evidence-documents/stb-form-21-page-5.png",
+      "width": 1489,
+      "height": 2105,
+      "pdfPage": 5,
+      "printedPage": null,
+      "pdfPageCount": 13,
+      "pdfPageWidthPoints": 595.44,
+      "pdfPageHeightPoints": 841.68,
+      "originalPdfSha256": "c8a619e76385a8823af3b4364f3f3ef55434dc04d89f25b23047374bac4c5b6f",
+      "imageSha256": "e20e7a0d4116f88c1d414156173326c61e3cb3ff10aae914e4107450ef19f89c",
+      "originalPageUnmodified": true
+    }
+  ]
+}

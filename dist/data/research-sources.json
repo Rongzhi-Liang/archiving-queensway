@@ -1,0 +1,671 @@
+{
+  "asOf": "2026-10-19",
+  "dateNote": {
+    "en": "Dates identify each source’s publication, update or observation date.",
+    "zh": "日期标明各资料的发布、更新或观察时间。"
+  },
+  "sources": [
+    {
+      "id": "H01",
+      "title": "Queensway Shopping Centre",
+      "publisher": "National Heritage Board, Roots",
+      "url": "https://www.roots.gov.sg/places/places-landing/Places/landmarks/my-queenstown-heritage-trail/queensway-shopping-centre",
+      "date": null,
+      "updatedDate": null,
+      "context": {
+        "en": "Heritage-trail account. Sources give opening years from 1974 to 1976; the site presents the mid-1970s. Heritage-trail inclusion and statutory conservation are separate designations.",
+        "zh": "历史步道介绍。来源记载的开业年份介于 1974 至 1976 年，网站采用 1970 年代中期。历史步道收录与法定保育属于不同认定。"
+      }
+    },
+    {
+      "id": "H02",
+      "title": "My Queenstown Heritage Trail",
+      "publisher": "My Community; hosted by National Heritage Board, Roots",
+      "url": "https://www.roots.gov.sg/-/media/Roots/Files/my-queenstown-trail/queenstowntrail9-brochure.ashx",
+      "date": "2014-04",
+      "updatedDate": null,
+      "context": {
+        "en": "My Community publication hosted by NHB. It records a 1974 opening and historical construction cost; the website places the opening in the mid-1970s. Image rights remain with their holders.",
+        "zh": "My Community 出版、NHB 托管。册中记载 1974 年开业及历史建造成本，网站将开业时间放在 1970 年代中期。影像权利归相应权利人。"
+      }
+    },
+    {
+      "id": "H03",
+      "title": "Alexandra",
+      "publisher": "National Library Board / Stephanie Ho",
+      "url": "https://www.nlb.gov.sg/main/article-detail?cmsuuid=65a21ad2-f54a-4700-ab87-1b847384ab02",
+      "date": "2016-06-20",
+      "updatedDate": null,
+      "context": {
+        "en": "Regional historical account; the date identifies the information-valid-as-at date.",
+        "zh": "地区历史介绍；日期表示资料有效截至日。"
+      }
+    },
+    {
+      "id": "H04",
+      "title": "Queensway Shopping Centre en bloc attempt faces challenge from shop owners",
+      "publisher": "CNA / TODAY, Low Youjin",
+      "url": "https://www.channelnewsasia.com/singapore/queensway-shopping-centre-en-bloc-attempt-faces-challenge-shop-owners-5710161",
+      "date": "2019-05-01",
+      "updatedDate": null,
+      "context": {
+        "en": "Reporting on the 2019 collective-sale attempt, including a marketing-agent estimate and individual owners’ views.",
+        "zh": "关于 2019 年整售尝试的报道，包括营销代理估计与个别业主的观点。"
+      }
+    },
+    {
+      "id": "H05",
+      "title": "Queensway Shopping Centre’s en-bloc bid falls through; some shop owners rejoice",
+      "publisher": "CNA / TODAY, Kimberly Lim",
+      "url": "https://www.channelnewsasia.com/singapore/queensway-shopping-centres-en-bloc-bid-falls-through-some-shop-owners-rejoice-5694191",
+      "date": "2019-11-26",
+      "updatedDate": "2026-01-23",
+      "context": {
+        "en": "Reporting on the conclusion of the 2019 attempt. The 2026 date is a page update.",
+        "zh": "关于 2019 年整售尝试结束的报道；2026 年日期为网页更新日期。"
+      }
+    },
+    {
+      "id": "H06",
+      "title": "Large unit at Queensway Shopping Centre put on market for S$7.5m",
+      "publisher": "The Business Times, Fiona Lam",
+      "url": "https://www.businesstimes.com.sg/property/large-unit-at-queensway-shopping-centre-put-on-market-for-s7.5m",
+      "date": "2021-04-28",
+      "updatedDate": null,
+      "context": {
+        "en": "Historical asking price for one unit. Tenancy information is attributed to the marketing agent.",
+        "zh": "单个单位的历史挂牌要价；租约信息引自营销代理。"
+      }
+    },
+    {
+      "id": "H07",
+      "title": "About Us",
+      "publisher": "Queensway Shopping Centre / MCST No. 572 website",
+      "url": "https://queenswayshoppingcentre.com.sg/about-us/",
+      "date": null,
+      "updatedDate": null,
+      "context": {
+        "en": "Undated management description. Its 1976 opening year is one of the dates reported across the historical sources.",
+        "zh": "管理方介绍，未标明发布日期；其记载的 1976 年为历史来源中的开业年份之一。"
+      }
+    },
+    {
+      "id": "H08",
+      "title": "Sports store directory",
+      "publisher": "Queensway Shopping Centre / MCST No. 572 website",
+      "url": "https://queenswayshoppingcentre.com.sg/store-category/sports/",
+      "date": null,
+      "updatedDate": null,
+      "context": {
+        "en": "Business directory entries, describing the businesses named by the directory.",
+        "zh": "商户目录条目，介绍目录列出的商家。"
+      }
+    },
+    {
+      "id": "H09",
+      "title": "Down but not out, Singapore’s ageing strata-titled malls still have life in them",
+      "publisher": "CNA, Tang Jia Wen",
+      "url": "https://www.channelnewsasia.com/cna-insider/big-read/strata-titled-malls-shopping-retail-business-survival-dying-out-5875511",
+      "date": "2026-01-23",
+      "updatedDate": "2026-01-24",
+      "context": {
+        "en": "Reported experiences of owners and traders in strata malls.",
+        "zh": "关于分层产权商场业主与商户经历的报道。"
+      }
+    },
+    {
+      "id": "H10",
+      "title": "Amazing Vintage Haul at Queensway Shopping Centre",
+      "publisher": "Queensway Shopping Centre / Team Editor",
+      "url": "https://queenswayshoppingcentre.com.sg/amazing-vintage-haul-at-queensway-shopping-centre/",
+      "date": "2025-08-28",
+      "updatedDate": null,
+      "context": {
+        "en": "A dated promotion featuring vintage shops. Its date identifies the promotion.",
+        "zh": "介绍古着店的推广文章，日期对应推广发布。"
+      }
+    },
+    {
+      "id": "H11",
+      "title": "More than just sportswear: Retirees find second wind at Queensway Shopping Centre",
+      "publisher": "The Straits Times, Cherie Lok",
+      "url": "https://www.straitstimes.com/life/more-than-just-sportswear-retirees-find-second-wind-at-queensway-shopping-centre",
+      "date": "2026-10-17",
+      "updatedDate": "2026-10-17",
+      "context": {
+        "en": "Published interviews about individual retirees’ experiences at Queensway.",
+        "zh": "关于个别退休人士在女皇道经历的公开采访。"
+      }
+    },
+    {
+      "id": "H12",
+      "title": "Singapore Strata Malls: A Retrospective for the Future — author/practice book page",
+      "publisher": "Spatial Anatomy (authors’ practice); book publisher Suburbia Projects",
+      "url": "https://anatomy.sg/Singapore-Strata-Malls-Book-Content",
+      "date": "2024",
+      "updatedDate": null,
+      "context": {
+        "en": "Author and practice’s bibliographic introduction to the book.",
+        "zh": "作者与事务所对该书的书目介绍。"
+      }
+    },
+    {
+      "id": "H13",
+      "title": "The Morphology of Activity Centers, the Commons, and Shopping Malls in Multicultural Singapore",
+      "publisher": "SAGE, Space and Culture",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/12063312251363095",
+      "date": "2025-09-11",
+      "updatedDate": null,
+      "context": {
+        "en": "Publisher’s abstract of the research paper.",
+        "zh": "出版方提供的论文摘要。"
+      }
+    },
+    {
+      "id": "P01",
+      "title": "Matters under LTSA",
+      "publisher": "Strata Titles Boards",
+      "url": "https://www.stratatb.gov.sg/general-proceedings/application/applicant/matters-under-ltsa/",
+      "date": "2026-06-25",
+      "updatedDate": null,
+      "context": {
+        "en": "Collective-sale procedure and consent measured by share value and strata area. This source records the framework before the 2026 amendment.",
+        "zh": "集体出售程序，以及按产权份额和分层面积计算的同意门槛。该来源记录 2026 年修法前的制度框架。"
+      }
+    },
+    {
+      "id": "P02",
+      "title": "Proposed Amendments to the Collective Sale Regime to Support Renewal of Ageing Developments and Strengthen Owner Safeguards",
+      "publisher": "Ministry of Law",
+      "url": "https://www.mlaw.gov.sg/proposed-amendments-to-the-collective-sale-regime/",
+      "date": "2026-08-04",
+      "updatedDate": null,
+      "context": {
+        "en": "First-reading announcement for the 2026 Bill. Commencement is set separately.",
+        "zh": "2026 年法案首次宣读公告；生效日期另行规定。"
+      }
+    },
+    {
+      "id": "P03",
+      "title": "Second Reading Speech of the Land Titles (Strata) (Amendment) Bill 2026",
+      "publisher": "Ministry of Law",
+      "url": "https://www.mlaw.gov.sg/second-reading-speech-of-the-land-titles-strata-amendment-bill-2026-by-minister-edwin-tong-sc/",
+      "date": "2026-09-08",
+      "updatedDate": null,
+      "context": {
+        "en": "Second-reading speech explaining the government’s rationale for the 2026 Bill.",
+        "zh": "解释 2026 年法案政府立场的二读演讲。"
+      }
+    },
+    {
+      "id": "P04",
+      "title": "Land Titles (Strata) (Amendment) Act 2026 (Act 20 of 2026)",
+      "publisher": "Attorney-General’s Chambers / Singapore Statutes Online",
+      "url": "https://sso.agc.gov.sg/Acts-Supp/20-2026/Published/20261002?DocDate=20261002",
+      "date": "2026-10-02",
+      "updatedDate": null,
+      "context": {
+        "en": "Published 2026 amendment. Applying its provisions requires the relevant commencement and transitional rules.",
+        "zh": "已公布的 2026 年修正法；条文适用取决于相应生效与过渡规定。"
+      }
+    },
+    {
+      "id": "P05",
+      "title": "Restrictions On The Strata Subdivision of Commercial Properties (URA/PB/2022/02-CUDG)",
+      "publisher": "Urban Redevelopment Authority",
+      "url": "https://www.ura.gov.sg/guidelines/circulars/dc22-02/",
+      "date": "2022-03-15",
+      "updatedDate": null,
+      "context": {
+        "en": "Strata-subdivision rules for the areas and development types defined in the circular. Central Area and Central Region have different geographic coverage.",
+        "zh": "通函针对所列地区与开发类型规定分层细分条件；Central Area 与 Central Region 的地理范围不同。"
+      }
+    },
+    {
+      "id": "P06",
+      "title": "Gazette of Master Plan 2025",
+      "publisher": "Urban Redevelopment Authority",
+      "url": "https://www.ura.gov.sg/news/media/pr25-64/",
+      "date": "2025-12-01",
+      "updatedDate": null,
+      "context": {
+        "en": "Gazetted statutory planning framework. Site development permission is assessed through a specific proposal.",
+        "zh": "已刊宪的法定规划框架；地块开发许可通过具体方案评估。"
+      }
+    },
+    {
+      "id": "P07",
+      "title": "Master Plan 2025 Land Use Layer",
+      "publisher": "Urban Redevelopment Authority / data.gov.sg",
+      "url": "https://data.gov.sg/datasets/d_a8c3546b26712e35021f3a681d0353ae/view",
+      "date": "2026-03-27",
+      "updatedDate": null,
+      "context": {
+        "en": "Indicative land-use polygons and source plot-ratio fields. Queensway’s plot-ratio field contains the code EVA.",
+        "zh": "指示性土地用途分区与原始容积率字段；女皇道的容积率字段记录代码 EVA。"
+      }
+    },
+    {
+      "id": "P08",
+      "title": "Master Plan Written Statement 2025",
+      "publisher": "Urban Redevelopment Authority",
+      "url": "https://isomer-user-content.by.gov.sg/467/411a4d45-c03d-4322-b57c-497714595cdd/MP25WrittenStatement.pdf",
+      "date": "2025-12-01",
+      "updatedDate": null,
+      "context": {
+        "en": "General planning-intensity principles used when assessing development proposals.",
+        "zh": "评估开发方案时采用的一般开发强度原则。"
+      }
+    },
+    {
+      "id": "P09",
+      "title": "Gross Floor Area Handbook",
+      "publisher": "Urban Redevelopment Authority",
+      "url": "https://www.ura.gov.sg/guidelines/development-control/development-control-handbooks/gross-floor-area/",
+      "date": "2026-06-09",
+      "updatedDate": null,
+      "context": {
+        "en": "Definitions and measurement rules for planning gross floor area, distinct from advertised, strata and lettable area.",
+        "zh": "规划总楼面面积的定义与测量规定，与广告面积、分层面积及可出租面积分别使用。"
+      }
+    },
+    {
+      "id": "P10",
+      "title": "Land Betterment Charge: regime and September 2026 rates",
+      "publisher": "Singapore Land Authority",
+      "url": "https://www.sla.gov.sg/properties/land-betterment-charge/",
+      "date": "2026-09-15",
+      "updatedDate": null,
+      "context": {
+        "en": "Land Betterment Charge framework and rates. A site calculation uses its sector, baseline use and proposed change.",
+        "zh": "土地增值费制度与费率；地块计算需结合所属分区、基准用途及拟议变更。"
+      }
+    },
+    {
+      "id": "P11",
+      "title": "Lease Agreements for Retail Premises Act 2023 (Act 28 of 2023)",
+      "publisher": "Attorney-General’s Chambers / Singapore Statutes Online",
+      "url": "https://sso.agc.gov.sg/Acts-Supp/28-2023/Published/20230905?DocDate=20230905",
+      "date": "2023-09-05",
+      "updatedDate": null,
+      "context": {
+        "en": "Retail-leasing legislation. Its application depends on commencement, premises use, lease term and signing or renewal date.",
+        "zh": "零售租赁法律；适用条件涉及生效日期、物业用途、租期及签订或续租日期。"
+      }
+    },
+    {
+      "id": "P12",
+      "title": "Code of Conduct for Leasing of Retail Premises, Third Edition with Corrigendum No. 1; FTIC FAQ",
+      "publisher": "Fair Tenancy Industry Committee",
+      "url": "https://www.ftic.org.sg/code-of-conduct/",
+      "date": "2024-01-22",
+      "updatedDate": null,
+      "context": {
+        "en": "Retail-leasing code and associated lease rights, applied to the terms and circumstances of each lease.",
+        "zh": "零售租赁守则及相关租约权利，按具体租约条款与情况适用。"
+      }
+    },
+    {
+      "id": "M01",
+      "title": "Queensway Shopping Centre — Mall Shop for rent, 248 sqft, listing 500101165",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500101165",
+      "date": "2026-09-28",
+      "updatedDate": null,
+      "context": {
+        "en": "Advertised as a low-floor shop. L01 and L09 may describe the same premises offered for rent and sale; their shared unit identity remains unconfirmed.",
+        "zh": "广告描述为低楼层商铺。L01 与 L09 可能是同一物业的出租和出售广告，具体铺位是否相同仍待确认。"
+      }
+    },
+    {
+      "id": "M02",
+      "title": "Queensway Shopping Centre — Mall Shop for rent, 113 sqft, listing 500192157",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500192157",
+      "date": "2026-09-26",
+      "updatedDate": null,
+      "context": {
+        "en": "Half-shop rental, advertised at S$3,600 per month on the observation date.",
+        "zh": "半间商铺出租，观察当日广告月租要价为 S$3,600。"
+      }
+    },
+    {
+      "id": "M03",
+      "title": "Queensway Shopping Centre — Mall Shop for rent, 196 sqft, listing 23973571",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-23973571",
+      "date": "2026-10-16",
+      "updatedDate": null,
+      "context": {
+        "en": "The advertisement’s area field gives 196 sqft; its description rounds the area to approximately 200 sqft. The chart uses 196 sqft.",
+        "zh": "广告面积字段为 196 平方英尺，正文约为 200 平方英尺；图表面积为 196 平方英尺。"
+      }
+    },
+    {
+      "id": "M04",
+      "title": "Queensway Shopping Centre — Mall Shop for rent, 200 sqft, listing 500254080",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500254080",
+      "date": "2026-10-13",
+      "updatedDate": null,
+      "context": {
+        "en": "The advertisement gives 31 October 2026 as the available-from date.",
+        "zh": "广告标注可用日期为 2026 年 10 月 31 日。"
+      }
+    },
+    {
+      "id": "M05",
+      "title": "Queensway Shopping Centre — Mall Shop for rent, 205 sqft, listing 500236705",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500236705",
+      "date": "2026-10-19",
+      "updatedDate": null,
+      "context": {
+        "en": "Advertised as a bare ground-floor shop without a water point, with monthly asking rent of S$2,600.",
+        "zh": "广告描述为首层毛坯商铺、无供水点，月租要价为 S$2,600。"
+      }
+    },
+    {
+      "id": "M06",
+      "title": "Queensway Shopping Centre — Mall Shop for rent, 100 sqft, listing 500274194",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500274194",
+      "date": "2026-10-18",
+      "updatedDate": null,
+      "context": {
+        "en": "Lease takeover. The term field gives two years; the description gives 18 months ending in May 2028.",
+        "zh": "接手租约。租期字段为两年，正文为 18 个月、2028 年 5 月到期。"
+      }
+    },
+    {
+      "id": "M07",
+      "title": "Queensway Shopping Centre — Mall Shop for sale, 172 sqft, listing 500188545",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-500188545",
+      "date": "2026-10-05",
+      "updatedDate": null,
+      "context": {
+        "en": "Starting asking price; the advertisement describes an existing tenancy.",
+        "zh": "挂牌起价；广告描述为带现有租约出售。"
+      }
+    },
+    {
+      "id": "M08",
+      "title": "Queensway Shopping Centre — Mall Shop for sale, 312 sqft, listing 24591966",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-24591966",
+      "date": "2026-09-27",
+      "updatedDate": null,
+      "context": {
+        "en": "The advertisement describes an existing tenancy and promotes collective-sale potential.",
+        "zh": "广告描述为带现有租约出售，并以整售潜力作为卖点。"
+      }
+    },
+    {
+      "id": "M09",
+      "title": "Queensway Shopping Centre — Mall Shop for sale, 248 sqft, listing 500099923",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-500099923",
+      "date": "2026-09-27",
+      "updatedDate": null,
+      "context": {
+        "en": "L09 and L01 may describe the same premises offered for sale and rent; their shared unit identity remains unconfirmed.",
+        "zh": "L09 与 L01 可能是同一物业的出售和出租广告，具体铺位是否相同仍待确认。"
+      }
+    },
+    {
+      "id": "M10",
+      "title": "Queensway Shopping Centre — Mall Shop for sale, 140 sqft, listing 25288601",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-25288601",
+      "date": "2026-09-17",
+      "updatedDate": null,
+      "context": {
+        "en": "The advertisement describes a tenancy ending in July 2025, an earlier date than the listing date.",
+        "zh": "广告正文描述的租约截至 2025 年 7 月，早于广告刊登日期。"
+      }
+    },
+    {
+      "id": "M11",
+      "title": "Queensway Shopping Centre — Food & Beverage for sale, 2734 sqft, listing 24367246",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-24367246",
+      "date": "2026-10-19",
+      "updatedDate": null,
+      "context": {
+        "en": "Food-and-beverage premises. The advertisement describes approvals, tenancy and subdivision possibilities.",
+        "zh": "餐饮物业。广告提及许可、租约与细分空间的可能性。"
+      }
+    },
+    {
+      "id": "M12",
+      "title": "Queensway Shopping Centre — Mall Shop for sale, 162 sqft, listing 20874727",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-20874727",
+      "date": "2026-10-17",
+      "updatedDate": null,
+      "context": {
+        "en": "The title says rent; the property category and description say sale. The chart follows the sale category.",
+        "zh": "标题写出租，物业类别与正文写出售；图表沿用出售类别。"
+      }
+    },
+    {
+      "id": "M13",
+      "title": "Queensway Shopping Centre — Mall Shop for sale, 151 sqft, listing 22133689",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-22133689",
+      "date": "2026-10-16",
+      "updatedDate": null,
+      "context": {
+        "en": "Negotiable asking price; collective-sale potential forms part of the advertisement’s sales description.",
+        "zh": "挂牌价可议；整售潜力属于广告的销售描述。"
+      }
+    },
+    {
+      "id": "M14",
+      "title": "Queensway Tower — Apartment for rent, 1625 sqft, listing 500285969",
+      "publisher": "PropertyGuru",
+      "url": "https://www.propertyguru.com.sg/listing/for-rent-queensway-tower-500285969",
+      "date": "2026-10-06",
+      "updatedDate": null,
+      "context": {
+        "en": "A whole three-bedroom apartment in Queensway Tower, classified as a residential rental.",
+        "zh": "Queensway Tower 的三卧整套住宅，归类为住宅出租。"
+      }
+    },
+    {
+      "id": "M15",
+      "title": "Queensway Tower — Room in Apartment for rent, 150 sqft, listing 24150802",
+      "publisher": "PropertyGuru",
+      "url": "https://www.propertyguru.com.sg/listing/for-rent-queensway-tower-24150802",
+      "date": "2026-09-29",
+      "updatedDate": null,
+      "context": {
+        "en": "A serviced room advertised with utilities and services included. Its description gives a December 2024 available-from date.",
+        "zh": "服务式单间，广告称包含公用事业与服务；正文标注的可入住日期为 2024 年 12 月。"
+      }
+    },
+    {
+      "id": "M16",
+      "title": "CommercialGuru exact project rental results",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/find-commercial-properties/property-for-rent/at-queensway-shopping-centre-20035",
+      "date": null,
+      "updatedDate": null,
+      "context": {
+        "en": "Project rental search results used to locate individual advertisements. Multiple advertisements may describe the same premises.",
+        "zh": "用于查找单条广告的项目出租搜索结果；同一物业可能对应多条广告。"
+      }
+    },
+    {
+      "id": "M17",
+      "title": "CommercialGuru exact project sale results",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/find-commercial-properties/property-for-sale/at-queensway-shopping-centre-20035",
+      "date": null,
+      "updatedDate": null,
+      "context": {
+        "en": "Project sale search results used to locate individual advertisements. Multiple advertisements may describe the same premises.",
+        "zh": "用于查找单条广告的项目出售搜索结果；同一物业可能对应多条广告。"
+      }
+    },
+    {
+      "id": "M18",
+      "title": "Queensway Tower sale results",
+      "publisher": "PropertyGuru",
+      "url": "https://www.propertyguru.com.sg/property-for-sale/at-queensway-tower-821",
+      "date": null,
+      "updatedDate": null,
+      "context": {
+        "en": "Residential-sale search page. Market charts use the separately cited individual advertisements and transaction records.",
+        "zh": "住宅出售搜索页；市场图表采用另行注明的单条广告与成交记录。"
+      }
+    },
+    {
+      "id": "M19",
+      "title": "Queensway Tower last transacted prices and insights",
+      "publisher": "PropertyGuru",
+      "url": "https://www.propertyguru.com.sg/project/queensway-tower-821/last-transacted-prices-and-insights",
+      "date": null,
+      "updatedDate": null,
+      "context": {
+        "en": "Property-platform transaction overview, including rounded values and data-availability placeholders.",
+        "zh": "房产平台成交概览，包含取整数值与数据可用状态占位信息。"
+      }
+    },
+    {
+      "id": "M20",
+      "title": "Queensway Tower transaction overview",
+      "publisher": "Homy.sg",
+      "url": "https://homy.sg/condo/queensway-tower",
+      "date": null,
+      "updatedDate": "2026-10-12",
+      "context": {
+        "en": "Platform overview citing URA, with two January 2026 residential records. Prices are rounded and dates have month precision.",
+        "zh": "引用 URA 的平台概览，列出两条 2026 年 1 月住宅记录；价格经过取整，日期精度为月份。"
+      }
+    },
+    {
+      "id": "M21",
+      "title": "Queensway Shopping Centre former transaction endpoint",
+      "publisher": "PropertyGuru / CommercialGuru",
+      "url": "https://www.propertyguru.com.sg/project/queensway-shopping-centre-20035/last-transacted-prices-and-insights",
+      "date": null,
+      "updatedDate": null,
+      "context": {
+        "en": "Former transaction URL now redirects to the project page.",
+        "zh": "原成交资料网址现跳转至项目页面。"
+      }
+    },
+    {
+      "id": "M22",
+      "title": "Queensway Shopping Centre/Queensway Tower commercial page",
+      "publisher": "99.co",
+      "url": "https://www.99.co/singapore/commercial/queensway-shopping-centrequeensway-tower",
+      "date": null,
+      "updatedDate": null,
+      "context": {
+        "en": "Commercial-property reference page. Numerical charts use the other cited individual records.",
+        "zh": "商业物业参考页；数值图表使用其他注明来源的单条记录。"
+      }
+    },
+    {
+      "id": "C01",
+      "title": "Property Rental Index, Retail In Central Region By Locality, Quarterly",
+      "publisher": "Singapore Department of Statistics; original producer URA",
+      "url": "https://data.gov.sg/datasets/d_a6c0ffc105817820388fd7b46fc67b13/view",
+      "date": "2026-07-24",
+      "updatedDate": null,
+      "context": {
+        "en": "Regional private-retail rental index, originally based on 1998 Q4 = 100. The displayed series covers 2011 Q1–2026 Q2.",
+        "zh": "区域私人零售物业租金指数，原始基期为 1998 年第四季度＝100；图示序列覆盖 2011 年第一季度至 2026 年第二季度。"
+      }
+    },
+    {
+      "id": "C02",
+      "title": "Property Price Index By Type, Quarterly",
+      "publisher": "Singapore Department of Statistics; original producer URA",
+      "url": "https://data.gov.sg/datasets/d_620ad30cf4aca7c1c25eb2eff9e4bedc/view",
+      "date": "2026-07-24",
+      "updatedDate": null,
+      "context": {
+        "en": "Regional private-retail price index. The displayed series covers 2011 Q1–2026 Q2.",
+        "zh": "区域私人零售物业价格指数；图示序列覆盖 2011 年第一季度至 2026 年第二季度。"
+      }
+    },
+    {
+      "id": "C03",
+      "title": "Release of 2nd Quarter 2026 real estate statistics",
+      "publisher": "URA",
+      "url": "https://www.ura.gov.sg/news/media/pr26-57/",
+      "date": "2026-07-24",
+      "updatedDate": null,
+      "context": {
+        "en": "URA’s quarterly regional property-market release for 2026 Q2.",
+        "zh": "URA 关于 2026 年第二季度的区域房地产市场公报。"
+      }
+    },
+    {
+      "id": "C04",
+      "title": "Comparison of Property Price Index for 1Q2026 and 2Q2026",
+      "publisher": "URA",
+      "url": "https://isomer-user-content.by.gov.sg/467/ee78457a-9c05-4a99-95a0-3c6f4d87aa7d/pr26-57a1.pdf",
+      "date": "2026-07-24",
+      "updatedDate": null,
+      "context": {
+        "en": "Central Region retail price comparison for 2026 Q1 and Q2.",
+        "zh": "2026 年第一、二季度中区零售物业价格比较。"
+      }
+    },
+    {
+      "id": "C05",
+      "title": "Comparison of Rental Index for 1Q2026 and 2Q2026",
+      "publisher": "URA",
+      "url": "https://isomer-user-content.by.gov.sg/467/469923bb-83d2-4935-ac00-9b68255576d4/pr26-57a2.pdf",
+      "date": "2026-07-24",
+      "updatedDate": null,
+      "context": {
+        "en": "Central Region retail rental comparison for 2026 Q1 and Q2.",
+        "zh": "2026 年第一、二季度中区零售物业租金比较。"
+      }
+    },
+    {
+      "id": "C06",
+      "title": "Data Release Calendar",
+      "publisher": "URA",
+      "url": "https://www.ura.gov.sg/property-data/data-release-calendar/",
+      "date": "2026-09-04",
+      "updatedDate": null,
+      "context": {
+        "en": "URA’s property-data publication schedule. The site’s retail series ends at 2026 Q2.",
+        "zh": "URA 房地产数据发布安排；网站零售物业序列截至 2026 年第二季度。"
+      }
+    },
+    {
+      "id": "C07",
+      "title": "Rental Statistics for Office and Retail Space by Street",
+      "publisher": "URA",
+      "url": "https://eservice.ura.gov.sg/property-market-information/pmiCommercialRentalStatsByStreet",
+      "date": "2026-10-16",
+      "updatedDate": null,
+      "context": {
+        "en": "Street-level office and retail rental statistics service. Regional index charts use the separately cited index datasets.",
+        "zh": "街道层面的办公及零售租金统计服务；区域指数图采用另行注明的指数数据集。"
+      }
+    },
+    {
+      "id": "H14",
+      "title": "New landmark in Alexandra — The Straits Times, 10 January 1972, p.12",
+      "publisher": "The Straits Times; archived by National Library Board, NewspaperSG",
+      "url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitstimes19720110-1.2.92",
+      "date": "1972-01-10"
+    },
+    {
+      "id": "H15",
+      "title": "Queensway Shopping Centre — Retail Mall and Residential Tower",
+      "publisher": "Comprehensive Design Group Architects",
+      "url": "https://www.cdgarchitects.sg/queensway-shopping-centre",
+      "date": null
+    }
+  ]
+}

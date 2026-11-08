@@ -1,0 +1,1879 @@
+{
+  "source": "Archiving Queensway · shop photographs",
+  "asOf": "2026-11-02",
+  "imageTreatment": "Full frame, original aspect ratio; resized for the web without cropping.",
+  "records": [
+    {
+      "row": 3,
+      "floor": 1,
+      "unit": "01-01",
+      "name": "Western Vision",
+      "photo": {
+        "src": "assets/shop-photos/7a52363620c7c29a9baa.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 5,
+      "floor": 1,
+      "unit": "01-03",
+      "name": "Yak Mee Trading",
+      "photo": {
+        "src": "assets/shop-photos/a394b4b5ec3a9bc1a02d.webp",
+        "width": 600,
+        "height": 450,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 6,
+      "floor": 1,
+      "unit": "01-04",
+      "name": "iRun",
+      "photo": {
+        "src": "assets/shop-photos/07ddc677879d91cea910.webp",
+        "width": 408,
+        "height": 306,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 7,
+      "floor": 1,
+      "unit": "01-05",
+      "name": "iRun",
+      "photo": {
+        "src": "assets/shop-photos/07ddc677879d91cea910.webp",
+        "width": 408,
+        "height": 306,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 8,
+      "floor": 1,
+      "unit": "01-06",
+      "name": "iRun",
+      "photo": {
+        "src": "assets/shop-photos/07ddc677879d91cea910.webp",
+        "width": 408,
+        "height": 306,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 9,
+      "floor": 1,
+      "unit": "01-07",
+      "name": "iRun",
+      "photo": {
+        "src": "assets/shop-photos/07ddc677879d91cea910.webp",
+        "width": 408,
+        "height": 306,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 10,
+      "floor": 1,
+      "unit": "01-08",
+      "name": "Tasstore",
+      "photo": {
+        "src": "assets/shop-photos/2cdd2a82301846e78ea9.webp",
+        "width": 1200,
+        "height": 926,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 11,
+      "floor": 1,
+      "unit": "01-09",
+      "name": "My President Mattress",
+      "photo": {
+        "src": "assets/shop-photos/366f00869f149ad168db.webp",
+        "width": 960,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 12,
+      "floor": 1,
+      "unit": "01-10",
+      "name": "LE Hall of Fame",
+      "photo": {
+        "src": "assets/shop-photos/c5355338340b0c0b0204.webp",
+        "width": 960,
+        "height": 640,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 13,
+      "floor": 1,
+      "unit": "01-11",
+      "name": "LE Hall of Fame",
+      "photo": {
+        "src": "assets/shop-photos/c5355338340b0c0b0204.webp",
+        "width": 960,
+        "height": 640,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 14,
+      "floor": 1,
+      "unit": "01-12",
+      "name": "Underarmour",
+      "photo": {
+        "src": "assets/shop-photos/e85c320d803446860ac6.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 15,
+      "floor": 1,
+      "unit": "01-14",
+      "name": "Chequered Flag",
+      "photo": {
+        "src": "assets/shop-photos/887541488037bde4c1c6.webp",
+        "width": 766,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 16,
+      "floor": 1,
+      "unit": "01-15",
+      "name": "ATP Gold and Jewellery",
+      "photo": {
+        "src": "assets/shop-photos/34fa1f46f78139f069ca.webp",
+        "width": 960,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 19,
+      "floor": 1,
+      "unit": "01-18",
+      "name": "Liverpool FC",
+      "photo": {
+        "src": "assets/shop-photos/8e4187dbca10350e5d51.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 20,
+      "floor": 1,
+      "unit": "01-19",
+      "name": "Liverpool FC",
+      "photo": {
+        "src": "assets/shop-photos/8e4187dbca10350e5d51.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 23,
+      "floor": 1,
+      "unit": "01-22",
+      "name": "Weston Corp",
+      "photo": {
+        "src": "assets/shop-photos/2de9878cbd72fe4acdab.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 24,
+      "floor": 1,
+      "unit": "01-23",
+      "name": "Label Overflow",
+      "photo": {
+        "src": "assets/shop-photos/9219a28896b06a5d4399.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 25,
+      "floor": 1,
+      "unit": "01-24",
+      "name": "Everlast (Inbox)",
+      "photo": {
+        "src": "assets/shop-photos/13c58b120e31ba430b22.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 26,
+      "floor": 1,
+      "unit": "01-25",
+      "name": "Inbox",
+      "photo": {
+        "src": "assets/shop-photos/3860b556f50e4c71cf32.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 27,
+      "floor": 1,
+      "unit": "01-26B",
+      "name": "The Racket Assembly",
+      "photo": {
+        "src": "assets/shop-photos/c9c41f97ac61ed757452.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 29,
+      "floor": 1,
+      "unit": "01-27",
+      "name": "Athlete's Domain",
+      "photo": {
+        "src": "assets/shop-photos/83c9450bad016327ad64.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 30,
+      "floor": 1,
+      "unit": "01-28",
+      "name": "Athlete's Domain",
+      "photo": {
+        "src": "assets/shop-photos/83c9450bad016327ad64.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 31,
+      "floor": 1,
+      "unit": "01-29",
+      "name": "Sportsworld",
+      "photo": {
+        "src": "assets/shop-photos/7ef8a1634d140187acf7.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 32,
+      "floor": 1,
+      "unit": "01-30A",
+      "name": "SK Optic",
+      "photo": {
+        "src": "assets/shop-photos/025280f8b4f3c2fb3400.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 34,
+      "floor": 1,
+      "unit": "01-31",
+      "name": "Morning Star",
+      "photo": {
+        "src": "assets/shop-photos/0f5ee15a8df4f20a135b.webp",
+        "width": 960,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 35,
+      "floor": 1,
+      "unit": "01-32",
+      "name": "N-Zone Sports",
+      "photo": {
+        "src": "assets/shop-photos/1d36f2384f3b289382ce.webp",
+        "width": 960,
+        "height": 720,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 36,
+      "floor": 1,
+      "unit": "01-33",
+      "name": "Gala Sports",
+      "photo": {
+        "src": "assets/shop-photos/e1799b6dc28252c4c55b.webp",
+        "width": 350,
+        "height": 250,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 37,
+      "floor": 1,
+      "unit": "01-34",
+      "name": "Peregrinate",
+      "photo": {
+        "src": "assets/shop-photos/fcd38f3d0dbf351f26d0.webp",
+        "width": 1280,
+        "height": 720,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 40,
+      "floor": 1,
+      "unit": "01-37",
+      "name": "My Digital Lock",
+      "photo": {
+        "src": "assets/shop-photos/29098c63f977dae1243c.webp",
+        "width": 1280,
+        "height": 875,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 41,
+      "floor": 1,
+      "unit": "01-38",
+      "name": "Smash Sports",
+      "photo": {
+        "src": "assets/shop-photos/11e42de06232b9d9e59b.webp",
+        "width": 768,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 42,
+      "floor": 1,
+      "unit": "01-39",
+      "name": "AZ Optics Centre",
+      "photo": {
+        "src": "assets/shop-photos/e6e76c7b41fa4d147105.webp",
+        "width": 640,
+        "height": 388,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 43,
+      "floor": 1,
+      "unit": "01-40",
+      "name": "1Collectibles",
+      "photo": {
+        "src": "assets/shop-photos/1c862bc9837e5c9e9a3b.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 44,
+      "floor": 1,
+      "unit": "01-41",
+      "name": "Backpacker's Gallery",
+      "photo": {
+        "src": "assets/shop-photos/2f5fc4ea36b789d00aa5.webp",
+        "width": 1200,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 48,
+      "floor": 1,
+      "unit": "01-45",
+      "name": "FUZE",
+      "photo": {
+        "src": "assets/shop-photos/9c2ad4871496fad52ae2.webp",
+        "width": 1280,
+        "height": 822,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 49,
+      "floor": 1,
+      "unit": "01-46",
+      "name": "FUZE",
+      "photo": {
+        "src": "assets/shop-photos/9c2ad4871496fad52ae2.webp",
+        "width": 1280,
+        "height": 822,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 50,
+      "floor": 1,
+      "unit": "01-47",
+      "name": "Converse",
+      "photo": {
+        "src": "assets/shop-photos/ab0eefbec7d15d9535db.webp",
+        "width": 960,
+        "height": 957,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 52,
+      "floor": 1,
+      "unit": "01-48",
+      "name": "Glimpse",
+      "photo": {
+        "src": "assets/shop-photos/c9dd238e7037d24537d9.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 53,
+      "floor": 1,
+      "unit": "01-48A",
+      "name": "Glimpse",
+      "photo": {
+        "src": "assets/shop-photos/c9dd238e7037d24537d9.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 54,
+      "floor": 1,
+      "unit": "01-50",
+      "name": "Tomorrow's Optics",
+      "photo": {
+        "src": "assets/shop-photos/f4e00312572eb93cf0df.webp",
+        "width": 1280,
+        "height": 853,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 55,
+      "floor": 1,
+      "unit": "01-51",
+      "name": "Optics Today",
+      "photo": {
+        "src": "assets/shop-photos/fbda43d9d989af3649b6.webp",
+        "width": 1280,
+        "height": 854,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 57,
+      "floor": 1,
+      "unit": "01-53",
+      "name": "Seng Li Optometrists",
+      "photo": {
+        "src": "assets/shop-photos/0cdd840e457caebeb9ad.webp",
+        "width": 1279,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 58,
+      "floor": 1,
+      "unit": "01-54",
+      "name": "Optique Zone",
+      "photo": {
+        "src": "assets/shop-photos/8580c111cb4204ee1c8c.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 61,
+      "floor": 1,
+      "unit": "01-57",
+      "name": "The Fishtank Concept Store",
+      "photo": {
+        "src": "assets/shop-photos/2d44f1e27e011de3e764.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 62,
+      "floor": 1,
+      "unit": "01-58",
+      "name": "Liho",
+      "photo": {
+        "src": "assets/shop-photos/de752ee8a4208a1e5c7d.webp",
+        "width": 640,
+        "height": 400,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 63,
+      "floor": 1,
+      "unit": "01-59",
+      "name": "Janggut Laksa",
+      "photo": {
+        "src": "assets/shop-photos/fb4e95a3eb559e4aff97.webp",
+        "width": 1280,
+        "height": 721,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 64,
+      "floor": 1,
+      "unit": "01-60",
+      "name": "328 Katong Laksa",
+      "photo": {
+        "src": "assets/shop-photos/4b4dbe22e2faa6268d25.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 66,
+      "floor": 2,
+      "unit": "02-01",
+      "name": "Chonky and Friends",
+      "photo": {
+        "src": "assets/shop-photos/96996fa0a7293f069368.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 67,
+      "floor": 2,
+      "unit": "02-02",
+      "name": "Saleh Enterprises",
+      "photo": {
+        "src": "assets/shop-photos/a7f690217b6f7296e715.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 68,
+      "floor": 2,
+      "unit": "02-03",
+      "name": "Toybros",
+      "photo": {
+        "src": "assets/shop-photos/a806b45e2f0d9ea9b646.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 69,
+      "floor": 2,
+      "unit": "02-04",
+      "name": "Helicopter Smartfly",
+      "photo": {
+        "src": "assets/shop-photos/3fc967ce04f82df49d4f.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 70,
+      "floor": 2,
+      "unit": "02-05",
+      "name": "Speediance",
+      "photo": {
+        "src": "assets/shop-photos/11098ca08d09f31e864c.webp",
+        "width": 1280,
+        "height": 720,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 71,
+      "floor": 2,
+      "unit": "02-06",
+      "name": "The Toylike Zone",
+      "photo": {
+        "src": "assets/shop-photos/5e9db97594a796831d3f.webp",
+        "width": 1202,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 72,
+      "floor": 2,
+      "unit": "02-07",
+      "name": "U TCM Clinic",
+      "photo": {
+        "src": "assets/shop-photos/9cb99ef91ba79b02405b.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 74,
+      "floor": 2,
+      "unit": "02-08",
+      "name": "Un.wastelands",
+      "photo": {
+        "src": "assets/shop-photos/e1ffeb426f8d6af93ba2.webp",
+        "width": 1000,
+        "height": 750,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 75,
+      "floor": 2,
+      "unit": "02-09",
+      "name": "Miku Market",
+      "photo": {
+        "src": "assets/shop-photos/b4aa43437f8694231bb1.webp",
+        "width": 769,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 76,
+      "floor": 2,
+      "unit": "02-09",
+      "name": "Melody Sleep",
+      "photo": {
+        "src": "assets/shop-photos/9d611cb0d657ce04edd1.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 77,
+      "floor": 2,
+      "unit": "02-10",
+      "name": "Kalibak's Kave",
+      "photo": {
+        "src": "assets/shop-photos/c68821287526e43b483a.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 78,
+      "floor": 2,
+      "unit": "02-11",
+      "name": "Mahabub",
+      "photo": {
+        "src": "assets/shop-photos/e6f13302506cd0e50b71.webp",
+        "width": 960,
+        "height": 720,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 79,
+      "floor": 2,
+      "unit": "02-12",
+      "name": "Dickies",
+      "photo": {
+        "src": "assets/shop-photos/1c55b73bf65c780c2593.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 80,
+      "floor": 2,
+      "unit": "02-12",
+      "name": "Meng Meng Alteration Centre",
+      "photo": {
+        "src": "assets/shop-photos/626176fd39b0b022c13d.webp",
+        "width": 1280,
+        "height": 720,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 82,
+      "floor": 2,
+      "unit": "02-14",
+      "name": "Naseera Sports",
+      "photo": {
+        "src": "assets/shop-photos/7154a8a79aaf1aa4758e.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 83,
+      "floor": 2,
+      "unit": "02-15",
+      "name": "Drizzle",
+      "photo": {
+        "src": "assets/shop-photos/04bc64d347acb23eb93d.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 87,
+      "floor": 2,
+      "unit": "02-18",
+      "name": "JR Eagle Sports Wear",
+      "photo": {
+        "src": "assets/shop-photos/6f2adeff8f3be96cec6f.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 89,
+      "floor": 2,
+      "unit": "02-20",
+      "name": "Blueprint Principles",
+      "photo": {
+        "src": "assets/shop-photos/caccb1b6249c11b08ee3.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 90,
+      "floor": 2,
+      "unit": "02-20",
+      "name": "Men's Choice Collezione",
+      "photo": {
+        "src": "assets/shop-photos/1125c65e706504b48263.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 94,
+      "floor": 2,
+      "unit": "02-24",
+      "name": "2S Printing Hub",
+      "photo": {
+        "src": "assets/shop-photos/fc5133ae7e70a5f7f0bc.webp",
+        "width": 976,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 97,
+      "floor": 2,
+      "unit": "02-27",
+      "name": "Tech Paradise",
+      "photo": {
+        "src": "assets/shop-photos/ee8b61c1063fa85be5f5.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 99,
+      "floor": 2,
+      "unit": "02-29",
+      "name": "Sunya & Satya Co.",
+      "photo": {
+        "src": "assets/shop-photos/3324f8d74313faf315f0.webp",
+        "width": 900,
+        "height": 601,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 100,
+      "floor": 2,
+      "unit": "02-30",
+      "name": "Sleek and Trendy Cut",
+      "photo": {
+        "src": "assets/shop-photos/fe81883f3ed5e1971126.webp",
+        "width": 1274,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 101,
+      "floor": 2,
+      "unit": "02-31",
+      "name": "Eye Essentials",
+      "photo": {
+        "src": "assets/shop-photos/5b386591aa61c8b1763e.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 103,
+      "floor": 2,
+      "unit": "02-33",
+      "name": "Great Eastern Cosmetics",
+      "photo": {
+        "src": "assets/shop-photos/53258af91950204bd58b.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 104,
+      "floor": 2,
+      "unit": "02-34",
+      "name": "Newlink Sports",
+      "photo": {
+        "src": "assets/shop-photos/e9fb0cb5d334870d7d7e.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 105,
+      "floor": 2,
+      "unit": "02-35",
+      "name": "Sinma Optical",
+      "photo": {
+        "src": "assets/shop-photos/6146f1533c8d73f61c7f.webp",
+        "width": 1280,
+        "height": 953,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 107,
+      "floor": 2,
+      "unit": "02-36",
+      "name": "GD Pick",
+      "photo": {
+        "src": "assets/shop-photos/5ea4da8fb43a235b6346.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 109,
+      "floor": 2,
+      "unit": "02-36B",
+      "name": "Thornton",
+      "photo": {
+        "src": "assets/shop-photos/374e72b9f50d9602906f.webp",
+        "width": 1280,
+        "height": 591,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 110,
+      "floor": 2,
+      "unit": "02-36C",
+      "name": "Wilson Tailor",
+      "photo": {
+        "src": "assets/shop-photos/89f741bf9e772b958f54.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 111,
+      "floor": 2,
+      "unit": "02-37",
+      "name": "Bonker's Link",
+      "photo": {
+        "src": "assets/shop-photos/8a46d33b744f0acdf9df.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 112,
+      "floor": 2,
+      "unit": "02-37A",
+      "name": "The Cut Collective",
+      "photo": {
+        "src": "assets/shop-photos/bf6d120741e296c4e57d.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 113,
+      "floor": 2,
+      "unit": "02-37B",
+      "name": "Speediance",
+      "photo": {
+        "src": "assets/shop-photos/11098ca08d09f31e864c.webp",
+        "width": 1280,
+        "height": 720,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 116,
+      "floor": 2,
+      "unit": "02-37E",
+      "name": "Lucky Garment Alteration Centre",
+      "photo": {
+        "src": "assets/shop-photos/83c4884e820f2b52425f.webp",
+        "width": 1280,
+        "height": 719,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 117,
+      "floor": 2,
+      "unit": "02-37F",
+      "name": "J&N Jewellery",
+      "photo": {
+        "src": "assets/shop-photos/76ba5ed4425ff9df8a01.webp",
+        "width": 723,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 118,
+      "floor": 2,
+      "unit": "02-37G",
+      "name": "Chau Beng Sports",
+      "photo": {
+        "src": "assets/shop-photos/13674cccdf35289af731.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 119,
+      "floor": 2,
+      "unit": "02-37H",
+      "name": "Chau Beng Sports",
+      "photo": {
+        "src": "assets/shop-photos/13674cccdf35289af731.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 122,
+      "floor": 2,
+      "unit": "02-37L",
+      "name": "DaCave Store",
+      "photo": {
+        "src": "assets/shop-photos/b14be4b896bf98a73b5e.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 123,
+      "floor": 2,
+      "unit": "02-37M",
+      "name": "Ellie Shoes Co",
+      "photo": {
+        "src": "assets/shop-photos/b4c31d0b608f767de8b0.webp",
+        "width": 962,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 128,
+      "floor": 2,
+      "unit": "02-39",
+      "name": "Lure",
+      "photo": {
+        "src": "assets/shop-photos/75a85028ebbe731497f0.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 133,
+      "floor": 2,
+      "unit": "02-39E",
+      "name": "Yee Jin Tailor",
+      "photo": {
+        "src": "assets/shop-photos/7c9530d63cbc062c7a2b.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 135,
+      "floor": 2,
+      "unit": "02-39G",
+      "name": "Sports Finesse",
+      "photo": {
+        "src": "assets/shop-photos/f21e2b56b8d4903521fc.webp",
+        "width": 1280,
+        "height": 720,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 139,
+      "floor": 2,
+      "unit": "02-39L",
+      "name": "Transworld Sports",
+      "photo": {
+        "src": "assets/shop-photos/57e8a4aa2490057032e0.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 140,
+      "floor": 2,
+      "unit": "02-39M",
+      "name": "Transworld Sports",
+      "photo": {
+        "src": "assets/shop-photos/57e8a4aa2490057032e0.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 141,
+      "floor": 2,
+      "unit": "02-40",
+      "name": "Blueprint Principles",
+      "photo": {
+        "src": "assets/shop-photos/fffcb3812744f6840d10.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 143,
+      "floor": 2,
+      "unit": "02-40B",
+      "name": "Queens Printing",
+      "photo": {
+        "src": "assets/shop-photos/a195a43595d2542ead72.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 144,
+      "floor": 2,
+      "unit": "02-40C",
+      "name": "Kaka Shoes",
+      "photo": {
+        "src": "assets/shop-photos/b21b7aede802210f21d6.webp",
+        "width": 966,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 145,
+      "floor": 2,
+      "unit": "02-41",
+      "name": "Barter Trade",
+      "photo": {
+        "src": "assets/shop-photos/43898ee94605ee0cfca3.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 146,
+      "floor": 2,
+      "unit": "02-41A",
+      "name": "Tailor Hong Fashion",
+      "photo": {
+        "src": "assets/shop-photos/cd519b7b68a8f2f5d463.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 150,
+      "floor": 2,
+      "unit": "02-41E",
+      "name": "Matt De Barbershop",
+      "photo": {
+        "src": "assets/shop-photos/04d9eba7a9f2955f0abe.webp",
+        "width": 1280,
+        "height": 826,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 151,
+      "floor": 2,
+      "unit": "02-41F",
+      "name": "Frank's Leathersmith",
+      "photo": {
+        "src": "assets/shop-photos/0b43b3acd68cf3081fcf.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 152,
+      "floor": 2,
+      "unit": "02-41G",
+      "name": "Fancy Pin",
+      "photo": {
+        "src": "assets/shop-photos/ae1316a9190d10ece38c.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 154,
+      "floor": 2,
+      "unit": "02-41J",
+      "name": "96 Pte Ltd",
+      "photo": {
+        "src": "assets/shop-photos/e5f6c2770549b9c40142.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 155,
+      "floor": 2,
+      "unit": "02-41K",
+      "name": "Vintage Wars",
+      "photo": {
+        "src": "assets/shop-photos/42b098c5cff7841ddf86.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 156,
+      "floor": 2,
+      "unit": "02-41L",
+      "name": "Golden City Clock and Watch Dealers",
+      "photo": {
+        "src": "assets/shop-photos/f8ae93f5c20baba4f40e.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 157,
+      "floor": 2,
+      "unit": "02-42",
+      "name": "Tees Printing Apparel",
+      "photo": {
+        "src": "assets/shop-photos/b4319a40c1451a7be3e3.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 160,
+      "floor": 2,
+      "unit": "02-42C",
+      "name": "Newlink Sports",
+      "photo": {
+        "src": "assets/shop-photos/e612ad00fb27cfe225c3.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 161,
+      "floor": 2,
+      "unit": "02-42D",
+      "name": "AR Sports",
+      "photo": {
+        "src": "assets/shop-photos/c521be2929307144e72b.webp",
+        "width": 1000,
+        "height": 500,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 162,
+      "floor": 2,
+      "unit": "02-42E",
+      "name": "EL Playtee Printing",
+      "photo": {
+        "src": "assets/shop-photos/ed0d41a3b7381236ff97.webp",
+        "width": 1279,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 163,
+      "floor": 2,
+      "unit": "02-42F",
+      "name": "Mr Trendy Collections",
+      "photo": {
+        "src": "assets/shop-photos/b39ff49fb74b9d95f983.webp",
+        "width": 1280,
+        "height": 720,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 164,
+      "floor": 2,
+      "unit": "02-43",
+      "name": "Thornton",
+      "photo": {
+        "src": "assets/shop-photos/374e72b9f50d9602906f.webp",
+        "width": 1280,
+        "height": 591,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 165,
+      "floor": 2,
+      "unit": "02-43A",
+      "name": "UpThrift",
+      "photo": {
+        "src": "assets/shop-photos/f2ea42c72e74926867d8.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 168,
+      "floor": 2,
+      "unit": "02-43D",
+      "name": "Hello Sports",
+      "photo": {
+        "src": "assets/shop-photos/015146c73755ed9c29c8.webp",
+        "width": 1280,
+        "height": 622,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 169,
+      "floor": 2,
+      "unit": "02-43E",
+      "name": "Hello Sports",
+      "photo": {
+        "src": "assets/shop-photos/015146c73755ed9c29c8.webp",
+        "width": 1280,
+        "height": 622,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 170,
+      "floor": 2,
+      "unit": "02-43F",
+      "name": "Smash Sports",
+      "photo": {
+        "src": "assets/shop-photos/f8109fb60c6247885f7b.webp",
+        "width": 350,
+        "height": 250,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 171,
+      "floor": 2,
+      "unit": "02-44",
+      "name": "Transworld Sports",
+      "photo": {
+        "src": "assets/shop-photos/cb192db816383e28900c.webp",
+        "width": 750,
+        "height": 500,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 172,
+      "floor": 2,
+      "unit": "02-44A",
+      "name": "Wei Mun Enterprises",
+      "photo": {
+        "src": "assets/shop-photos/face129e8e4d443c7826.webp",
+        "width": 600,
+        "height": 800,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 173,
+      "floor": 2,
+      "unit": "02-44B",
+      "name": "Tuffcuts",
+      "photo": {
+        "src": "assets/shop-photos/8e81545a9d3003bd4f8e.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 174,
+      "floor": 2,
+      "unit": "02-44C",
+      "name": "Smash Sports",
+      "photo": {
+        "src": "assets/shop-photos/11e42de06232b9d9e59b.webp",
+        "width": 768,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 175,
+      "floor": 2,
+      "unit": "02-44D",
+      "name": "Smash Sports",
+      "photo": {
+        "src": "assets/shop-photos/11e42de06232b9d9e59b.webp",
+        "width": 768,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 176,
+      "floor": 2,
+      "unit": "02-44E",
+      "name": "Lister Shoes Co",
+      "photo": {
+        "src": "assets/shop-photos/40ee771f77c75d417f71.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 177,
+      "floor": 2,
+      "unit": "02-44F",
+      "name": "Hello Sports",
+      "photo": {
+        "src": "assets/shop-photos/015146c73755ed9c29c8.webp",
+        "width": 1280,
+        "height": 622,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 178,
+      "floor": 2,
+      "unit": "02-45",
+      "name": "96 Pte Ltd",
+      "photo": {
+        "src": "assets/shop-photos/e5f6c2770549b9c40142.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 179,
+      "floor": 2,
+      "unit": "02-45A",
+      "name": "Aki's Bazaar",
+      "photo": {
+        "src": "assets/shop-photos/82d5d903363712099eee.webp",
+        "width": 1280,
+        "height": 720,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 182,
+      "floor": 2,
+      "unit": "02-45D",
+      "name": "Rising Shoe Shop",
+      "photo": {
+        "src": "assets/shop-photos/8fb90a8875c53af849c6.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 183,
+      "floor": 2,
+      "unit": "02-45E",
+      "name": "iMU",
+      "photo": {
+        "src": "assets/shop-photos/6a54c715ee7411b0dab3.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 184,
+      "floor": 2,
+      "unit": "02-45F",
+      "name": "iMU",
+      "photo": {
+        "src": "assets/shop-photos/6a54c715ee7411b0dab3.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 185,
+      "floor": 2,
+      "unit": "02-46",
+      "name": "Body Fit Training",
+      "photo": {
+        "src": "assets/shop-photos/951493c7757f94dbce3e.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 186,
+      "floor": 2,
+      "unit": "02-47",
+      "name": "Queensway Tutu Kueh",
+      "photo": {
+        "src": "assets/shop-photos/abd816bf1ac20848b246.webp",
+        "width": 1280,
+        "height": 720,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 204,
+      "floor": 3,
+      "unit": "03-05",
+      "name": "WeAre",
+      "photo": {
+        "src": "assets/shop-photos/d612150f3ea8c6cabdba.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 205,
+      "floor": 3,
+      "unit": "03-05",
+      "name": "Nightingale Thrift",
+      "photo": {
+        "src": "assets/shop-photos/3e063d76bd9a5a68d5b1.webp",
+        "width": 516,
+        "height": 387,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 206,
+      "floor": 3,
+      "unit": "03-06",
+      "name": "Honsie Ponsie",
+      "photo": {
+        "src": "assets/shop-photos/65566f35d2b37490ae59.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 207,
+      "floor": 3,
+      "unit": "03-06",
+      "name": "WeAre",
+      "photo": {
+        "src": "assets/shop-photos/d612150f3ea8c6cabdba.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 208,
+      "floor": 3,
+      "unit": "03-07",
+      "name": "Empty Square Fitness",
+      "photo": {
+        "src": "assets/shop-photos/2b378429777f1e279f68.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 212,
+      "floor": 3,
+      "unit": "03-11",
+      "name": "Weston Corp",
+      "photo": {
+        "src": "assets/shop-photos/2de9878cbd72fe4acdab.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 214,
+      "floor": 3,
+      "unit": "03-13",
+      "name": "Why Not Concepts",
+      "photo": {
+        "src": "assets/shop-photos/d75ffcbc1180ff59de73.webp",
+        "width": 600,
+        "height": 450,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 215,
+      "floor": 3,
+      "unit": "03-14",
+      "name": "Ultra Supplies",
+      "photo": {
+        "src": "assets/shop-photos/9816f723c96b70d207d0.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 216,
+      "floor": 3,
+      "unit": "03-15",
+      "name": "Ultra Supplies",
+      "photo": {
+        "src": "assets/shop-photos/9816f723c96b70d207d0.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 217,
+      "floor": 3,
+      "unit": "03-16",
+      "name": "Ultra Supplies",
+      "photo": {
+        "src": "assets/shop-photos/9816f723c96b70d207d0.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 224,
+      "floor": 3,
+      "unit": "03-23",
+      "name": "Basic Bowling",
+      "photo": {
+        "src": "assets/shop-photos/ad158a578d229d49db9d.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 226,
+      "floor": 3,
+      "unit": "03-25",
+      "name": "ABC Engraving",
+      "photo": {
+        "src": "assets/shop-photos/5409d672b4a0c1b9ab9f.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 227,
+      "floor": 3,
+      "unit": "03-26",
+      "name": "Ultra Supplies",
+      "photo": {
+        "src": "assets/shop-photos/9816f723c96b70d207d0.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 229,
+      "floor": 3,
+      "unit": "03-28",
+      "name": "ABC Engraving",
+      "photo": {
+        "src": "assets/shop-photos/5409d672b4a0c1b9ab9f.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 231,
+      "floor": 3,
+      "unit": "03-30",
+      "name": "Sports Fashion Outlet",
+      "photo": {
+        "src": "assets/shop-photos/7440a329a511862db757.webp",
+        "width": 1280,
+        "height": 853,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 233,
+      "floor": 3,
+      "unit": "03-32",
+      "name": "Honsie Ponsie",
+      "photo": {
+        "src": "assets/shop-photos/65566f35d2b37490ae59.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 234,
+      "floor": 3,
+      "unit": "03-33",
+      "name": "Alpha Plus",
+      "photo": {
+        "src": "assets/shop-photos/98047171d1f0b5f0e878.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 235,
+      "floor": 3,
+      "unit": "03-34",
+      "name": "Alpha Plus",
+      "photo": {
+        "src": "assets/shop-photos/98047171d1f0b5f0e878.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 236,
+      "floor": 3,
+      "unit": "03-35",
+      "name": "Alpha Plus",
+      "photo": {
+        "src": "assets/shop-photos/98047171d1f0b5f0e878.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 237,
+      "floor": 3,
+      "unit": "03-36",
+      "name": "Kami Kekkai",
+      "photo": {
+        "src": "assets/shop-photos/c593575b79bd3dfa2efa.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "unit"
+      }
+    },
+    {
+      "row": 238,
+      "floor": 3,
+      "unit": "03-37",
+      "name": "Ultra Supplies",
+      "photo": {
+        "src": "assets/shop-photos/9816f723c96b70d207d0.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 239,
+      "floor": 3,
+      "unit": "03-38",
+      "name": "Ultra Supplies",
+      "photo": {
+        "src": "assets/shop-photos/9816f723c96b70d207d0.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 240,
+      "floor": 3,
+      "unit": "03-39",
+      "name": "Ultra Supplies",
+      "photo": {
+        "src": "assets/shop-photos/9816f723c96b70d207d0.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 241,
+      "floor": 3,
+      "unit": "03-40",
+      "name": "Pottery Please",
+      "photo": {
+        "src": "assets/shop-photos/87adb26cd72c74e7a963.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 243,
+      "floor": 3,
+      "unit": "03-42",
+      "name": "ABC Engraving",
+      "photo": {
+        "src": "assets/shop-photos/5409d672b4a0c1b9ab9f.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 245,
+      "floor": 3,
+      "unit": "03-44",
+      "name": "Sports Report",
+      "photo": {
+        "src": "assets/shop-photos/7d72482b7a78301326aa.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 246,
+      "floor": 3,
+      "unit": "03-45",
+      "name": "Ultra Supplies",
+      "photo": {
+        "src": "assets/shop-photos/9816f723c96b70d207d0.webp",
+        "width": 1008,
+        "height": 756,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 247,
+      "floor": 3,
+      "unit": "03-46",
+      "name": "Dirty Laundry",
+      "photo": {
+        "src": "assets/shop-photos/c56808bebafedee79066.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 248,
+      "floor": 3,
+      "unit": "03-47",
+      "name": "Plant2Gift",
+      "photo": {
+        "src": "assets/shop-photos/c0933aa06a4753526af4.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 249,
+      "floor": 3,
+      "unit": "03-48",
+      "name": "Pottery Please",
+      "photo": {
+        "src": "assets/shop-photos/87adb26cd72c74e7a963.webp",
+        "width": 1280,
+        "height": 960,
+        "scope": "business"
+      }
+    },
+    {
+      "row": 251,
+      "floor": 3,
+      "unit": "03-50",
+      "name": "Sports Report",
+      "photo": {
+        "src": "assets/shop-photos/7d72482b7a78301326aa.webp",
+        "width": 720,
+        "height": 960,
+        "scope": "business"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": "2026-11-08",
+  "title": {
+    "en": "Archive data & sources",
+    "zh": "档案数据与来源"
+  },
+  "counts": {
+    "sources": 56,
+    "listingObservations": 29,
+    "residentialResales": 105,
+    "retailIndexObservations": 124,
+    "directoryRows": 248,
+    "photographRecords": 156
+  },
+  "units": {
+    "askingSale": "SGD",
+    "askingRent": "SGD/month",
+    "area": "sq ft",
+    "askingSalePsf": "SGD/sq ft",
+    "askingRentPsf": "SGD/sq ft/month"
+  },
+  "data": {
+    "sources": "data/research-sources.json",
+    "advertisements": "data/market-expanded.json",
+    "resales": "data/queensway-resale.json",
+    "retailIndices": "data/retail-indices.json",
+    "shopDirectory": "data/updated-directory.json",
+    "photographs": "data/shop-photos.json"
+  },
+  "planning": {
+    "datasetId": "d_a8c3546b26712e35021f3a681d0353ae",
+    "sourceUrl": "https://data.gov.sg/datasets/d_a8c3546b26712e35021f3a681d0353ae/view",
+    "version": "Master Plan 2025",
+    "sourceIds": [
+      "P06",
+      "P07",
+      "P08",
+      "P09"
+    ],
+    "landUse": "COMMERCIAL & RESIDENTIAL",
+    "gprRaw": "EVA"
+  }
+}

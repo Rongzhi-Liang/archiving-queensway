@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "name": "nearby-places",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alexandra Village Food Centre",
+        "name_zh": "亚历山大村熟食中心",
+        "address": "120 Bukit Merah Lane 1, Singapore 150120",
+        "source": "Singapore Land Authority OneMap Search API",
+        "source_url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=Alexandra%20Village%20Food%20Centre&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "Official search-result point; narrative links indicate relationships between places, not recorded journeys or navigation routes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8044926376481,
+          1.286305942741363
+        ]
+      }
+    }
+  ]
+}

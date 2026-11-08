@@ -1,0 +1,246 @@
+/* Queensway's history is one vertical, alternating photographic timeline. */
+#chapter-history.vertical-history{
+ position:relative;
+ z-index:10;
+ padding:28px 0;
+ --history-side:-1;
+}
+.vertical-history .history-spine{
+ position:absolute;
+ top:0;
+ bottom:0;
+ left:50%;
+ width:1px;
+ background:#ffffff20;
+ pointer-events:none;
+ mask-image:none;
+}
+.vertical-history .history-spine>i{
+ position:absolute;
+ inset:0;
+ background:linear-gradient(#efbb6b66,#efbb6b);
+ transform:scaleY(var(--history-progress,0));
+ transform-origin:50% 0;
+ box-shadow:0 0 12px #efbb6b22;
+}
+.vertical-history .story-step.evidence-step.history-moment{
+ display:grid;
+ grid-template-columns:minmax(0,1fr) 96px minmax(0,1fr);
+ column-gap:22px;
+ align-items:center;
+ min-height:clamp(410px,62svh,640px);
+ padding:28px 9vw;
+ margin:0 0 28px;
+ overflow:visible;
+ pointer-events:none;
+}
+.vertical-history .history-moment:last-child{margin-bottom:0}
+.vertical-history .history-moment[data-side=right]{--history-side:1}
+.vertical-history .story-step.evidence-step.history-moment .scene-copy{
+ grid-column:1;
+ grid-row:1;
+ align-self:center;
+ justify-self:start;
+ position:relative;
+ inset:auto;
+ width:100%;
+ max-width:440px!important;
+ margin:0;
+ opacity:calc(.2 + var(--history-reveal,1)*.8);
+ visibility:visible;
+ transform:translate3d(calc(var(--history-side)*(1 - var(--history-reveal,1))*14px),calc((1 - var(--history-reveal,1))*18px),0);
+ transition:opacity .35s ease,transform .6s cubic-bezier(.2,.7,.2,1);
+ transition-delay:65ms;
+ pointer-events:auto;
+}
+.vertical-history .story-step.evidence-step.history-moment[data-side=right] .scene-copy{grid-column:3;justify-self:end}
+.vertical-history .history-moment .scene-copy h2{
+ max-width:440px;
+ font-size:clamp(46px,4vw,58px);
+ line-height:1.09;
+ letter-spacing:-.025em;
+ text-wrap:balance;
+}
+.vertical-history .history-moment .scene-kicker{font-size:8px;letter-spacing:.12em;gap:11px;margin-bottom:18px}
+.vertical-history .history-moment .scene-kicker:before{width:18px}
+.vertical-history .history-moment .scene-body{max-width:370px;font-size:14px;line-height:1.8;margin-top:22px}
+.vertical-history .history-moment .c-source-link{margin-top:19px;font-size:10px;padding:8px 0}
+
+.vertical-history .history-date{
+ position:relative;
+ grid-column:2;
+ grid-row:1;
+ justify-self:center;
+ align-self:center;
+ width:116px;
+ z-index:2;
+ text-align:center;
+ pointer-events:auto;
+}
+.vertical-history .history-date:before{
+ content:'';
+ position:absolute;
+ top:-18px;
+ left:50%;
+ width:6px;
+ height:6px;
+ border:1px solid #efbb6b88;
+ border-radius:50%;
+ background:#151515;
+ transform:translateX(-50%);
+ box-shadow:0 0 0 6px #151515;
+ transition:background .4s,box-shadow .6s;
+}
+.vertical-history .history-moment.is-active .history-date:before{
+ background:var(--gold);
+ box-shadow:0 0 0 6px #151515,0 0 0 7px #efbb6b35,0 0 18px #efbb6b55;
+}
+.vertical-history .history-moment.is-past .history-date:before{background:#c29a60}
+.vertical-history .history-date button{
+ appearance:none;
+ width:100%;
+ padding:7px 3px 9px;
+ border:0;
+ background:#151515;
+ color:#d9c7ad;
+ text-align:center;
+ cursor:pointer;
+}
+.vertical-history .history-date-year{
+ display:block;
+ font:500 33px/1.1 var(--archive-type);
+ letter-spacing:-.015em;
+ font-style:normal;
+ color:var(--gold);
+}
+.vertical-history .history-date-detail{display:block;margin-top:9px;font:8px/1.6 var(--sans);letter-spacing:.06em;color:#b1a99e}
+.vertical-history .history-date-detail:empty{display:none}
+
+.vertical-history .history-media{
+ grid-column:3;
+ grid-row:1;
+ align-self:center;
+ margin:0;
+ min-width:0;
+ width:100%;
+ opacity:calc(.3 + var(--history-reveal,1)*.7);
+ transform:translate3d(0,calc((1 - var(--history-reveal,1))*12px),0);
+ transition:opacity .4s ease,transform .65s cubic-bezier(.2,.7,.2,1);
+ pointer-events:auto;
+}
+.vertical-history .history-moment[data-side=right] .history-media{grid-column:1}
+.vertical-history .history-image-button{
+ display:block;
+ position:relative;
+ width:100%;
+ height:clamp(260px,43svh,410px);
+ appearance:none;
+ padding:0;
+ border:0;
+ background:none;
+ overflow:visible;
+ cursor:zoom-in;
+}
+.vertical-history .history-image-surface{
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ width:100%;
+ height:100%;
+ transform:translate3d(0,calc(var(--history-parallax,0)*24px),0);
+ transition:transform .18s linear;
+}
+.vertical-history .history-image-surface>img{display:block;width:100%;height:100%;object-fit:cover;filter:none}
+.vertical-history .history-media[data-media=photo] .history-image-surface{
+ mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent),linear-gradient(0deg,transparent,#000 8%,#000 92%,transparent);
+ mask-composite:intersect;
+}
+.vertical-history .history-media[data-media=document] .history-image-surface>img{object-fit:contain}
+.vertical-history .history-media[data-media=document] .history-image-surface{transform:translate3d(0,calc(var(--history-parallax,0)*12px),0)}
+.vertical-history .history-image-surface .c-source-crop{position:relative;flex:none;width:100%;overflow:hidden;max-width:100%;max-height:100%;margin:auto}
+.vertical-history .history-image-surface .c-source-crop img{position:absolute;display:block;max-width:none;max-height:none;object-fit:fill;filter:none}
+.vertical-history .history-image-open{position:absolute;right:14px;bottom:14px;color:#f0c386;font:18px/1 var(--sans);opacity:0;transform:translate(-3px,3px);transition:opacity .3s,transform .3s;pointer-events:none;text-shadow:0 2px 8px #000}
+.vertical-history .history-image-button:hover .history-image-open,.vertical-history .history-image-button:focus-visible .history-image-open{opacity:1;transform:none}
+.vertical-history .history-media figcaption{
+ max-width:95%;
+ margin:16px 0 0 auto;
+ color:#a8a8a8;
+ font:8px/1.7 var(--sans);
+ letter-spacing:.015em;
+ text-align:right;
+}
+.vertical-history .history-moment[data-side=right] .history-media figcaption{text-align:left;margin-left:0;margin-right:auto}
+.vertical-history .history-media figcaption a{color:inherit;text-decoration:none;border-bottom:1px solid #ffffff26;text-underline-offset:3px}
+.vertical-history .history-media figcaption a:hover{color:#e9c68f}
+.vertical-history .history-image-button:focus-visible,.vertical-history .history-date button:focus-visible{outline:1px solid var(--gold);outline-offset:6px}
+
+/* Row media carries the archive; the shared stage resumes for the data chapters. */
+.context-integrated[data-chapter=timeline] .c-photo-background,
+.context-integrated[data-chapter=timeline] .c-timeline,
+.context-integrated[data-chapter=timeline] .c-map-era,
+.context-integrated[data-chapter=timeline] .c-photo-credit,
+.context-integrated[data-chapter=timeline] .c-history-enlarge{opacity:0;visibility:hidden;pointer-events:none}
+
+@media(min-width:1700px){
+ .vertical-history .story-step.evidence-step.history-moment{padding-left:max(9vw,calc((100vw - 1500px)/2));padding-right:max(9vw,calc((100vw - 1500px)/2))}
+}
+@media(min-width:701px) and (max-width:1100px){
+ .vertical-history .story-step.evidence-step.history-moment{grid-template-columns:minmax(0,1fr) 78px minmax(0,1fr);column-gap:18px;padding-left:7vw;padding-right:7vw}
+ .vertical-history .history-moment .scene-copy h2{font-size:clamp(37px,4.6vw,48px)}
+ .vertical-history .history-moment .scene-body{font-size:13px;line-height:1.8}
+ .vertical-history .history-date{width:92px}
+ .vertical-history .history-date-year{font-size:29px}
+ .vertical-history .history-date-detail{font-size:7px}
+ .vertical-history .history-image-button{height:clamp(250px,40svh,350px)}
+}
+@media(max-width:700px){
+ #chapter-history.vertical-history{padding:22px 0}
+ .vertical-history .history-spine{left:8vw}
+ .vertical-history .story-step.evidence-step.history-moment{
+  grid-template-columns:24px minmax(0,1fr);
+  column-gap:16px;
+  row-gap:18px;
+  min-height:0;
+  padding:25px 8vw 36px;
+  margin-bottom:20px;
+  align-items:start;
+ }
+ .vertical-history .history-moment .history-date{grid-column:2;grid-row:1;justify-self:start;align-self:start;width:auto;text-align:left}
+ .vertical-history .history-date:before{left:-40px;top:15px;transform:translateX(-50%)}
+ .vertical-history .history-date button{width:auto;padding:0;background:transparent;text-align:left;display:flex;align-items:baseline;gap:14px}
+ .vertical-history .history-date-year{font-size:34px}
+ .vertical-history .history-date-detail{font-size:8px;margin:0;max-width:110px}
+ .vertical-history .history-moment .history-media,
+ .vertical-history .history-moment[data-side=right] .history-media{grid-column:2;grid-row:2;justify-self:stretch}
+ .vertical-history .history-image-button{height:clamp(190px,32svh,300px)}
+ .vertical-history .history-image-open{opacity:.75;right:10px;bottom:10px;font-size:16px;transform:none}
+ .vertical-history .history-image-surface{transform:translate3d(0,calc(var(--history-parallax,0)*14px),0)}
+ .vertical-history .history-media[data-media=document] .history-image-surface{transform:translate3d(0,calc(var(--history-parallax,0)*8px),0)}
+ .vertical-history .history-media figcaption,
+ .vertical-history .history-moment[data-side=right] .history-media figcaption{margin:10px 0 0;max-width:100%;font-size:7px;text-align:left}
+ .vertical-history .story-step.evidence-step.history-moment .scene-copy,
+ .vertical-history .story-step.evidence-step.history-moment[data-side=right] .scene-copy{grid-column:2;grid-row:3;max-width:100%!important;justify-self:start}
+ .vertical-history .history-moment .scene-copy h2{font-size:clamp(32px,8.4vw,44px);line-height:1.1;text-wrap:initial}
+ .vertical-history .history-moment .scene-kicker{font-size:7px;gap:9px;margin-bottom:13px}
+ .vertical-history .history-moment .scene-body{max-width:none;margin-top:17px;font-size:12.5px;line-height:1.85}
+ .vertical-history .history-moment .c-source-link{margin-top:14px;font-size:9px}
+ html[lang=zh] .vertical-history .history-moment .scene-copy h2{font-size:clamp(31px,8vw,42px);line-height:1.25}
+ html[lang=zh] .vertical-history .history-moment .scene-body{font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){
+ .vertical-history .story-step.evidence-step.history-moment .scene-copy,
+ .vertical-history .history-moment .history-media,
+ .vertical-history .history-moment .history-image-surface,
+ .vertical-history .history-moment .history-date:before{opacity:1;transform:none;transition:none}
+ .vertical-history .history-date:before{transform:translateX(-50%)!important}
+ .vertical-history .history-spine>i{transition:none}
+}
+
+/* Light follows the reading position along the shared vertical spine. */
+.vertical-history .history-spine>b{position:absolute;left:50%;top:calc(var(--history-progress,0)*100%);width:4px;height:4px;transform:translate(-50%,-50%);border-radius:50%;background:#f3cd91;box-shadow:0 0 12px #efbb6baa,0 0 30px #efbb6b44}
+.vertical-history .history-date button{background:radial-gradient(ellipse,#151515 42%,#151515e8 64%,transparent 76%)}
+.vertical-history .history-date-year{color:#c3c3c3;transition:color .6s}
+.vertical-history .history-moment.is-active .history-date-year{color:var(--gold)}
+.vertical-history .history-media[data-media=photo] .history-image-surface{clip-path:inset(calc((1 - var(--history-reveal,1))*10%) calc((1 - var(--history-reveal,1))*7%));transition:transform .18s linear,clip-path .45s cubic-bezier(.2,.7,.2,1)}
+.vertical-history .history-media[data-media=photo] .history-image-surface>img{transform:scale(calc(1.04 - var(--history-reveal,1)*.04));transition:transform .55s cubic-bezier(.2,.7,.2,1)}
+@media(prefers-reduced-motion:reduce){.vertical-history .history-media[data-media=photo] .history-image-surface{clip-path:none;transition:none}.vertical-history .history-media[data-media=photo] .history-image-surface>img{transform:none;transition:none}}

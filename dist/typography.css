@@ -1,0 +1,199 @@
+/* Shared archival display type. Body copy, map labels and controls keep their own sans-serif styles. */
+@font-face{font-family:'Queensway Garamond';font-style:normal;font-weight:500;font-display:swap;src:url('assets/fonts/eb-garamond-medium.woff2') format('woff2')}
+@font-face{font-family:'Queensway Song';font-style:normal;font-weight:500;font-display:swap;src:url('assets/fonts/noto-serif-sc-site-medium.woff2?v=20261108-scroll1') format('woff2')}
+:root{--archive-type:'Queensway Garamond','Queensway Song','Songti SC',Georgia,serif;--serif:var(--archive-type);--display:var(--archive-type)}
+
+:root :is(
+ .scene-copy h2,.hero-copy h1,.participation-opening h2,.methods h2,.methods h3,
+ .c-copy h1,.c-copy h2,.c-records-body h2,
+ .story-root h2,.story-root h3,.story-question,
+ .comparison-intro p,.comparison-big-type,.comparison-step h4,
+ .participation-intro>p,.participation-root h3,.participation-root blockquote,.participation-empty,
+ .ev-intro h1,.ev-section h2,.ev-return h2,.ev-event-detail h3,.ev-process-detail h3,
+ .ev-empty h3,.planning-detail h4,.ev-policy-status h4
+){font-family:var(--archive-type);font-style:normal;font-weight:500;font-synthesis:none;font-kerning:normal}
+
+:root :is(
+ .scene-copy h2,.hero-copy h1,.c-copy h1,.c-copy h2,.story-question
+) em{font-family:inherit;font-style:normal;font-weight:inherit;letter-spacing:inherit}
+
+/* Dates and prominent figures belong to the same display system. */
+:root :is(
+ .visitor-facts b,.c-map-era,.c-estimate strong,.c-market-popup-price,.c-indices-readout strong,
+ .story-large-number,.story-reflection>span,.story-visitor-facts strong,.story-memory-drawing text,
+ .ev-event-date,.ev-price,.ev-empty>span,.ev-nav button small,.ev-index,.ev-step-node,.ev-policy-status>span
+){font-family:var(--archive-type);font-style:normal;font-weight:500;font-synthesis:none}
+
+:root :is(.scene-copy h2,.hero-copy h1,.c-copy h1,.c-copy h2){letter-spacing:-.025em;line-height:1.09}
+:root :is(.comparison-big-type,.comparison-intro p){letter-spacing:-.025em}
+html[lang="zh"] :is(
+ .scene-copy h2,.hero-copy h1,.participation-opening h2,.methods h2,.methods h3,
+ .c-copy h1,.c-copy h2,.c-records-body h2,.story-root h2,.story-root h3,.story-question,
+ .comparison-intro p,.comparison-big-type,.comparison-step h4,
+ .participation-intro>p,.participation-root h3,.participation-root blockquote,.participation-empty,
+ .ev-intro h1,.ev-section h2,.ev-return h2,.ev-event-detail h3,.ev-process-detail h3,
+ .ev-empty h3,.planning-detail h4,.ev-policy-status h4
+){font-family:var(--archive-type);letter-spacing:.025em;line-height:1.25}
+
+/* Readable supporting type; display headings retain the archival identity. */
+:root{--reading-body:16px;--reading-detail:14px;--reading-label:12px;--reading-small:11px;--reading-note:13px;--reading-ink:#c8c8c8}
+:root :is(.scene-body,.hero-deck,.opening-excerpt,.evidence-step .c-deck,.guided-evidence .c-deck,.vertical-history .history-moment .scene-body,.comparison-copy){font-size:var(--reading-body);line-height:1.8}
+html[lang=zh] :is(.opening-excerpt,.scene-body,.evidence-step .c-deck,.vertical-history .history-moment .scene-body){font-size:var(--reading-body);line-height:1.85}
+:root :is(.scene-body,.evidence-step .c-deck){max-width:425px}
+#ev-regional .c-copy>.c-deck{font-size:var(--reading-body);line-height:1.8;max-width:425px;min-height:9em}
+#ev-regional .c-copy>.c-kicker{font-size:var(--reading-label);line-height:1.6;min-height:0;max-width:none;margin-bottom:26px}
+:root :is(.scene-kicker,.evidence-step .c-kicker,.guided-evidence .c-kicker,.c-mobile-reading .c-kicker){font-size:var(--reading-label);letter-spacing:.08em;line-height:1.6}
+:root :is(.scene-source,.scene-actions>small,.c-source-link,.next-chapter,.subtle,.underlined,.lens-choices small,.property-words,.visitor-facts>span,.ending-credit,.ending-credit>span,.ending-credit button,.reader-bar,.reader-close,.methods .eyebrow,.source-list small,.methods-note){font-size:var(--reading-label)}
+:root :is(.scene-source,.lens-choices small,.visitor-facts>span,.ending-credit,.ending-credit>span){color:var(--reading-ink)}
+:root :is(.film-brand,.header-edition,.film-header .language-button,.story-hud,.story-hud>button,.map-caption,.map-caption #map-scene-label,.map-caption button,.chapter-menu button>span,.chapter-menu>p,.chapter-menu .menu-method,.chapter-rail button>b){font-size:var(--reading-small)}
+:root .film-header .language-button{width:36px;height:34px}
+:root .chapter-menu{max-height:calc(100svh - 105px);overflow:auto}
+:root .chapter-menu>button{font-size:14px;padding:10px 0}
+:root .chapter-rail button>b{font-weight:400}
+:root .opening-excerpt{max-width:465px}
+:root :is(.opening-person,.opening-person strong){font-size:var(--reading-detail)}
+:root :is(.opening-person>span,.opening-person>small,.opening-bottom,.opening-count,.opening-scroll,.opening-status){font-size:var(--reading-label);letter-spacing:.07em}
+:root :is(.vertical-history .history-moment .scene-kicker,.vertical-history .history-moment .c-source-link,.vertical-history .history-date-detail,.vertical-history .history-media figcaption,.vertical-history .history-moment[data-side=right] .history-media figcaption,.c-photo-credit){font-size:var(--reading-label);line-height:1.6}
+:root :is(.geo-place-label span,.geo-food-marker,.geo-place-small .geo-place-label){font-size:var(--reading-small)}
+:root .maplibregl-ctrl-attrib{font-size:10px!important}
+
+/* Markets, sources and interaction labels. */
+:root :is(.c-indices-header>div>span,.c-indices-header strong,.c-indices-period,.c-indices-event-track,.c-indices-foot button,.c-indices-sources summary,.c-indices-readout,.c-indices-explore-top,.c-indices-explore-top button,.c-indices-toggle-group button){font-size:var(--reading-label);line-height:1.5}
+:root .c-indices-header>div>span{letter-spacing:.07em}
+:root .c-indices-note{min-height:100px;padding:15px 0}
+:root .c-indices-note p{font-size:var(--reading-note)!important;line-height:1.65!important;color:#d0d0d0!important}
+:root :is(.c-indices-choices strong,.c-indices-turning>strong,.c-indices-testimony strong){font-size:var(--reading-detail)}
+:root .c-indices-testimony small{font-size:var(--reading-label);line-height:1.5}
+:root .c-indices-foot{font-size:var(--reading-small);line-height:1.5;flex-wrap:wrap;row-gap:8px;color:#b8b8b8}
+:root .c-indices-foot>div{gap:20px}
+:root .c-indices-axes text,:root .c-indices-end text,:root .c-indices-witnesses text{font-size:var(--reading-label)}
+:root .c-indices-axes .c-indices-origin{font-size:var(--reading-small)}
+:root .c-indices-end tspan{font-size:14px}
+:root .c-indices-axes text{fill:#b8b8b8}
+:root .c-indices-source-panel{width:min(100%,460px);max-height:min(60svh,440px)}
+:root .c-indices-source-panel p{font-size:var(--reading-detail)!important;line-height:1.7!important}
+:root .c-indices-source-panel a{font-size:var(--reading-note);line-height:1.55}
+:root .c-indices-event-track{min-height:44px;flex-wrap:wrap;padding:8px 0;gap:8px 16px}
+:root .c-indices-plot{min-height:155px}
+:root .c-indices{min-height:420px;grid-template-rows:auto minmax(155px,1fr) auto auto auto}
+:root .c-indices-story-progress i{width:22px;height:2px;transition:background .35s ease}
+:root :is(.c-market-eyebrow,.c-market-count,.c-market-layers button,.c-market-layers small,.c-market-svg text,.c-market-svg .c-market-band-title,.c-market-svg .c-market-band-unit,.c-market-svg .c-market-xunit,.c-market-svg .c-market-point-id,.c-market-svg .c-market-tick,.c-market-popup-label,.c-market-popup-price small,.c-market-qualifier,.c-market-popup-metrics small,.c-market-popup-metrics em,.c-market-popup-source a){font-size:var(--reading-label)}
+:root :is(.c-market-foot,.c-market-popup-nav,.c-market-popup-source small){font-size:var(--reading-small)}
+:root :is(.c-market-popup .c-market-popup-kicker,.c-market-popup .c-market-attributes){font-size:var(--reading-label)!important}
+:root :is(.c-records p,.c-records-body p,.c-records-body li,.ev-source-entry p,.c-plan-detail-copy p,.c-plan-sources[open]>div){font-size:var(--reading-detail);line-height:1.7}
+:root :is(.c-records small,.c-records a,.c-records summary){font-size:var(--reading-label);line-height:1.6}
+:root :is(.c-plan-stage-name,.c-plan-place>span,.c-plan-anchor,.c-plan-project>span,.c-plan-selection small,.c-plan-resume,.c-plan-footnotes details,.c-plan-footnotes summary,.c-plan-explore-body legend,.c-plan-explore-body label,.c-plan-range-controls button,.c-plan-legend button,.c-plan-explore-body select,.c-plan-sources a,.c-plan-detail-copy .c-plan-detail-status,.c-plan-detail-copy a){font-size:var(--reading-label)}
+:root :is(.c-plan-place small,.c-plan-project small,.c-plan-selection>span,.c-plan-north,.c-plan-image-caption,.c-plan-detail-copy .c-plan-detail-date,.c-plan-scale,.c-plan-credit){font-size:var(--reading-small)}
+:root .c-plan-selection strong{font-size:var(--reading-detail)}
+:root :is(.c-doc-header>span,.c-doc-header button,.c-doc-footer,.c-doc-passage-count,.c-doc-dialog-header>div>span,.c-doc-dialog-toolbar,.c-doc-zoom output,.c-doc-zoom button[data-c-doc-fit],.c-doc-dialog-footer small,.c-doc-tabs button,.c-doc-tabs button>span:first-child){font-size:var(--reading-label)}
+:root :is(.c-doc-root>.c-doc-explanation,.c-doc-stack-root>.c-doc-explanation,.c-doc-dialog-footer .c-doc-explanation){font-size:var(--reading-note);line-height:1.6;max-height:82px}
+:root .c-doc-behind>span{font-size:10px}
+:root .c-doc-root:not(.c-doc-stack-root) .c-doc-frame{bottom:115px}
+:root .c-doc-stack-root .c-doc-frame{bottom:230px}
+:root :is(.story-root figcaption,.story-small-label,.story-evidence-panel .story-small-label,.story-lens-tabs button span,.story-tags span,.story-sample-note,.story-memory-steps button span,.comparison-intro>span,.comparison-role-number,.comparison-pane-header p,.comparison-map-status,.comparison-step-label,.comparison-step-label>span,.comparison-source,.comparison-mobile-guide){font-size:var(--reading-label);line-height:1.6}
+:root .story-source-line{font-size:var(--reading-label)!important}
+:root :is(.story-help,.story-caution,.story-visitor-facts span,.story-memory-steps button b,.story-shop-choices button,.story-shop-choices button span,.comparison-action){font-size:var(--reading-note)}
+:root :is(.participation-eyebrow,.participation-map-label,.participation-map-meta,.participation-card-meta,.participation-card-bottom>span,.participation-wish-byline,.participation-optional){font-size:var(--reading-label)}
+:root :is(.participation-filters button,.participation-hint,.participation-form label,.participation-role-field legend,.participation-role-options span,.participation-form-status,.participation-research p,.participation-survey-links a,.participation-global-status){font-size:var(--reading-note);line-height:1.6}
+:root :is(.participation-form-intro>p:last-child,.participation-research h4){font-size:var(--reading-detail)}
+:root :is(.participation-form input[type=text],.participation-form select,.participation-form textarea){font-size:16px}
+:root :is(.participation-add,.participation-submit,.participation-card-bottom button){font-size:var(--reading-note)!important}
+
+/* Native scrolling remains in control. Only the artwork and reading layers ease. */
+.story-stage,.context-integrated .c-stage{overflow:clip}
+#context-stage,.stage-vignette{transition:none}
+.evidence-active #geography{transition:none}
+.hud-line i{transition:none}
+:root .story-step:not(.history-moment):not(#chapter-0) .scene-copy,
+:root .story-step.evidence-step:not(.history-moment) .c-copy{
+ opacity:var(--reading-opacity,1);transform:translate3d(0,var(--reading-shift,0px),0);transition:none;
+}
+.c-reading-outgoing{position:absolute;top:0;left:0;width:100%;pointer-events:none;user-select:none}
+#ev-regional.guided-evidence{min-height:380svh}
+.story-step.evidence-step.guided-evidence .c-copy{max-width:510px!important}
+.context-integrated[data-visual=indices] .c-index-mount{top:14%;bottom:13%}
+.c-mobile-readings{display:none}
+@media(max-width:1100px) and (min-width:701px){
+ :root{--reading-body:15px}
+ .guided-copy-viewport{padding-left:6vw;padding-right:6vw}
+ .story-step.evidence-step.guided-evidence .c-copy{width:39vw}
+ .context-integrated[data-visual=indices] .c-index-mount{left:50%;right:4%;top:15%;bottom:12%}
+}
+@media(max-width:700px){
+ :root{--reading-body:14px;--reading-detail:13px;--reading-label:11px;--reading-small:10px;--reading-note:12px;--mobile-chart-height:350px}
+ :root .scene-body,:root .evidence-step .c-deck{max-width:100%}
+ :root .film-brand{font-size:9px}
+ :root .film-header .language-button{width:32px;height:30px}
+ :root .map-caption #map-scene-label{font-size:10px;max-width:270px}
+ :root .story-hud{bottom:20px}
+ :root .map-caption{bottom:47px}
+ :root .c-indices{min-height:350px;grid-template-rows:auto minmax(145px,1fr) auto auto auto}
+ :root .c-indices-plot{min-height:145px}
+ :root .c-indices-note{min-height:70px;padding:9px 0}
+ :root .c-indices-note p{font-size:12px!important;line-height:1.55!important}
+ :root .c-indices-event-track{min-height:30px;font-size:11px;padding:5px 0;gap:5px 10px}
+ :root .c-indices-foot{padding-top:7px;gap:6px}
+ :root .c-indices-foot>span{max-width:52%;font-size:10px}
+ :root .c-indices-foot>div{gap:12px}
+ :root .c-indices-header{padding-bottom:8px}
+ :root .c-indices-header>div>span{font-size:11px}
+ :root .c-indices-header strong{font-size:11px;margin-top:3px}
+ :root .c-indices-end tspan{font-size:13px}
+ :root .c-indices-choices{gap:10px}
+ :root .c-indices-choices>div+div{padding-left:10px}
+ :root .c-indices-testimony{gap:12px}
+ :root .c-indices-testimony a{grid-template-columns:1fr}
+ :root .c-indices-testimony a>span{grid-row:auto;font-size:15px}
+ :root .c-indices-testimony strong{font-size:12px}
+ :root .c-indices-testimony small{font-size:11px}
+ :root .c-indices-testimony a>span{display:none}
+ #ev-regional.guided-evidence{min-height:0}
+ #ev-regional>.guided-copy-viewport{display:none}
+ #ev-regional>.c-mobile-readings{display:block;pointer-events:auto}
+ #ev-regional .c-mobile-reading{min-height:100svh;padding:calc(var(--mobile-chart-height) + 120px) 8vw 100px;position:relative}
+ #ev-regional .c-mobile-reading h2{font:500 clamp(29px,8vw,42px)/1.15 var(--archive-type);letter-spacing:-.025em;margin:0}
+ html[lang=zh] #ev-regional .c-mobile-reading h2{letter-spacing:.025em;line-height:1.25}
+ #ev-regional .c-mobile-reading h2 em{font:inherit;color:var(--gold)}
+ #ev-regional .c-mobile-reading .c-kicker{margin-bottom:16px;font-size:11px;letter-spacing:.04em}
+ #ev-regional .c-mobile-reading .c-deck{margin-top:18px;min-height:0;font-size:14px;line-height:1.8;max-width:none}
+ #ev-regional .c-mobile-reading .c-source-link{font-size:12px;margin-top:22px}
+ .context-integrated[data-visual=indices] .c-index-mount{top:80px;left:6vw;right:6vw;bottom:auto;height:var(--mobile-chart-height);min-height:var(--mobile-chart-height);z-index:12;background:#151515}
+ .context-integrated[data-visual=indices] .c-index-mount:before{content:'';position:absolute;inset:-80px -6vw -20px;background:linear-gradient(#151515 0%,#151515 96%,#15151500 100%);z-index:-1;pointer-events:none}
+ body.evidence-active:has(.context-integrated[data-visual=indices]) #context-stage{z-index:12}
+ body.evidence-active:has(.context-integrated[data-visual=indices]) .story-hud,
+ body.evidence-active:has(.context-integrated[data-visual=indices]) .map-caption{background:#151515e8;box-shadow:0 0 12px 8px #151515e8}
+ .c-doc-root:not(.c-doc-stack-root) .c-doc-frame{bottom:125px}
+ :root .c-doc-stack-root .c-doc-frame{bottom:180px}
+ .chapter-menu{width:min(330px,88vw)}
+}
+@media(max-width:700px) and (min-height:800px){:root{--mobile-chart-height:370px}}
+@media(prefers-reduced-motion:reduce){
+ :root .story-step:not(.history-moment):not(#chapter-0) .scene-copy,
+ :root .story-step.evidence-step:not(.history-moment) .c-copy{opacity:1;transform:none}
+ .c-reading-outgoing{display:none}
+}
+
+/* Hold the papers until their complete circle reconnects with the story. */
+#ev-documents.guided-evidence{min-height:700svh}
+#ev-documents .c-copy h2{min-height:2.2em}
+#ev-documents .c-deck{min-height:12em}
+#ev-documents>.c-mobile-readings{display:none}
+@media(max-width:700px){
+ :root{--mobile-document-height:390px}
+ #ev-documents.guided-evidence{min-height:0}
+ #ev-documents>.guided-copy-viewport{display:none}
+ #ev-documents>.c-mobile-readings{display:block;pointer-events:auto}
+ #ev-documents .c-mobile-reading{min-height:100svh;padding:calc(var(--mobile-document-height) + 120px) 8vw 100px;position:relative}
+ #ev-documents .c-mobile-reading h2{font:500 clamp(29px,8vw,42px)/1.15 var(--archive-type);letter-spacing:-.025em;margin:0}
+ html[lang=zh] #ev-documents .c-mobile-reading h2{letter-spacing:.025em;line-height:1.25}
+ #ev-documents .c-mobile-reading h2 em{font:inherit;color:var(--gold)}
+ #ev-documents .c-mobile-reading .c-kicker{margin-bottom:16px;font-size:11px;letter-spacing:.04em}
+ #ev-documents .c-mobile-reading .c-deck{margin-top:18px;min-height:0;font-size:14px;line-height:1.8;max-width:none}
+ #ev-documents .c-mobile-reading .c-source-link{font-size:12px;margin-top:22px}
+ .context-integrated[data-visual=document] .c-document-mount{top:80px;left:5vw;right:5vw;bottom:auto;height:var(--mobile-document-height);min-height:var(--mobile-document-height);z-index:12;background:#151515}
+ .context-integrated[data-visual=document] .c-document-mount:before{content:'';position:absolute;inset:-80px -5vw -20px;background:linear-gradient(#151515 0%,#151515 96%,#15151500 100%);z-index:-1;pointer-events:none}
+ body.evidence-active:has(.context-integrated[data-visual=document]) #context-stage{z-index:12}
+ body.evidence-active:has(.context-integrated[data-visual=document]) .story-hud,
+ body.evidence-active:has(.context-integrated[data-visual=document]) .map-caption{background:#151515e8;box-shadow:0 0 12px 8px #151515e8}
+}
+@media(max-width:700px) and (min-height:800px){:root{--mobile-document-height:420px}}

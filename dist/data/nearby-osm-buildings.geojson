@@ -1,0 +1,958 @@
+{
+  "type": "FeatureCollection",
+  "name": "nearby-osm-buildings",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "retail",
+        "building:colour": "#dab481",
+        "building:levels": "4",
+        "building:material": "concrete",
+        "name": "Queensway Shopping Centre",
+        "shop": "mall",
+        "wheelchair": "no",
+        "wikidata": "Q7271124",
+        "wikipedia": "en:Queensway Shopping Centre",
+        "osm_type": "way",
+        "osm_id": 41913930,
+        "osm_version": 9,
+        "osm_timestamp": "2018-05-25T15:38:32Z",
+        "source_url": "https://www.openstreetmap.org/way/41913930",
+        "source": "OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "OpenStreetMap building outline; not a cadastral survey or indoor shop plan."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.8032343,
+              1.2872132
+            ],
+            [
+              103.8032184,
+              1.2871959
+            ],
+            [
+              103.80329,
+              1.2871238
+            ],
+            [
+              103.8033707,
+              1.2872098
+            ],
+            [
+              103.8034423,
+              1.2872787
+            ],
+            [
+              103.8034427,
+              1.287337
+            ],
+            [
+              103.8036047,
+              1.2873295
+            ],
+            [
+              103.8037987,
+              1.287521
+            ],
+            [
+              103.8037983,
+              1.2876914
+            ],
+            [
+              103.8037958,
+              1.2877718
+            ],
+            [
+              103.8036143,
+              1.2879715
+            ],
+            [
+              103.8034986,
+              1.287977
+            ],
+            [
+              103.8033865,
+              1.2879823
+            ],
+            [
+              103.8032474,
+              1.2878518
+            ],
+            [
+              103.8033188,
+              1.2877718
+            ],
+            [
+              103.8031565,
+              1.2876155
+            ],
+            [
+              103.8031557,
+              1.2875558
+            ],
+            [
+              103.8031991,
+              1.2875553
+            ],
+            [
+              103.8032329,
+              1.2875139
+            ],
+            [
+              103.8032336,
+              1.2874781
+            ],
+            [
+              103.8032121,
+              1.28746
+            ],
+            [
+              103.8031837,
+              1.2874612
+            ],
+            [
+              103.8031719,
+              1.2874506
+            ],
+            [
+              103.8032732,
+              1.2873386
+            ],
+            [
+              103.8032504,
+              1.2873178
+            ],
+            [
+              103.8032919,
+              1.2872709
+            ],
+            [
+              103.8032343,
+              1.2872132
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "yes",
+        "osm_type": "way",
+        "osm_id": 167948590,
+        "osm_version": 3,
+        "osm_timestamp": "2018-05-25T15:38:33Z",
+        "source_url": "https://www.openstreetmap.org/way/167948590",
+        "source": "OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "OpenStreetMap building outline; not a cadastral survey or indoor shop plan."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.8031354,
+              1.2883904
+            ],
+            [
+              103.8031685,
+              1.2883561
+            ],
+            [
+              103.8031933,
+              1.2883305
+            ],
+            [
+              103.8032256,
+              1.2883617
+            ],
+            [
+              103.8033549,
+              1.2882279
+            ],
+            [
+              103.8032956,
+              1.2881706
+            ],
+            [
+              103.8033145,
+              1.288151
+            ],
+            [
+              103.8032728,
+              1.2881107
+            ],
+            [
+              103.8030857,
+              1.2879299
+            ],
+            [
+              103.8029781,
+              1.2880413
+            ],
+            [
+              103.8029491,
+              1.2880713
+            ],
+            [
+              103.8029775,
+              1.2880987
+            ],
+            [
+              103.803064,
+              1.2881824
+            ],
+            [
+              103.8030233,
+              1.2882245
+            ],
+            [
+              103.802955,
+              1.2882951
+            ],
+            [
+              103.8029956,
+              1.2883344
+            ],
+            [
+              103.8030351,
+              1.2882935
+            ],
+            [
+              103.8031354,
+              1.2883904
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "yes",
+        "building:levels": "8",
+        "osm_type": "way",
+        "osm_id": 167948594,
+        "osm_version": 4,
+        "osm_timestamp": "2018-05-25T15:38:33Z",
+        "source_url": "https://www.openstreetmap.org/way/167948594",
+        "source": "OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "OpenStreetMap building outline; not a cadastral survey or indoor shop plan."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.8024657,
+              1.2884234
+            ],
+            [
+              103.8029041,
+              1.2879698
+            ],
+            [
+              103.8029781,
+              1.2880413
+            ],
+            [
+              103.8029491,
+              1.2880713
+            ],
+            [
+              103.8029775,
+              1.2880987
+            ],
+            [
+              103.8026241,
+              1.2884643
+            ],
+            [
+              103.8026368,
+              1.2884765
+            ],
+            [
+              103.8025807,
+              1.2885345
+            ],
+            [
+              103.8024657,
+              1.2884234
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "yes",
+        "building:levels": "8",
+        "osm_type": "way",
+        "osm_id": 167948595,
+        "osm_version": 4,
+        "osm_timestamp": "2023-04-28T15:52:32Z",
+        "source_url": "https://www.openstreetmap.org/way/167948595",
+        "source": "OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "OpenStreetMap building outline; not a cadastral survey or indoor shop plan."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.8028299,
+              1.2887891
+            ],
+            [
+              103.8028758,
+              1.2887416
+            ],
+            [
+              103.8031767,
+              1.2884303
+            ],
+            [
+              103.8031354,
+              1.2883904
+            ],
+            [
+              103.8030351,
+              1.2882935
+            ],
+            [
+              103.8029956,
+              1.2883344
+            ],
+            [
+              103.802726,
+              1.2886134
+            ],
+            [
+              103.8026816,
+              1.2885705
+            ],
+            [
+              103.802644,
+              1.2886095
+            ],
+            [
+              103.8028299,
+              1.2887891
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "addr:housenumber": "123",
+        "addr:postcode": "150123",
+        "addr:street": "Bukit Merah Lane 1",
+        "building": "yes",
+        "building:levels": "4",
+        "name": "Blk 123",
+        "osm_type": "way",
+        "osm_id": 172243031,
+        "osm_version": 5,
+        "osm_timestamp": "2024-03-23T14:54:26Z",
+        "source_url": "https://www.openstreetmap.org/way/172243031",
+        "source": "OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "OpenStreetMap building outline; not a cadastral survey or indoor shop plan."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.8044299,
+              1.2867379
+            ],
+            [
+              103.8045235,
+              1.2868792
+            ],
+            [
+              103.8043173,
+              1.2870047
+            ],
+            [
+              103.804211,
+              1.287032
+            ],
+            [
+              103.8035408,
+              1.2867071
+            ],
+            [
+              103.8034828,
+              1.2865842
+            ],
+            [
+              103.8034918,
+              1.2865452
+            ],
+            [
+              103.8036266,
+              1.285959
+            ],
+            [
+              103.8037859,
+              1.2858401
+            ],
+            [
+              103.8038592,
+              1.2859548
+            ],
+            [
+              103.8038749,
+              1.2859801
+            ],
+            [
+              103.8037711,
+              1.2860452
+            ],
+            [
+              103.8036598,
+              1.2865882
+            ],
+            [
+              103.8042244,
+              1.2868698
+            ],
+            [
+              103.8044252,
+              1.2867409
+            ],
+            [
+              103.8044299,
+              1.2867379
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "addr:housenumber": "122",
+        "addr:postcode": "150122",
+        "addr:street": "Bukit Merah Lane 1",
+        "building": "yes",
+        "name": "Blk 122",
+        "osm_type": "way",
+        "osm_id": 172243033,
+        "osm_version": 4,
+        "osm_timestamp": "2025-07-25T18:53:45Z",
+        "source_url": "https://www.openstreetmap.org/way/172243033",
+        "source": "OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "OpenStreetMap building outline; not a cadastral survey or indoor shop plan."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.8042927,
+              1.2867519
+            ],
+            [
+              103.8039636,
+              1.2862631
+            ],
+            [
+              103.8040718,
+              1.2861853
+            ],
+            [
+              103.8040997,
+              1.286168
+            ],
+            [
+              103.8044326,
+              1.2866577
+            ],
+            [
+              103.8043921,
+              1.2866846
+            ],
+            [
+              103.8042927,
+              1.2867519
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "The Anchorage",
+        "addr:housenumber": "370F",
+        "addr:postcode": "159959",
+        "addr:street": "Alexandra Road",
+        "building": "residential",
+        "building:colour": "#b6b1ad",
+        "building:levels": "20",
+        "building:material": "concrete",
+        "residential": "condominium",
+        "osm_type": "way",
+        "osm_id": 241411573,
+        "osm_version": 5,
+        "osm_timestamp": "2024-06-10T15:44:04Z",
+        "source_url": "https://www.openstreetmap.org/way/241411573",
+        "source": "OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "OpenStreetMap building outline; not a cadastral survey or indoor shop plan."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.8042108,
+              1.2885413
+            ],
+            [
+              103.8041814,
+              1.2885657
+            ],
+            [
+              103.8042271,
+              1.2886207
+            ],
+            [
+              103.8043078,
+              1.2885537
+            ],
+            [
+              103.8042913,
+              1.2885338
+            ],
+            [
+              103.8043209,
+              1.2885092
+            ],
+            [
+              103.8043711,
+              1.2885697
+            ],
+            [
+              103.8044624,
+              1.2884939
+            ],
+            [
+              103.8043826,
+              1.2883979
+            ],
+            [
+              103.8044293,
+              1.2883591
+            ],
+            [
+              103.8043626,
+              1.2882788
+            ],
+            [
+              103.804316,
+              1.2883175
+            ],
+            [
+              103.8042342,
+              1.2882191
+            ],
+            [
+              103.8041479,
+              1.2882908
+            ],
+            [
+              103.8041935,
+              1.2883456
+            ],
+            [
+              103.8041602,
+              1.2883733
+            ],
+            [
+              103.8041507,
+              1.2883619
+            ],
+            [
+              103.804074,
+              1.2884257
+            ],
+            [
+              103.8041151,
+              1.2884752
+            ],
+            [
+              103.8041392,
+              1.2884552
+            ],
+            [
+              103.8042108,
+              1.2885413
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "residential",
+        "building:colour": "#ccb7a7",
+        "building:levels": "16",
+        "building:material": "concrete",
+        "residential": "condominium",
+        "osm_type": "way",
+        "osm_id": 591030148,
+        "osm_version": 2,
+        "osm_timestamp": "2022-04-04T19:05:10Z",
+        "source_url": "https://www.openstreetmap.org/way/591030148",
+        "source": "OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "OpenStreetMap building outline; not a cadastral survey or indoor shop plan."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.8032474,
+              1.2878518
+            ],
+            [
+              103.8033188,
+              1.2877718
+            ],
+            [
+              103.8031565,
+              1.2876155
+            ],
+            [
+              103.8031557,
+              1.2875558
+            ],
+            [
+              103.8031991,
+              1.2875553
+            ],
+            [
+              103.8032329,
+              1.2875139
+            ],
+            [
+              103.8032336,
+              1.2874781
+            ],
+            [
+              103.8032121,
+              1.28746
+            ],
+            [
+              103.8031837,
+              1.2874612
+            ],
+            [
+              103.8031719,
+              1.2874506
+            ],
+            [
+              103.8032732,
+              1.2873386
+            ],
+            [
+              103.8032504,
+              1.2873178
+            ],
+            [
+              103.8032919,
+              1.2872709
+            ],
+            [
+              103.8032343,
+              1.2872132
+            ],
+            [
+              103.8030356,
+              1.2874237
+            ],
+            [
+              103.8030315,
+              1.287653
+            ],
+            [
+              103.8032474,
+              1.2878518
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "residential",
+        "building:levels": "13",
+        "name": "Queensway Tower",
+        "wikidata": "Q7271124",
+        "wikipedia": "en:Queensway Shopping Centre",
+        "osm_type": "way",
+        "osm_id": 591030149,
+        "osm_version": 3,
+        "osm_timestamp": "2023-09-22T07:20:16Z",
+        "source_url": "https://www.openstreetmap.org/way/591030149",
+        "source": "OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "OpenStreetMap building outline; not a cadastral survey or indoor shop plan."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.8033188,
+              1.2877718
+            ],
+            [
+              103.8032474,
+              1.2878518
+            ],
+            [
+              103.8030315,
+              1.287653
+            ],
+            [
+              103.8030356,
+              1.2874237
+            ],
+            [
+              103.8032343,
+              1.2872132
+            ],
+            [
+              103.8032919,
+              1.2872709
+            ],
+            [
+              103.8032504,
+              1.2873178
+            ],
+            [
+              103.8032732,
+              1.2873386
+            ],
+            [
+              103.8031719,
+              1.2874506
+            ],
+            [
+              103.8031837,
+              1.2874612
+            ],
+            [
+              103.8032121,
+              1.28746
+            ],
+            [
+              103.8032336,
+              1.2874781
+            ],
+            [
+              103.8032329,
+              1.2875139
+            ],
+            [
+              103.8031991,
+              1.2875553
+            ],
+            [
+              103.8031557,
+              1.2875558
+            ],
+            [
+              103.8031565,
+              1.2876155
+            ],
+            [
+              103.8033188,
+              1.2877718
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Starting Block",
+        "osm_type": "way",
+        "osm_id": 1328062418,
+        "osm_version": 2,
+        "osm_timestamp": "2025-02-10T02:24:00Z",
+        "source_url": "https://www.openstreetmap.org/way/1328062418",
+        "source": "OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "OpenStreetMap building outline; not a cadastral survey or indoor shop plan."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.8022436,
+              1.2881851
+            ],
+            [
+              103.8024075,
+              1.2883411
+            ],
+            [
+              103.8025274,
+              1.2882344
+            ],
+            [
+              103.8023741,
+              1.2880767
+            ],
+            [
+              103.8024289,
+              1.2880323
+            ],
+            [
+              103.8024085,
+              1.2880103
+            ],
+            [
+              103.8024736,
+              1.2879604
+            ],
+            [
+              103.8025034,
+              1.2879833
+            ],
+            [
+              103.8025622,
+              1.287937
+            ],
+            [
+              103.8025223,
+              1.2879179
+            ],
+            [
+              103.8025652,
+              1.2878899
+            ],
+            [
+              103.8027171,
+              1.2880311
+            ],
+            [
+              103.8028325,
+              1.2879352
+            ],
+            [
+              103.8027314,
+              1.2878734
+            ],
+            [
+              103.8027197,
+              1.2878663
+            ],
+            [
+              103.8027338,
+              1.2878401
+            ],
+            [
+              103.8026669,
+              1.2877842
+            ],
+            [
+              103.8027206,
+              1.2877272
+            ],
+            [
+              103.8027423,
+              1.2877442
+            ],
+            [
+              103.802766,
+              1.2877097
+            ],
+            [
+              103.8027479,
+              1.2876861
+            ],
+            [
+              103.8027358,
+              1.2876931
+            ],
+            [
+              103.8027117,
+              1.2877069
+            ],
+            [
+              103.8025251,
+              1.2875382
+            ],
+            [
+              103.8020177,
+              1.2879816
+            ],
+            [
+              103.8021484,
+              1.2881023
+            ],
+            [
+              103.8021878,
+              1.2880783
+            ],
+            [
+              103.8022453,
+              1.2881268
+            ],
+            [
+              103.8021828,
+              1.2881807
+            ],
+            [
+              103.8022137,
+              1.2882104
+            ],
+            [
+              103.8022436,
+              1.2881851
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

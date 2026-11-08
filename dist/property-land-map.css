@@ -1,0 +1,63 @@
+@font-face{font-family:'Queensway Land Serif SC';src:url('assets/fonts/noto-serif-sc-land-medium.woff2') format('woff2');font-weight:500;font-style:normal;font-display:swap;unicode-range:U+3000-303F,U+3400-9FFF,U+F900-FAFF,U+FF00-FFEF}
+#property-use,[data-property-visual="property-use"]{--archive-type:'Queensway Garamond','Queensway Land Serif SC','Queensway Song','Songti SC',Georgia,serif}
+/* Authentic imagery and official land-use colours share one fixed geographic frame. */
+.plm-main{width:100%;min-width:0;color:#eee9df}
+.plm-label{font:400 15px/1.5 var(--sans);color:#c2bcae;margin:0 0 12px!important}
+.plm-map{position:relative;margin:0;background:#1b1c19;overflow:hidden}
+.plm-map>svg{display:block;width:100%;height:auto;max-height:42svh;overflow:hidden}
+.plm-base{opacity:1;filter:none}
+.plm-building-outline path{fill:none;stroke:#f5e6bd;stroke-width:1.6;vector-effect:non-scaling-stroke}
+.plm-zone-outline path{fill:none;stroke:#fff3b9;stroke-width:3;fill-rule:evenodd;vector-effect:non-scaling-stroke;paint-order:stroke}
+.plm-marker{cursor:pointer;outline:none}
+.plm-marker-hit{fill:transparent;pointer-events:all}
+.plm-marker-dot{fill:#171915;stroke:#f1d7a6;stroke-width:2;transition:fill .25s}
+.plm-marker-ring{fill:none;stroke:#f1d7a6;stroke-width:1.6;opacity:0;transition:opacity .25s}
+.plm-marker text{fill:#f2d9a9;font:500 22px var(--sans);pointer-events:none}
+.plm-marker.is-selected .plm-marker-dot{fill:#e7c38a}.plm-marker.is-selected text{fill:#151714}
+.plm-marker.is-selected .plm-marker-ring,.plm-marker:hover .plm-marker-ring,.plm-marker:focus-visible .plm-marker-ring{opacity:1}
+.plm-scale path{fill:none;stroke:#fff7df;stroke-width:2.4}
+.plm-scale text,.plm-north{fill:#fff8e7;font:500 21px var(--sans);paint-order:stroke fill;stroke:#20241c;stroke-width:3;stroke-linejoin:round}
+.plm-reference{pointer-events:none}.plm-reference circle{fill:#e6e5da}.plm-reference text{fill:#e6e5da;font:400 17px var(--sans);paint-order:stroke fill;stroke:#20241c;stroke-width:2.5;stroke-linejoin:round}
+.plm-status{position:absolute;left:18px;right:18px;bottom:15px;background:#151515e8;padding:10px 14px;color:#e2dccd;font:400 15px/1.5 var(--sans);margin:0!important;z-index:1}
+.plm-status[hidden]{display:none!important}.plm-status button{border:0;background:none;color:#e5c394;font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.plm-topics{display:flex;gap:20px;align-items:center;margin-top:14px;min-width:0}
+.plm-topics button{border:0;background:none;padding:4px 0;color:#a5a89c;font:400 15px/1.5 var(--sans);white-space:nowrap;cursor:pointer;transition:color .25s}
+.plm-topics button span{color:#a7a291;margin-right:3px;font-variant-numeric:tabular-nums}
+.plm-topics button[aria-pressed=true],.plm-topics button[aria-pressed=true] span{color:#e8c993}.plm-topics button:hover{color:#f3eadb}
+.plm-caption{margin-top:13px}
+.plm-caption strong{display:block;font:400 clamp(25px,2.4vw,38px)/1.25 var(--archive-type,var(--display));color:#e6c38d;letter-spacing:-.02em}
+.plm-caption>p{font:400 16px/1.5 var(--sans);color:#c5c3b8;margin:7px 0 0!important}
+.plm-legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:12px;color:#bbbcb0;font:400 13px/1.4 var(--sans)}
+.plm-legend[hidden]{display:none!important}.plm-legend span{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}.plm-legend i{width:11px;height:11px;display:block;flex:none}
+.plm-attribution{display:flex;align-items:center;gap:9px;margin-top:10px;min-width:0}
+.plm-attribution a{flex:none;display:block}.plm-attribution a[hidden]{display:none}.plm-attribution img{display:block;width:64px;max-height:22px;object-fit:contain}
+.plm-attribution p{font:400 12px/1.4 var(--sans);color:#aaa99c;margin:0!important}
+.plm-attribution p a{display:inline;color:inherit;text-decoration:none}.plm-attribution p a:hover{text-decoration:underline;text-underline-offset:3px}
+.plm-note{font:400 13px/1.4 var(--sans);color:#a5a69a;margin:5px 0 0!important}.plm-note:empty{display:none}
+.plm-topics button:focus-visible,.plm-attribution a:focus-visible{outline:2px solid #e5c394;outline-offset:5px}
+@media(min-width:701px) and (max-height:800px){
+ .plm-label{font-size:14px;margin-bottom:8px!important}.plm-map>svg{max-height:34svh}
+ .plm-topics{margin-top:10px;gap:17px}.plm-topics button{font-size:14px}
+ .plm-caption{margin-top:8px}.plm-caption strong{font-size:29px}.plm-caption>p{font-size:15px;margin-top:5px!important}
+ .plm-legend{margin-top:8px;gap:5px 12px}.plm-attribution{margin-top:8px}.plm-note{font-size:12px}
+}
+@media(max-width:1100px) and (min-width:701px){.plm-topics{gap:13px}.plm-topics button{font-size:13px}.plm-caption strong{font-size:28px}.plm-legend{font-size:12px;gap:5px 10px}}
+@media(max-width:700px){
+ .plm-label{font-size:12px;line-height:1.35;margin-bottom:6px!important}
+ .plm-map>svg{height:180px;max-height:none}
+ .plm-marker-dot{r:21}.plm-marker-ring{r:28}.plm-marker-hit{r:31}.plm-marker text{font-size:29px}
+ .plm-scale text,.plm-north{font-size:28px}
+ .plm-topics{margin-top:6px;gap:12px;justify-content:space-between}.plm-topics button{font-size:12px;padding:2px 0}.plm-topics button span{margin-right:1px}
+ .plm-caption{margin-top:5px}.plm-caption strong{font:500 18px/1.35 var(--sans);letter-spacing:0}.plm-caption>p{display:none}
+ .plm-legend{margin-top:6px;gap:3px 9px;font-size:11px;line-height:1.3}.plm-legend span{gap:4px}.plm-legend i{width:9px;height:9px}
+ .plm-attribution{margin-top:6px;gap:7px}.plm-attribution img{width:51px;max-height:18px}.plm-attribution p{font-size:10px;line-height:1.3}.plm-note{font-size:11px;line-height:1.3;margin-top:3px!important}
+ .plm-status{font-size:12px;left:10px;right:10px;bottom:10px;padding:6px 9px}
+}
+@media(prefers-reduced-motion:reduce){.plm-marker-dot,.plm-marker-ring,.plm-topics button{transition:none}}
+
+/* Preserve the full geographic rectangle instead of letterboxing a width-constrained SVG. */
+.plm-label{display:none}
+@media(min-width:701px){.pn-use .ns-field{top:10svh;bottom:3svh}.plm-map>svg{max-height:none;height:auto}}
+@media(max-width:700px){.plm-map{width:256px;max-width:100%;margin-inline:0}}
+
+.plm-attribution [data-plm-credit] a{display:inline}

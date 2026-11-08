@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "URA SPACE · Master Plan 2025",
+    "zh": "URA SPACE · 2025总体规划"
+  },
+  "sourceUrl": "https://eservice.ura.gov.sg/maps/",
+  "serviceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer",
+  "sourceConfigurationUrl": "https://eservice.ura.gov.sg/maps/js/Map.js",
+  "sourceConfigurationKey": "MapController.BASEMAPS.MASTERPLAN_2025",
+  "retrievedDate": "2026-10-20",
+  "spatialReference": "EPSG:3857",
+  "tileSize": 256,
+  "zoom": 16,
+  "tileBytesUnmodified": true,
+  "displayTreatment": "CSS grayscale and inverse-luminance presentation; original PNG bytes retained",
+  "queenswayZoneId": 190360,
+  "zoneFeatureCount": 2885,
+  "zoneQueryEnvelopeWGS84": [
+    103.783,
+    1.267,
+    103.825,
+    1.309
+  ],
+  "zoneSource": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/45",
+  "stationQueryUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/41/query?geometry=103.783%2C1.267%2C103.825%2C1.309&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&f=geojson&outFields=OBJECTID%2CNAME%2CLINE_NAME%2CDEV_STATUS&outSR=4326&returnGeometry=true",
+  "tiles": [
+    {
+      "z": 16,
+      "x": 51661,
+      "y": 32530,
+      "image": "assets/ura-space-2025/16-51661-32530.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32530/51661",
+      "sha256": "91e0aa8e039f34085777c838eaf4538f51f028855e901dc14189a5422cba09be",
+      "bytes": 31339
+    },
+    {
+      "z": 16,
+      "x": 51661,
+      "y": 32531,
+      "image": "assets/ura-space-2025/16-51661-32531.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32531/51661",
+      "sha256": "939829fe3faceaa3411ef51f8064723896e88b2f3745319fd2ad1f5822a2dd4d",
+      "bytes": 30435
+    },
+    {
+      "z": 16,
+      "x": 51661,
+      "y": 32532,
+      "image": "assets/ura-space-2025/16-51661-32532.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32532/51661",
+      "sha256": "db461dec515e96a3fcd09e5c31ad01cabc3aaa3b704113c0942df3faaa2644bb",
+      "bytes": 24636
+    },
+    {
+      "z": 16,
+      "x": 51661,
+      "y": 32533,
+      "image": "assets/ura-space-2025/16-51661-32533.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32533/51661",
+      "sha256": "726838a420f526a13ac7cda9f093503fcaaf3d768bcf4f26ef8d6e4d488cfd16",
+      "bytes": 17928
+    },
+    {
+      "z": 16,
+      "x": 51661,
+      "y": 32534,
+      "image": "assets/ura-space-2025/16-51661-32534.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32534/51661",
+      "sha256": "4f6fc2209ede47c5ff569c72555ef663700527ad445ea6d1ab32f85f301e475e",
+      "bytes": 39166
+    },
+    {
+      "z": 16,
+      "x": 51661,
+      "y": 32535,
+      "image": "assets/ura-space-2025/16-51661-32535.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32535/51661",
+      "sha256": "daaa1bfb591d040e9cb9de3cfb311d34124d053617550cc50dd85eaf995029a3",
+      "bytes": 15448
+    },
+    {
+      "z": 16,
+      "x": 51661,
+      "y": 32536,
+      "image": "assets/ura-space-2025/16-51661-32536.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32536/51661",
+      "sha256": "a3df348675de184d3508c317bd70de19b06b0688acfca5f78806adc7251f5c0d",
+      "bytes": 2094
+    },
+    {
+      "z": 16,
+      "x": 51661,
+      "y": 32537,
+      "image": "assets/ura-space-2025/16-51661-32537.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32537/51661",
+      "sha256": "4d7a6550cb59b46f660fb25b311c68f9d4c1c825481830d8b220fe81bc54aa53",
+      "bytes": 1418
+    },
+    {
+      "z": 16,
+      "x": 51662,
+      "y": 32530,
+      "image": "assets/ura-space-2025/16-51662-32530.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32530/51662",
+      "sha256": "592aa37b6f2067edda1091d7970dd7d5773803b413b5f782dcb75a5ba47c37aa",
+      "bytes": 42767
+    },
+    {
+      "z": 16,
+      "x": 51662,
+      "y": 32531,
+      "image": "assets/ura-space-2025/16-51662-32531.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32531/51662",
+      "sha256": "8a61eb98d6807cc5fdd82967d810323e8970dc4f15125c8d4cc03540af29ae6d",
+      "bytes": 37325
+    },
+    {
+      "z": 16,
+      "x": 51662,
+      "y": 32532,
+      "image": "assets/ura-space-2025/16-51662-32532.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32532/51662",
+      "sha256": "058415adab3681084e95e235cfaa9438ed1641791df36b78beb0edfa08a13bc8",
+      "bytes": 40777
+    },
+    {
+      "z": 16,
+      "x": 51662,
+      "y": 32533,
+      "image": "assets/ura-space-2025/16-51662-32533.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32533/51662",
+      "sha256": "7f42295f71c789b9cf3e67dc27c9ac18e5cc9364d22f88bed95b787f3dd964ec",
+      "bytes": 19844
+    },
+    {
+      "z": 16,
+      "x": 51662,
+      "y": 32534,
+      "image": "assets/ura-space-2025/16-51662-32534.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32534/51662",
+      "sha256": "e41c2a939fc7ac2168f0ec1427b0d5b72826a371831466ed2b15a9c1f36c8d24",
+      "bytes": 19685
+    },
+    {
+      "z": 16,
+      "x": 51662,
+      "y": 32535,
+      "image": "assets/ura-space-2025/16-51662-32535.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32535/51662",
+      "sha256": "029f792663f198910a2ff89aa54ae815cffb266b999c1f51289b99c0b95541a8",
+      "bytes": 46870
+    },
+    {
+      "z": 16,
+      "x": 51662,
+      "y": 32536,
+      "image": "assets/ura-space-2025/16-51662-32536.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32536/51662",
+      "sha256": "fd047617233b3c056af39474c1cb6d344ca5853d5fa1ba4905384c19744d09b2",
+      "bytes": 1654
+    },
+    {
+      "z": 16,
+      "x": 51662,
+      "y": 32537,
+      "image": "assets/ura-space-2025/16-51662-32537.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32537/51662",
+      "sha256": "7b6068fa43635899eb556c8e83f58a0c611565b35c3764a47885a31ca48e8479",
+      "bytes": 1806
+    },
+    {
+      "z": 16,
+      "x": 51663,
+      "y": 32530,
+      "image": "assets/ura-space-2025/16-51663-32530.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32530/51663",
+      "sha256": "1d73e961c6fdfe52577db3fea06f9e913cb616b3f66e044c89def02ccda69489",
+      "bytes": 35248
+    },
+    {
+      "z": 16,
+      "x": 51663,
+      "y": 32531,
+      "image": "assets/ura-space-2025/16-51663-32531.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32531/51663",
+      "sha256": "35d6d04cd380d54ed4244fd705a05a4994e24bf26f9223f6e509f6da7780101d",
+      "bytes": 21995
+    },
+    {
+      "z": 16,
+      "x": 51663,
+      "y": 32532,
+      "image": "assets/ura-space-2025/16-51663-32532.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32532/51663",
+      "sha256": "8456825a7752b7f630e895992408e0964b8017470bba2e4a1549476eb75a0055",
+      "bytes": 24751
+    },
+    {
+      "z": 16,
+      "x": 51663,
+      "y": 32533,
+      "image": "assets/ura-space-2025/16-51663-32533.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32533/51663",
+      "sha256": "db001d1b40593ebc392fdb47af043ccda955bd496228cf7bf481f778629a243e",
+      "bytes": 17673
+    },
+    {
+      "z": 16,
+      "x": 51663,
+      "y": 32534,
+      "image": "assets/ura-space-2025/16-51663-32534.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32534/51663",
+      "sha256": "d7669484545d55f310a243eb4097b5f6a9239ec643f2227daa01d7b23a90fbaf",
+      "bytes": 7462
+    },
+    {
+      "z": 16,
+      "x": 51663,
+      "y": 32535,
+      "image": "assets/ura-space-2025/16-51663-32535.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32535/51663",
+      "sha256": "0d7d34edad4e973010c83fec7097e8d6e3687247c12f640a35056aeb6fb962e3",
+      "bytes": 32016
+    },
+    {
+      "z": 16,
+      "x": 51663,
+      "y": 32536,
+      "image": "assets/ura-space-2025/16-51663-32536.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32536/51663",
+      "sha256": "c922bf4921aef5af8fa3caa28b43a738d1ab3c3e5cb85ae516f767065141b1b6",
+      "bytes": 13253
+    },
+    {
+      "z": 16,
+      "x": 51663,
+      "y": 32537,
+      "image": "assets/ura-space-2025/16-51663-32537.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32537/51663",
+      "sha256": "21369825136fbdf5a34c8e004b4045d57a2e2e0358a8753952a79bced05c9c26",
+      "bytes": 3242
+    },
+    {
+      "z": 16,
+      "x": 51664,
+      "y": 32530,
+      "image": "assets/ura-space-2025/16-51664-32530.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32530/51664",
+      "sha256": "d0299da3dd569ea5c97966f8240c2b035cdf8734b4726c5c6f12578cd3d4d50d",
+      "bytes": 33283
+    },
+    {
+      "z": 16,
+      "x": 51664,
+      "y": 32531,
+      "image": "assets/ura-space-2025/16-51664-32531.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32531/51664",
+      "sha256": "f790fb725e712970bae7da3d2afaeb9f701cf4a00e68b3932df3d089ff7c0104",
+      "bytes": 35391
+    },
+    {
+      "z": 16,
+      "x": 51664,
+      "y": 32532,
+      "image": "assets/ura-space-2025/16-51664-32532.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32532/51664",
+      "sha256": "f546d137fcab437ba8bd557b48c7150d45e697874315d89dc44523bdf9496c7a",
+      "bytes": 33626
+    },
+    {
+      "z": 16,
+      "x": 51664,
+      "y": 32533,
+      "image": "assets/ura-space-2025/16-51664-32533.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32533/51664",
+      "sha256": "97f57c3208c2e8caf3b0af354cd6ed565c3ab67e8ba65f668b6b3fe0a151faf2",
+      "bytes": 27245
+    },
+    {
+      "z": 16,
+      "x": 51664,
+      "y": 32534,
+      "image": "assets/ura-space-2025/16-51664-32534.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32534/51664",
+      "sha256": "ddd9b87a996f8b88327cfff6a1805c7adda228716fa7e48e1c0a5e6dc06b6e3a",
+      "bytes": 15983
+    },
+    {
+      "z": 16,
+      "x": 51664,
+      "y": 32535,
+      "image": "assets/ura-space-2025/16-51664-32535.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32535/51664",
+      "sha256": "024109a74f3c607807e839b35158493a9e40e6418c07ae58af34629484c9f687",
+      "bytes": 16161
+    },
+    {
+      "z": 16,
+      "x": 51664,
+      "y": 32536,
+      "image": "assets/ura-space-2025/16-51664-32536.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32536/51664",
+      "sha256": "b59b403927e6cf4edc28dd8dc598489b2bfb0c7e85e84317e4db85fa1a4087a8",
+      "bytes": 21294
+    },
+    {
+      "z": 16,
+      "x": 51664,
+      "y": 32537,
+      "image": "assets/ura-space-2025/16-51664-32537.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32537/51664",
+      "sha256": "8925035dc6707d6768d1771704c795e463ad878d1ea0e2291ff9b51915d14bcb",
+      "bytes": 9195
+    },
+    {
+      "z": 16,
+      "x": 51665,
+      "y": 32530,
+      "image": "assets/ura-space-2025/16-51665-32530.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32530/51665",
+      "sha256": "4c37c50ea9feea44bd2cc9c0c626bbbda2db71a86267acf66b3e5c6e9a3e2293",
+      "bytes": 34085
+    },
+    {
+      "z": 16,
+      "x": 51665,
+      "y": 32531,
+      "image": "assets/ura-space-2025/16-51665-32531.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32531/51665",
+      "sha256": "348f4b5e054fd416a7b925e917b8becbafb340a41da4a9687166d6a598af3e66",
+      "bytes": 35167
+    },
+    {
+      "z": 16,
+      "x": 51665,
+      "y": 32532,
+      "image": "assets/ura-space-2025/16-51665-32532.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32532/51665",
+      "sha256": "6046c9580de17d8ca1c69196ca5e0297e71952e64471faacb851b1e0669c3710",
+      "bytes": 41003
+    },
+    {
+      "z": 16,
+      "x": 51665,
+      "y": 32533,
+      "image": "assets/ura-space-2025/16-51665-32533.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32533/51665",
+      "sha256": "d9b0895dbde5bf4bd9fd4568b3423f31b0c9f1cd4256d6446ea4a1d5f6f8ec37",
+      "bytes": 30834
+    },
+    {
+      "z": 16,
+      "x": 51665,
+      "y": 32534,
+      "image": "assets/ura-space-2025/16-51665-32534.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32534/51665",
+      "sha256": "0354420eefb7fec10226625a6f59fe912ae036d13eab330e1206b231cce630d6",
+      "bytes": 23029
+    },
+    {
+      "z": 16,
+      "x": 51665,
+      "y": 32535,
+      "image": "assets/ura-space-2025/16-51665-32535.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32535/51665",
+      "sha256": "abea916ac35430271d5926ac6154144f61e8e03dc4883676bbd3a5cd4d288dcd",
+      "bytes": 19909
+    },
+    {
+      "z": 16,
+      "x": 51665,
+      "y": 32536,
+      "image": "assets/ura-space-2025/16-51665-32536.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32536/51665",
+      "sha256": "d09d6859de6f6a84f40767b3b4c66dae56641d98c13323e78e1bd71686fa1d7d",
+      "bytes": 25824
+    },
+    {
+      "z": 16,
+      "x": 51665,
+      "y": 32537,
+      "image": "assets/ura-space-2025/16-51665-32537.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32537/51665",
+      "sha256": "9ddf018332b395f05de19ce3633a300f84b293023a3a15aa7db3b0ad5e573cc4",
+      "bytes": 18457
+    },
+    {
+      "z": 16,
+      "x": 51666,
+      "y": 32530,
+      "image": "assets/ura-space-2025/16-51666-32530.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32530/51666",
+      "sha256": "06acb0ec5578b8b14141534f9056b9a70c08845963d510764a14bba33b3d536a",
+      "bytes": 8960
+    },
+    {
+      "z": 16,
+      "x": 51666,
+      "y": 32531,
+      "image": "assets/ura-space-2025/16-51666-32531.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32531/51666",
+      "sha256": "1ae87963b21e9a3fd30f46e08b4b266001d00d30ea2e17d8ea09f4398f642942",
+      "bytes": 14278
+    },
+    {
+      "z": 16,
+      "x": 51666,
+      "y": 32532,
+      "image": "assets/ura-space-2025/16-51666-32532.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32532/51666",
+      "sha256": "487b3daf8010d2f88f9c157006fd5c0e42a28e4021a0deab35468e7e5a62cb9c",
+      "bytes": 31088
+    },
+    {
+      "z": 16,
+      "x": 51666,
+      "y": 32533,
+      "image": "assets/ura-space-2025/16-51666-32533.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32533/51666",
+      "sha256": "70c08bae5a147a99fba5424330305dc158ee1b7a3adb0a7e9412be0dadc56bf1",
+      "bytes": 33352
+    },
+    {
+      "z": 16,
+      "x": 51666,
+      "y": 32534,
+      "image": "assets/ura-space-2025/16-51666-32534.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32534/51666",
+      "sha256": "cbf510982aaa86449fd070dd065cd9bb2d2199b387be52bfe8663163d42c0413",
+      "bytes": 21572
+    },
+    {
+      "z": 16,
+      "x": 51666,
+      "y": 32535,
+      "image": "assets/ura-space-2025/16-51666-32535.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32535/51666",
+      "sha256": "efb018c6eae177c4ed6b4dd298f1a239436c3b6910c629710310ff2a419f810c",
+      "bytes": 13972
+    },
+    {
+      "z": 16,
+      "x": 51666,
+      "y": 32536,
+      "image": "assets/ura-space-2025/16-51666-32536.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32536/51666",
+      "sha256": "a29a2ae2ec85300639e538779876a52594e297cc9daaba5dc4511fc7b87c0d66",
+      "bytes": 35532
+    },
+    {
+      "z": 16,
+      "x": 51666,
+      "y": 32537,
+      "image": "assets/ura-space-2025/16-51666-32537.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32537/51666",
+      "sha256": "406ca7c044e8bcbc88745d0b00e0954e8b112889b250859681948a9a3e11920c",
+      "bytes": 16713
+    },
+    {
+      "z": 16,
+      "x": 51667,
+      "y": 32530,
+      "image": "assets/ura-space-2025/16-51667-32530.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32530/51667",
+      "sha256": "8b1538308d2f325df0df599a95981c08a100e76521822c1076b1ddb7233f9f9d",
+      "bytes": 24872
+    },
+    {
+      "z": 16,
+      "x": 51667,
+      "y": 32531,
+      "image": "assets/ura-space-2025/16-51667-32531.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32531/51667",
+      "sha256": "9a5d990cb67a63142ad47c7f6af11dfe9fea42bcf1b49483480bcc5dd390ce9c",
+      "bytes": 32228
+    },
+    {
+      "z": 16,
+      "x": 51667,
+      "y": 32532,
+      "image": "assets/ura-space-2025/16-51667-32532.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32532/51667",
+      "sha256": "a24ea77991f3353ca941638ef9744f419fa730488575862b1f3686ed1b1f84b4",
+      "bytes": 31434
+    },
+    {
+      "z": 16,
+      "x": 51667,
+      "y": 32533,
+      "image": "assets/ura-space-2025/16-51667-32533.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32533/51667",
+      "sha256": "234f127b6e316ce3ef43a3131c011bda6259b0205fbd514a962eb92fb5842220",
+      "bytes": 32906
+    },
+    {
+      "z": 16,
+      "x": 51667,
+      "y": 32534,
+      "image": "assets/ura-space-2025/16-51667-32534.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32534/51667",
+      "sha256": "c33f14d002fc964e3c6f52376e3a60c09f2ce8a24608c9c1939401156e87823c",
+      "bytes": 27487
+    },
+    {
+      "z": 16,
+      "x": 51667,
+      "y": 32535,
+      "image": "assets/ura-space-2025/16-51667-32535.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32535/51667",
+      "sha256": "a8718f2aff60ffe98d57c6f28ba523932eb25fa3f49850fdfe18981d540f1159",
+      "bytes": 23266
+    },
+    {
+      "z": 16,
+      "x": 51667,
+      "y": 32536,
+      "image": "assets/ura-space-2025/16-51667-32536.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32536/51667",
+      "sha256": "2470762017139dd66998b8ac7d8e09402c028581debb13e7de472285f022acc8",
+      "bytes": 8235
+    },
+    {
+      "z": 16,
+      "x": 51667,
+      "y": 32537,
+      "image": "assets/ura-space-2025/16-51667-32537.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32537/51667",
+      "sha256": "275ade635109cd646dbcc9a91433edf395d93d35a236f063870f4ff89eb2ed6d",
+      "bytes": 22919
+    },
+    {
+      "z": 16,
+      "x": 51668,
+      "y": 32530,
+      "image": "assets/ura-space-2025/16-51668-32530.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32530/51668",
+      "sha256": "f226682d77c4a66d067e37a83f01a2c91ca9728476b911313b81984e7f53e570",
+      "bytes": 40209
+    },
+    {
+      "z": 16,
+      "x": 51668,
+      "y": 32531,
+      "image": "assets/ura-space-2025/16-51668-32531.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32531/51668",
+      "sha256": "05fe6004ccf31d019eb61a3893f3d186abca9468f10d0c880601c86d3d4404c3",
+      "bytes": 37509
+    },
+    {
+      "z": 16,
+      "x": 51668,
+      "y": 32532,
+      "image": "assets/ura-space-2025/16-51668-32532.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32532/51668",
+      "sha256": "f066fbd5066610cce5521854bfbb552b229ce8e0e30682ba8d8922b4d5abd7ef",
+      "bytes": 43194
+    },
+    {
+      "z": 16,
+      "x": 51668,
+      "y": 32533,
+      "image": "assets/ura-space-2025/16-51668-32533.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32533/51668",
+      "sha256": "95df2b2deb9d1a2e51259fa0ed8680a441efa896548b7eccbda3446adae31185",
+      "bytes": 30793
+    },
+    {
+      "z": 16,
+      "x": 51668,
+      "y": 32534,
+      "image": "assets/ura-space-2025/16-51668-32534.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32534/51668",
+      "sha256": "35b6589deea71bf846687271655014e39c7cef04b5137087cb351561e1103cd7",
+      "bytes": 32138
+    },
+    {
+      "z": 16,
+      "x": 51668,
+      "y": 32535,
+      "image": "assets/ura-space-2025/16-51668-32535.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32535/51668",
+      "sha256": "d8a0b9f7c92cd975804a43f650f564dc45a2e144eab06778d015d1ab37ff7cb5",
+      "bytes": 26819
+    },
+    {
+      "z": 16,
+      "x": 51668,
+      "y": 32536,
+      "image": "assets/ura-space-2025/16-51668-32536.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32536/51668",
+      "sha256": "86d98904987c04e264aa6288a805b1693c28e79c7272a4af2b3a9ccb412d6d6f",
+      "bytes": 23276
+    },
+    {
+      "z": 16,
+      "x": 51668,
+      "y": 32537,
+      "image": "assets/ura-space-2025/16-51668-32537.png",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/tile/16/32537/51668",
+      "sha256": "5770083b70b17ac491b0c02419a1d4b597c01b6a1e73e6abf11a8a97c05f7250",
+      "bytes": 24603
+    }
+  ],
+  "sourceConfigurationExcerpt": "MASTERPLAN_2025:{id:\"bm13\",name:\"Master Plan 2025\",url:Env().hostMap+\"/arcgis/rest/services/MP25/Landuse_gaz/MapServer\",esriLayer:!0,pane:\"bm_mp25\",minZoom:0,maxZoom:17,paneZIndex:203,visible:!1,opacity:100,showInLayer:!1}",
+  "sourceConfigurationSha256": "d92f643968e836eb73415afea11bb880f9d005e406439a5bf7e95e82daf21499",
+  "displayProjection": "EPSG:3857 translated to Queensway address origin and scaled by cos(latitude), in local metres",
+  "distanceRingsMetres": [
+    400,
+    800,
+    1200
+  ],
+  "anchorsFile": "assets/ura-space-2025/anchors.json",
+  "polygonGeometrySimplificationDegrees": 1.5e-05
+}

@@ -1,0 +1,131 @@
+{
+  "anchors": [
+    {
+      "id": "redhill",
+      "name": {
+        "en": "Redhill MRT",
+        "zh": "红山地铁站"
+      },
+      "category": "rail",
+      "coordinates": [
+        103.81677584908121,
+        1.2896303038874308
+      ],
+      "source": "URA SPACE MP2025 rail-station geometry",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/41",
+      "positionMethod": "centroid of official station footprint",
+      "sourceObjectId": 62
+    },
+    {
+      "id": "commonwealth",
+      "name": {
+        "en": "Commonwealth MRT",
+        "zh": "联邦地铁站"
+      },
+      "category": "rail",
+      "coordinates": [
+        103.7982914453404,
+        1.3024476549236543
+      ],
+      "source": "URA SPACE MP2025 rail-station geometry",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/41",
+      "positionMethod": "centroid of official station footprint",
+      "sourceObjectId": 180
+    },
+    {
+      "id": "labrador-park",
+      "name": {
+        "en": "Labrador Park MRT",
+        "zh": "拉柏多公园地铁站"
+      },
+      "category": "rail",
+      "coordinates": [
+        103.80293029947009,
+        1.2723235261176298
+      ],
+      "source": "URA SPACE MP2025 rail-station geometry",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/41",
+      "positionMethod": "centroid of official station footprint",
+      "sourceObjectId": 182
+    },
+    {
+      "id": "queenstown",
+      "name": {
+        "en": "Queenstown MRT",
+        "zh": "女皇镇地铁站"
+      },
+      "category": "rail",
+      "coordinates": [
+        103.80604674669947,
+        1.2946113507345411
+      ],
+      "source": "URA SPACE MP2025 rail-station geometry",
+      "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/41",
+      "positionMethod": "centroid of official station footprint",
+      "sourceObjectId": 233
+    },
+    {
+      "id": "ikea",
+      "name": {
+        "en": "IKEA Alexandra",
+        "zh": "宜家亚历山大"
+      },
+      "category": "commerce",
+      "coordinates": [
+        103.8060034122968,
+        1.287943764434407
+      ],
+      "address": "317 ALEXANDRA ROAD IKEA INDUSTRIAL BUILDING SINGAPORE 159965",
+      "source": "SLA OneMap Search API",
+      "sourceUrl": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=IKEA+Alexandra&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+      "retrievedDate": "2026-10-20"
+    },
+    {
+      "id": "anchorpoint",
+      "name": {
+        "en": "Anchorpoint",
+        "zh": "安可坊"
+      },
+      "category": "commerce",
+      "coordinates": [
+        103.8050099645917,
+        1.288614690305858
+      ],
+      "address": "370 ALEXANDRA ROAD ANCHORPOINT SHOPPING CENTRE SINGAPORE 159953",
+      "source": "SLA OneMap Search API",
+      "sourceUrl": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=Anchorpoint&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+      "retrievedDate": "2026-10-20"
+    },
+    {
+      "id": "alexandra-hospital",
+      "name": {
+        "en": "Alexandra Hospital",
+        "zh": "亚历山大医院"
+      },
+      "category": "care",
+      "coordinates": [
+        103.8001809254652,
+        1.285481130393132
+      ],
+      "address": "378 ALEXANDRA ROAD ALEXANDRA HOSPITAL SINGAPORE 159964",
+      "source": "SLA OneMap Search API",
+      "sourceUrl": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=Alexandra+Hospital&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+      "retrievedDate": "2026-10-20"
+    },
+    {
+      "id": "alexandra-village",
+      "name": {
+        "en": "Alexandra Village",
+        "zh": "亚历山大村熟食中心"
+      },
+      "category": "commerce",
+      "coordinates": [
+        103.8044926376481,
+        1.286305942741363
+      ],
+      "source": "Singapore Land Authority OneMap Search API",
+      "sourceUrl": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=Alexandra%20Village%20Food%20Centre&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+      "retrievedDate": "2026-10-18"
+    }
+  ]
+}

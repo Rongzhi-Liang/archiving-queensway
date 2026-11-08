@@ -1,0 +1,77 @@
+/* Four reading scenes, one visual beside each. Scoped to the shopkeepers branch. */
+#shopkeepers .narrative-chapter{height:135svh;min-height:135svh}
+#shopkeepers .ns-body{max-width:510px}
+.sm-field{gap:22px;justify-content:center}
+.sm-eyebrow{font:400 15px/1.5 var(--sans);color:#aaa79d;margin:0}
+.sm-photo{--sm-photo-height:44svh;margin:0;min-width:0;width:min(100%,calc(var(--sm-photo-height)*4/3));flex-shrink:0}
+.sm-image{overflow:hidden;aspect-ratio:4/3;width:100%;background:#151515}
+.sm-image img{display:block;width:100%;height:100%;object-fit:contain;opacity:calc(.9 + var(--sm-progress,0)*.1)}
+.sm-photo figcaption{display:flex;flex-direction:column;align-items:flex-start;gap:6px;margin-top:17px}
+.sm-photo figcaption strong{font:500 clamp(23px,2vw,32px)/1.2 var(--archive-type);color:#e8e3da}
+.sm-photo figcaption>span{font:400 14px/1.5 var(--sans);color:#aaa79d}
+.sm-quote{margin:0;font:500 clamp(23px,2.05vw,34px)/1.3 var(--archive-type);letter-spacing:-.015em;color:#e4bf89;max-width:95%}
+.sm-quote cite{display:block;font:400 13px/1.6 var(--sans);letter-spacing:0;color:#a7a59c;margin-top:9px}
+.sm-context{font:400 15px/1.65 var(--sans);color:#aaa79d;margin:0;max-width:620px}
+.sm-map-top{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.sm-map-top .ns-controls{margin:0;gap:26px}.sm-map-top>span{font:400 14px/1.5 var(--sans);color:#9c9a90}
+.sm-map{position:relative;min-height:0;aspect-ratio:4/3;max-height:43svh;display:flex;justify-content:center}
+.sm-map svg{display:block;width:100%;height:100%;overflow:visible}.sm-map [role=status]{margin:auto;color:#bdb7aa;font:400 17px/1.6 var(--sans)}
+.sm-plan-base{opacity:.3}
+.sm-unit{cursor:pointer;outline:none}.sm-unit path{fill:#b3935e52;stroke:#d8bb87;stroke-width:2;transition:fill .45s ease,stroke .45s ease}
+.sm-map-hit{fill:transparent;stroke:none}.sm-map-pin{fill:#24221d;stroke:#dab67f;stroke-width:2;transition:fill .35s ease}
+.sm-unit text{font:500 22px var(--sans);fill:#e8c995;pointer-events:none}
+.sm-unit.is-selected path,.sm-unit:hover path{fill:#e7bc738c;stroke:#f3d4a1}
+.sm-unit.is-selected .sm-map-pin{fill:#e7c28c;stroke:#e7c28c}.sm-unit.is-selected text{fill:#1b1915}
+.sm-unit:focus-visible .sm-map-hit{stroke:#ffe4b5;stroke-width:3;stroke-dasharray:4 4}
+.sm-map-detail{display:flex;align-items:center;gap:22px;min-height:100px}
+.sm-map-detail>img{width:130px;aspect-ratio:4/3;height:auto;object-fit:contain;flex-shrink:0}
+.sm-map-detail>div{min-width:0}.sm-map-detail h3{font:500 clamp(24px,2.2vw,36px)/1.2 var(--archive-type);color:#e6c28e;margin:7px 0}
+.sm-map-detail p{font:400 14px/1.6 var(--sans);color:#aaa79d;margin:0}.sm-map-detail .sm-trade{font-size:16px;color:#d1cbbf}
+.sm-shop-select{display:flex;align-items:center;gap:20px;font:400 14px/1.5 var(--sans);color:#a7a59a}
+.sm-shop-select select{border:0;border-radius:0;background:#151515;color:#d9bc8b;font:400 15px/1.5 var(--sans);padding:6px 22px 6px 0;max-width:75%;cursor:pointer}
+.sm-shop-select select:focus-visible{outline:2px solid #e5c394;outline-offset:4px}
+.sm-map-credit{font:400 13px/1.5 var(--sans);color:#96988e;margin:0}
+.sm-story-tabs{margin:0;gap:28px}.sm-story-tabs button{font-size:15px}
+[data-sm-person-panel]{display:flex;flex-direction:column;gap:20px;min-height:0}
+.sm-sequence{display:flex;align-items:center;justify-content:space-between;gap:15px;color:#bfb8aa;font:400 16px/1.5 var(--sans)}
+.sm-sequence i{font-style:normal;color:#b9955e;font-size:20px}
+.sm-employment{display:flex;align-items:center;gap:30px}.sm-employment b{display:block;color:#e6c28e;font:500 clamp(32px,3vw,50px)/1.1 var(--archive-type)}
+.sm-employment span{display:block;font:400 15px/1.6 var(--sans);color:#bcb7ac;margin-top:8px}.sm-employment i{font:400 24px var(--sans);color:#aa8e64}
+.sm-continuity{display:grid;grid-template-columns:1fr 1fr 1.25fr;gap:24px;margin-top:4px}
+.sm-continuity strong{display:block;color:#e5c394;font:500 clamp(25px,2.2vw,37px)/1.25 var(--archive-type)}
+.sm-continuity span{display:block;font:400 15px/1.6 var(--sans);color:#bcb7ac;margin-top:11px}
+@media(min-width:701px) and (max-height:800px){
+ .sm-field{gap:17px}.sm-photo{--sm-photo-height:38svh}.sm-quote{font-size:25px}.sm-quote cite{margin-top:7px}.sm-photo figcaption{margin-top:13px}
+ .sm-photo figcaption strong{font-size:25px}.sm-map{max-height:36svh}.sm-map-detail{min-height:85px;gap:18px}.sm-map-detail>img{width:110px}.sm-map-detail h3{font-size:27px}
+ [data-sm-person-panel]{gap:16px}.sm-employment b{font-size:36px}.sm-continuity strong{font-size:28px}.sm-continuity span{font-size:14px;margin-top:7px}.sm-eyebrow{font-size:14px}.sm-context{font-size:14px}
+}
+@media(min-width:701px) and (max-width:1100px){.sm-sequence{font-size:14px;gap:9px}.sm-map-detail>img{width:95px}.sm-map-detail{gap:14px}.sm-map-detail h3{font-size:26px}.sm-photo figcaption>span{font-size:13px}.sm-continuity{gap:15px}.sm-quote{font-size:25px}.sm-story-tabs{gap:20px}.sm-story-tabs button{font-size:14px}}
+@media(max-width:700px){
+ #shopkeepers .narrative-chapter{height:135svh;min-height:135svh}
+ .sm-field{top:76px;bottom:49svh;gap:10px;justify-content:flex-start}.sm-eyebrow{font-size:12px}.sm-photo{--sm-photo-height:22svh}
+ .sm-photo figcaption{margin-top:9px;gap:4px}.sm-photo figcaption strong{font-size:20px}.sm-photo figcaption>span{font-size:12px}.sm-quote{font-size:21px;line-height:1.25}.sm-quote cite{font-size:12px;margin-top:5px}.sm-context{font-size:12px;line-height:1.5}
+ .sm-map-top>span{font-size:12px}.sm-map-top .ns-controls{gap:23px}.sm-map{max-height:22svh;height:22svh;aspect-ratio:auto;flex-shrink:0}
+ .sm-map-detail{min-height:60px;gap:13px}.sm-map-detail>img{width:84px}.sm-map-detail h3{font-size:21px;margin:4px 0}.sm-map-detail .sm-trade{font-size:13px}.sm-map-detail p{font-size:12px;line-height:1.45}
+ .sm-shop-select{font-size:12px;gap:16px}.sm-shop-select select{font-size:13px;padding-top:2px;padding-bottom:2px}.sm-map-credit{font-size:11px}.sm-story-tabs button{font-size:13px;padding:3px 0}.sm-story-tabs{gap:20px}
+ [data-sm-person-panel]{gap:10px}.sm-sequence{font-size:12px;gap:10px}.sm-employment{gap:24px}.sm-employment b{font-size:27px}.sm-employment span{font-size:12px;margin-top:5px}
+ .sm-continuity{gap:15px;margin-top:3px}.sm-continuity strong{font-size:23px}.sm-continuity span{font-size:12px;margin-top:6px}
+}
+@media(prefers-reduced-motion:reduce){.sm-unit path,.sm-map-pin{transition:none}}
+
+/* Chinese display coverage is local to this narrative; all other fonts stay intact. */
+@font-face{font-family:'Queensway Shop Song';src:url('assets/fonts/noto-serif-sc-shop-medium.woff2?v=20261108-formal1') format('woff2');font-weight:500;font-style:normal;font-display:swap;unicode-range:U+2018-201F,U+2026,U+3000-303F,U+3400-9FFF,U+F900-FAFF,U+FE10-FE1F,U+FE30-FE4F,U+FF00-FFEF}
+#shopkeepers,#shop-visual-stage{--archive-type:'Queensway Garamond','Queensway Shop Song','Queensway Song','Songti SC',Georgia,serif}
+
+/* The interview player belongs only to Dirty Laundry's existing two-column scene. */
+[data-shop-visual="shop-work"] .sm-field{gap:16px}
+[data-shop-visual="shop-work"] .sm-photo{--sm-photo-height:34svh}
+@media(min-width:701px) and (max-height:800px){
+ [data-shop-visual="shop-work"] .sm-field{gap:12px}
+ [data-shop-visual="shop-work"] .sm-photo{--sm-photo-height:28svh}
+ [data-shop-visual="shop-work"] .sm-quote{font-size:23px}
+}
+@media(max-width:700px){
+ [data-shop-visual="shop-work"] .sm-field{gap:9px;overscroll-behavior-y:auto}
+ [data-shop-visual="shop-work"] .sm-photo{--sm-photo-height:17svh}
+ [data-shop-visual="shop-work"] .sm-quote{font-size:19px}
+}

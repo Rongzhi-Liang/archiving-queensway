@@ -1,0 +1,1188 @@
+{
+  "asOf": "2026-10-20",
+  "currency": "SGD",
+  "evidenceType": "asking_listing",
+  "sampleNote": {
+    "en": "29 advertisement records collected on 19–20 October 2026.",
+    "zh": "2026年10月19至20日收集的29条广告记录。"
+  },
+  "calculationNote": {
+    "en": "Asking price per square foot equals the advertised amount divided by advertised area. Sale: SGD/sqft. Rent: SGD/sqft/month.",
+    "zh": "单位面积要价由广告金额除以广告面积计算。出售：新元/平方英尺；出租：新元/平方英尺/月。"
+  },
+  "availabilityNote": {
+    "en": "Advertisement details describe the offer on its observation date.",
+    "zh": "广告资料描述观察当日的挂牌条件。"
+  },
+  "groupLabels": {
+    "mall_shop": {
+      "en": "Mall shops",
+      "zh": "商场铺位"
+    },
+    "food_beverage": {
+      "en": "F&B premises",
+      "zh": "餐饮物业"
+    },
+    "whole_apartment": {
+      "en": "Whole apartments",
+      "zh": "整套住宅"
+    },
+    "serviced_room": {
+      "en": "Serviced rooms",
+      "zh": "服务式房间"
+    },
+    "retail_stall": {
+      "en": "Retail stall",
+      "zh": "零售摊位"
+    }
+  },
+  "qualifierLabels": {
+    "starting_from": {
+      "en": "Starting from",
+      "zh": "起价"
+    },
+    "negotiable": {
+      "en": "Negotiable",
+      "zh": "可议"
+    },
+    "not_stated": {
+      "en": "Not stated",
+      "zh": "未注明"
+    }
+  },
+  "flagLabels": {
+    "possible_cross_listing": {
+      "en": "Possible cross-listing",
+      "zh": "疑似重复物业广告"
+    },
+    "half_shop": {
+      "en": "Half-shop",
+      "zh": "半间店铺"
+    },
+    "approximate_area_text": {
+      "en": "Approximate area in text",
+      "zh": "正文面积为约数"
+    },
+    "future_availability": {
+      "en": "Future availability",
+      "zh": "拟于稍后出租"
+    },
+    "lease_takeover": {
+      "en": "Lease takeover",
+      "zh": "接手租约"
+    },
+    "lease_term_conflict": {
+      "en": "Lease terms differ",
+      "zh": "租期表述不一"
+    },
+    "outdated_tenancy_detail": {
+      "en": "Outdated tenancy detail",
+      "zh": "租约信息过时"
+    },
+    "food_beverage_listing": {
+      "en": "F&B listing",
+      "zh": "餐饮物业广告"
+    },
+    "title_category_mismatch": {
+      "en": "Title/category mismatch",
+      "zh": "标题与类别不一致"
+    },
+    "whole_apartment": {
+      "en": "Whole apartment",
+      "zh": "整套住宅"
+    },
+    "serviced_room": {
+      "en": "Serviced room",
+      "zh": "服务式房间"
+    },
+    "old_availability_text": {
+      "en": "Old availability text",
+      "zh": "可入住日期文字过时"
+    }
+  },
+  "records": [
+    {
+      "id": "L01",
+      "sourceId": "M01",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500101165",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "rent",
+      "areaSqft": 248,
+      "askingSgd": 2100,
+      "askingPsf": 8.4677,
+      "askingQualifier": "not_stated",
+      "listedOn": "2026-09-28",
+      "floor": {
+        "en": "Low floor",
+        "zh": "低楼层"
+      },
+      "flags": [
+        "possible_cross_listing"
+      ],
+      "detailNote": {
+        "en": "Advertised as a low-floor shop. L01 and L09 may describe the same premises offered for rent and sale; their shared unit identity remains unconfirmed.",
+        "zh": "广告描述为低楼层商铺。L01 与 L09 可能是同一物业的出租和出售广告，具体铺位是否相同仍待确认。"
+      },
+      "relatedListingIds": [
+        "L09"
+      ]
+    },
+    {
+      "id": "L02",
+      "sourceId": "M02",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500192157",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "rent",
+      "areaSqft": 113,
+      "askingSgd": 3600,
+      "askingPsf": 31.8584,
+      "askingQualifier": "not_stated",
+      "listedOn": "2026-09-26",
+      "floor": {
+        "en": "Ground floor",
+        "zh": "首层"
+      },
+      "flags": [
+        "half_shop"
+      ],
+      "detailNote": {
+        "en": "Half-shop rental, advertised at S$3,600 per month on the observation date.",
+        "zh": "半间商铺出租，观察当日广告月租要价为 S$3,600。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L03",
+      "sourceId": "M03",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-23973571",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "rent",
+      "areaSqft": 196,
+      "askingSgd": 2200,
+      "askingPsf": 11.2245,
+      "askingQualifier": "negotiable",
+      "listedOn": "2026-10-16",
+      "floor": {
+        "en": "Level 3",
+        "zh": "三层"
+      },
+      "flags": [
+        "approximate_area_text"
+      ],
+      "detailNote": {
+        "en": "The advertisement’s area field gives 196 sqft; its description rounds the area to approximately 200 sqft. The chart uses 196 sqft.",
+        "zh": "广告面积字段为 196 平方英尺，正文约为 200 平方英尺；图表面积为 196 平方英尺。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L04",
+      "sourceId": "M04",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500254080",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "rent",
+      "areaSqft": 200,
+      "askingSgd": 1980,
+      "askingPsf": 9.9,
+      "askingQualifier": "not_stated",
+      "listedOn": "2026-10-13",
+      "floor": {
+        "en": "Not disclosed",
+        "zh": "未披露"
+      },
+      "flags": [
+        "future_availability"
+      ],
+      "detailNote": {
+        "en": "The advertisement gives 31 October 2026 as the available-from date.",
+        "zh": "广告标注可用日期为 2026 年 10 月 31 日。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L05",
+      "sourceId": "M05",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500236705",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "rent",
+      "areaSqft": 205,
+      "askingSgd": 2600,
+      "askingPsf": 12.6829,
+      "askingQualifier": "not_stated",
+      "listedOn": "2026-10-19",
+      "floor": {
+        "en": "Ground floor",
+        "zh": "首层"
+      },
+      "flags": [],
+      "detailNote": {
+        "en": "Advertised as a bare ground-floor shop without a water point, with monthly asking rent of S$2,600.",
+        "zh": "广告描述为首层毛坯商铺、无供水点，月租要价为 S$2,600。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L06",
+      "sourceId": "M06",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500274194",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "rent",
+      "areaSqft": 100,
+      "askingSgd": 1800,
+      "askingPsf": 18,
+      "askingQualifier": "not_stated",
+      "listedOn": "2026-10-18",
+      "floor": {
+        "en": "First floor",
+        "zh": "首层"
+      },
+      "flags": [
+        "lease_takeover",
+        "lease_term_conflict"
+      ],
+      "detailNote": {
+        "en": "Lease takeover. The term field gives two years; the description gives 18 months ending in May 2028.",
+        "zh": "接手租约。租期字段为两年，正文为 18 个月、2028 年 5 月到期。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L07",
+      "sourceId": "M07",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-500188545",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "sale",
+      "areaSqft": 172,
+      "askingSgd": 550000,
+      "askingPsf": 3197.6744,
+      "askingQualifier": "starting_from",
+      "listedOn": "2026-10-05",
+      "floor": {
+        "en": "Not disclosed",
+        "zh": "未披露"
+      },
+      "flags": [],
+      "detailNote": {
+        "en": "Starting asking price; the advertisement describes an existing tenancy.",
+        "zh": "挂牌起价；广告描述为带现有租约出售。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L08",
+      "sourceId": "M08",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-24591966",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "sale",
+      "areaSqft": 312,
+      "askingSgd": 980000,
+      "askingPsf": 3141.0256,
+      "askingQualifier": "negotiable",
+      "listedOn": "2026-09-27",
+      "floor": {
+        "en": "Not disclosed",
+        "zh": "未披露"
+      },
+      "flags": [],
+      "detailNote": {
+        "en": "The advertisement describes an existing tenancy and promotes collective-sale potential.",
+        "zh": "广告描述为带现有租约出售，并以整售潜力作为卖点。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L09",
+      "sourceId": "M09",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-500099923",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "sale",
+      "areaSqft": 248,
+      "askingSgd": 780000,
+      "askingPsf": 3145.1613,
+      "askingQualifier": "negotiable",
+      "listedOn": "2026-09-27",
+      "floor": {
+        "en": "Low floor",
+        "zh": "低楼层"
+      },
+      "flags": [
+        "possible_cross_listing"
+      ],
+      "detailNote": {
+        "en": "L09 and L01 may describe the same premises offered for sale and rent; their shared unit identity remains unconfirmed.",
+        "zh": "L09 与 L01 可能是同一物业的出售和出租广告，具体铺位是否相同仍待确认。"
+      },
+      "relatedListingIds": [
+        "L01"
+      ]
+    },
+    {
+      "id": "L10",
+      "sourceId": "M10",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-25288601",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "sale",
+      "areaSqft": 140,
+      "askingSgd": 690000,
+      "askingPsf": 4928.5714,
+      "askingQualifier": "starting_from",
+      "listedOn": "2026-09-17",
+      "floor": {
+        "en": "Not disclosed",
+        "zh": "未披露"
+      },
+      "flags": [
+        "outdated_tenancy_detail"
+      ],
+      "detailNote": {
+        "en": "The advertisement describes a tenancy ending in July 2025, an earlier date than the listing date.",
+        "zh": "广告正文描述的租约截至 2025 年 7 月，早于广告刊登日期。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L11",
+      "sourceId": "M11",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-24367246",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "food_beverage",
+      "offer": "sale",
+      "areaSqft": 2734,
+      "askingSgd": 8250000,
+      "askingPsf": 3017.5567,
+      "askingQualifier": "negotiable",
+      "listedOn": "2026-10-19",
+      "floor": {
+        "en": "Not disclosed",
+        "zh": "未披露"
+      },
+      "flags": [
+        "food_beverage_listing"
+      ],
+      "detailNote": {
+        "en": "Food-and-beverage premises. The advertisement describes approvals, tenancy and subdivision possibilities.",
+        "zh": "餐饮物业。广告提及许可、租约与细分空间的可能性。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L12",
+      "sourceId": "M12",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-20874727",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "sale",
+      "areaSqft": 162,
+      "askingSgd": 800000,
+      "askingPsf": 4938.2716,
+      "askingQualifier": "starting_from",
+      "listedOn": "2026-10-17",
+      "floor": {
+        "en": "Level 2",
+        "zh": "二层"
+      },
+      "flags": [
+        "title_category_mismatch"
+      ],
+      "detailNote": {
+        "en": "The title says rent; the property category and description say sale. The chart follows the sale category.",
+        "zh": "标题写出租，物业类别与正文写出售；图表沿用出售类别。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L13",
+      "sourceId": "M13",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-22133689",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "sale",
+      "areaSqft": 151,
+      "askingSgd": 650000,
+      "askingPsf": 4304.6358,
+      "askingQualifier": "negotiable",
+      "listedOn": "2026-10-16",
+      "floor": {
+        "en": "Not disclosed",
+        "zh": "未披露"
+      },
+      "flags": [],
+      "detailNote": {
+        "en": "Negotiable asking price; collective-sale potential forms part of the advertisement’s sales description.",
+        "zh": "挂牌价可议；整售潜力属于广告的销售描述。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L14",
+      "sourceId": "M14",
+      "sourceUrl": "https://www.propertyguru.com.sg/listing/for-rent-queensway-tower-500285969",
+      "building": "queensway_tower",
+      "sector": "residential",
+      "comparisonGroup": "whole_apartment",
+      "offer": "rent",
+      "areaSqft": 1625,
+      "askingSgd": 5999,
+      "askingPsf": 3.6917,
+      "askingQualifier": "not_stated",
+      "listedOn": "2026-10-06",
+      "floor": {
+        "en": "Not disclosed",
+        "zh": "未披露"
+      },
+      "flags": [
+        "whole_apartment"
+      ],
+      "detailNote": {
+        "en": "A whole three-bedroom apartment in Queensway Tower, classified as a residential rental.",
+        "zh": "Queensway Tower 的三卧整套住宅，归类为住宅出租。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L15",
+      "sourceId": "M15",
+      "sourceUrl": "https://www.propertyguru.com.sg/listing/for-rent-queensway-tower-24150802",
+      "building": "queensway_tower",
+      "sector": "residential",
+      "comparisonGroup": "serviced_room",
+      "offer": "rent",
+      "areaSqft": 150,
+      "askingSgd": 1100,
+      "askingPsf": 7.3333,
+      "askingQualifier": "starting_from",
+      "listedOn": "2026-09-29",
+      "floor": {
+        "en": "Not disclosed",
+        "zh": "未披露"
+      },
+      "flags": [
+        "serviced_room",
+        "old_availability_text"
+      ],
+      "detailNote": {
+        "en": "A serviced room advertised with utilities and services included. Its description gives a December 2024 available-from date.",
+        "zh": "服务式单间，广告称包含公用事业与服务；正文标注的可入住日期为 2024 年 12 月。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L16",
+      "sourceId": "MX01",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-23932879",
+      "sourcePublisher": "CommercialGuru",
+      "portalListingId": "23932879",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "sale",
+      "areaSqft": 172,
+      "askingSgd": 750000,
+      "askingPsf": 4360.46511628,
+      "askingQualifier": "negotiable",
+      "listedOn": "2026-09-24",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Level 2",
+        "zh": "二层"
+      },
+      "attributes": {
+        "en": "Level 2",
+        "zh": "二层"
+      },
+      "flags": [
+        "title_category_mismatch"
+      ],
+      "detailNote": {
+        "en": "The page heading and property category say sale; the description title says rent.",
+        "zh": "页面标题与物业类别写出售，正文标题写出租。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L17",
+      "sourceId": "MX02",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-500299284",
+      "sourcePublisher": "CommercialGuru",
+      "portalListingId": "500299284",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "sale",
+      "areaSqft": 463,
+      "askingSgd": 1388000,
+      "askingPsf": 2997.84017279,
+      "askingQualifier": "negotiable",
+      "listedOn": "2026-10-20",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Not stated",
+        "zh": "未标示"
+      },
+      "attributes": {
+        "en": "Bare unit",
+        "zh": "毛坯铺位"
+      },
+      "flags": [
+        "old_availability_text"
+      ],
+      "detailNote": {
+        "en": "The description gives an available-from date of 1 November 2023; the listing date is 20 October 2026.",
+        "zh": "正文标注可用日期为 2023 年 11 月 1 日，广告刊登日期为 2026 年 10 月 20 日。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L18",
+      "sourceId": "MX03",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-25486512",
+      "sourcePublisher": "CommercialGuru",
+      "portalListingId": "25486512",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "sale",
+      "areaSqft": 172,
+      "askingSgd": 620000,
+      "askingPsf": 3604.65116279,
+      "askingQualifier": "not_stated",
+      "listedOn": "2026-10-15",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Not stated",
+        "zh": "未标示"
+      },
+      "attributes": {
+        "en": "Corner unit · bare",
+        "zh": "转角铺位 · 毛坯"
+      },
+      "flags": [],
+      "detailNote": {
+        "en": "",
+        "zh": ""
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L19",
+      "sourceId": "MX04",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-60079997",
+      "sourcePublisher": "CommercialGuru",
+      "portalListingId": "60079997",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "sale",
+      "areaSqft": 242,
+      "askingSgd": 930000,
+      "askingPsf": 3842.97520661,
+      "askingQualifier": "negotiable",
+      "listedOn": "2026-10-11",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Not stated",
+        "zh": "未标示"
+      },
+      "attributes": {
+        "en": "Fully fitted · double frontage",
+        "zh": "完整装修 · 双面临街"
+      },
+      "flags": [],
+      "detailNote": {
+        "en": "Business history is described by the advertiser.",
+        "zh": "经营历史由广告发布者描述。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L20",
+      "sourceId": "MX05",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-500064168",
+      "sourcePublisher": "CommercialGuru",
+      "portalListingId": "500064168",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "sale",
+      "areaSqft": 291,
+      "askingSgd": 1080000,
+      "askingPsf": 3711.34020619,
+      "askingQualifier": "negotiable",
+      "listedOn": "2026-09-28",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Not stated",
+        "zh": "未标示"
+      },
+      "attributes": {
+        "en": "Partially fitted · corner unit",
+        "zh": "部分装修 · 转角铺位"
+      },
+      "flags": [],
+      "detailNote": {
+        "en": "The advertisement describes an existing clothing-retail tenancy.",
+        "zh": "广告描述现有租户经营服装零售。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L21",
+      "sourceId": "MX06",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-500204523",
+      "sourcePublisher": "CommercialGuru",
+      "portalListingId": "500204523",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "sale",
+      "areaSqft": 140,
+      "askingSgd": 700000,
+      "askingPsf": 5000.0,
+      "askingQualifier": "starting_from",
+      "listedOn": "2026-09-25",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Mid floor",
+        "zh": "中楼层"
+      },
+      "attributes": {
+        "en": "Mid-floor · bare unit",
+        "zh": "中楼层 · 毛坯铺位"
+      },
+      "flags": [],
+      "detailNote": {
+        "en": "",
+        "zh": ""
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L22",
+      "sourceId": "MX07",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-25588452",
+      "sourcePublisher": "CommercialGuru",
+      "portalListingId": "25588452",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "sale",
+      "areaSqft": 409,
+      "askingSgd": 1550000,
+      "askingPsf": 3789.73105134,
+      "askingQualifier": "negotiable",
+      "listedOn": "2026-09-21",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Low floor",
+        "zh": "低楼层"
+      },
+      "attributes": {
+        "en": "Low floor · bare unit",
+        "zh": "低楼层 · 毛坯铺位"
+      },
+      "flags": [],
+      "detailNote": {
+        "en": "",
+        "zh": ""
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L23",
+      "sourceId": "MX08",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500297087",
+      "sourcePublisher": "CommercialGuru",
+      "portalListingId": "500297087",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "rent",
+      "areaSqft": 236,
+      "askingSgd": 2500,
+      "askingPsf": 10.59322034,
+      "askingQualifier": "negotiable",
+      "listedOn": "2026-10-18",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Not stated",
+        "zh": "未标示"
+      },
+      "attributes": {
+        "en": "Bare unit · 1-year lease",
+        "zh": "毛坯铺位 · 一年租期"
+      },
+      "flags": [
+        "approximate_area_text"
+      ],
+      "detailNote": {
+        "en": "The area field gives 236 sqft; the description rounds this to approximately 237 sqft. The chart uses 236 sqft.",
+        "zh": "面积字段为 236 平方英尺，正文约为 237 平方英尺；图表面积为 236 平方英尺。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L24",
+      "sourceId": "MX09",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500192404",
+      "sourcePublisher": "CommercialGuru",
+      "portalListingId": "500192404",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "rent",
+      "areaSqft": 200,
+      "askingSgd": 1800,
+      "askingPsf": 9.0,
+      "askingQualifier": "negotiable",
+      "listedOn": "2026-10-15",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Not stated",
+        "zh": "未标示"
+      },
+      "attributes": {
+        "en": "Partially fitted · 2-year lease",
+        "zh": "部分装修 · 两年租期"
+      },
+      "flags": [
+        "future_availability"
+      ],
+      "detailNote": {
+        "en": "The advertisement gives 1 November 2026 as the available-from date.",
+        "zh": "广告标注可用日期为 2026 年 11 月 1 日。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L25",
+      "sourceId": "MX10",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500203082",
+      "sourcePublisher": "CommercialGuru",
+      "portalListingId": "500203082",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "rent",
+      "areaSqft": 205,
+      "askingSgd": 3000,
+      "askingPsf": 14.63414634,
+      "askingQualifier": "starting_from",
+      "listedOn": "2026-10-06",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Ground floor",
+        "zh": "首层"
+      },
+      "attributes": {
+        "en": "Ground floor · partially fitted",
+        "zh": "首层 · 部分装修"
+      },
+      "flags": [],
+      "detailNote": {
+        "en": "",
+        "zh": ""
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L26",
+      "sourceId": "MX11",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500255714",
+      "sourcePublisher": "CommercialGuru",
+      "portalListingId": "500255714",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "rent",
+      "areaSqft": 280,
+      "askingSgd": 2000,
+      "askingPsf": 7.14285714,
+      "askingQualifier": "not_stated",
+      "listedOn": "2026-09-29",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Level 3",
+        "zh": "三层"
+      },
+      "attributes": {
+        "en": "Level 3 · bare unit",
+        "zh": "三层 · 毛坯铺位"
+      },
+      "flags": [],
+      "detailNote": {
+        "en": "",
+        "zh": ""
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L27",
+      "sourceId": "MX12",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500099952",
+      "sourcePublisher": "CommercialGuru",
+      "portalListingId": "500099952",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "rent",
+      "areaSqft": 139,
+      "askingSgd": 1200,
+      "askingPsf": 8.63309353,
+      "askingQualifier": "not_stated",
+      "listedOn": "2026-09-25",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Not stated",
+        "zh": "未标示"
+      },
+      "attributes": {
+        "en": "Fully fitted · 1-year lease",
+        "zh": "完整装修 · 一年租期"
+      },
+      "flags": [
+        "header_description_price_conflict"
+      ],
+      "detailNote": {
+        "en": "The page heading gives S$1,200 per month; the description gives S$1,500. The chart uses the heading’s asking rent.",
+        "zh": "页面标题月租为 S$1,200，正文为 S$1,500；图表采用标题的月租要价。"
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L28",
+      "sourceId": "MX13",
+      "sourceUrl": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500239984",
+      "sourcePublisher": "CommercialGuru",
+      "portalListingId": "500239984",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "mall_shop",
+      "offer": "rent",
+      "areaSqft": 269,
+      "askingSgd": 2300,
+      "askingPsf": 8.55018587,
+      "askingQualifier": "not_stated",
+      "listedOn": "2026-09-24",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Not stated",
+        "zh": "未标示"
+      },
+      "attributes": {
+        "en": "Partially fitted",
+        "zh": "部分装修"
+      },
+      "flags": [],
+      "detailNote": {
+        "en": "",
+        "zh": ""
+      },
+      "relatedListingIds": []
+    },
+    {
+      "id": "L29",
+      "sourceId": "MX14",
+      "sourceUrl": "https://propertyportal.era.com.sg/property/detail/958621899",
+      "sourcePublisher": "ERA Singapore",
+      "portalListingId": "958621899",
+      "building": "queensway_shopping_centre",
+      "sector": "retail",
+      "comparisonGroup": "retail_stall",
+      "offer": "rent",
+      "areaSqft": 160,
+      "askingSgd": 3750,
+      "askingPsf": 23.4375,
+      "askingQualifier": "negotiable",
+      "listedOn": "2026-10-14",
+      "observedOn": "2026-10-20",
+      "floor": {
+        "en": "Not stated",
+        "zh": "未标示"
+      },
+      "attributes": {
+        "en": "Retail stall · approx. 160 sqft",
+        "zh": "零售摊位 · 约160平方英尺"
+      },
+      "flags": [
+        "approximate_area_text"
+      ],
+      "detailNote": {
+        "en": "ERA classifies the listing as commercial property and describes a retail stall of approximately 160 sqft.",
+        "zh": "ERA 将其归类为商业物业，正文描述为约 160 平方英尺的零售摊位。"
+      },
+      "relatedListingIds": []
+    }
+  ],
+  "schemaVersion": 2,
+  "observationWindow": {
+    "start": "2026-10-19",
+    "end": "2026-10-20"
+  },
+  "sources": [
+    {
+      "id": "M01",
+      "title": "Queensway Shopping Centre — Mall Shop for rent, 248 sqft, listing 500101165",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500101165",
+      "date": "2026-09-28",
+      "updatedDate": null
+    },
+    {
+      "id": "M02",
+      "title": "Queensway Shopping Centre — Mall Shop for rent, 113 sqft, listing 500192157",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500192157",
+      "date": "2026-09-26",
+      "updatedDate": null
+    },
+    {
+      "id": "M03",
+      "title": "Queensway Shopping Centre — Mall Shop for rent, 196 sqft, listing 23973571",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-23973571",
+      "date": "2026-10-16",
+      "updatedDate": null
+    },
+    {
+      "id": "M04",
+      "title": "Queensway Shopping Centre — Mall Shop for rent, 200 sqft, listing 500254080",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500254080",
+      "date": "2026-10-13",
+      "updatedDate": null
+    },
+    {
+      "id": "M05",
+      "title": "Queensway Shopping Centre — Mall Shop for rent, 205 sqft, listing 500236705",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500236705",
+      "date": "2026-10-19",
+      "updatedDate": null
+    },
+    {
+      "id": "M06",
+      "title": "Queensway Shopping Centre — Mall Shop for rent, 100 sqft, listing 500274194",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500274194",
+      "date": "2026-10-18",
+      "updatedDate": null
+    },
+    {
+      "id": "M07",
+      "title": "Queensway Shopping Centre — Mall Shop for sale, 172 sqft, listing 500188545",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-500188545",
+      "date": "2026-10-05",
+      "updatedDate": null
+    },
+    {
+      "id": "M08",
+      "title": "Queensway Shopping Centre — Mall Shop for sale, 312 sqft, listing 24591966",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-24591966",
+      "date": "2026-09-27",
+      "updatedDate": null
+    },
+    {
+      "id": "M09",
+      "title": "Queensway Shopping Centre — Mall Shop for sale, 248 sqft, listing 500099923",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-500099923",
+      "date": "2026-09-27",
+      "updatedDate": null
+    },
+    {
+      "id": "M10",
+      "title": "Queensway Shopping Centre — Mall Shop for sale, 140 sqft, listing 25288601",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-25288601",
+      "date": "2026-09-17",
+      "updatedDate": null
+    },
+    {
+      "id": "M11",
+      "title": "Queensway Shopping Centre — Food & Beverage for sale, 2734 sqft, listing 24367246",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-24367246",
+      "date": "2026-10-19",
+      "updatedDate": null
+    },
+    {
+      "id": "M12",
+      "title": "Queensway Shopping Centre — Mall Shop for sale, 162 sqft, listing 20874727",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-20874727",
+      "date": "2026-10-17",
+      "updatedDate": null
+    },
+    {
+      "id": "M13",
+      "title": "Queensway Shopping Centre — Mall Shop for sale, 151 sqft, listing 22133689",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-22133689",
+      "date": "2026-10-16",
+      "updatedDate": null
+    },
+    {
+      "id": "M14",
+      "title": "Queensway Tower — Apartment for rent, 1625 sqft, listing 500285969",
+      "publisher": "PropertyGuru",
+      "url": "https://www.propertyguru.com.sg/listing/for-rent-queensway-tower-500285969",
+      "date": "2026-10-06",
+      "updatedDate": null
+    },
+    {
+      "id": "M15",
+      "title": "Queensway Tower — Room in Apartment for rent, 150 sqft, listing 24150802",
+      "publisher": "PropertyGuru",
+      "url": "https://www.propertyguru.com.sg/listing/for-rent-queensway-tower-24150802",
+      "date": "2026-09-29",
+      "updatedDate": null
+    },
+    {
+      "id": "MX01",
+      "title": "Queensway Shopping Centre — mall shop for sale, 172 sqft, listing 23932879",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-23932879",
+      "date": "2026-09-24",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "id": "MX02",
+      "title": "Queensway Shopping Centre — mall shop for sale, 463 sqft, listing 500299284",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-500299284",
+      "date": "2026-10-20",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "id": "MX03",
+      "title": "Queensway Shopping Centre — mall shop for sale, 172 sqft, listing 25486512",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-25486512",
+      "date": "2026-10-15",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "id": "MX04",
+      "title": "Queensway Shopping Centre — mall shop for sale, 242 sqft, listing 60079997",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-60079997",
+      "date": "2026-10-11",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "id": "MX05",
+      "title": "Queensway Shopping Centre — mall shop for sale, 291 sqft, listing 500064168",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-500064168",
+      "date": "2026-09-28",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "id": "MX06",
+      "title": "Queensway Shopping Centre — mall shop for sale, 140 sqft, listing 500204523",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-500204523",
+      "date": "2026-09-25",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "id": "MX07",
+      "title": "Queensway Shopping Centre — mall shop for sale, 409 sqft, listing 25588452",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-sale-queensway-shopping-centre-25588452",
+      "date": "2026-09-21",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "id": "MX08",
+      "title": "Queensway Shopping Centre — mall shop for rent, 236 sqft, listing 500297087",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500297087",
+      "date": "2026-10-18",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "id": "MX09",
+      "title": "Queensway Shopping Centre — mall shop for rent, 200 sqft, listing 500192404",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500192404",
+      "date": "2026-10-15",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "id": "MX10",
+      "title": "Queensway Shopping Centre — mall shop for rent, 205 sqft, listing 500203082",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500203082",
+      "date": "2026-10-06",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "id": "MX11",
+      "title": "Queensway Shopping Centre — mall shop for rent, 280 sqft, listing 500255714",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500255714",
+      "date": "2026-09-29",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "id": "MX12",
+      "title": "Queensway Shopping Centre — mall shop for rent, 139 sqft, listing 500099952",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500099952",
+      "date": "2026-09-25",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "id": "MX13",
+      "title": "Queensway Shopping Centre — mall shop for rent, 269 sqft, listing 500239984",
+      "publisher": "CommercialGuru",
+      "url": "https://www.commercialguru.com.sg/listing/for-rent-queensway-shopping-centre-500239984",
+      "date": "2026-09-24",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "id": "MX14",
+      "title": "Queensway Shopping Centre — retail stall for rent, 160 sqft, listing 958621899",
+      "publisher": "ERA Singapore",
+      "url": "https://propertyportal.era.com.sg/property/detail/958621899",
+      "date": "2026-10-14",
+      "retrievedAt": "2026-10-20"
+    }
+  ],
+  "observationCount": 29,
+  "newObservationCount": 14,
+  "offerCounts": {
+    "rent": 15,
+    "sale": 14
+  },
+  "recordScope": {
+    "en": "Each record represents an advertisement. Multiple advertisements may describe the same premises; prices and areas are the advertiser’s asking terms.",
+    "zh": "每条记录对应一则广告；同一物业可能对应多则广告，价格与面积采用广告发布者的挂牌条件。"
+  }
+}

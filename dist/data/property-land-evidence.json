@@ -1,0 +1,421 @@
+{
+  "verifiedDate": "2026-11-07",
+  "queenswayZoneId": 190360,
+  "current": [
+    {
+      "id": "queensway",
+      "short": {
+        "en": "Queensway",
+        "zh": "女皇道"
+      },
+      "title": {
+        "en": "One address.<br><em>Work and home.</em>",
+        "zh": "同一个地址，<br><em>经营与居住。</em>"
+      },
+      "body": {
+        "en": "Queensway’s shopping podium and residential tower share the corner of Queensway and Alexandra Road. The satellite view locates the buildings within a neighbourhood of homes, shops and healthcare. Select the nearby places to see how these uses sit alongside each other.",
+        "zh": "女皇道购物中心的商业裙楼与住宅塔楼，共处于 Queensway 和 Alexandra Road 的转角。卫星图把这组建筑放回由住家、商店与医疗设施组成的街区。点选周边地点，可以看这些用途如何彼此相邻。"
+      },
+      "metric": {
+        "en": "Shops + homes",
+        "zh": "商铺与住家"
+      },
+      "caption": {
+        "en": "Queensway Shopping Centre & Queensway Tower",
+        "zh": "女皇道购物中心与住宅塔楼"
+      },
+      "coordinates": [
+        103.8033972877883,
+        1.287595189398704
+      ],
+      "sources": [
+        {
+          "publisher": "CDG Architects",
+          "url": "https://www.cdgarchitects.sg/queensway-shopping-centre",
+          "date": "Undated / 无日期"
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "short": {
+        "en": "Shops",
+        "zh": "商店"
+      },
+      "title": {
+        "en": "Across the road.<br><em>Other ways to shop.</em>",
+        "zh": "走过马路，<br><em>还有更多商店。</em>"
+      },
+      "body": {
+        "en": "IKEA Alexandra and Anchorpoint sit across Alexandra Road from Queensway. The existing-setting map identifies the places people use; the planning map shows the land-use framework. At IKEA’s address, for example, the furniture store sits within a URA Business 1 zone.",
+        "zh": "Alexandra Road 另一侧是 IKEA Alexandra 与 Anchorpoint。现状图标出人们实际使用的场所，规划图展示土地管理的用途框架。例如，宜家经营家具零售，其地址点所在的 URA 分区为 Business 1。"
+      },
+      "metric": {
+        "en": "IKEA + Anchorpoint",
+        "zh": "宜家与 Anchorpoint"
+      },
+      "caption": {
+        "en": "Named facilities · address locations",
+        "zh": "设施名称 · 地址位置"
+      },
+      "coordinates": [
+        103.8060034122968,
+        1.287943764434407
+      ],
+      "sources": [
+        {
+          "publisher": "SLA OneMap",
+          "url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=IKEA+Alexandra&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+          "date": "2026-11-07"
+        },
+        {
+          "publisher": "SLA OneMap",
+          "url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=Anchorpoint&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+          "date": "2026-11-07"
+        },
+        {
+          "publisher": "URA SPACE",
+          "url": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/45/214829?f=pjson",
+          "date": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "homes",
+      "short": {
+        "en": "Homes",
+        "zh": "住宅"
+      },
+      "title": {
+        "en": "Existing neighbours.<br><em>A lived-in district.</em>",
+        "zh": "已经住在这里，<br><em>日常延续至今。</em>"
+      },
+      "body": {
+        "en": "Mei Ling Street’s existing HDB blocks lie north of the mall. Block 148, marked here, is about 760 metres away in a straight line. An HDB-hosted 2025 Gazette records this residential block and its flat owners. This established neighbourhood sits alongside the new Canopy and Stirling housing projects: future development will join a district where people already live.",
+        "zh": "商场北侧的 Mei Ling Street 分布着既有组屋。图中以 148 座定位，距女皇道约 760 米（直线距离）。HDB 发布的 2025 年政府公报记载了这座住宅楼及其业主。现有住区与 Canopy、Stirling 的新住宅项目并存：未来建设进入的是一个已经有人生活的街区。"
+      },
+      "metric": {
+        "en": "Mei Ling Street",
+        "zh": "Mei Ling Street"
+      },
+      "caption": {
+        "en": "Block 148 · about 760 m from Queensway, straight-line distance",
+        "zh": "第 148 座 · 距女皇道约 760 米，直线距离"
+      },
+      "coordinates": [
+        103.8044662247429,
+        1.294316074493107
+      ],
+      "sources": [
+        {
+          "publisher": "SLA OneMap",
+          "date": "2026-11-07",
+          "url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=148+MEI+LING+STREET&returnGeom=Y&getAddrDetails=Y&pageNum=1"
+        }
+      ]
+    },
+    {
+      "id": "hospital",
+      "short": {
+        "en": "Hospital",
+        "zh": "医院"
+      },
+      "title": {
+        "en": "Care nearby.<br><em>A campus in use.</em>",
+        "zh": "医院在身边，<br><em>院区也在变化。</em>"
+      },
+      "body": {
+        "en": "Alexandra Hospital occupies the campus southwest of Queensway, at 378 Alexandra Road. The satellite view shows its position beside the mall and surrounding homes. Healthcare, shopping and residential uses meet within the same neighbourhood.",
+        "zh": "亚历山大医院位于女皇道西南侧，地址为 378 Alexandra Road。卫星图展示院区与商场、周边住宅的空间关系。医疗、购物与居住功能在同一个街区相遇。"
+      },
+      "metric": {
+        "en": "Alexandra Hospital",
+        "zh": "亚历山大医院"
+      },
+      "caption": {
+        "en": "Existing campus · 378 Alexandra Road",
+        "zh": "现有院区 · Alexandra Road 378 号"
+      },
+      "coordinates": [
+        103.8001809254652,
+        1.285481130393132
+      ],
+      "sources": [
+        {
+          "publisher": "SLA OneMap",
+          "url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=Alexandra+Hospital&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+          "date": "2026-11-07"
+        },
+        {
+          "title": "Enhancing quality and coordination of care",
+          "publisher": "Ministry of Health",
+          "date": "2026-03-05",
+          "url": "https://www.moh.gov.sg/newsroom/enhancing-quality-and-coordination-of-care/"
+        },
+        {
+          "title": "Alexandra Hospital campus: appointment of two main contractors",
+          "publisher": "Alexandra Hospital / National University Health System",
+          "date": "2025-12-03",
+          "url": "https://www.nuhs.edu.sg/about-nuhs/news-and-stories/news-and-stories-details/alexandra-hospital-campus-set-for-next-phase-of-transformation-with-appointment-of-two-leading-contractors-on-1-december-2025"
+        },
+        {
+          "title": "Alexandra Hospital redevelopment: media release",
+          "publisher": "Alexandra Hospital",
+          "date": "2025-12-03",
+          "url": "https://www.ah.com.sg/docs/default-source/newsroom-document/ah/2025/03-december/media-release-alexandra-hospital-campus-set-for-next-phase-of-transformation-with-appointment-of-two-leading-contractors-on-1-december-2025.pdf?sfvrsn=d846332e_1"
+        }
+      ]
+    }
+  ],
+  "future": [
+    {
+      "id": "queensway-zone",
+      "short": {
+        "en": "Queensway",
+        "zh": "女皇道"
+      },
+      "title": {
+        "en": "Mixed-use zoning.<br><em>A framework for change.</em>",
+        "zh": "商住混合用途，<br><em>变化的规划框架。</em>"
+      },
+      "body": {
+        "en": "URA designates Queensway as Commercial & Residential. Its general rule places commercial uses below homes, with commercial and associated uses normally occupying up to 40% of maximum permitted floor area, subject to the authority’s approval. The site’s plot-ratio field reads EVA. The use mix and permitted intensity are assessed as part of a development proposal.",
+        "zh": "URA 将女皇道划为“商业与住宅”。一般规则将商业安排在住宅下方，商业及相关用途通常占最大允许楼面面积的 40% 以内，具体以主管机关批准为准。地块容积率字段记为 EVA；用途组合与许可强度会在开发方案评估中落实。"
+      },
+      "metric": {
+        "en": "Commercial & Residential",
+        "zh": "商业与住宅"
+      },
+      "caption": {
+        "en": "Queensway zone · GPR field: EVA",
+        "zh": "女皇道规划分区 · 容积率字段：EVA"
+      },
+      "coordinates": [
+        103.8033972877883,
+        1.287595189398704
+      ],
+      "sources": [
+        {
+          "publisher": "URA SPACE · MP2025",
+          "url": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/45/190360?f=pjson",
+          "date": "2026-11-07"
+        },
+        {
+          "publisher": "URA · Master Plan Written Statement",
+          "url": "https://isomer-user-content.by.gov.sg/467/411a4d45-c03d-4322-b57c-497714595cdd/MP25WrittenStatement.pdf",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "id": "canopy",
+      "short": {
+        "en": "Canopy",
+        "zh": "Canopy"
+      },
+      "title": {
+        "en": "New homes.<br><em>Support for ageing.</em>",
+        "zh": "新增住宅，<br><em>也有养老支持。</em>"
+      },
+      "body": {
+        "en": "Northwest of the mall, Queensway Canopy was launched in November 2022 with 996 homes, including 245 Community Care Apartments. HDB’s progress photographs dated 31 March 2026 show construction. The planned housing brings homes and support for ageing into this part of the neighbourhood.",
+        "zh": "商场西北侧的 Queensway Canopy 于 2022 年 11 月推出，共 996 套住宅，其中包括 245 套社区关爱组屋。HDB 于 2026 年 3 月 31 日的进度照片记录了建设过程。这个住宅项目把新增住家与养老支持带入街区。"
+      },
+      "metric": {
+        "en": "996 homes",
+        "zh": "996 套住宅"
+      },
+      "caption": {
+        "en": "Including 245 care apartments · HDB, March 2026",
+        "zh": "含 245 套社区关爱组屋 · HDB，2026 年 3 月"
+      },
+      "coordinates": [
+        103.7998187604239,
+        1.290241776953356
+      ],
+      "sources": [
+        {
+          "title": "Queensway Canopy: building progress",
+          "publisher": "Housing & Development Board",
+          "date": "2026-03-31",
+          "url": "https://assets.hdb.gov.sg/building/building-progress/Main/QTN2C2/index.html"
+        },
+        {
+          "title": "Queensway Canopy: November 2022 BTO brochure, pages 1–2 and 17–18",
+          "publisher": "Housing & Development Board",
+          "date": "2022-11",
+          "url": "https://assets.hdb.gov.sg/residential/buying-a-flat/finding-a-flat/sales-brochure/22NOVBTO_pdf_selection/Queensway_Canopy.pdf"
+        }
+      ]
+    },
+    {
+      "id": "stirling",
+      "short": {
+        "en": "Stirling",
+        "zh": "Stirling"
+      },
+      "title": {
+        "en": "Homes to the north.<br><em>More than one tenure.</em>",
+        "zh": "北侧新增住家，<br><em>也包含出租组屋。</em>"
+      },
+      "body": {
+        "en": "Stirling Horizon was launched in February 2025 between Queensway and Mei Chin Road. Its HDB brochure describes 1,126 flats for sale across three residential blocks, plus 12 rental flats in one block. The proposed mix accommodates both purchasing and renting households.",
+        "zh": "Stirling Horizon 于 2025 年 2 月推出，位于 Queensway 与 Mei Chin Road 之间。HDB 手册列出三座住宅楼、1,126 套供出售组屋，并在其中一座楼另设 12 套出租组屋。这一规划组合同时容纳购房与租房家庭。"
+      },
+      "metric": {
+        "en": "1,126 flats for sale",
+        "zh": "1,126 套供出售组屋"
+      },
+      "caption": {
+        "en": "3 blocks · plus 12 rental flats · HDB, February 2025",
+        "zh": "3 座楼 · 另有 12 套出租组屋 · 2025 年 2 月"
+      },
+      "coordinates": [
+        103.8016272159364,
+        1.292727113045938
+      ],
+      "sources": [
+        {
+          "title": "Stirling Horizon: HDB sales launch February 2025, pages 3–6",
+          "publisher": "Housing & Development Board",
+          "date": "2025-02",
+          "url": "https://assets.hdb.gov.sg/residential/buying-a-flat/finding-a-flat/sales-brochure/25FEBBTO_pdf_selection/stirling_horizon.pdf"
+        }
+      ]
+    },
+    {
+      "id": "hospital-future",
+      "short": {
+        "en": "Hospital",
+        "zh": "医院"
+      },
+      "title": {
+        "en": "A larger hospital.<br><em>Opening in stages.</em>",
+        "zh": "更大的医院，<br><em>计划分阶段启用。</em>"
+      },
+      "body": {
+        "en": "The Alexandra Hospital redevelopment is planned to open progressively from 2028. Official releases describe a total planned capacity of around 1,300 hospital beds, inpatient and outpatient towers, and stronger links to the surrounding neighbourhood. MOH’s March 2026 update confirmed that construction had begun.",
+        "zh": "亚历山大医院重建计划自 2028 年起分阶段启用。官方资料列出约 1,300 张病床的规划总规模、住院与门诊大楼，以及与周边街区更紧密的连接。卫生部在 2026 年 3 月确认工程已经启动。"
+      },
+      "metric": {
+        "en": "About 1,300 beds",
+        "zh": "约 1,300 张病床"
+      },
+      "caption": {
+        "en": "Phased opening from 2028 · MOH, March 2026",
+        "zh": "计划自 2028 年分阶段启用 · MOH，2026 年 3 月"
+      },
+      "coordinates": [
+        103.8001809254652,
+        1.285481130393132
+      ],
+      "sources": [
+        {
+          "title": "Enhancing quality and coordination of care",
+          "publisher": "Ministry of Health",
+          "date": "2026-03-05",
+          "url": "https://www.moh.gov.sg/newsroom/enhancing-quality-and-coordination-of-care/"
+        },
+        {
+          "title": "Alexandra Hospital campus: appointment of two main contractors",
+          "publisher": "Alexandra Hospital / National University Health System",
+          "date": "2025-12-03",
+          "url": "https://www.nuhs.edu.sg/about-nuhs/news-and-stories/news-and-stories-details/alexandra-hospital-campus-set-for-next-phase-of-transformation-with-appointment-of-two-leading-contractors-on-1-december-2025"
+        },
+        {
+          "title": "Alexandra Hospital redevelopment: media release",
+          "publisher": "Alexandra Hospital",
+          "date": "2025-12-03",
+          "url": "https://www.ah.com.sg/docs/default-source/newsroom-document/ah/2025/03-december/media-release-alexandra-hospital-campus-set-for-next-phase-of-transformation-with-appointment-of-two-leading-contractors-on-1-december-2025.pdf?sfvrsn=d846332e_1"
+        }
+      ]
+    }
+  ],
+  "satellite": {
+    "label": {
+      "en": "Existing setting · OneMap satellite imagery",
+      "zh": "现状环境 · OneMap 卫星影像"
+    },
+    "credit": "OneMap © contributors | Singapore Land Authority",
+    "creditUrl": "https://www.onemap.gov.sg/legal/opendatalicence.html",
+    "logo": {
+      "path": "assets/queensway-satellite/onemap-logo.png",
+      "alt": "OneMap",
+      "href": "https://www.onemap.gov.sg/"
+    },
+    "note": {
+      "en": "Imagery retrieved 7 Nov 2026",
+      "zh": "影像获取日期：2026-11-07"
+    },
+    "relatedPlaces": [
+      {
+        "label": {
+          "en": "Anchorpoint",
+          "zh": "Anchorpoint"
+        },
+        "coordinates": [
+          103.8050099645917,
+          1.288614690305858
+        ]
+      }
+    ],
+    "extraCredit": {
+      "label": "© OpenStreetMap",
+      "url": "https://www.openstreetmap.org/copyright"
+    }
+  },
+  "planning": {
+    "label": {
+      "en": "Future use · URA Master Plan 2025",
+      "zh": "未来用途 · URA 2025 总体规划"
+    },
+    "credit": "URA SPACE · MP2025",
+    "creditUrl": "https://eservice.ura.gov.sg/maps/",
+    "note": {
+      "en": "URA Master Plan 2025 · Map retrieved 20 October 2026 · Zoning record dated 7 November 2026",
+      "zh": "URA 2025 总体规划 · 底图获取于 2026 年 10 月 20 日 · 分区记录日期：2026 年 11 月 7 日"
+    },
+    "legend": [
+      {
+        "label": {
+          "en": "Mixed use",
+          "zh": "商住"
+        },
+        "color": "#35ADE5",
+        "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/45/images/1cc722a1dfb9be20a090d2c921214fdf"
+      },
+      {
+        "label": {
+          "en": "Residential",
+          "zh": "住宅"
+        },
+        "color": "#F4BA82",
+        "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/45/images/b3acf643118720143e5ff4362307174f"
+      },
+      {
+        "label": {
+          "en": "Medical",
+          "zh": "医疗"
+        },
+        "color": "#CC0021",
+        "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/45/images/d48b652ceaa8a152f5aebed29ee4f817"
+      },
+      {
+        "label": {
+          "en": "Business 1",
+          "zh": "工业 B1"
+        },
+        "color": "#D5ADC7",
+        "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/45/images/78cbd593de098dda7c8896ea6453de58"
+      },
+      {
+        "label": {
+          "en": "Park",
+          "zh": "公园"
+        },
+        "color": "#00A33A",
+        "sourceUrl": "https://maps.ura.gov.sg/arcgis/rest/services/MP25/Landuse_gaz/MapServer/45/images/74e3f376fa53a0ea68a61d9a64b9e00f"
+      }
+    ]
+  }
+}

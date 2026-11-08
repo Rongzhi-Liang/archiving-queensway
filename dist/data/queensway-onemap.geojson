@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "QUEENSWAY SHOPPING CENTRE",
+        "address": "1 QUEENSWAY QUEENSWAY SHOPPING CENTRE SINGAPORE 149053",
+        "postal": "149053",
+        "source": "Singapore Land Authority OneMap Search API",
+        "source_url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=Queensway%20Shopping%20Centre&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+        "retrieved_date": "2026-10-18",
+        "geometry_note": "Search result point; not a surveyed entrance."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8033972877883,
+          1.287595189398704
+        ]
+      }
+    }
+  ]
+}
