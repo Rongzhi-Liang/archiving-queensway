@@ -1,6 +1,8 @@
 name: Validate and publish GitHub Pages
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
