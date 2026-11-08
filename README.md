@@ -40,20 +40,22 @@ The check validates JavaScript syntax, JSON, local file references, project-site
 
 ## Publish on GitHub Pages
 
-The website is served from **`dist/`**. The repository includes a manually triggered workflow that validates the site and uploads only this directory.
+The website is served from **`dist/`** at <https://rongzhi-liang.github.io/archiving-queensway/>. Every push to **`main`** automatically runs validation and publishes this directory after the checks pass. The public address stays the same.
 
-1. Place the public package in a GitHub repository.
-2. In **Settings → Pages → Build and deployment**, select **GitHub Actions**.
-3. In **Actions**, select **Validate and publish GitHub Pages**, then **Run workflow**.
-4. Open the deployment URL reported by the completed workflow.
+1. Update and check the website locally, including English and Chinese content and the affected interactions.
+2. Synchronize the reviewed public files into the existing release checkout. Commit and push them to `main`.
+3. In **Actions**, follow **Validate and publish GitHub Pages** for that commit until validation and deployment both succeed.
+4. Open the live website and verify the changed pages, media and navigation.
 
-The workflow does not publish automatically on push. The original working repository can include private research records and previous revisions, so prepare a public package before uploading:
+The workflow also supports **Actions → Validate and publish GitHub Pages → Run workflow** for a manual redeployment. Pages uses **GitHub Actions** as its build and deployment source.
+
+For a first-time public export, the preparation script copies an explicit allowlist from the research workspace:
 
 ```sh
 python3 scripts/prepare-github.py
 ```
 
-This creates `work/github-release/` from an explicit allowlist, with no `.git` history, original research folders, verification screenshots or local hosting settings. Review this folder, then initialize or upload that public package. The preparation command performs no upload. For an unchanged generated package, `--refresh` rebuilds it and moves its previous copy to the Trash. Existing local source and preview folders remain in place.
+This creates `work/github-release/` from an explicit allowlist, with no `.git` history, original research folders, verification screenshots or local hosting settings. Review this folder, then initialize or upload that public package. The preparation command performs no upload. Use it for a new staging export, then synchronize reviewed files into the existing release repository while preserving its `.git` directory. Keep the active release checkout in place; `--refresh` is only for replacing an unchanged disposable export. Existing local source and preview folders remain in place.
 
 GitHub's documentation covers [custom Pages workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) and [creating a Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
