@@ -1,7 +1,7 @@
 import { interviewAudioMarkup, mountInterviewAudio, interviewAudioSourceNotesMarkup } from './interview-audio.js?v=20261108-public-team1';
 import { interviewCollections } from './interview-recordings.js?v=20261108-public-team1';
 
-// Audio is an independent enhancement; the photographic scroll sequence stays intact.
+// Mount interview controls separately from the photographic scroll controller.
 export function mountOpeningInterviews(root, { lang = 'en', onModal = () => {} } = {}) {
  const original = root?.querySelector('.opening-status');
  if (!original) return { destroy() {} };

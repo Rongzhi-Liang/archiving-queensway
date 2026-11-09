@@ -1,34 +1,30 @@
-/* Minimal layer — 7 November 2026.
-   Subtracts chrome: rule lines, framed buttons and small floating labels,
-   so each screen keeps one clear subject. Loaded last.
-   Does not restyle the photo opening (chapter 0), the history timeline
-   (#chapter-history, #ev-*) or the original-document pages (#ev-documents). */
+/* Final presentation overrides. Opening, timeline and document layouts are
+   defined in their respective stylesheets. */
 
-/* Navigation chrome: the header menu and footer already carry navigation. */
+/* Hide redundant chapter navigation. */
 .chapter-rail{display:none!important}
 .story-hud{display:none!important}
 
-/* Map caption: keep the honest label, lose the dot and the box. */
+/* Plain map caption. */
 .map-caption{text-shadow:none}
 .map-caption-dot{display:none!important}
 .map-caption button{border:0!important;background:transparent!important;padding:6px 0!important;margin-left:22px!important;color:#e5c394!important;letter-spacing:.05em}
 .map-caption button:hover{color:#fff0d7!important}
 
-/* Chapter numbers without the short rule in front of them. */
+/* Chapter numbers. */
 .story-step:not([id^="ev-"]):not(#chapter-history) .scene-kicker:before{display:none!important}
 
-/* Floor plan: no floating caption over the drawing. */
+/* Hide the floating floor-plan caption. */
 #floor-explorer-stage .floor-heading{display:none!important}
 
-/* Three perspectives: separated by space, not by lines. */
+/* Perspective spacing. */
 .bridge-choices{border-top:0!important}
 .bridge-choice{border-bottom:0!important}
 .bridge-kicker span{display:none!important}
 .bridge-choice{border-top:0!important;border-bottom:0!important}
 .bridge-choice::before{border-left:0!important;border-right:0!important}
 
-/* Charts: one caption, one key. The axis label and the key already say
-   "regional series" and "not Queensway-specific". */
+/* Chart captions and legends. */
 .pn-chart-context{display:none!important}
 .pn-evidence-control>label{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .pn-price-nav{display:none!important}

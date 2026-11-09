@@ -1,4 +1,4 @@
-/* Three stories, one quiet reading system. Opening and archive are intentionally outside this scope. */
+/* Shared narrative layout, scoped to the three perspectives. */
 :is(#property-land,#shopkeepers,#visitors)[hidden]{display:none}
 .story-stage :is(#property-visual-stage,#shop-visual-stage,#visitor-visual-stage){position:absolute;inset:0;display:block;height:100%;z-index:7;overflow:hidden;pointer-events:none;transform:translateY(var(--footer-story-offset,0px))}
 .story-stage .narrative-visual-stage[hidden],.narrative-surface[hidden],.narrative-surface [hidden]{display:none!important}

@@ -1,5 +1,4 @@
-/** A restrained entrance for the two bodies of each shared-ending scene.
- * No wheel interception, scroll snapping, or changes to the earlier narratives. */
+/** Reveal each closing-section column once as it enters the viewport. */
 export function mountAfterwordMotion(root){
  if(!root)return ()=>{};
  const targets=[...root.querySelectorAll('.cv-reading,.cv-comparison,.ce-reading,.ce-visual,.cd-reading,.cd-participation,.cd-wishes,.cd-contribute,.pi-intro,.pi-main')].filter(el=>!el.parentElement.closest('.aw-reveal'));

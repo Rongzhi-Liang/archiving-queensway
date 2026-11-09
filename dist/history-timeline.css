@@ -174,7 +174,7 @@
 .vertical-history .history-media figcaption a:hover{color:#e9c68f}
 .vertical-history .history-image-button:focus-visible,.vertical-history .history-date button:focus-visible{outline:1px solid var(--gold);outline-offset:6px}
 
-/* Row media carries the archive; the shared stage resumes for the data chapters. */
+/* Timeline media in each row; shared stage in later chapters. */
 .context-integrated[data-chapter=timeline] .c-photo-background,
 .context-integrated[data-chapter=timeline] .c-timeline,
 .context-integrated[data-chapter=timeline] .c-map-era,
@@ -236,7 +236,7 @@
  .vertical-history .history-spine>i{transition:none}
 }
 
-/* Light follows the reading position along the shared vertical spine. */
+/* Scroll-position highlight on the timeline spine. */
 .vertical-history .history-spine>b{position:absolute;left:50%;top:calc(var(--history-progress,0)*100%);width:4px;height:4px;transform:translate(-50%,-50%);border-radius:50%;background:#f3cd91;box-shadow:0 0 12px #efbb6baa,0 0 30px #efbb6b44}
 .vertical-history .history-date button{background:radial-gradient(ellipse,#151515 42%,#151515e8 64%,transparent 76%)}
 .vertical-history .history-date-year{color:#c3c3c3;transition:color .6s}

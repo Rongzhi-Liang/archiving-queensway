@@ -4,7 +4,7 @@ import {mountContextPlanning} from './context-planning.js?v=20261108-release1';
 import {mountContextDocuments,sourceDisplayFrame,sourceImageMarkup} from './context-documents.js?v=20261108-release1';
 import {mountContextIndices} from './context-indices.js?v=20261105-propertyvisuals';
 
-/** A photographic history flows into markets, neighbourhood geography and original papers. */
+/** History, market, planning and document scenes. */
 export function mountContext(container,{lang='en',start='timeline',inline=false,stepAnchor=null,propertySlots={},onNavigate=()=>{},onCompare=()=>{},onReturn=()=>{},onChapterChange=()=>{}}={}){
  const t=(en,zh)=>lang==='zh'?zh:en,p=value=>pick(value,lang),reduced=matchMedia('(prefers-reduced-motion: reduce)');
  let alive=true,active=-1,frame=0,dispose=()=>{},navigate=()=>{},selectScene=()=>{},deactivateScene=()=>{},updateHistory=()=>{};
@@ -34,7 +34,7 @@ export function mountContext(container,{lang='en',start='timeline',inline=false,
   </div>`;
   const root=container.querySelector('.context-story'),dialog=root.closest('dialog'),scrollRoot=dialog||window,steps=[...root.querySelectorAll('.c-step')],stage=root.querySelector('.c-stage'),copies=steps.map(step=>step.querySelector('.c-copy'));
   if(inline){
-   // Narrative sections are peers of every other main chapter; only their visuals stay on the shared stage.
+   // Keep chapter sections in the document flow and visuals on the shared stage.
    const historyPart=document.createElement('section');
    historyPart.id='chapter-history';historyPart.className='story-chapter vertical-history';
    historyPart.setAttribute('aria-label',t('History · timeline','历史 · 时间轴'));

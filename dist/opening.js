@@ -1,8 +1,5 @@
-/* Scroll-led photographic prologue.
- * Text: paraphrases of the team’s recorded interviews with Frank, Pamela and Stephen.
- * Photo provenance is retained separately from the interview records.
- * The browser’s native document scroll is the only timeline.
- */
+/* Scroll-driven opening. Copy paraphrases recorded interviews with Frank, Pamela
+ * and Stephen; photographs have separate source records. */
 const people = [
   { id:'frank', name:'Frank', shop:"Frank’s Leathersmith", unit:'#02-41F', image:'S_Frank.JPG',
     en:{title:'A craft.<br><em>Passed on.</em>',text:'Frank learned leatherwork in his father’s workshop. After a period of retirement, he returned to the trade at Queensway in 2012.',alt:'Frank seated at his leatherworking bench, surrounded by tools and materials.'},
@@ -37,7 +34,7 @@ export function mountOpening(root,{lang='en'}={}) {
  function measure(){top=root.getBoundingClientRect().top+scrollY;travel=Math.max(1,root.offsetHeight-stage.clientHeight);}
  function paint(p){
   const ab=smooth(.16,.42,p),bc=smooth(.49,.75,p);
-  // Keep a full photographic field under each dissolve; the copy has its own rhythm.
+  // Keep the underlying image visible while image and text fades run independently.
   const images=[ab===1?0:1,bc===1?0:ab,bc];
   const copy=[1-smooth(.16,.29,p),smooth(.29,.42,p)*(1-smooth(.49,.62,p)),smooth(.62,.75,p)];
   const next=bc>=.5?2:ab>=.5?1:0;

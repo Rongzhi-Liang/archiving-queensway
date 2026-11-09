@@ -18,7 +18,7 @@ const poses={
  wishes:{center:Q,zoom:15.65,pitch:55,bearing:5}
 };
 
-// Keep the remote base style neutral; warm colors belong only to our story overlays.
+// Use neutral basemap colors so the narrative overlays remain distinct.
 function neutralizeBasemap(map){
  for(const layer of map.getStyle().layers){
   const id=layer.id,paint=layer.paint||{};
@@ -46,7 +46,7 @@ function neutralizeBasemap(map){
  map.setLight({anchor:'viewport',color:'#ffffff',intensity:.42,position:[1.15,210,35]});
 }
 
-/** A geographic stage, driven by narrative chapters rather than scroll-wheel zoom. */
+/** Update the geographic view from the active narrative chapter. */
 export function createGeoStage(container,{compact=false,lang='en',onReady=()=>{}}={}){
  let current='city',alive=true,ready=false,map,marker;
  const status=document.createElement('div');status.className='geo-loading';status.textContent=lang==='zh'?'正在展开地图…':'Unfolding the map…';container.append(status);

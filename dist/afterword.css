@@ -1,4 +1,4 @@
-/* The shared ending uses normal page flow and its own two-part reading surfaces. */
+/* Shared ending: normal page flow and two-column sections. */
 .afterword-root{position:relative;z-index:16;background:#151515;isolation:isolate}
 .afterword-root [hidden]{display:none!important}
 .afterword-section{scroll-margin-top:64px;pointer-events:auto}
@@ -8,7 +8,7 @@ body.afterword-active .story-stage{visibility:hidden;pointer-events:none}
 body.afterword-active :is(.story-hud,.map-caption,.chapter-rail){display:none}
 @media(max-width:700px){.afterword-section{scroll-margin-top:58px}}
 
-/* Shared ending: four generous editorial scenes, scoped to the afterword. */
+/* Four sections within the shared ending. */
 @font-face{font-family:'Queensway Afterword Song';src:url('assets/fonts/noto-serif-sc-afterword-medium.woff2?v=20261108-formal1') format('woff2');font-weight:500;font-style:normal;font-display:swap;unicode-range:U+2018-201F,U+2026,U+3000-303F,U+3400-9FFF,U+F900-FAFF,U+FE10-FE1F,U+FE30-FE4F,U+FF00-FFEF}
 .afterword-root,.reader-project,.ce-photo-dialog,.ce-source-dialog{--archive-type:'Queensway Garamond','Queensway Afterword Song','Queensway Song','Songti SC',Georgia,serif}
 .afterword-root{background:#141414;color:#eeeae2;--aw-gold:#e4bf89;--aw-body:#c6c2b9;--aw-muted:#a9a59b}

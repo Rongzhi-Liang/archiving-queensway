@@ -17,7 +17,7 @@
 
 @media(max-width:700px){#mall-stage .mall-scene-annotation{display:none}}
 
-/* Keep third-party map controls inside the editorial palette. */
+/* Map control colours. */
 :root{accent-color:var(--gold)}
 :focus-visible{outline:2px solid var(--gold);outline-offset:4px}
 ::selection{background:#efbb6b;color:#151515}

@@ -65,7 +65,7 @@
 }
 @media(prefers-reduced-motion:reduce){.c-doc-highlight{transition:none}}
 
-/* Click a paper edge or numbered tab to bring that complete original to the front. */
+/* Document selection by exposed edge or numbered tab. */
 .c-doc-stack-root .c-doc-frame{inset:50px 20px 164px;overflow:visible}
 .c-doc-stack{perspective:1300px}
 .c-doc-layer{position:absolute;flex:none;transform-origin:center 65%;transition:transform .65s,filter .65s;box-shadow:0 13px 40px #0008;background:#fff}
@@ -83,18 +83,18 @@
 @keyframes c-paper-arrive{from{opacity:.6;transform:translateY(8px) rotate(-2deg)}to{opacity:1;transform:none}}
 @media(max-width:700px){.c-doc-stack-root .c-doc-frame{inset:32px 10px 119px}.c-doc-tabs{left:12px;right:12px;bottom:75px;gap:8px}.c-doc-tabs button{font-size:7px;display:block;padding:6px 0;line-height:1.4}.c-doc-tabs button>span{display:block}.c-doc-tabs button>span:first-child{font-size:7px;margin-bottom:3px}.c-doc-stack-root>.c-doc-explanation{bottom:34px;font-size:9px;max-height:31px}.c-doc-behind>span{font-size:6px;top:5px;left:5px;padding:2px}}
 @media(prefers-reduced-motion:reduce){.c-doc-layer{transition:none;animation:none}}
-/* Eight original reading surfaces, organized as two calm rows. */
+/* Document grid: two rows. */
 .c-doc-stack-root .c-doc-frame{inset:50px 20px 202px}
 .c-doc-tabs{grid-template-columns:repeat(4,minmax(0,1fr));bottom:105px;gap:0 12px}
 .c-doc-tabs button{padding:8px 0;min-height:36px}
 @media(max-width:700px){.c-doc-stack-root .c-doc-frame{inset:29px 8px 142px}.c-doc-tabs{bottom:66px;gap:0 8px}.c-doc-tabs button{min-height:33px;padding:5px 0;display:flex;gap:5px;font-size:7px}.c-doc-tabs button>span:first-child{margin:0}.c-doc-stack-root>.c-doc-explanation{bottom:30px;max-height:29px}}
 
-/* Source pixels remain unchanged; this viewport focuses the article column. */
+/* Crop the viewport to the article column. */
 .c-source-crop{position:relative;display:block;overflow:hidden;width:100%;height:100%;flex:none;background:#fff}
 .c-source-crop>img{position:absolute;display:block;max-width:none;max-height:none;object-fit:fill!important;margin:0!important;user-select:none}
 .c-history-viewport>.c-source-crop{margin:auto}
 
-/* Saved document surfaces follow one reversible circle through the chapter. */
+/* Reversible circular document transition. */
 .c-doc-orbit .c-doc-header{align-items:flex-start}
 .c-doc-orbit .c-doc-header>div{display:grid;gap:7px;min-width:0;max-width:72%}
 .c-doc-orbit [data-c-doc-source]{font-size:12px;line-height:1.45;letter-spacing:.035em;color:#b8b8b8}

@@ -1,4 +1,4 @@
-/* One evidence view at a time, with the underlying records available on demand. */
+/* Property narrative evidence views. */
 .pn-field{display:flex;flex-direction:column;justify-content:center;color:#eee9df}
 .pn-field [hidden]{display:none!important}
 .pn-phase-nav{justify-content:flex-start;gap:24px;margin-bottom:28px;flex-wrap:wrap}
@@ -84,7 +84,7 @@
 @media(min-width:701px) and (max-height:550px){.pn-tick{font-size:34px}}
 @media(prefers-reduced-motion:reduce){.pn-field *{scroll-behavior:auto}}
 
-/* Scroll-led market reading; the existing two-column composition stays intact. */
+/* Scroll-linked market readings in two columns. */
 .pn-market-year rect{fill:#d7b27a;opacity:.08}
 .pn-market-year text{fill:#d7b27a;font:400 17px var(--sans)}
 .pn-market-year{transition:opacity .35s ease}
@@ -134,7 +134,7 @@
  #property-choice .ns-actions{margin-top:6px}
 }
 
-/* Whole-property value shares the same reading field as unit and regional evidence. */
+/* Shared panel for whole-property, unit and regional values. */
 .pn-whole{display:flex;flex-direction:column;align-items:flex-start;gap:28px;padding-block:34px}
 .pn-whole-date{font:400 15px/1.6 var(--sans);letter-spacing:.06em;color:#b5b2a8;margin:0}
 .pn-whole-amount{font:400 clamp(62px,7.2vw,118px)/1.08 var(--archive-type,var(--display));letter-spacing:-.045em;color:#e3c18b}
@@ -144,5 +144,5 @@
 
 .pn-unit-label{fill:#bcb8af;font:400 17px var(--sans)}
 
-/* Scrolling over this reading or its visual continues into the next explanation. */
+/* Scroll progression over text and visual panels. */
 #property-value .scene-copy.ns-copy,.pn-value .ns-field{overscroll-behavior-y:auto}

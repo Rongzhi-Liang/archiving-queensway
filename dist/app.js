@@ -264,7 +264,7 @@ function updateScroll(immediate=false){
   if(step.hasAttribute('data-visitor-step')){visitorVisualControllers.forEach(controller=>controller.setProgress?.(step.id,progress,immediate===true));}
  }
  const host=document.querySelector('#context-stage');
- // Shared evidence still fades as a group. The two moved exhibits open on their own stages.
+ // Property evidence fades by chapter; the remaining evidence shares one stage.
  const property=visible?.hasAttribute('data-property-step');
  const evidenceFrames=property
    ?frames.filter(frame=>frame.el===visible&&frame.el.dataset.evidenceId)
@@ -308,7 +308,7 @@ function cancelPendingNavigation(){
  window.scrollTo({top:scrollY,behavior:'instant'});
  scheduleScrollUpdate();
 }
-// User input takes over from a menu's smooth scroll; it never disables native scrolling.
+// Cancel menu-driven smooth scrolling when the reader interacts.
 for(const event of ['wheel','touchstart','pointerdown'])window.addEventListener(event,cancelPendingNavigation,{passive:true});
 window.addEventListener('keydown',event=>{if(['ArrowUp','ArrowDown','PageUp','PageDown','Home','End',' ','Escape'].includes(event.key))cancelPendingNavigation();},{capture:true});
 window.addEventListener('resize',cancelPendingNavigation,{passive:true});
@@ -374,7 +374,7 @@ reader.addEventListener('close',()=>{readerCleanup?.();readerCleanup=null;reader
 document.querySelector('.reader-close').addEventListener('click',closeReader);
 function openReader(type,role){
  if(type==='context'){goContext(role);return;}
- // Old entry points resolve into the shared ending, never a second set of stories.
+ // Resolve legacy story and comparison routes to their current sections.
  if(type==='story'||type==='comparison'){go(type==='comparison'?'chapter-bridge':'chapter-explore');return;}
  if(type==='participate'){dialogue?.openForm();go('chapter-future');return;}
  opening?.setModal(true);readerCleanup?.();readerCleanup=null;readerBody.replaceChildren();

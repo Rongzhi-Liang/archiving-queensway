@@ -83,7 +83,7 @@ const projectLink=(action,label)=>`<button class="pi-text-link" type="button" da
 const projectGo=(id,label)=>`<button class="pi-text-link" type="button" data-go="${id}">${label}<span aria-hidden="true">↗</span></button>`;
 const readerShell=(lang,{kicker,title,intro,body,extra=''})=>`<article class="project-reader" lang="${lang==='zh'?'zh':'en'}"><header class="pr-intro"><p class="pr-kicker">${kicker}</p><h2>${title}</h2><p class="pr-lead">${intro}</p>${extra}</header><div class="pr-body">${body}</div></article>`;
 
-/** The archive continues through three concrete stages, with one expanded at a time. */
+/** Project information uses a single-open accordion. */
 export function projectInformationMarkup(lang='en'){
  const t=projectT(lang);
  const stages=[
@@ -159,7 +159,7 @@ export function aboutMarkup(typeOrLang='en',legacyLang){
  <div class="pr-team-profiles">${projectPeople.map((person,i)=>`<section class="pr-person" aria-labelledby="pr-person-${i}"><header><p class="pr-degree">${t(person.en,person.zh)}</p><h3 id="pr-person-${i}" lang="en">${person.name}</h3></header>${t(person.bioEn,person.bioZh).map(paragraph=>`<p>${paragraph}</p>`).join('')}</section>`).join('')}</div>`});
 }
 
-/** The established action name now opens participation and correction information. */
+/** Participation links and record-correction instructions. */
 export function stewardshipMarkup(lang='en'){
  const t=projectT(lang);
  return readerShell(lang,{kicker:t('PARTICIPATION & CORRECTIONS','参与与更正'),title:t('Share an experience.<br>Help a record stay accurate.','分享一段经历，<br>让记录更准确。'),intro:t('Choose the project questionnaire that matches your connection to Queensway. The form opens on Ushahidi, where you can complete and submit it.','按你与女皇道的联系选择项目问卷，在打开的Ushahidi页面填写并提交。'),extra:projectGo('chapter-future',t('Return to participation','回到参与页面')),body:`

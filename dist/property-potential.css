@@ -1,4 +1,4 @@
-/* A single scroll-driven waterfall, within the existing two-column composition. */
+/* Scroll-driven waterfall chart in the right column. */
 .pv-main{width:100%;min-width:0;color:#e9e4db}
 .pv-method{font:400 16px/1.5 var(--sans);color:#bdb7ab;margin:0 0 22px!important}
 .pv-figure{margin:0}

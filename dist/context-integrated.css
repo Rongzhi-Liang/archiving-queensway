@@ -1,4 +1,4 @@
-/* Evidence chapters share the main story's stage, typography and scroll rhythm. */
+/* Evidence chapters use the shared story stage. */
 #context-stage{
  z-index:6;
  pointer-events:none;
@@ -26,7 +26,7 @@
 .stage-vignette{transition:background .7s,opacity 1s ease}
 .context-integrated .c-nav,.context-integrated .c-progress{display:none}
 
-/* These are regular flowing scene copies, like every other main chapter. */
+/* Scene text remains in document flow. */
 .story-step.evidence-step{
  min-height:128svh;
  padding:15vh 9vw;
@@ -97,7 +97,7 @@
 .evidence-step .c-source-link>span{color:var(--gold)}
 html[lang=zh] .evidence-step .c-copy h2{letter-spacing:.025em;line-height:1.25}
 
-/* Visuals occupy the same open right-hand field as the main building model. */
+/* Right-column visual position. */
 .context-integrated .c-visual{
  left:51%;
  right:5%;
@@ -118,7 +118,7 @@ html[lang=zh] .evidence-step .c-copy h2{letter-spacing:.025em;line-height:1.25}
 .context-integrated .c-history-enlarge{right:6%;top:10%}
 .context-integrated:not([data-visual=photo]) .c-photo-background{opacity:.025}
 
-/* Original-page and reference readers retain their own top-layer interactions. */
+/* Document and reference overlay controls. */
 .context-integrated .c-records{
  left:auto;
  margin:0;
@@ -131,7 +131,7 @@ html[lang=zh] .evidence-step .c-copy h2{letter-spacing:.025em;line-height:1.25}
 .context-integrated .c-records[open]{display:block}
 .context-integrated .c-records::backdrop{background:#0009;backdrop-filter:blur(10px)}
 
-/* One rail covers the entire story, including every evidence scene. */
+/* Shared story navigation rail. */
 .chapter-rail{gap:0}
 .chapter-rail button{height:clamp(12px,calc((100svh - 190px)/var(--chapter-count,16)),22px)}
 .chapter-rail button>span{width:2px;height:2px}
@@ -206,7 +206,7 @@ html[lang=zh] .evidence-step .c-copy h2{letter-spacing:.025em;line-height:1.25}
 .map-caption button[hidden]{display:none}
 .evidence-active #geography .maplibregl-ctrl{visibility:hidden}
 
-/* A single chapter holds its visual while three short readings unfold. */
+/* Sticky visual for successive readings. */
 .story-step.evidence-step.guided-evidence{
  display:block;
  min-height:240svh;

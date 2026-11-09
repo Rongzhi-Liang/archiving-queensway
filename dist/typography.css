@@ -1,4 +1,4 @@
-/* Shared archival display type. Body copy, map labels and controls keep their own sans-serif styles. */
+/* Display type; body text and controls use sans-serif fonts. */
 @font-face{font-family:'Queensway Garamond';font-style:normal;font-weight:500;font-display:swap;src:url('assets/fonts/eb-garamond-medium.woff2') format('woff2')}
 @font-face{font-family:'Queensway Song';font-style:normal;font-weight:500;font-display:swap;src:url('assets/fonts/noto-serif-sc-site-medium.woff2?v=20261108-scroll1') format('woff2')}
 :root{--archive-type:'Queensway Garamond','Queensway Song','Songti SC',Georgia,serif;--serif:var(--archive-type);--display:var(--archive-type)}
@@ -17,7 +17,7 @@
  .scene-copy h2,.hero-copy h1,.c-copy h1,.c-copy h2,.story-question
 ) em{font-family:inherit;font-style:normal;font-weight:inherit;letter-spacing:inherit}
 
-/* Dates and prominent figures belong to the same display system. */
+/* Display type for dates and key figures. */
 :root :is(
  .visitor-facts b,.c-map-era,.c-estimate strong,.c-market-popup-price,.c-indices-readout strong,
  .story-large-number,.story-reflection>span,.story-visitor-facts strong,.story-memory-drawing text,
@@ -35,7 +35,7 @@ html[lang="zh"] :is(
  .ev-empty h3,.planning-detail h4,.ev-policy-status h4
 ){font-family:var(--archive-type);letter-spacing:.025em;line-height:1.25}
 
-/* Readable supporting type; display headings retain the archival identity. */
+/* Body and supporting text. */
 :root{--reading-body:16px;--reading-detail:14px;--reading-label:12px;--reading-small:11px;--reading-note:13px;--reading-ink:#c8c8c8}
 :root :is(.scene-body,.hero-deck,.opening-excerpt,.evidence-step .c-deck,.guided-evidence .c-deck,.vertical-history .history-moment .scene-body,.comparison-copy){font-size:var(--reading-body);line-height:1.8}
 html[lang=zh] :is(.opening-excerpt,.scene-body,.evidence-step .c-deck,.vertical-history .history-moment .scene-body){font-size:var(--reading-body);line-height:1.85}
@@ -99,7 +99,7 @@ html[lang=zh] :is(.opening-excerpt,.scene-body,.evidence-step .c-deck,.vertical-
 :root :is(.participation-form input[type=text],.participation-form select,.participation-form textarea){font-size:16px}
 :root :is(.participation-add,.participation-submit,.participation-card-bottom button){font-size:var(--reading-note)!important}
 
-/* Native scrolling remains in control. Only the artwork and reading layers ease. */
+/* Transitions on artwork and reading layers. */
 .story-stage,.context-integrated .c-stage{overflow:clip}
 #context-stage,.stage-vignette{transition:none}
 .evidence-active #geography{transition:none}
@@ -173,7 +173,7 @@ html[lang=zh] :is(.opening-excerpt,.scene-body,.evidence-step .c-deck,.vertical-
  .c-reading-outgoing{display:none}
 }
 
-/* Hold the papers until their complete circle reconnects with the story. */
+/* Sticky document stack during the circular transition. */
 #ev-documents.guided-evidence{min-height:700svh}
 #ev-documents .c-copy h2{min-height:2.2em}
 #ev-documents .c-deck{min-height:12em}

@@ -1,4 +1,4 @@
-// The historical Queensway attempt, explained without implying a current vote.
+// Consent requirements and procedure for the 2019 collective-sale attempt.
 import { esc } from './narrative-system.js?v=20261108-public-team1';
 
 const source={

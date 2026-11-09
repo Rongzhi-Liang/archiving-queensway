@@ -1,5 +1,5 @@
-/* Project chapter: two quiet bodies, three meaningful stages. Scoped to the
-   closing section and its readers so the three narratives keep their styling. */
+/* Project information: two columns and three stages, scoped to the closing
+   section and its readers. */
 .story-step.project-information{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(48px,7vw,120px);align-items:center;min-height:max(100svh,760px);padding:120px 8vw 108px;background:#141414;color:#eeeae2;pointer-events:auto}
 .project-information [hidden]{display:none!important}
 .project-information :where(p,h2,h3){margin:0}
@@ -34,7 +34,7 @@ html[lang=zh] .project-information .pi-stage-toggle{letter-spacing:.025em;line-h
 html[lang=zh] .project-information .pi-stage-body h3{letter-spacing:.015em;line-height:1.4}
 @keyframes pi-open{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 
-/* Supporting readers retain the same left introduction / right evidence format. */
+/* Reader layout: introduction left, evidence right. */
 #reader.reader-project{background:#171717;color:#e9e5dc}
 #reader.reader-project .reader-bar{height:76px;background:#171717f5;color:#c8c2b8;border:0;font:400 17px/1.4 var(--sans,Arial,sans-serif);letter-spacing:0;backdrop-filter:blur(20px);padding-inline:5vw}
 #reader.reader-project .reader-close{color:#e9e5dc;font-size:18px;letter-spacing:0}

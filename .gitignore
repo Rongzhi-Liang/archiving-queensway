@@ -6,17 +6,20 @@ __pycache__/
 *.tar.gz
 .public-export.json
 
-# Local research, verification and hosting material stay out of public exports.
-# Existing tracked history is separate; prepare-github.py exports a clean allowlist.
+# Local research and verification files.
 sources/
 verification/
-.vscode/
+# Local tool settings; keep the publishing workflow.
+.[!.]*/
+!.github/
+!.github/**
 asset-sources.json
 map-sources.json
 _Old_dist*/
 资料来源_*/
 大改目标框架*.md
 项目全贯穿*.md
+项目全貌*.md
 .env
 .env.*
 !.env.example

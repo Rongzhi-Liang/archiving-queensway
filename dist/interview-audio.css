@@ -1,4 +1,4 @@
-/* The recording shares the page's ink, parchment and warm-gold palette. */
+/* Interview player. */
 .interview-audio{display:flex;flex-direction:column;gap:10px;min-width:0;width:100%;padding-top:3px;color-scheme:dark}
 .interview-audio .interview-audio-topics{display:flex;align-items:center;gap:25px;margin:0}
 .interview-audio .interview-audio-topics button{appearance:none;border:0;border-radius:0;background:none;padding:5px 0;color:#aaa79d;font:400 14px/1.35 var(--sans);cursor:pointer;transition:color .2s}
@@ -34,7 +34,7 @@
 @media(max-width:700px){.interview-audio{gap:7px;padding-top:0}.interview-audio .interview-audio-topics{gap:22px}.interview-audio .interview-audio-topics button{font-size:13px;padding:3px 0}.interview-audio .interview-audio-player{grid-template-columns:44px minmax(0,1fr) 44px;gap:13px;min-height:44px}.interview-audio .interview-audio-play{width:44px;height:44px}.interview-audio .interview-audio-times{font-size:12px}.interview-audio .interview-audio-source,.interview-audio .interview-audio-status{font-size:11px;line-height:1.35}}
 @media(prefers-reduced-motion:reduce){.interview-audio :is(button,input),.interview-audio .interview-audio-seek::-webkit-slider-thumb{transition:none}.interview-audio .interview-audio-play:hover,.interview-audio .interview-audio-play:active{transform:none}}
 
-/* Added audio occupies its own space; existing photographs and transitions retain their rules. */
+/* Interview player spacing within story sections. */
 .ns-interview{margin-top:22px;max-width:490px;pointer-events:auto}
 .ns-interview [hidden]{display:none!important}
 .interview-audio .interview-audio-topics{flex-wrap:wrap;gap:6px 22px}

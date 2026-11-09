@@ -1,6 +1,6 @@
 @font-face{font-family:'Queensway Land Serif SC';src:url('assets/fonts/noto-serif-sc-land-medium.woff2') format('woff2');font-weight:500;font-style:normal;font-display:swap;unicode-range:U+3000-303F,U+3400-9FFF,U+F900-FAFF,U+FF00-FFEF}
 #property-use,[data-property-visual="property-use"]{--archive-type:'Queensway Garamond','Queensway Land Serif SC','Queensway Song','Songti SC',Georgia,serif}
-/* Authentic imagery and official land-use colours share one fixed geographic frame. */
+/* Satellite and land-use maps share the same geographic extent. */
 .plm-main{width:100%;min-width:0;color:#eee9df}
 .plm-label{font:400 15px/1.5 var(--sans);color:#c2bcae;margin:0 0 12px!important}
 .plm-map{position:relative;margin:0;background:#1b1c19;overflow:hidden}
@@ -55,7 +55,7 @@
 }
 @media(prefers-reduced-motion:reduce){.plm-marker-dot,.plm-marker-ring,.plm-topics button{transition:none}}
 
-/* Preserve the full geographic rectangle instead of letterboxing a width-constrained SVG. */
+/* Match the SVG viewport to the map extent. */
 .plm-label{display:none}
 @media(min-width:701px){.pn-use .ns-field{top:10svh;bottom:3svh}.plm-map>svg{max-height:none;height:auto}}
 @media(max-width:700px){.plm-map{width:256px;max-width:100%;margin-inline:0}}

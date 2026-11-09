@@ -21,7 +21,7 @@ const clamp=p=>Math.max(0,Math.min(1,Number(p)||0));
 const MARKET_READING_COUNT=4;
 export const PROPERTY_VALUE_READING_COUNT=10;
 const POTENTIAL_READING_COUNT=PROPERTY_VALUE_READING_COUNT-MARKET_READING_COUNT;
-// One continuous timeline: the four market readings lead into six valuation readings.
+// Scroll order: four market readings, then six valuation readings.
 export function propertyValueFrame(progress){
  const p=clamp(progress),reading=Math.min(PROPERTY_VALUE_READING_COUNT-1,Math.floor(p*PROPERTY_VALUE_READING_COUNT));
  const local=clamp(p*PROPERTY_VALUE_READING_COUNT-reading);

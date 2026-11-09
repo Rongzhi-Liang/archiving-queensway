@@ -62,7 +62,7 @@ export function mountDialogue(container, { lang = 'en', onExplore = () => {}, on
     const next = event.key === 'Home' ? 0 : event.key === 'End' ? buttons.length - 1 : (index + (event.key === 'ArrowRight' ? 1 : -1) + buttons.length) % buttons.length;
     event.preventDefault(); selectTopic(next); buttons[next].focus();
   }, { signal });
-  // Keep app.js?v=20261108-release1's participation route; it now focuses the real questionnaire links.
+  // The participation route focuses the questionnaire links.
   function openForm(place) {
     context = place && typeof place === 'object' ? place : null;
     const label = root.querySelector('[data-dialogue-context]');
