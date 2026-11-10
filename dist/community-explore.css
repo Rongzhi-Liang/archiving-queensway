@@ -20,6 +20,7 @@ html[lang=zh] .community-explore h2{line-height:1.22;letter-spacing:-.025em}
 .community-explore .ce-search input::placeholder{color:#92938b;opacity:1}
 .community-explore .ce-search input::-webkit-search-cancel-button{display:none}
 .community-explore .ce-search button{position:absolute;right:0;top:3px;font-size:27px;line-height:1.2;color:#cdb287;padding:4px}
+.community-explore .ce-results{font:400 16px/1.5 var(--sans);color:#aaa99f;margin:0 0 5px;min-height:1.5em}
 .community-explore .ce-picker{position:relative;margin:0 0 15px;padding-right:30px;max-width:100%}
 .community-explore .ce-picker select{appearance:none;-webkit-appearance:none;width:100%;border:0;background:transparent;border-radius:0;color:#f0e9db;font-size:clamp(22px,1.7vw,28px);line-height:1.45;padding:9px 0;cursor:pointer;outline-offset:5px;text-overflow:ellipsis}
 .community-explore .ce-picker option{background:#202020;color:#eee8dc;font-size:18px}
@@ -88,3 +89,7 @@ html[lang=zh] .community-explore h2{line-height:1.22;letter-spacing:-.025em}
 #chapter-3 .shop-floor-return[hidden]{display:none}
 #chapter-3 .shop-floor-return:hover{text-decoration:underline}
 #chapter-3 .shop-floor-return:focus-visible{outline:2px solid #e5c394;outline-offset:5px}
+
+/* Standalone shop directory. */
+#directory-view[hidden]{display:none!important}
+body.directory-active .qfoot{display:none}

@@ -16,12 +16,11 @@ export function dialogueMarkup(lang = 'en') {
   return `<section id="chapter-future" class="story-step afterword-section community-dialogue" data-scene="12" data-afterword-label="${t('Future & participation', '未来与参与')}" aria-labelledby="community-dialogue-title">
     <div class="cd-layout">
       <div class="cd-reading">
-        <p class="cd-kicker">${t('03 / FUTURE & PARTICIPATION', '03 / 未来与参与')}</p>
+        <p class="cd-kicker">${t('FUTURE & PARTICIPATION', '未来与参与')}</p>
         <h2 id="community-dialogue-title">${t('The next story<br><em>could be yours.</em>', '下一段故事，<br><em>可以由你来说。</em>')}</h2>
         <p class="cd-introduction">${t('A place is understood through the people who own, work in and use it. Add your experience to the project’s research.', '理解一个地方，需要倾听拥有、经营和使用它的人。你可以向项目分享自己的经历。')}</p>
         <div class="cd-topics" role="group" aria-label="${t('Choose a starting question', '选择一个切入问题')}">${prompts.map(([label], i) => `<button type="button" data-dialogue-topic="${i}" aria-pressed="${i === 0}" aria-controls="cd-question">${label}</button>`).join('')}</div>
         <div id="cd-question" class="cd-question" aria-live="polite" aria-atomic="true">${prompts.map(([, question, hint], i) => `<div data-dialogue-question="${i}"${i ? ' hidden' : ''}><h3>${question}</h3><p class="cd-body">${hint}</p></div>`).join('')}</div>
-        <button type="button" class="cd-text-link" data-dialogue-explore>${t('Return to the shops and stories', '回到店铺与故事')} <span aria-hidden="true">↗</span></button>
       </div>
       <div class="cd-contribution cd-participation">
         <p class="cd-kicker">${t('PROJECT QUESTIONNAIRES · USHAHIDI', '项目问卷 · USHAHIDI')}</p>
@@ -38,7 +37,7 @@ export function dialogueMarkup(lang = 'en') {
   </section>`;
 }
 
-export function mountDialogue(container, { lang = 'en', onExplore = () => {}, onStewardship = () => {} } = {}) {
+export function mountDialogue(container, { lang = 'en', onStewardship = () => {} } = {}) {
   const root = container?.matches?.('.community-dialogue') ? container : container?.querySelector?.('.community-dialogue');
   if (!root) return { destroy() {}, openForm() {} };
   const t = text(lang), controller = new AbortController(), { signal } = controller;
@@ -52,7 +51,6 @@ export function mountDialogue(container, { lang = 'en', onExplore = () => {}, on
     if (!target) return;
     const topic = target.closest('[data-dialogue-topic]');
     if (topic) selectTopic(Number(topic.dataset.dialogueTopic));
-    if (target.closest('[data-dialogue-explore]')) onExplore(context?.storyId || '');
     if (target.closest('[data-dialogue-stewardship]')) onStewardship();
   }, { signal });
   root.addEventListener('keydown', event => {

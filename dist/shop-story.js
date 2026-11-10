@@ -1,5 +1,5 @@
 import { interviewAudioMarkup, mountInterviewAudio } from './interview-audio.js?v=20261108-public-team1';
-import { narrativeSection, esc } from './narrative-system.js?v=20261108-public-team1';
+import { narrativeSection, esc } from './narrative-system.js?v=20261110-about-clean3';
 import { shopSources, shopPlaces, shopChapters, ishakReading } from './shop-story-data.js?v=20261108-release1';
 const choose=(value,lang)=>value[lang==='zh'?'zh':'en'];
 const place=id=>shopPlaces.find(p=>p.id===id);

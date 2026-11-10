@@ -1,7 +1,5 @@
-/* Project information: two columns and three stages, scoped to the closing
-   section and its readers. */
+/* Project overview, team and methods. */
 .story-step.project-information{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(48px,7vw,120px);align-items:center;min-height:max(100svh,760px);padding:120px 8vw 108px;background:#141414;color:#eeeae2;pointer-events:auto}
-.project-information [hidden]{display:none!important}
 .project-information :where(p,h2,h3){margin:0}
 .project-information .pi-intro{max-width:610px;min-width:0}
 .project-information .pi-kicker{color:#d5b785;font:500 15px/1.5 var(--sans,Arial,sans-serif);letter-spacing:.08em;margin-bottom:28px}
@@ -9,30 +7,21 @@
 .project-information h2 em{font:inherit;font-style:normal;color:#dfbd87}
 .project-information .pi-lead{font:400 20px/1.7 var(--sans,Arial,sans-serif);color:#d4d1ca;margin-top:30px;max-width:36em;text-wrap:pretty}
 .project-information .pi-status{font:400 18px/1.65 var(--sans,Arial,sans-serif);color:#aaa69f;margin-top:22px;max-width:36em;text-wrap:pretty}
-.project-information .pi-intro-actions{display:flex;align-items:flex-start;flex-wrap:wrap;gap:4px 28px;margin-top:27px}
-:is(.project-information,.project-reader) .pi-text-link{display:inline-flex;align-items:center;gap:20px;max-width:100%;border:0;background:transparent;color:#dfbf8f;text-decoration:none;font:400 18px/1.5 var(--sans,Arial,sans-serif);padding:10px 0;text-align:left;cursor:pointer;transition:color .2s ease}
-:is(.project-information,.project-reader) .pi-text-link span{flex:none;font-size:23px;line-height:1;transition:transform .2s ease}
-:is(.project-information,.project-reader) .pi-text-link:hover{color:#fff0d7}
-:is(.project-information,.project-reader) .pi-text-link:hover span{transform:translate(2px,-2px)}
-:is(.project-information,.project-reader) .pi-text-link:focus-visible{outline:2px solid #dfbf8f;outline-offset:6px;border-radius:2px}
-.project-information .pi-main{min-width:0;align-self:center}
-.project-information .pi-stage-instruction{font:400 18px/1.5 var(--sans,Arial,sans-serif);color:#a5a198;margin:0 0 22px}
-.project-information .pi-stages{display:grid;gap:9px}
-.project-information .pi-stage-toggle{width:100%;display:grid;grid-template-columns:34px minmax(0,1fr) 28px;gap:15px;align-items:baseline;padding:13px 0;border:0;background:none;color:#aaa69d;text-align:left;cursor:pointer;font:500 clamp(29px,2.9vw,44px)/1.18 var(--archive-type,var(--display,Georgia));letter-spacing:-.025em;transition:color .25s ease}
-.project-information .pi-stage-number{font:400 17px/1 var(--sans,Arial,sans-serif);letter-spacing:0;color:#9f865e;align-self:center}
-.project-information .pi-stage-sign{font:300 28px/1 var(--sans,Arial,sans-serif);align-self:center;justify-self:end;color:#b79b6e}
-.project-information .pi-stage-toggle[aria-expanded=true]{color:#e1bf8b}
-.project-information .pi-stage-toggle:hover{color:#fff0da}
-.project-information .pi-stage-toggle:focus-visible{outline:2px solid #dfbf8f;outline-offset:5px;border-radius:2px}
-.project-information .pi-stage-body{padding:14px 0 16px 49px;animation:pi-open .45s cubic-bezier(.22,1,.36,1) both}
-.project-information .pi-stage-status{color:#a49d91;font:400 14px/1.5 var(--sans,Arial,sans-serif);letter-spacing:.07em;margin-bottom:14px}
-.project-information .pi-stage-body h3{font:500 clamp(24px,2.1vw,31px)/1.26 var(--archive-type,var(--display,Georgia));color:#eee9df;letter-spacing:-.015em;margin-bottom:14px;text-wrap:balance}
-.project-information .pi-stage-copy{font:400 19px/1.7 var(--sans,Arial,sans-serif);color:#ccc7bf;max-width:33em;text-wrap:pretty}
-.project-information .pi-stage-body .pi-text-link{margin-top:12px}
+.project-reader .pi-text-link{display:inline-flex;align-items:center;gap:20px;max-width:100%;border:0;background:transparent;color:#dfbf8f;text-decoration:none;font:400 18px/1.5 var(--sans,Arial,sans-serif);padding:10px 0;text-align:left;cursor:pointer;transition:color .2s ease}
+.project-reader .pi-text-link span{flex:none;font-size:23px;line-height:1;transition:transform .2s ease}
+.project-reader .pi-text-link:hover{color:#fff0d7}
+.project-reader .pi-text-link:hover span{transform:translate(2px,-2px)}
+.project-reader .pi-text-link:focus-visible{outline:2px solid #dfbf8f;outline-offset:6px;border-radius:2px}
+.project-information .pi-main{min-width:0;max-width:550px;align-self:center}
+.project-information .pi-main h3{font:500 clamp(32px,3.1vw,48px)/1.18 var(--archive-type,var(--display,Georgia));color:#dfbd87;letter-spacing:-.025em;text-wrap:balance}
+.project-information .pi-main .pi-lead{margin-top:20px}
 html[lang=zh] .project-information h2{letter-spacing:.012em;line-height:1.25}
-html[lang=zh] .project-information .pi-stage-toggle{letter-spacing:.025em;line-height:1.32}
-html[lang=zh] .project-information .pi-stage-body h3{letter-spacing:.015em;line-height:1.4}
-@keyframes pi-open{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+html[lang=zh] .project-information .pi-main h3{letter-spacing:.015em;line-height:1.35}
+
+.story-step.project-page{display:block;min-height:100svh;padding:clamp(132px,10vw,170px) 8vw 108px;background:#141414;pointer-events:auto}
+.project-page+.project-page{border-top:1px solid #ffffff13}
+.project-page .project-reader{max-width:1480px;margin-inline:auto}
+.project-page .project-reader .pr-intro{top:138px}
 
 /* Reader layout: introduction left, evidence right. */
 #reader.reader-project{background:#171717;color:#e9e5dc}
@@ -75,17 +64,13 @@ html[lang=zh] .project-information .pi-stage-body h3{letter-spacing:.015em;line-
 .project-reader .pr-person .pr-degree{font:400 17px/1.5 var(--sans,Arial,sans-serif);color:#b4ada2;margin:0 0 12px}
 .project-reader .pr-person>p{max-width:38em}
 .project-reader .pr-team-context{font-size:17px;line-height:1.6;color:#aaa49a;margin:30px 0 14px}
-.project-reader .pr-process{list-style:none;counter-reset:process;padding:0;margin:28px 0 0;display:grid;gap:29px}
-.project-reader .pr-process li{counter-increment:process;padding:0 0 0 43px;position:relative}
-.project-reader .pr-process li::before{content:counter(process,decimal-leading-zero);position:absolute;left:0;top:3px;color:#a88c61;font:400 18px/1.5 var(--sans,Arial,sans-serif)}
 .project-reader .pr-contact-links{display:flex;flex-wrap:wrap;gap:12px 30px;margin:20px 0 24px}
 .project-reader[lang=zh] .pr-intro h2{letter-spacing:.015em;line-height:1.3}
 .project-reader[lang=zh] h3,.project-reader[lang=zh] h4{letter-spacing:.015em;line-height:1.4}
 @media(max-width:1080px){
  .story-step.project-information{gap:45px;padding-inline:7vw;grid-template-columns:1fr 1fr}
  .project-information h2{font-size:clamp(46px,5vw,60px)}
- .project-information .pi-stage-toggle{grid-template-columns:28px minmax(0,1fr) 23px;gap:12px;font-size:32px}
- .project-information .pi-stage-body{padding-left:40px}
+ .story-step.project-page{padding-inline:7vw}
  .project-reader{gap:45px;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}
  .project-reader .pr-intro h2{font-size:44px}
 }
@@ -96,12 +81,7 @@ html[lang=zh] .project-information .pi-stage-body h3{letter-spacing:.015em;line-
  .project-information .pi-kicker{font-size:14px;margin-bottom:24px}
  .project-information .pi-lead{font-size:19px;margin-top:25px}
  .project-information .pi-status{font-size:18px;margin-top:20px}
- .project-information .pi-intro-actions{gap:2px 24px;margin-top:23px}
- .project-information .pi-stage-instruction{font-size:18px;margin-bottom:18px}
- .project-information .pi-stage-toggle{font-size:clamp(29px,8vw,40px);padding-block:13px}
- .project-information .pi-stage-body{padding:12px 0 19px 40px}
- .project-information .pi-stage-copy{font-size:18px;line-height:1.75}
- .project-information .pi-stage-body h3{font-size:26px}
+ .story-step.project-page{min-height:auto;padding:108px 7vw 80px}
  #reader.reader-project .reader-bar{height:64px;font-size:16px;padding-inline:6vw}
  #reader.reader-project .reader-close{font-size:17px;gap:12px}
  #reader.reader-project #reader-content{padding:32px 7vw 65px}
@@ -121,7 +101,6 @@ html[lang=zh] .project-information .pi-stage-body h3{letter-spacing:.015em;line-
  .project-reader .pr-source-list>li{font-size:19px}
 }
 @media(prefers-reduced-motion:reduce){
- .project-information .pi-stage-body{animation:none}
- .project-information .pi-stage-toggle,:is(.project-information,.project-reader) .pi-text-link,:is(.project-information,.project-reader) .pi-text-link span,.project-reader .pr-details summary span{transition:none}
- :is(.project-information,.project-reader) .pi-text-link:hover span{transform:none}
+ .project-reader .pi-text-link,.project-reader .pi-text-link span,.project-reader .pr-details summary span{transition:none}
+ .project-reader .pi-text-link:hover span{transform:none}
 }

@@ -11,11 +11,11 @@ export function convergeMarkup(lang='en'){
  const t=pick(lang),items=questions(lang);
  return `<section id="chapter-converge" class="story-step afterword-section community-converge" data-scene="11" data-afterword-label="${t('Common ground','共同结论')}" aria-labelledby="converge-title">
   <div class="cv-reading">
-   <p class="cv-kicker">${t('01 / COMMON GROUND','01 / 共同结论')}</p>
+   <p class="cv-kicker">${t('COMMON GROUND','共同结论')}</p>
    <h2 id="converge-title">${t('A shared future.<br><em>More than one voice.</em>','同一处地方，<br><em>未来需要多种声音。</em>')}</h2>
    <p class="cv-lead">${t('Property, livelihood and memory meet in the same place. Reading them together changes the question: what should a conversation about Queensway’s future take into account?','产权、生计与记忆在同一处地方相遇。把它们放在一起，问题也变得更完整：讨论女皇道的未来时，我们需要考虑什么？')}</p>
    <p class="cv-insight">${t('Value takes more than one form.<br>A decision reaches beyond its decision-makers.','价值有多种形式。<br>决定的影响，也超出作决定的人。')}</p>
-   <div class="cv-actions"><button type="button" data-go="chapter-explore">${t('Explore the records','走进共同档案')} <span aria-hidden="true">↓</span></button><button type="button" data-action="methods">${t('How we reached this reading','这一理解从何而来')} <span aria-hidden="true">＋</span></button></div>
+   <div class="cv-actions"><button type="button" data-action="methods">${t('How we reached this reading','这一理解从何而来')} <span aria-hidden="true">＋</span></button></div>
   </div>
   <div class="cv-comparison">
    <div class="cv-tabs" role="tablist" aria-label="${t('Questions for a shared future','关于共同未来的问题')}">${items.map((x,i)=>`<button type="button" role="tab" id="cv-tab-${i}" aria-controls="cv-panel-${i}" aria-selected="${i===0}" tabindex="${i===0?0:-1}" data-cv-question="${i}">${x.tab}</button>`).join('')}</div>

@@ -1,15 +1,15 @@
 import {readData,esc,pick,sourceItems,sourcesMarkup} from './research-utils.js?v=20261020-revision3';
 import {mountContextMarket} from './context-market.js?v=20261020-revision3';
-import {mountContextPlanning} from './context-planning.js?v=20261108-release1';
-import {mountContextDocuments,sourceDisplayFrame,sourceImageMarkup} from './context-documents.js?v=20261108-release1';
+import {mountContextPlanning} from './context-planning.js?v=20261110-about-clean3';
+import {mountContextDocuments,sourceDisplayFrame,sourceImageMarkup} from './context-documents.js?v=20261110-flow2';
 import {mountContextIndices} from './context-indices.js?v=20261105-propertyvisuals';
 
 /** History, market, planning and document scenes. */
-export function mountContext(container,{lang='en',start='timeline',inline=false,stepAnchor=null,propertySlots={},onNavigate=()=>{},onCompare=()=>{},onReturn=()=>{},onChapterChange=()=>{}}={}){
+export function mountContext(container,{lang='en',start='timeline',inline=false,stepAnchor=null,resourceAnchor=null,propertySlots={},onNavigate=()=>{},onCompare=()=>{},onReturn=()=>{},onChapterChange=()=>{}}={}){
  const t=(en,zh)=>lang==='zh'?zh:en,p=value=>pick(value,lang),reduced=matchMedia('(prefers-reduced-motion: reduce)');
- let alive=true,active=-1,frame=0,dispose=()=>{},navigate=()=>{},selectScene=()=>{},deactivateScene=()=>{},updateHistory=()=>{};
+ let alive=true,active=-1,frame=0,documentCollection=null,dispose=()=>{},navigate=()=>{},selectScene=()=>{},deactivateScene=()=>{},updateHistory=()=>{};
  container.innerHTML=`<div class="c-data-error" role="status">${t('Opening the archive…','正在展开档案…')}</div>`;
- const ready=Promise.all([readData('history-scenes.json?v=20261108-release1'),readData('market-expanded.json'),readData('research-sources.json?v=20261021-archive2')]).then(([history,listingData,sourceData])=>{
+ const ready=Promise.all([readData('history-scenes.json?v=20261110-structure1'),readData('market-expanded.json'),readData('research-sources.json?v=20261021-archive2')]).then(([history,listingData,sourceData])=>{
   if(!alive)return;
   const scenes=history.scenes,sources=[...sourceItems(sourceData),...sourceItems(listingData.sources||[])];
   const headline=value=>{const raw=p(value);if(raw.includes('<em>'))return raw;if(raw.includes('\n')){const [first,...rest]=raw.split('\n');return `${esc(first)}<br><em>${esc(rest.join(' '))}</em>`;}const split=lang==='zh'?raw.indexOf('，'):raw.indexOf('. ');return split>0?`${esc(raw.slice(0,split+1))}<br><em>${esc(raw.slice(split+1).trim())}</em>`:esc(raw);};
@@ -28,7 +28,7 @@ export function mountContext(container,{lang='en',start='timeline',inline=false,
     <a class="c-photo-credit" target="_blank" rel="noopener"></a><button class="c-history-enlarge" data-c-history-enlarge hidden>${t('Read the original page','放大阅读原页')} ↗</button>
    </div>
    <nav class="c-nav" aria-label="${t('Story chapters','故事章节')}">${nav.map(([id,label,i])=>`<button data-c-jump="${i}" data-c-nav="${id}">${label}</button>`).join('')}</nav>
-   <div class="c-steps">${beats.map((b,i)=>`<section class="c-step${inline?' story-step evidence-step':''}" id="ev-${b.id}" data-c-step="${i}" data-evidence-id="${b.id}" data-chapter-key="${b.chapter==='timeline'?'chapter-history':'ev-'+b.id}" data-evidence-visual="${b.visual}" data-nav-label="${esc(b.date+' · '+b.title.replace(/<[^>]+>/g,' '))}" aria-labelledby="ev-title-${b.id}"><div class="c-copy${inline?' scene-copy':''}"><p class="c-kicker${inline?' scene-kicker':''}"><span>${String(i+1).padStart(2,'0')}</span><span class="c-date">${b.date}</span></p><h${i===0&&!inline?'1':'2'} id="ev-title-${b.id}">${b.title}</h${i===0&&!inline?'1':'2'}><p class="c-deck${inline?' scene-body':''}">${b.body}</p>${b.id==='return'?`<div class="c-return"><button data-c-return>${t('Continue the main story','继续主线故事')} ↗</button><button data-c-compare>${t('Compare perspectives','并置三种视角')} ↗</button></div>`:`<button class="c-source-link" data-c-sources="${i}">${t('References','参考来源')} <span>＋</span></button>`}</div></section>`).join('')}</div>
+   <div class="c-steps">${beats.map((b,i)=>`<section class="c-step${inline?' story-step evidence-step':''}" id="ev-${b.id}" data-c-step="${i}" data-evidence-id="${b.id}" data-chapter-key="${b.chapter==='timeline'?'chapter-history':'ev-'+b.id}" data-evidence-visual="${b.visual}" data-nav-label="${esc(b.date+' · '+b.title.replace(/<[^>]+>/g,' '))}" aria-labelledby="ev-title-${b.id}"><div class="c-copy${inline?' scene-copy':''}"><p class="c-kicker${inline?' scene-kicker':''}"><span class="c-date">${b.date}</span></p><h${i===0&&!inline?'1':'2'} id="ev-title-${b.id}">${b.title}</h${i===0&&!inline?'1':'2'}><p class="c-deck${inline?' scene-body':''}">${b.body}</p>${b.id==='return'?`<div class="c-return"><button data-c-return>${t('Continue the main story','继续主线故事')} ↗</button><button data-c-compare>${t('Compare perspectives','并置三种视角')} ↗</button></div>`:`<button class="c-source-link" data-c-sources="${i}">${t('References','参考来源')} <span>＋</span></button>`}</div></section>`).join('')}</div>
    <div class="c-progress"><span data-c-count>01</span><i><b></b></i><span>${beats.length}</span><span class="c-scroll-hint">${t('SCROLL TO UNFOLD','向下滚动，展开故事')} ↓</span></div>
    <div class="c-records-backdrop" hidden></div><${inline?'dialog':'aside'} class="c-records" hidden role="dialog" aria-modal="true" aria-label="${t('References','参考来源')}"><header><span>${t('FROM THE ARCHIVE','资料原点')}</span><button data-c-close-sources aria-label="${t('Close references','关闭来源')}">×</button></header><div class="c-records-body"></div></${inline?'dialog':'aside'}>
   </div>`;
@@ -63,7 +63,6 @@ export function mountContext(container,{lang='en',start='timeline',inline=false,
     step.dataset.chapterKey=id==='regional'?'ev-market':'ev-'+id;
     step.dataset.propertyLabel=id==='planning'?t('Future land use','未来土地用途'):t('Property values','物业价值');
     step.dataset.scene='4';
-    step.querySelector('.scene-kicker span').textContent=step.dataset.propertyStep;
     if(id==='market'){
      const beat=beats[indexOf(id)];
      beat.date=t('PROPERTY VALUE · UNIT LISTINGS','物业价值 · 单元挂牌');
@@ -82,7 +81,14 @@ export function mountContext(container,{lang='en',start='timeline',inline=false,
     slot.replaceWith(step);
     return step;
    });
-   stepAnchor.replaceWith(historyPart,...steps.filter(step=>step.dataset.chapterKey!=='chapter-history'&&!moved.includes(step)));
+   const resourceStep=resourceAnchor?steps[indexOf('documents')]:null;
+   if(resourceStep){
+    resourceStep.dataset.resourcePage='';
+    resourceStep.dataset.navLabel=t('Resources & sources','资源与来源');
+    resourceStep.querySelector('.c-date').textContent=t('RESOURCES & SOURCES','资源与来源');
+    resourceAnchor.replaceWith(resourceStep);
+   }
+   stepAnchor.replaceWith(historyPart,...steps.filter(step=>step.dataset.chapterKey!=='chapter-history'&&!moved.includes(step)&&step!==resourceStep));
    root.querySelector('.c-steps').remove();
    root.querySelector('.c-nav').remove();
    root.querySelector('.c-progress').remove();
@@ -140,7 +146,7 @@ export function mountContext(container,{lang='en',start='timeline',inline=false,
    }
    narrativeStates.set(id,{signature,stage:narrative.stageIndex??0});
    copy.querySelector('h2').innerHTML=title;copy.querySelector('.c-deck').textContent=body;
-   if(narrative.kicker){copy.querySelector('.c-date').textContent=p(narrative.kicker);beats[index].date=p(narrative.kicker);}
+   if(narrative.kicker){copy.querySelector('.c-date').textContent=id==='documents'&&resourceAnchor?t('RESOURCES & SOURCES','资源与来源'):p(narrative.kicker);beats[index].date=p(narrative.kicker);}
    beats[index].title=title;beats[index].body=body;
    if(narrative.sourceIds)beats[index].ids=[...narrative.sourceIds];
    for(const source of narrative.sources||[])if(!sources.some(item=>item.id===source.id))sources.push(source);
@@ -153,19 +159,45 @@ export function mountContext(container,{lang='en',start='timeline',inline=false,
    }
   }
    const paperHeadlines={heritage:t('Built into<br><em>everyday life.</em>','日常生活，<br><em>在此扎根。</em>'),'mixed-use':t('Shops and homes.<br><em>Planned together.</em>','商铺与住家，<br><em>共同规划。</em>'),'retail-price':t('An asset.<br><em>A wider market.</em>','一项资产，<br><em>置身更大市场。</em>'),'retail-rent':t('A place to trade.<br><em>A monthly cost.</em>','经营的空间，<br><em>每月的投入。</em>'),'collective-consent':t('Many owners.<br><em>One agreement.</em>','许多业主，<br><em>一份协议。</em>')};
+   const resourceReadings={
+    heritage:{title:t('Queensway in<br><em>the heritage record.</em>','历史档案中的<br><em>女皇道。</em>'),description:t('The 2014 My Queenstown Heritage Trail records Queensway’s mix of shopping, recreation and neighbourhood services. Open the original page to read its account of the building and its place in local life.','2014年的《女皇镇历史步道》记录了女皇道的购物、休闲与社区服务。打开原页，阅读这座建筑及其在街区生活中的位置。')},
+    'mixed-use':{title:t('Commercial & Residential.<br><em>The planning definition.</em>','商业与住宅，<br><em>规划如何定义。</em>'),description:t('Table 1 of the Master Plan 2025 Written Statement defines Commercial & Residential development. The highlighted passage explains the relationship between commercial space below and homes above.','《2025年总体规划书面声明》表1定义了“商业与住宅”用途。高亮段落说明了下部商业空间与上部住宅的关系。')},
+    'queensway-2019-signatures':{title:t('The 2019 attempt.<br><em>Meeting and signatures.</em>','2019年的尝试，<br><em>会议与签署。</em>'),description:t('TODAY’s report of 1 May 2019 describes the extraordinary general meeting on 20 April and the motion to begin signing a collective sale agreement. Read the article alongside the official agreement guidance.','TODAY于2019年5月1日的报道，记载了4月20日的特别业主大会及启动集体出售协议签署的议案。可与集体出售协议的官方说明一并阅读。')},
+    'collective-consent':{title:t('Collective sale.<br><em>The agreement.</em>','集体出售，<br><em>从协议读起。</em>'),description:t('The Strata Titles Boards explains how owners record their consent by signing a collective sale agreement. This official page sets out the procedure behind the signatures discussed in the 2019 reporting.','分层地契局说明了业主如何通过签署集体出售协议表达同意。这一官方页面介绍了2019年报道中签署行为所依据的程序。')},
+    'queensway-2019-valuation':{title:t('The 2019 attempt.<br><em>The valuation debate.</em>','2019年的尝试，<br><em>估值之争。</em>'),description:t('The same TODAY article records Savills’ estimate of more than S$500 million and Mrs Lim’s concerns about the amounts offered to individual owners. The highlighted section brings the whole-property estimate and unit valuations together.','同一篇TODAY报道记录了第一太平戴维斯超过5亿新加坡元的估计，以及Lim女士对个别业主所得金额的质疑。高亮段落将整体物业估价与单元估值并置。')},
+    'retail-price':{title:t('Retail property prices.<br><em>The official series.</em>','零售物业售价，<br><em>官方指数。</em>'),description:t('URA’s 2026 Q2 release records a Central Region retail property price index of 104.4, up 0.8% over the previous quarter. The source uses 1998 Q4 = 100; the story chart rebases the series to 2011 Q1.','URA的2026年第二季度公报列出中区零售物业价格指数为104.4，较上季度上升0.8%。原表以1998年第四季度为100；叙事中的图表以2011年第一季度重新设定基期。')},
+    'retail-rent':{title:t('Retail rents.<br><em>The official series.</em>','零售物业租金，<br><em>官方指数。</em>'),description:t('URA’s 2026 Q2 release records a retail rental index of 80.6, up 0.6% over the previous quarter. Read the original table, its base period and quarterly changes alongside the price series.','URA的2026年第二季度公报列出零售租金指数为80.6，较上季度上升0.6%。可与售价序列一并查阅原始表格、基期与季度变化。')},
+    'queensway-2019-livelihood':{title:t('After the attempt.<br><em>Livelihoods and space.</em>','整售尝试之后，<br><em>生计与空间。</em>'),description:t('TODAY’s report of 26 November 2019 records the end of the sale attempt and interviews traders about affordable rents, customers and family businesses. Marilyn Tan’s account links working space with the cost of keeping a trade going.','TODAY于2019年11月26日的报道记录了整售尝试结束，并采访商户对可负担租金、顾客及家族生意的看法。Marilyn Tan的讲述将经营空间与维持手艺的成本联系起来。')}
+   };
   function appendMobileReadings(id,stories){
    if(!inline)return;
    const index=indexOf(id),group=document.createElement('div');group.className='c-mobile-readings';
-   const number=steps[index].dataset.propertyStep||(id==='documents'?'07':'05');
-   group.innerHTML=stories.map((story,i)=>'<article class="c-mobile-reading" data-reading="'+i+'"><p class="c-kicker"><span>' +number+'</span><span>'+esc(p(story.kicker))+'</span></p><h2>'+headline(story.title)+'</h2><p class="c-deck">'+esc(p(story.description))+'</p><button class="c-source-link" data-c-sources="'+index+'">'+t('References','参考来源')+' <span>＋</span></button></article>').join('');
+   const resource=id==='documents'&&resourceAnchor;
+   group.innerHTML=stories.map((story,i)=>'<article class="c-mobile-reading" data-reading="'+i+'"><p class="c-kicker"><span>'+esc(resource?t('RESOURCES & SOURCES','资源与来源'):p(story.kicker))+'</span></p><h2>'+headline(story.title)+'</h2><p class="c-deck">'+esc(p(story.description))+'</p><button class="c-source-link" data-c-sources="'+index+'">'+t('References','参考来源')+' <span>＋</span></button>'+'</article>').join('');
    steps[index].append(group);
   }
   function mobileReadings(stories){regionalReadings=stories;appendMobileReadings('regional',stories);}
-  const paperReading=(doc,i,turn=i)=>({title:paperHeadlines[doc.id]||headline(doc.narrativeTitle||doc.title),description:p(doc.narrative||doc.note),kicker:p(doc.sourceLabel||doc.title),stageIndex:turn});
+  const paperReading=(doc,i,turn=i)=>({title:paperHeadlines[doc.id]||headline(doc.narrativeTitle||doc.title),description:p(doc.narrative||doc.note),...(resourceAnchor?resourceReadings[doc.id]:{}),kicker:p(doc.sourceLabel||doc.title),documentIndex:i,stageIndex:turn});
   const indices=mountContextIndices(root.querySelector('.c-index-mount'),{lang,propertyStory:!!propertySlots.regional,onLensChange:lens=>updateNarrative('regional',lens),onStoriesReady:mobileReadings});
   const planning=mountContextPlanning(root.querySelector('.c-planning-mount'),{lang,propertyStory:!!propertySlots.planning,onNarrativeChange:narrative=>updateNarrative('planning',narrative)});
-  const documents=mountContextDocuments(root.querySelector('.c-document-mount'),{lang,onChange:(doc,i,turn)=>{
+  const documents=documentCollection=mountContextDocuments(root.querySelector('.c-document-mount'),{lang,resourceMode:!!resourceAnchor,onChange:(doc,i,turn)=>{
    selectedDocument=doc;updateNarrative('documents',paperReading(doc,i,turn));
+  },onSelect:(id,index)=>{
+   if(!resourceAnchor||!document.body.classList.contains('resources-active'))return false;
+   const documentStep=steps[indexOf('documents')];
+   if(innerWidth>700){
+    const progress=index===0?0:.025+.95*index/Math.max(1,paperPages.length);
+    const top=documentStep.getBoundingClientRect().top+scrollY+progress*Math.max(0,documentStep.offsetHeight-innerHeight);
+    window.scrollTo({top,behavior:'instant'});
+    selectScene('documents',progress,true);
+    return true;
+   }
+   const reading=documentStep.querySelector(`.c-mobile-reading[data-reading="${index}"]`);
+   if(!reading)return false;
+   const title=reading.querySelector('h2'),line=innerHeight*.73;
+   window.scrollTo({top:Math.max(0,scrollY+title.getBoundingClientRect().top-line+1),behavior:'instant'});
+   selectScene('documents',index/Math.max(1,paperPages.length),true);
+   return true;
   },onReady:pages=>{paperPages=pages;paperReadings=pages.map((doc,i)=>paperReading(doc,i));appendMobileReadings('documents',paperReadings);}});
   function fitHistoryCrops(){
    [...root.querySelectorAll('.c-photo-layer .c-source-crop'),...(historyPart?.querySelectorAll('.history-media .c-source-crop')||[])].forEach(crop=>{const box=crop.parentElement.getBoundingClientRect(),ratio=Number(crop.dataset.sourceRatio),width=Math.min(box.width,box.height*ratio);crop.style.width=width+'px';crop.style.height=width/ratio+'px';});
@@ -273,10 +305,13 @@ export function mountContext(container,{lang='en',start='timeline',inline=false,
   navigate=chapter=>{const id={timeline:'origins',prices:'market',planning:'planning',process:'documents',documents:'documents'}[chapter]||chapter;jump(Math.max(0,indexOf(id)));};
   const entry=indexOf({timeline:'origins',prices:'market',planning:'planning',process:'documents',documents:'documents'}[start]||'origins');
   if(!inline)requestAnimationFrame(()=>{if(alive){jump(Math.max(0,entry),true);update();const heading=copies[Math.max(0,entry)].querySelector('h1,h2');heading.tabIndex=-1;heading.focus({preventScroll:true});}});
-  dispose=()=>{cancelAnimationFrame(guidedFrame);document.removeEventListener('visibilitychange',motionPreference);reduced.removeEventListener('change',motionPreference);copies.forEach(copy=>copy.getAnimations({subtree:true}).forEach(animation=>animation.cancel()));cancelAnimationFrame(historyAnimation);historyViewerResize?.disconnect();historyViewer?.close();historyViewer?.remove();if(inline){root.querySelector('.c-records').close();document.body.classList.remove('context-sources-open','context-history-open');}market.destroy();indices.destroy();planning.destroy();documents.destroy();root.removeEventListener('click',click);steps.forEach(step=>step.removeEventListener('click',click));root.removeEventListener('keydown',key);dialog?.removeEventListener('cancel',cancel);scrollRoot.removeEventListener('scroll',schedule);window.removeEventListener('resize',resize);};
+  dispose=()=>{cancelAnimationFrame(guidedFrame);document.removeEventListener('visibilitychange',motionPreference);reduced.removeEventListener('change',motionPreference);copies.forEach(copy=>copy.getAnimations({subtree:true}).forEach(animation=>animation.cancel()));cancelAnimationFrame(historyAnimation);historyViewerResize?.disconnect();historyViewer?.close();historyViewer?.remove();if(inline){root.querySelector('.c-records').close();document.body.classList.remove('context-sources-open','context-history-open');}market.destroy();indices.destroy();planning.destroy();documents.destroy();root.removeEventListener('click',click);steps.forEach(step=>step.removeEventListener('click',click));root.removeEventListener('keydown',key);dialog?.removeEventListener('cancel',cancel);scrollRoot.removeEventListener('scroll',schedule);window.removeEventListener('resize',resize);if(inline){steps.forEach(step=>step.remove());historyPart?.remove();}};
+  return documents.ready;
  }).catch(()=>{if(alive)container.innerHTML=`<div class="c-data-error">${t('Reopen this chapter to refresh the archive.','重新打开本章，刷新档案。')}</div>`;});
  const cleanup=()=>{alive=false;cancelAnimationFrame(frame);dispose();};
  cleanup.ready=ready;
+ cleanup.getSelectedDocument=()=>alive?documentCollection?.getSelectedDocument()||null:null;
+ cleanup.setSelectedDocument=id=>ready.then(()=>{if(alive)return documentCollection?.setSelectedDocument(id);});
  cleanup.updateHistory=()=>{if(alive)updateHistory();};
  cleanup.setScene=(id,progress,immediate=false)=>{if(alive)selectScene(id,progress,immediate);};
  cleanup.deactivate=()=>{if(alive)deactivateScene();};

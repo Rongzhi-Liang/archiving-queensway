@@ -30,19 +30,20 @@ function indexRecords(lang) {
 
 export function explorationMarkup(lang = 'en') {
   const t = pick(lang);
-  return `<section id="chapter-explore" class="story-step afterword-section community-explore" data-scene="11" data-afterword-label="${t('Explore the archive', '自由探索')}" aria-labelledby="ce-title">
+  return `<section id="chapter-explore" class="story-step afterword-section community-explore" data-scene="11" data-afterword-label="${t('Directory', '商户目录')}" aria-labelledby="ce-title">
     <div class="ce-layout">
       <div class="ce-reading">
-        <p class="ce-eyebrow">${t('02 / EXPLORE THE ARCHIVE', '02 / 自由探索')}</p>
-        <h2 id="ce-title">${t('Explore a place.<br><em>Meet its people.</em>', '找到一处地方，<br><em>看见人与联系。</em>')}</h2>
-        <p class="ce-intro">${t('Explore shops, original photographs and source records. Choose a place or a person.', '按地点或人物，查找店铺、原照与资料。')}</p>
+        <p class="ce-eyebrow">${t('DIRECTORY', '商户目录')}</p>
+        <h2 id="ce-title">${t('Find a shop.<br><em>Meet its people.</em>', '找到一家店，<br><em>认识这里的人。</em>')}</h2>
+        <p class="ce-intro">${t('Search the mall’s three retail floors by shop name, unit or trade. Find a location, browse photographs and hear the people behind the shops.', '按店名、铺号或业态，查找商场三层的商户。找到位置，浏览照片，听店里的人讲述自己的故事。')}</p>
         <div class="ce-filters" role="group" aria-label="${t('Choose a collection', '选择资料类型')}">
-          ${[['directory', t('Directory', '全部目录')], ['shop', t('Featured shops', '精选店铺')]].map(([id, label]) => `<button type="button" data-ce-filter="${id}" aria-pressed="${id === 'directory'}">${label}</button>`).join('')}
+          ${[['directory', t('All entries', '全部条目')], ['shop', t('Featured shops', '精选店铺')]].map(([id, label]) => `<button type="button" data-ce-filter="${id}" aria-pressed="${id === 'directory'}">${label}</button>`).join('')}
         </div>
         <div class="ce-search"><label class="ce-sr" for="ce-search">${t('Search names, units or trades', '搜索店名、铺号或业态')}</label><input id="ce-search" type="search" placeholder="${t('Name, unit or trade', '店名、铺号或业态')}" autocomplete="off" spellcheck="false" aria-controls="ce-account"><button type="button" data-ce-clear hidden aria-label="${t('Clear search', '清除搜索')}">×</button></div>
+        <p class="ce-results" aria-live="polite" aria-atomic="true"></p>
         <div class="ce-picker"><label class="ce-sr" for="ce-account">${t('Choose a record', '选择记录')}</label><select id="ce-account" aria-controls="ce-account-copy"><option>${t('Opening the directory…', '正在打开目录……')}</option></select><span aria-hidden="true">⌄</span></div>
         <div id="ce-account-copy" class="ce-account-copy" aria-live="polite" aria-atomic="true"></div>
-        <div class="ce-reading-actions"><button type="button" data-ce-story-link hidden></button><button type="button" data-ce-contribute>${t('Add your perspective', '加入你的视角')} <span aria-hidden="true">↗</span></button><button type="button" data-ce-sources aria-haspopup="dialog">${t('Source & context', '来源与背景')} <span aria-hidden="true">＋</span></button></div>
+        <div class="ce-reading-actions"><button type="button" data-ce-story-link hidden></button><button type="button" data-ce-sources aria-haspopup="dialog">${t('Source & context', '来源与背景')} <span aria-hidden="true">＋</span></button></div>
       </div>
       <div class="ce-visual">
         <div class="ce-visual-tools"><div class="ce-floors" role="group" aria-label="${t('Choose a floor', '选择楼层')}">${[1, 2, 3].map(n => `<button type="button" data-ce-floor="${n}" aria-pressed="${n === 2}">${t('Level ' + n, n + ' 楼')}</button>`).join('')}</div><div class="ce-views" role="group" aria-label="${t('Choose a view', '选择视图')}"><button type="button" data-ce-view="map" aria-pressed="true">${t('Plan', '平面')}</button><button type="button" data-ce-view="photo" aria-pressed="false">${t('Photo', '照片')}</button></div></div>
@@ -54,7 +55,7 @@ export function explorationMarkup(lang = 'en') {
   </section>`;
 }
 
-export function mountExploration(root, { lang = 'en', onContribute = () => {}, onFloor = () => {}, onNavigate = () => {} } = {}) {
+export function mountExploration(root, { lang = 'en', onFloor = () => {}, onNavigate = () => {} } = {}) {
   const section = root?.matches?.('#chapter-explore') ? root : root?.querySelector?.('#chapter-explore');
   if (!section) { const empty = () => {}; empty.destroy = empty; empty.ready = Promise.resolve(); empty.selectAccount = () => {}; return empty; }
   const t = pick(lang), curated = indexRecords(lang), controller = new AbortController(), { signal } = controller;
@@ -121,6 +122,7 @@ export function mountExploration(root, { lang = 'en', onContribute = () => {}, o
   }
   function renderPicker() {
     const list = collection();
+    $('.ce-results').textContent = !dataReady && state.mode === 'directory' ? '' : state.mode === 'directory' ? state.query ? t(`${list.length} matching entries · all three floors`, `${list.length} 条匹配结果 · 全部三个楼层`) : t(`${directory.length} directory entries · three retail floors`, `${directory.length} 个目录条目 · 三层商铺`) : t(`${list.length} featured shops`, `${list.length} 家精选店铺`);
     $('.ce-search').hidden = state.mode !== 'directory';
     if ($('#ce-search').value !== state.query) $('#ce-search').value = state.query;
     $('[data-ce-clear]').hidden = !state.query;
@@ -260,7 +262,6 @@ export function mountExploration(root, { lang = 'en', onContribute = () => {}, o
     const unit = target.closest('[data-ce-unit]'); if (unit) { chooseUnit(unit.dataset.ceUnit); return; }
     const row = target.closest('[data-ce-row]'); if (row) { choose(`directory:${row.dataset.ceRow}`); return; }
     if (target.closest('[data-ce-clear]')) { state.query = ''; ensureSelection(); save(); render(true); $('#ce-search').focus(); return; }
-    if (target.closest('[data-ce-contribute]')) { onContribute(location()); return; }
     if (target.closest('[data-ce-directory]')) { onFloor(state.floor); return; }
     const story = target.closest('[data-ce-navigate]'); if (story?.dataset.ceNavigate) { onNavigate(story.dataset.ceNavigate); return; }
     if (target.closest('[data-ce-sources]')) { showSources(); return; }

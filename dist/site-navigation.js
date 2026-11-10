@@ -7,22 +7,32 @@ function siteSections(lang){
  return [
   {key:'overview',title:t('Overview','概览'),entry:chapter('chapter-0','Start from the beginning','从开头阅读'),chapters:[
    chapter('chapter-0','The people','这里的人'),chapter('chapter-1','The corner','街角'),chapter('chapter-2','The building','建筑'),
-   chapter('chapter-history','History & timeline','历史与时间线'),chapter('ev-documents','Original documents','原始文件'),chapter('chapter-3','Inside the mall & floors','商场内部与楼层')
+   chapter('chapter-history','History & timeline','历史与时间线'),chapter('chapter-3','Inside the mall & floors','商场内部与楼层')
   ]},
-  {key:'stories',title:t('Three perspectives','三种视角'),entry:chapter('chapter-bridge','Choose a perspective','选择视角'),branches:[
+  {key:'stories',title:t('Three perspectives','三种视角'),entry:chapter('chapter-bridge','Choose a perspective','选择视角'),chapters:[chapter('chapter-converge','Common ground','共同结论')],branches:[
    {title:t('Property & Land','物业与土地'),lens:'developer',chapters:[chapter('property-value','Price & value','价格与价值'),chapter('property-use','Use & possibility','使用与可能性'),chapter('property-choice','A shared decision','共同决定')]},
    {title:t('Shopkeepers & Tenants','店主与租户'),lens:'owner',chapters:[chapter('shop-work','Room to run a shop','经营的空间'),chapter('shop-mix','Different ways to trade','商户的差异'),chapter('shop-network','Working relationships','经营中的关系'),chapter('shop-stay','Making a move work','搬迁后的经营')]},
    {title:t('Visitors & Customers','顾客与访客'),lens:'visitor',chapters:[chapter('visitor-route','Reasons to visit','为何而来'),chapter('visitor-discovery','Finding something else','顺路的发现'),chapter('visitor-return','A familiar connection','熟悉的联系')]}
   ]},
-  {key:'explore',title:t('Explore','共同探索'),entry:chapter('chapter-converge','Bring the perspectives together','从共同结论继续'),chapters:[chapter('chapter-converge','Common ground','共同结论'),chapter('chapter-explore','Explore the archive','自由探索档案')]},
-  {key:'future',title:t('Future & participation','未来与参与'),entry:chapter('chapter-future','Go to participation','前往参与页面'),chapters:[chapter('chapter-future','Future & participation','未来与参与')],tools:[
+  {key:'future',title:t('Future & participation','未来与参与'),entry:chapter('chapter-future','Future & participation','未来与参与'),chapters:[chapter('chapter-future','Future & participation','未来与参与')],tools:[
    {title:t('Project questionnaires','项目问卷'),items:[{href:'https://queenswayshoppingcentreproject.ushahidi.io/posts/create/2',label:t('Shop owners, tenants & employees','店主、租户与员工')},{href:'https://queenswayshoppingcentreproject.ushahidi.io/posts/create/3',label:t('Customers, visitors & neighbours','顾客、访客与街区邻居')}]}
   ]},
-  {key:'about',title:t('About the project','关于项目'),entry:chapter('chapter-project','Project overview','项目总览'),chapters:[chapter('chapter-project','About the project','关于项目')],tools:[
-   {title:t('Team & research','团队与研究'),items:[action('about','The team','项目团队'),action('methods','Research methods','研究方法')]},
-   {title:t('Sources & stewardship','资料与维护'),items:[action('sources','Sources & image credits','来源与影像署名'),action('stewardship','Contributions & corrections','补充与更正')]}
+  {key:'about',title:t('About the project','关于项目'),entry:chapter('chapter-project','Project overview','项目总览'),chapters:[
+   chapter('chapter-project','Project overview','项目总览'),chapter('ev-documents','Resources & sources','资源与来源'),
+   chapter('chapter-team','The team','项目团队'),chapter('chapter-methods','Research methods','研究方法')
+  ],tools:[
+   {title:t('Credits & stewardship','署名与维护'),items:[action('sources','Sources & image credits','来源与影像署名'),action('stewardship','Contributions & corrections','补充与更正')]}
   ]}
  ];
+}
+export function navigationLabel(sectionId,lang='en',{lens='owner'}={}){
+ const sections=siteSections(lang),stories=sections.find(s=>s.key==='stories');
+ if(sectionId==='story-root')return stories.branches.find(b=>b.lens===lens)?.title||stories.title;
+ if(sectionId==='chapter-explore')return select(lang,'Directory','商户目录');
+ if(sectionId==='story-ending')return select(lang,'End of this perspective','本条叙事结尾');
+ const current=sectionId.startsWith('ev-')&&sectionId!=='ev-documents'?'chapter-history':sectionId;
+ const entries=sections.flatMap(s=>[...s.chapters,...(s.branches||[]).flatMap(b=>b.chapters),s.entry]);
+ return entries.find(item=>item.id===current)?.label||'';
 }
 
 const mark=()=>`<span class="qnav-mark" aria-hidden="true">Q<span>⌖</span></span>`;
@@ -37,40 +47,40 @@ const branchEnd=(branch,lang)=>({id:'story-ending',lens:branch.lens,label:select
 function menuContents(section,lang){
  const t=(en,zh)=>select(lang,en,zh);
  const group=(title,items,role='standard')=>`<section class="qnav-group"><h2>${esc(title)}</h2>${navList(items,role)}</section>`;
- if(section.branches)return `<div class="qnav-grid qnav-stories-grid"><section class="qnav-group qnav-lead"><h2>${t('Explore the perspectives','选择一种视角')}</h2>${navList(section.branches.map(branchRoot),'major')}<div class="qnav-related">${navLink(section.entry)}</div></section>${section.branches.map(branch=>`<section class="qnav-group qnav-branch-group" data-qnav-lens="${branch.lens}"><h2>${esc(branch.title)}</h2>${navList(branch.chapters)}<div class="qnav-related">${navLink(branchEnd(branch,lang))}</div></section>`).join('')}</div>`;
+ if(section.branches)return `<div class="qnav-grid qnav-stories-grid"><section class="qnav-group qnav-lead"><h2>${t('Explore the perspectives','选择一种视角')}</h2>${navList(section.branches.map(branchRoot),'major')}<div class="qnav-related">${navLink(section.entry)}${navList(section.chapters)}</div></section>${section.branches.map(branch=>`<section class="qnav-group qnav-branch-group" data-qnav-lens="${branch.lens}"><h2>${esc(branch.title)}</h2>${navList(branch.chapters)}<div class="qnav-related">${navLink(branchEnd(branch,lang))}</div></section>`).join('')}</div>`;
  const main=group(section.title,section.chapters,'major');
- const extra=section.tools||[{title:t('Continue exploring','继续探索'),items:section.key==='overview'?[{id:'chapter-bridge',label:t('Three perspectives','三种视角')},{id:'chapter-explore',label:t('Explore the archive','自由探索档案')}]:[{id:'chapter-bridge',label:t('Revisit the perspectives','回到三种视角')},{id:'chapter-future',label:t('Share your experience','分享你的经历')}]}];
+ const extra=section.tools||[{title:t('Continue exploring','继续探索'),items:section.key==='overview'?[{id:'chapter-bridge',label:t('Three perspectives','三种视角')}]:[{id:'chapter-bridge',label:t('Revisit the perspectives','回到三种视角')},{id:'chapter-future',label:t('Share your experience','分享你的经历')}]}];
  return `<div class="qnav-grid">${main}${extra.map(g=>group(g.title,g.items)).join('')}</div>`;
 }
 export function siteHeaderMarkup(lang='en'){
  const t=(en,zh)=>select(lang,en,zh),sections=siteSections(lang);
  return `<header class="qnav" data-qnav>
  <div class="qnav-bar"><button type="button" class="qnav-brand" data-go="chapter-0" aria-label="${t('Archiving Queensway · Back to the beginning','Archiving Queensway · 返回开头')}">${mark()}<span class="qnav-name">Archiving<br>Queensway</span></button>
- <nav class="qnav-primary" aria-label="${t('Main navigation','全站导航')}">${sections.map(s=>`<button type="button" data-qnav-toggle="${s.key}" data-qnav-zone="${s.key}" aria-controls="qnav-${s.key}-panel" aria-expanded="false">${esc(s.title)}</button>`).join('')}</nav>
+ <nav class="qnav-primary" aria-label="${t('Main navigation','全站导航')}">${sections.map(s=>`<button type="button" ${s.direct?`data-go="${s.entry.id}" data-qnav-section="${s.entry.id}"`:`data-qnav-toggle="${s.key}" aria-controls="qnav-${s.key}-panel" aria-expanded="false"`} data-qnav-zone="${s.key}">${esc(s.title)}</button>`).join('')}</nav>
  <div class="qnav-tools"><button type="button" class="qnav-language" data-action="language" aria-label="${t('Switch to Chinese','切换为英文')}">${t('中文','EN')}</button><button type="button" class="qnav-mobile-toggle" data-qnav-toggle="mobile" aria-controls="qnav-mobile-panel" aria-expanded="false" aria-label="${t('Site navigation','全站导航')}"><span class="qnav-menu-icon" aria-hidden="true"></span></button></div></div>
+ <div class="qnav-local"><div class="qnav-local-inner"><span class="qnav-location" data-qnav-location>${esc(sections[0].title)}</span><nav class="qnav-local-links" data-qnav-local-links aria-label="${t('Chapters in this section','本部分章节')}">${sections[0].chapters.map(item=>navLink(item,'local')).join('')}</nav></div></div>
  <div class="qnav-scrim" data-qnav-dismiss hidden></div>
  <div class="qnav-flyout" hidden>${sections.map(s=>`<nav class="qnav-panel" id="qnav-${s.key}-panel" data-qnav-panel="${s.key}" aria-label="${esc(s.title)}" hidden inert><div class="qnav-panel-inner">${menuContents(s,lang)}</div></nav>`).join('')}</div>
- <div class="qnav-mobile-panel" id="qnav-mobile-panel" data-qnav-panel="mobile" hidden inert><nav aria-label="${t('Complete site navigation','完整全站导航')}"><div class="qnav-mobile-home">${sections.map((s,i)=>`<button type="button" data-qnav-mobile-open="${s.key}" style="--item:${i}">${esc(s.title)}<span aria-hidden="true">›</span></button>`).join('')}</div>${sections.map(s=>`<div class="qnav-mobile-view" data-mobile-view="${s.key}" hidden inert><button type="button" class="qnav-mobile-back" data-qnav-mobile-back><span aria-hidden="true">‹</span> ${t('All sections','全部栏目')}</button>${menuContents(s,lang)}</div>`).join('')}</nav></div></header>`;
+ <div class="qnav-mobile-panel" id="qnav-mobile-panel" data-qnav-panel="mobile" hidden inert><nav aria-label="${t('Complete site navigation','完整全站导航')}"><div class="qnav-mobile-home">${sections.map((s,i)=>`<button type="button" ${s.direct?`data-go="${s.entry.id}" data-qnav-section="${s.entry.id}"`:`data-qnav-mobile-open="${s.key}"`} style="--item:${i}">${esc(s.title)}<span aria-hidden="true">${s.direct?'↗':'›'}</span></button>`).join('')}</div>${sections.map(s=>`<div class="qnav-mobile-view" data-mobile-view="${s.key}" hidden inert><button type="button" class="qnav-mobile-back" data-qnav-mobile-back><span aria-hidden="true">‹</span> ${t('All sections','全部栏目')}</button>${menuContents(s,lang)}</div>`).join('')}</nav></div></header>`;
 }
 // The footer keeps a concise directory while sharing destinations with the full menu.
 function footerSections(lang){
  const t=(en,zh)=>select(lang,en,zh);
- const [overview,stories,explore,future,about]=siteSections(lang);
- const team=about.tools[0].items,sources=about.tools[1].items;
+ const [overview,stories,future,about]=siteSections(lang);
+ const tools=about.tools.flatMap(group=>group.items),tool=key=>tools.find(item=>item.action===key);
  return [
   {key:overview.key,title:overview.title,items:overview.chapters},
-  {key:stories.key,title:stories.title,items:stories.branches.map(branchRoot)},
-  {key:explore.key,title:explore.title,items:explore.chapters},
+  {key:stories.key,title:stories.title,items:[...stories.branches.map(branchRoot),...stories.chapters]},
   {key:future.key,title:future.title,items:[
    {...future.entry,label:t('Share your experience','分享你的经历')},
    ...future.tools[0].items.map((item,i)=>({...item,label:i===0?t('Business questionnaire','商户问卷'):t('Visitor questionnaire','访客问卷')})),
-   sources[1]
+   tool('stewardship')
   ]},
-  {key:about.key,title:about.title,items:[about.entry,...team,sources[0]]}
+  {key:about.key,title:about.title,items:[...about.chapters,tool('sources')]}
  ];
 }
 function footerSection(section){
- return `<section class="qfoot-section qfoot-${section.key}" data-footer-section="${section.key}"><h2><button type="button" data-footer-toggle="${section.key}" aria-controls="qfoot-${section.key}-body" aria-expanded="true">${esc(section.title)}<span aria-hidden="true" class="qfoot-chevron"></span></button></h2><div class="qfoot-panel" id="qfoot-${section.key}-body"><div class="qfoot-panel-inner">${navList(section.items)}</div></div></section>`;
+ return `<section class="qfoot-section qfoot-section-${section.key}" data-footer-section="${section.key}"><h2><button type="button" data-footer-toggle="${section.key}" aria-controls="qfoot-${section.key}-body" aria-expanded="true">${esc(section.title)}<span aria-hidden="true" class="qfoot-chevron"></span></button></h2><div class="qfoot-panel" id="qfoot-${section.key}-body"><div class="qfoot-panel-inner">${navList(section.items)}</div></div></section>`;
 }
 export function siteFooterMarkup(lang='en'){
  const t=(en,zh)=>select(lang,en,zh);
@@ -84,7 +94,10 @@ export function mountSiteNavigation(root=document,{lang='en'}={}){
  const panels=header?[...header.querySelectorAll('[data-qnav-panel]')]:[],toggles=header?[...header.querySelectorAll('[data-qnav-toggle]')]:[];
  const flyout=header?.querySelector('.qnav-flyout'),scrim=header?.querySelector('.qnav-scrim'),mobile=header?.querySelector('.qnav-mobile-panel'),mobileHome=header?.querySelector('.qnav-mobile-home');
  let openKey=null,trigger=null,openMode=null,mobileView=null,destroyed=false,hoverTimer=0,closeTimer=0,exitTimer=0,frame=0,oldOverflow=null;
- const panelTimers=new Map(),backgroundState=new Map();
+ const panelTimers=new Map(),backgroundState=new Map(),sections=siteSections(lang);
+ const about=sections.find(section=>section.key==='about');
+ const localLinks=header?.querySelector('[data-qnav-local-links]'),locationLabel=header?.querySelector('[data-qnav-location]');
+ let localKey='overview';
  const duration=()=>reduced.matches?0:400;
  const focusable=container=>[...container.querySelectorAll('button:not([disabled]),a[href]')].filter(e=>e.getClientRects().length&&!e.closest('[inert]'));
  function lockScroll(lock){if(lock&&oldOverflow===null){oldOverflow=document.documentElement.style.overflow;document.documentElement.style.overflow='hidden';[...header.parentElement.children].filter(e=>e!==header).forEach(e=>{backgroundState.set(e,e.hasAttribute('inert'));e.inert=true;});}else if(!lock&&oldOverflow!==null){document.documentElement.style.overflow=oldOverflow;oldOverflow=null;backgroundState.forEach((value,e)=>e.inert=value);backgroundState.clear();}}
@@ -135,10 +148,11 @@ export function mountSiteNavigation(root=document,{lang='en'}={}){
  function leave(){clearHover();if(openKey&&openKey!=='mobile')closeTimer=setTimeout(()=>close(),180);}
  function keydown(event){
   const target=event.target instanceof Element?event.target:null;if(!target)return;
+  const primary=target.closest('.qnav-primary>button');
+  if(primary&&['ArrowLeft','ArrowRight'].includes(event.key)){const items=[...header.querySelectorAll('.qnav-primary>button')],index=items.indexOf(primary),next=items[(index+(event.key==='ArrowRight'?1:-1)+items.length)%items.length];event.preventDefault();next.focus({preventScroll:true});if(openKey){if(next.dataset.qnavToggle)open(next.dataset.qnavToggle,{mode:'keyboard'});else close();}return;}
   const toggle=target.closest('[data-qnav-toggle]');
   if(toggle&&header?.contains(toggle)){
    if(event.key==='ArrowDown'){event.preventDefault();open(toggle.dataset.qnavToggle,{focusFirst:true,mode:'keyboard'});return;}
-   if(toggle.closest('.qnav-primary')&&['ArrowLeft','ArrowRight'].includes(event.key)){const items=toggles.filter(b=>b.closest('.qnav-primary')),index=items.indexOf(toggle),next=items[(index+(event.key==='ArrowRight'?1:-1)+items.length)%items.length];event.preventDefault();next.focus({preventScroll:true});if(openKey)open(next.dataset.qnavToggle,{mode:'keyboard'});return;}
   }
   if(event.key==='Escape'&&openKey){event.preventDefault();close({restoreFocus:true});return;}
   if(event.key==='Tab'&&openKey==='mobile'){const items=focusable(header),first=items[0],last=items.at(-1);if(event.shiftKey&&target===first){event.preventDefault();last?.focus();}else if(!event.shiftKey&&target===last){event.preventDefault();first?.focus();}return;}
@@ -151,11 +165,25 @@ export function mountSiteNavigation(root=document,{lang='en'}={}){
   if(destroyed)return;
   const branch=sectionId.startsWith('property-')?'developer':sectionId.startsWith('shop-')?'owner':sectionId.startsWith('visitor-')?'visitor':['story-root','story-ending'].includes(sectionId)?lens:null;
   const current=sectionId.startsWith('ev-')&&sectionId!=='ev-documents'?'chapter-history':sectionId;
-  const zone=branch||['story-root','story-ending','chapter-bridge'].includes(current)?'stories':['chapter-converge','chapter-explore'].includes(current)?'explore':current==='chapter-future'?'future':current==='chapter-project'?'about':'overview';
+  const zone=branch||['story-root','story-ending','chapter-bridge','chapter-converge'].includes(current)?'stories':current==='chapter-future'?'future':about.chapters.some(chapter=>chapter.id===current)?'about':'overview';
+  const section=sections.find(s=>s.key===zone),currentBranch=section.branches?.find(b=>b.lens===branch);
+  const nextLocalKey=current==='chapter-explore'?'directory-detail':zone+(currentBranch?`-${currentBranch.lens}`:'');
+  if(localLinks&&nextLocalKey!==localKey){
+   localKey=nextLocalKey;
+   const items=current==='chapter-explore'?[{id:'chapter-3',label:select(lang,'← Inside the mall & floors','← 商场内部与楼层')}]:currentBranch?[{...section.entry,label:section.title},...currentBranch.chapters]:section.branches?[...section.branches.map(branchRoot),...section.chapters]:section.chapters;
+   const localLabels={
+    'chapter-explore':select(lang,'Browse all shops','浏览全部商户'),
+    'chapter-future':select(lang,'Share your experience','分享你的经历')
+   };
+   localLinks.innerHTML=items.map(item=>navLink(localLabels[item.id]?{...item,label:localLabels[item.id]}:item,'local')).join('');
+  }
+  if(locationLabel)locationLabel.textContent=current==='chapter-explore'?select(lang,'Directory','商户目录'):currentBranch?.title||section.title;
   [header,footer].forEach(container=>{
    container?.querySelectorAll('[data-qnav-section]').forEach(b=>{const active=(b.dataset.qnavSection===current||(container===footer&&b.dataset.qnavSection==='story-root'&&!!branch))&&(!b.dataset.navLens||b.dataset.navLens===(branch||lens));b.classList.toggle('is-current',active);if(active)b.setAttribute('aria-current','location');else b.removeAttribute('aria-current');});
    container?.querySelectorAll('[data-qnav-lens]').forEach(g=>g.classList.toggle('is-current-branch',g.dataset.qnavLens===branch));
   });
+  const localCurrent=localLinks?.querySelector('[aria-current]');
+  if(localCurrent&&localLinks.scrollWidth>localLinks.clientWidth){const start=localCurrent.offsetLeft-localLinks.offsetLeft;localLinks.scrollTo({left:Math.max(0,start-(localLinks.clientWidth-localCurrent.offsetWidth)/2),behavior:'instant'});}
   header?.querySelectorAll('[data-qnav-zone]').forEach(b=>{const active=b.dataset.qnavZone===zone;b.classList.toggle('is-current',active);if(active)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current');});
  }
  root.addEventListener('click',click);root.addEventListener('keydown',keydown);root.addEventListener('focusin',focusin);header?.addEventListener('pointerover',pointerover);header?.addEventListener('pointerleave',leave);scrim?.addEventListener('pointerenter',leave);media.addEventListener('change',breakpoint);footerMedia.addEventListener('change',syncFooter);window.addEventListener('resize',resizePanel);syncFooter();

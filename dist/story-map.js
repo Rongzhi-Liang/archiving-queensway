@@ -20,7 +20,8 @@ body.narrative-ending-active .story-stage{visibility:hidden}
 #story-ending .liquid-hit.right::before{right:0;background:radial-gradient(ellipse at right,#98663838,transparent 72%)}
 #story-ending .liquid-label{position:absolute;top:50%;width:calc(100% - 50px);transform:translateY(-50%);color:#b7b1a7;font:12px/1.5 var(--sans);letter-spacing:.04em}
 #story-ending .left .liquid-label{left:28px}#story-ending .right .liquid-label{right:28px}
-#story-ending .liquid-label b{display:block;color:#e8c38f;font:400 clamp(19px,1.8vw,30px)/1.3 var(--serif);letter-spacing:0;margin-bottom:8px}
+#story-ending .liquid-label b{display:block;color:#e8c38f;margin-bottom:8px}
+#story-ending :is(.liquid-label,.ending-down)>b{font:700 clamp(20px,2vw,28px)/1.3 var(--serif);letter-spacing:0}
 #story-ending .ending-down{position:absolute;z-index:3;bottom:0;left:50%;transform:translateX(-50%);height:25%;width:64%;padding:0 16px 3svh;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;border:0;background:none;color:#e8c38f;cursor:pointer;visibility:hidden;opacity:0;pointer-events:none;transition:opacity .5s,visibility .5s;font:400 clamp(20px,2vw,28px)/1.3 var(--serif)}
 #story-ending .ending-down::before{content:'';position:absolute;z-index:-1;bottom:0;left:50%;transform:translateX(-50%);width:100vw;height:38svh;pointer-events:none;opacity:.8;background:radial-gradient(ellipse at 50% 110%,#98663840,transparent 68%);transition:opacity .4s}
 #story-ending .ending-down span{font:14px/1.5 var(--sans);letter-spacing:.03em;color:#b7b1a7}
@@ -32,7 +33,7 @@ body.narrative-ending-active .story-stage{visibility:hidden}
  #story-ending .ending-title{top:37%;width:86vw;font-size:clamp(32px,8.2vw,45px);line-height:1.2}
  #story-ending .liquid-hit{top:53%;bottom:auto;height:18%;width:48%;min-width:0}
  #story-ending .liquid-label{width:calc(100% - 28px);font-size:11px}#story-ending .left .liquid-label{left:14px}#story-ending .right .liquid-label{right:14px}
- #story-ending .liquid-label b{font-size:18px}#story-ending .liquid-hit::before{width:65vw;top:-50%;bottom:-50%}
+ #story-ending .liquid-hit::before{width:65vw;top:-50%;bottom:-50%}
  #story-ending .ending-down{height:23%;width:88%;gap:10px}#story-ending .ending-down span{font-size:12px}
 }
 @media(prefers-reduced-motion:reduce){#story-ending :is(.liquid-hit,.ending-down),#story-ending :is(.liquid-hit,.ending-down)::before{transition:none}}
@@ -41,7 +42,7 @@ body.narrative-ending-active .story-stage{visibility:hidden}
 export function mountStoryMap(root,{endingRoot,lens:initialLens='owner',lang='en',onLensChange=()=>{}}={}){
  const ids=['developer','owner','visitor'];let lens=ids.includes(initialLens)?initialLens:'owner',destroyed=false,locked=false,animationTimer=0,presentation=null,switchingTarget=null,endingAnimation=null;
  const t=(en,zh)=>lang==='zh'?zh:en,current=()=>stories[lang]||stories.en;
- function edge(side,id){if(!id)return '';const label=current()[id].label;return '<button type="button" class="liquid-hit '+side+'" data-edge="'+side+'" data-target="'+id+'" tabindex="-1" aria-hidden="true" inert aria-label="'+t('Switch to ','切换至 ')+label+'"><span class="liquid-label"><b>'+(side==='left'?'← ':'')+label+(side==='right'?' →':'')+'</b><span>'+t('EXPLORE ANOTHER PERSPECTIVE','切换视角')+'</span></span></button>'}
+ function edge(side,id){if(!id)return '';const label=lang==='zh'?current()[id].label:{developer:'Property & Land',owner:'Shopkeepers & Tenants',visitor:'Visitors & Customers'}[id];return '<button type="button" class="liquid-hit '+side+'" data-edge="'+side+'" data-target="'+id+'" tabindex="-1" aria-hidden="true" inert aria-label="'+t('Switch to ','切换至 ')+label+'"><span class="liquid-label"><b>'+(side==='left'?'← ':'')+label+(side==='right'?' →':'')+'</b><span>'+t('EXPLORE ANOTHER PERSPECTIVE','切换视角')+'</span></span></button>'}
 
  root.innerHTML='<style>'+css+'</style>'+ids.map(id=>'<h2 class="story-heading" data-title="'+id+'" aria-hidden="true">'+current()[id].heading+'</h2>').join('')+
   '<button class="property-start" data-go="property-enbloc">'+t('Follow the property story','进入物业叙事')+' <span aria-hidden="true">↓</span></button>'+

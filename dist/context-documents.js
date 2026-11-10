@@ -17,7 +17,7 @@ export function sourceImageMarkup(item,alt=''){
 
 
 /** Full source pages with separate, accessible highlight overlays. */
-export function mountContextDocuments(container,{lang='en',onChange=()=>{},onReady=()=>{}}={}){
+export function mountContextDocuments(container,{lang='en',resourceMode=false,onChange=()=>{},onSelect=()=>false,onReady=()=>{}}={}){
   const instance=++serial,t=(en,zh)=>lang==='zh'?zh:en;
   let alive=true,documents=[],documentId='',activeHighlight='',showHighlights=true,resizeObserver,expanded=null,expandedObserver,restoreState=null,zoom=1;
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
@@ -130,7 +130,7 @@ export function mountContextDocuments(container,{lang='en',onChange=()=>{},onRea
     expanded=document.createElement('dialog');expanded.className='c-doc-dialog';expanded.setAttribute('aria-labelledby',`c-doc-dialog-title-${instance}`);
     expanded.innerHTML=`<header class="c-doc-dialog-header">
       <div><span>${t('ORIGINAL DOCUMENT','原始文件')}</span><h2 id="c-doc-dialog-title-${instance}">${esc(title(doc))}</h2></div>
-      <button class="c-doc-close" data-c-doc-close aria-label="${t('Close document and return to the story','关闭文件并返回故事')}" autofocus>${t('Back to story','返回故事')} <b>×</b></button>
+      <button class="c-doc-close" data-c-doc-close aria-label="${resourceMode?t('Close document and return to resources','关闭文件并返回资源页'):t('Close document and return to the story','关闭文件并返回故事')}" autofocus>${resourceMode?t('Back to resources','返回资源页'):t('Back to story','返回故事')} <b>×</b></button>
     </header>
     <div class="c-doc-dialog-toolbar"><div class="c-doc-zoom"><button data-c-doc-zoom=".8" aria-label="${t('Zoom out','缩小')}">−</button><output data-c-doc-zoom-label>100%</output><button data-c-doc-zoom="1.25" aria-label="${t('Zoom in','放大')}">+</button><button data-c-doc-fit>${t('Fit page','适合页面')}</button></div><button data-c-doc-toggle aria-pressed="${showHighlights}">${t(showHighlights?'Highlights on':'Highlights off',showHighlights?'高亮已开':'高亮已关')}</button>${passageControl(doc)}<a href="${esc(doc.sourceUrl)}" target="_blank" rel="noopener">${t('Original source','原始来源')} ↗</a></div>
     <div class="c-doc-viewport" tabindex="0" aria-label="${t('Document viewer. Use scroll bars or arrow keys to move around an enlarged page.','文件浏览区。放大后，可使用滚动条或方向键查看页面。')}"><div class="c-doc-page-space">${sheetMarkup(doc,true)}</div></div>
@@ -178,12 +178,16 @@ export function mountContextDocuments(container,{lang='en',onChange=()=>{},onRea
       selectionKey=documentId=chosen.id;activeHighlight=highlights(chosen)[0]?.id||'';
       container.querySelector('[data-c-doc-source]').textContent=sourceLabel(chosen);
       container.querySelectorAll('.c-doc-tabs [data-c-doc-select]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.cDocSelect===documentId)));
+      if(resourceMode&&innerWidth<=700&&document.body.classList.contains('resources-active')){
+        const tabs=container.querySelector('.c-doc-tabs'),tab=tabs.querySelector('[aria-pressed=true]');
+        if(tab)tabs.scrollTo({left:Math.max(0,tab.offsetLeft-(tabs.clientWidth-tab.offsetWidth)/2),behavior:reduced.matches?'instant':'smooth'});
+      }
       container.querySelector('.c-doc-footer').innerHTML='<button data-c-doc-toggle aria-pressed="'+showHighlights+'">'+t(showHighlights?'Highlights on':'Highlights off',showHighlights?'高亮已开':'高亮已关')+'</button>'+passageControl(chosen)+'<a href="'+esc(chosen.sourceUrl)+'" target="_blank" rel="noopener">'+t('Original source','原始来源')+' ↗</a>';
       updateExplanation();onChange(chosen,selectedIndex,turn);
     }
     const cycle=container.querySelector('.c-doc-cycle');
     cycle.querySelector('b').textContent=String(selectedIndex+1).padStart(2,'0')+' / '+String(count).padStart(2,'0');
-    cycle.querySelector('span').textContent=progress>=.995?t('Full circle · continue down','一周已阅 · 继续向下'):t('Scroll to turn · click to read','向下翻阅 · 向上回转');
+    cycle.querySelector('span').textContent=resourceMode?t('Scroll or select a source','滚动翻阅，或点选资料'):progress>=.995?t('Full circle · continue down','一周已阅 · 继续向下'):t('Scroll to turn · click to read','向下翻阅 · 向上回转');
     container.querySelector('.c-doc-root').style.setProperty('--paper-cycle',String(progress));
   }
   function tickSelection(time){
@@ -194,12 +198,16 @@ export function mountContextDocuments(container,{lang='en',onChange=()=>{},onRea
     paintDeck(visualTurn);
     if(visualTurn!==targetTurn)manualFrame=requestAnimationFrame(tickSelection);else manualTime=0;
   }
-  function selectDocument(id){
-    const index=documents.findIndex(doc=>doc.id===id);if(index<0||(id===documentId&&!manualFrame))return;
+  function selectDocument(id,immediate=false){
+    const index=documents.findIndex(doc=>doc.id===id);if(index<0)return;
     closeExpanded();
+    if(onSelect(id,index)===true){
+      cancelAnimationFrame(manualFrame);manualFrame=0;manualTime=0;manualOffset=0;targetTurn=index;paintDeck(index);return;
+    }
+    if(id===documentId&&!manualFrame)return;
     const count=documents.length,delta=((index-visualTurn+count/2)%count+count)%count-count/2;
     targetTurn=visualTurn+delta;manualOffset=targetTurn-scrollTurn;
-    if(reduced.matches||document.hidden){cancelAnimationFrame(manualFrame);manualFrame=0;paintDeck(targetTurn);return;}
+    if(immediate||reduced.matches||document.hidden){cancelAnimationFrame(manualFrame);manualFrame=0;manualTime=0;paintDeck(targetTurn);return;}
     if(!manualFrame){manualTime=0;manualFrame=requestAnimationFrame(tickSelection);}
   }
   function renderDocument(){
@@ -221,23 +229,26 @@ export function mountContextDocuments(container,{lang='en',onChange=()=>{},onRea
   }
 
   container.addEventListener('click',onClick);container.addEventListener('focusin',onFocus);container.addEventListener('keydown',onKey);
-  fetch(manifestUrl).then(response=>{if(!response.ok)throw new Error(`Document manifest: ${response.status}`);return response.json();}).then(manifest=>{
+  const ready=fetch(manifestUrl).then(response=>{if(!response.ok)throw new Error(`Document manifest: ${response.status}`);return response.json();}).then(manifest=>{
     if(!alive)return;
     documents=(Array.isArray(manifest)?manifest:manifest.documents||manifest.docs||[]).filter(doc=>doc.id&&doc.image&&doc.sourceUrl&&Number.isFinite(doc.width)&&doc.width>0&&Number.isFinite(doc.height)&&doc.height>0);
     if(!documents.length)throw new Error('No original pages are available');
     if(!current())documentId=documents[0].id;
-    scrollTurn=Math.max(0,Math.min(1,(progress-.025)/.95))*documents.length;visualTurn=targetTurn=scrollTurn+manualOffset;renderDocument();onReady(documents);resizeObserver=new ResizeObserver(fitStage);resizeObserver.observe(container);
+    scrollTurn=Math.min(resourceMode?Math.max(0,documents.length-1):documents.length,Math.max(0,Math.min(1,(progress-.025)/.95))*documents.length);visualTurn=targetTurn=scrollTurn+manualOffset;renderDocument();onReady(documents);resizeObserver=new ResizeObserver(fitStage);resizeObserver.observe(container);
   }).catch(error=>{
     console.error('Original document collection could not open',error);
     if(alive)container.innerHTML=`<div class="c-doc-loading" role="status">${t('Open this chapter again to refresh the document collection.','再次打开本章，刷新原始文件集。')}</div>`;
   });
   return {
+    ready,
     setProgress(value){
-      progress=Math.max(0,Math.min(1,value));scrollTurn=Math.max(0,Math.min(1,(progress-.025)/.95))*documents.length;
+      progress=Math.max(0,Math.min(1,value));scrollTurn=Math.min(resourceMode?Math.max(0,documents.length-1):documents.length,Math.max(0,Math.min(1,(progress-.025)/.95))*documents.length);
       targetTurn=scrollTurn+manualOffset;
       if(!expanded&&!manualFrame)paintDeck(targetTurn);
     },
     setDocument(id){selectDocument(id);},
+    getSelectedDocument(){return documentId||null;},
+    setSelectedDocument(id){return ready.then(()=>{if(alive)selectDocument(id,true);});},
     destroy(){
       alive=false;cancelAnimationFrame(manualFrame);resizeObserver?.disconnect();closeExpanded();
       container.removeEventListener('click',onClick);container.removeEventListener('focusin',onFocus);container.removeEventListener('keydown',onKey);

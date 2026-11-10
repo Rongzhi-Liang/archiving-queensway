@@ -1,5 +1,5 @@
 import { interviewAudioMarkup, mountInterviewAudio } from './interview-audio.js?v=20261108-public-team1';
-import { narrativeSection, mountNarrativeReadings, seekNarrativeReading, esc } from './narrative-system.js?v=20261108-public-team1';
+import { narrativeSection, mountNarrativeReadings, seekNarrativeReading, esc } from './narrative-system.js?v=20261110-about-clean3';
 import { visitorReadings, visitorPhotos, visitorLabels } from './visitor-story-data.js?v=20261108-public-copy1';
 const text=(lang,en,zh)=>lang==='zh'?zh:en;
 const ids=['visitor-route','visitor-discovery','visitor-return'];

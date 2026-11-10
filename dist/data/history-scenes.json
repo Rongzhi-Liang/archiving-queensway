@@ -217,8 +217,8 @@
       },
       "image": "assets/evidence-documents/queensway-2019-egm-webpage.png",
       "imageAlt": {
-        "en": "Original CNA report viewport showing the April 2019 meeting and the committee formed in 2018",
-        "zh": "CNA报道原始视口，显示2019年4月会议及2018年成立委员会的段落"
+        "en": "Cropped view of the CNA report headline and three paragraphs about the April 2019 meeting, the committee formed in 2018, and the proposed sale of 241 retail units and 78 apartments",
+        "zh": "CNA报道标题与三段正文的局部视图，内容涉及2019年4月会议、2018年成立的委员会，以及241个零售单位和78套公寓的拟议整体出售"
       },
       "credit": {
         "en": "Low Youjin / TODAY / CNA · Report published 1 May 2019",
@@ -248,11 +248,11 @@
       "sourceType": "news_website_viewport",
       "imagePreparation": "Browser screenshot captured on 2026-10-20; complete 1280×720 viewport at scrollY2611; original source pixels retained.",
       "displayCrop": {
-        "x": 0,
-        "y": 0,
-        "width": 900,
-        "height": 720,
-        "reason": "Article-column presentation viewport; original screenshot retained unchanged."
+        "x": 108,
+        "y": 14,
+        "width": 730,
+        "height": 390,
+        "reason": "Headline and three opening paragraphs in this source viewport; original screenshot retained unchanged."
       }
     },
     {

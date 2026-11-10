@@ -1,5 +1,5 @@
 // Consent requirements and procedure for the 2019 collective-sale attempt.
-import { esc } from './narrative-system.js?v=20261108-public-team1';
+import { esc } from './narrative-system.js?v=20261110-about-clean3';
 
 const source={
  rules:'https://www.stratatb.gov.sg/general-proceedings/application/applicant/matters-under-ltsa/',
@@ -44,11 +44,11 @@ export function choicePanels(lang='en'){
  <div class="pc-panel" data-pn-choice="1" hidden inert>
   <p class="pc-eyebrow">${t('THE GENERAL PROCESS · THREE KEY STAGES','一般程序 · 三个关键阶段')}</p>
   <ol class="pc-process">
-   <li><span>01</span><div><strong>${t('Secure consent','征集同意')}</strong><p>${t('Both ownership tests must be met.','份额值与分层面积均须达到门槛。')}</p></div></li>
-   <li><span>02</span><div><strong>${t('Find a buyer','找到买家')}</strong><p>${t('Market the property; agree the sale.','公开招标、选定买家、订立买卖协议。')}</p></div></li>
-   <li><span>03</span><div><strong>${t('Obtain a sale order','取得整售令')}</strong><p>${t('Majority-consent route: application and review.','多数同意路径：申请、审查及处理异议。')}</p></div></li>
+   <li><div><strong>${t('Secure consent','征集同意')}</strong><p>${t('Both ownership tests must be met.','份额值与分层面积均须达到门槛。')}</p></div></li>
+   <li><div><strong>${t('Find a buyer','找到买家')}</strong><p>${t('Market the property; agree the sale.','公开招标、选定买家、订立买卖协议。')}</p></div></li>
+   <li><div><strong>${t('Obtain a sale order','取得整售令')}</strong><p>${t('Majority-consent route: application and review.','多数同意路径：申请、审查及处理异议。')}</p></div></li>
   </ol>
-  <p class="pc-outcome"><b>${t('Queensway, 2019: stopped at 01.','女皇道 2019：止于第 01 步。')}</b><span>${t('The attempt ended during consent collection.','此次尝试在征集同意阶段结束。')}</span></p>
+  <p class="pc-outcome"><b>${t('Queensway, 2019: consent collection.','女皇道 2019：征集同意。')}</b><span>${t('The attempt ended during consent collection.','此次尝试在征集同意阶段结束。')}</span></p>
  </div>
  <div class="pc-panel" data-pn-choice="2" hidden inert>
   <p class="pc-eyebrow">${t('WHO DECIDES · WHO IS AFFECTED','谁能决定 · 谁受影响')}</p>

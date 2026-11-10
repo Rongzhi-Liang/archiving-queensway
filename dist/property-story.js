@@ -1,7 +1,7 @@
-import { narrativeSection, mountNarrativeReadings, seekNarrativeReading, esc } from './narrative-system.js?v=20261108-public-team1';
+import { narrativeSection, mountNarrativeReadings, seekNarrativeReading, esc } from './narrative-system.js?v=20261110-about-clean3';
 import { retailStoryFrame } from './context-indices.js?v=20261108-formal1';
 import { potentialMarkup, mountPotential, potentialReadings } from './property-potential.js?v=20261108-scroll1';
-import { choiceReadings, choicePanels } from './property-choice.js?v=20261108-public-team1';
+import { choiceReadings, choicePanels } from './property-choice.js?v=20261110-about-clean3';
 import { landMapMarkup, mountLandMap } from './property-land-map.js?v=20261108-release1';
 
 const sources={
